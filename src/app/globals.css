@@ -32,5 +32,17 @@
     #5e3aef 100%
   );
   -webkit-background-clip: text;
-  color:transparent
+  color: transparent;
+}
+
+.dance {
+  filter: drop-shadow(0px 0px 20px #a5a6f6);
+}
+
+.danceTwo {
+  filter: drop-shadow(0px 0px 20px #F178B6);
+}
+
+.danceThree {
+  filter: drop-shadow(0px 0px 20px #CE9031);
 }

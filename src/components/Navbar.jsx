@@ -56,7 +56,7 @@ const Navbar = () => {
       <div className="absolute left-0 right-0  z-10 text-white backdrop-blur-lg">
         <div
           className={
-            "max-w-[1280px] h-[90px]   flex justify-between px-12 items-center bg-transparent mx-auto"
+            "max-w-[1280px] h-[90px]   flex justify-between sm:px-12 px-7 items-center bg-transparent mx-auto"
           }
         >
           <div className="text-2xl font-semibold tracking-wider">Logo Here</div>
@@ -83,7 +83,7 @@ const Navbar = () => {
           isOpen ? "translate-y-0" : "translate-y-[-100%]"
         } flex flex-col gap-4 text-xl items-center justify-center absolute z-[100]  text-white right-0 top-0 bottom-0 left-0 transition-all duration-500 backdrop-blur-lg`}
       >
-        <div className="absolute right-4 top-4">
+        <div className="absolute right-6 top-8">
           <RxCross2 size={27} color="#fff" onClick={handleOpen} />
         </div>
         {navbarLinks.map((item, index) => {
