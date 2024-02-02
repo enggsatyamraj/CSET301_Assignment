@@ -15,7 +15,7 @@ export default function page() {
             Accounts at Cheap Price.
           </p>
           <div className="radial_one"></div>
-          <div className="radial_two"></div>
+          {/* <div className="radial_two"></div> */}
         </div>
 
         <div className="h-[100vh]"></div>

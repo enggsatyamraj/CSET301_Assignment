@@ -56,11 +56,11 @@ const Navbar = () => {
       <div className="absolute left-0 right-0  z-10 text-white backdrop-blur-lg">
         <div
           className={
-            "max-w-[1280px] h-[60px]  flex justify-between px-4 items-center bg-transparent mx-auto"
+            "max-w-[1280px] h-[90px]   flex justify-between px-12 items-center bg-transparent mx-auto"
           }
         >
-          <div className="text-2xl font-semibold">Logo Here</div>
-          <div className="md:flex hidden gap-4 ">
+          <div className="text-2xl font-semibold tracking-wider">Logo Here</div>
+          <div className="md:flex hidden gap-10 ">
             {navbarLinks.map((item, index) => {
               return (
                 <Link
