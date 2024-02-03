@@ -40,9 +40,13 @@
 }
 
 .danceTwo {
-  filter: drop-shadow(0px 0px 20px #F178B6);
+  filter: drop-shadow(0px 0px 20px #f178b6);
 }
 
 .danceThree {
-  filter: drop-shadow(0px 0px 20px #CE9031);
+  filter: drop-shadow(0px 0px 20px #ce9031);
+}
+
+.icon_part {
+  background: linear-gradient(135deg, #9f8ced, #f67d17, #9de8ee);
 }

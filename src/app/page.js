@@ -1,4 +1,6 @@
 import Navbar from "@/components/Navbar";
+import WeOffer from "@/components/WeOffer";
+import WhyChoose from "@/components/WhyChoose";
 import Link from "next/link";
 import React from "react";
 import { FaDiscord } from "react-icons/fa";
@@ -110,6 +112,9 @@ export default function page() {
           </div>
         </div>
       </div>
+
+      <WeOffer/>
+      <WhyChoose/>
     </>
   );
 }
