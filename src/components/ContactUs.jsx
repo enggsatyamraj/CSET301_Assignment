@@ -1,6 +1,11 @@
+"use client"
+import Link from "next/link";
 import React from "react";
 
 const ContactUs = () => {
+    const handleBackToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
   return (
     <div className="bg-[#121212] p-4">
       <div className="max-w-[1280px] rounded-lg bg-[#A5A6F6] mx-auto py-12 min-h-[60vh] flex flex-col justify-center px-4">
@@ -24,7 +29,7 @@ const ContactUs = () => {
       </div>
 
       <div className="max-w-[1280px] mx-auto  mt-4 ">
-        <div className="text-[#A5A6F6] border-[1px] px-3 py-1 rounded-[20px] border-[#A5A6F6] w-fit ml-auto cursor-pointer">
+        <div className="text-[#A5A6F6] border-[1px] px-3 py-1 rounded-[20px] border-[#A5A6F6] w-fit ml-auto cursor-pointer" onClick={handleBackToTop}>
           GO TO TOP
         </div>
       </div>
