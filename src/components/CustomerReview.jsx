@@ -4,75 +4,75 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 
 const CustomerReview = () => {
-  const commentArray = [
-    {
-      name: "Brooklyn Simons",
-      company: "manam",
-      review:
-        "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci.",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "harry",
-      company: "woodland",
-      review:
-        "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt ",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "karmel",
-      company: "bgpian",
-      review:
-        "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus.",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "james",
-      company: "mkdir",
-      review:
-        "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. ",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "iti",
-      company: "lviton",
-      review:
-        "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. ",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "jemy",
-      company: "myi",
-      review:
-        "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a a    ",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "Kary",
-      company: "hisan",
-      review:
-        "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget    ",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "Adam",
-      company: "king",
-      review:
-        "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget    ",
-      icons: <FaRegUser />,
-    },
-  ];
+    const commentArray = [
+        {
+          name: "Brooklyn Simons",
+          company: "manam",
+          review:
+            "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci.",
+          icons: <FaRegUser />,
+        },
+        {
+          name: "harry",
+          company: "woodland",
+          review:
+            "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt ",
+          icons: <FaRegUser />,
+        },
+        {
+          name: "karmel",
+          company: "bgpian",
+          review:
+            "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus.",
+          icons: <FaRegUser />,
+        },
+        {
+          name: "james",
+          company: "mkdir",
+          review:
+            "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. ",
+          icons: <FaRegUser />,
+        },
+        {
+          name: "iti",
+          company: "lviton",
+          review:
+            "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. ",
+          icons: <FaRegUser />,
+        },
+        {
+          name: "jemy",
+          company: "myi",
+          review:
+            "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a a    ",
+          icons: <FaRegUser />,
+        },
+        {
+          name: "Kary",
+          company: "hisan",
+          review:
+            "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget    ",
+          icons: <FaRegUser />,
+        },
+        {
+          name: "Adam",
+          company: "king",
+          review:
+            "Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor, aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci. Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget    ",
+          icons: <FaRegUser />,
+        },
+      ];
   return (
     <div className="bg-[#121212] text-white">
-      <div className="max-w-[1280px] py-12 mx-auto">
+      <div className="max-w-[1280px] py-12 mx-auto px-4">
         <div className="flex justify-between items-center">
           <h1 className="text-3xl ">Our Happy Customers</h1>
           <div className="flex gap-3">
-            <MdKeyboardArrowLeft className="text-[#A5A6F6] text-5xl border-2 rounded-lg border-[#A5A6F6]" />
-            <MdKeyboardArrowRight className="text-[#A5A6F6] text-5xl border-2 rounded-lg border-[#A5A6F6]" />
+            <MdKeyboardArrowLeft className="text-[#A5A6F6] text-5xl border-2 rounded-lg border-[#A5A6F6] cursor-pointer" />
+            <MdKeyboardArrowRight className="text-[#A5A6F6] text-5xl border-2 rounded-lg border-[#A5A6F6] cursor-pointer" />
           </div>
         </div>
-        <div className="mt-10">
+        <div className="mt-10 grid lg:grid-cols-4 grid-cols-2 gap-4">
           {commentArray.map((comment, index) => (
             <div
               key={index}
