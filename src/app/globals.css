@@ -50,3 +50,7 @@
 .icon_part {
   background: linear-gradient(135deg, #9f8ced, #f67d17, #9de8ee);
 }
+
+.fade {
+  transition: opacity 1s ease-in-out;
+}
