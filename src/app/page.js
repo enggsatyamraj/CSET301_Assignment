@@ -1,3 +1,6 @@
+import BestProduct from "@/components/BestProduct";
+import ContactUs from "@/components/ContactUs";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import WeOffer from "@/components/WeOffer";
 import WhyChoose from "@/components/WhyChoose";
@@ -115,6 +118,9 @@ export default function page() {
 
       <WeOffer/>
       <WhyChoose/>
+      <BestProduct/>
+      <ContactUs/>
+      <Footer/>
     </>
   );
 }
