@@ -79,20 +79,20 @@ const CustomerReview = () => {
     <div className="bg-[#121212] text-white">
       <div className="max-w-[1280px] py-12 mx-auto px-4">
         <div className="flex justify-between items-center">
-          <h1 className="text-3xl ">Our Happy Customers</h1>
+          <h1 className="sm:text-3xl text-2xl">Our Happy Customers</h1>
           <div className="flex gap-3">
             <MdKeyboardArrowLeft
               onClick={handlePrevious}
-              className="text-[#A5A6F6] text-5xl border-2 rounded-lg border-[#A5A6F6] cursor-pointer"
+              className="text-[#A5A6F6] sm:text-5xl text-3xl border-2 rounded-lg border-[#A5A6F6] cursor-pointer"
             />
             <MdKeyboardArrowRight
               onClick={handleNext}
-              className="text-[#A5A6F6] text-5xl border-2 rounded-lg border-[#A5A6F6] cursor-pointer"
+              className="text-[#A5A6F6] sm:text-5xl text-3xl border-2 rounded-lg border-[#A5A6F6] cursor-pointer"
             />
           </div>
         </div>
-        <div className="mt-10">
-          <div className="bg-[#1F1F1F] lg:w-[50%] mx-auto p-6 rounded-lg border-[1px] mb-4">
+        <div className="mt-10 md:grid md:grid-cols-2 md:gap-4">
+          <div className="bg-[#1F1F1F] mx-auto p-6 rounded-lg border-[1px] mb-4">
             <div className="flex items-center gap-4">
               {commentArray[index].icons}
               <div>
@@ -103,6 +103,19 @@ const CustomerReview = () => {
               </div>
             </div>
             <p className="mt-4">{commentArray[index].review}</p>
+          </div>
+
+          <div className="bg-[#1F1F1F] hidden md:block mx-auto p-6 rounded-lg border-[1px] mb-4">
+            <div className="flex items-center gap-4">
+              {commentArray[index === commentArray.length-1 ? 0 : index+1].icons}
+              <div>
+                <h1 className="text-xl font-semibold">
+                  {commentArray[index === commentArray.length-1 ? 0 : index+1].name}
+                </h1>
+                <h1 className="opacity-75">{commentArray[index === commentArray.length-1 ? 0 : index+1].company}</h1>
+              </div>
+            </div>
+            <p className="mt-4">{commentArray[index === commentArray.length-1 ? 0 : index+1].review}</p>
           </div>
         </div>
       </div>
