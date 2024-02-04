@@ -7,6 +7,7 @@ import { RxCross2 } from "react-icons/rx";
 const navbarLinks = [
   { name: "Home", url: "/" },
   { name: "Accounts", url: "/accounts" },
+  {name:"About Us", url:"/aboutus"},
   { name: "Blogs", url: "/blogs" },
   { name: "FAQ", url: "/faq" },
 ];
