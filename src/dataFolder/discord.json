@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "year": 2016,
+    "type" : "Discord",
+    "name": "Discord Account One",
+    "price": 1200,
+    "discountPercentage": 10,
+    "smallShowFiveFeatures": {
+      "feature1": "Verified account for added credibility",
+      "feature2": "Boosted servers for enhanced features",
+      "feature3": "Active Nitro subscription with exclusive perks",
+      "feature4": "Ownership of popular, engaged Discord servers",
+      "feature5": "Integration of useful bots for improved functionality"
+    }
+  },
+  {
+    "id": 2,
+    "year": 2017,
+    "name": "Discord Account Two",
+    "price": 1300,
+    "type" : "Discord",
+    "discountPercentage": 50,
+    "smallShowFiveFeatures": {
+      "feature1": "Exclusive access to premium servers",
+      "feature2": "Custom server emojis and GIFs",
+      "feature3": "Active community with regular events",
+      "feature4": "Advanced moderation tools",
+      "feature5": "Integration with popular music bots"
+    }
+  },
+  {
+    "id": 3,
+    "year": 2019,
+    "name": "Discord Account Three",
+    "price": 1000,
+    "type" : "Discord",
+    "discountPercentage": 60,
+    "smallShowFiveFeatures": {
+      "feature1": "High-level server security measures",
+      "feature2": "Custom server roles and permissions",
+      "feature3": "Private voice chat channels",
+      "feature4": "Automated server backups",
+      "feature5": "Integration with gaming-related bots"
+    }
+  },
+  {
+    "id": 4,
+    "year": 2020,
+    "name": "Discord Account Four",
+    "price": 3000,
+    "type" : "Discord",
+    "discountPercentage": 40,
+    "smallShowFiveFeatures": {
+      "feature1": "Exclusive access to premium voice channels",
+      "feature2": "Custom server banners and logos",
+      "feature3": "Seamless screen sharing capabilities",
+      "feature4": "Integration with productivity bots",
+      "feature5": "Active community trading and marketplace"
+    }
+  },
+  {
+    "id": 5,
+    "year": 2021,
+    "name": "Discord Account Five",
+    "price": 2500,
+    "type" : "Discord",
+    "discountPercentage": 20,
+    "smallShowFiveFeatures": {
+      "feature1": "Custom server vanity URL",
+      "feature2": "Advanced server analytics and insights",
+      "feature3": "Integration with AI-powered chatbots",
+      "feature4": "Exclusive access to beta features",
+      "feature5": "Active community events and giveaways"
+    }
+  },
+  {
+    "id": 6,
+    "year": 2022,
+    "name": "Discord Account Six",
+    "price": 4000,
+    "type" : "Discord",
+    "discountPercentage": 30,
+    "smallShowFiveFeatures": {
+      "feature1": "Custom server vanity URL",
+      "feature2": "Advanced server analytics and insights",
+      "feature3": "Integration with AI-powered chatbots",
+      "feature4": "Exclusive access to beta features",
+      "feature5": "Active community events and giveaways"
+    }
+  },
+  {
+    "id": 7,
+    "year": 2023,
+    "name": "Discord Account Six",
+    "price": 4000,
+    "type" : "Discord",
+    "discountPercentage": 30,
+    "smallShowFiveFeatures": {
+      "feature1": "Custom server vanity URL",
+      "feature2": "Advanced server analytics and insights",
+      "feature3": "Integration with AI-powered chatbots",
+      "feature4": "Exclusive access to beta features",
+      "feature5": "Active community events and giveaways"
+    }
+  },
+  {
+    "id": 8,
+    "year": 2023,
+    "name": "Discord Account Six",
+    "price": 4000,
+    "type" : "Discord",
+    "discountPercentage": 30,
+    "smallShowFiveFeatures": {
+      "feature1": "Custom server vanity URL",
+      "feature2": "Advanced server analytics and insights",
+      "feature3": "Integration with AI-powered chatbots",
+      "feature4": "Exclusive access to beta features",
+      "feature5": "Active community events and giveaways"
+    }
+  }
+]
+
+

@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "year": 2016,
+      "name": "Twitter Account One",
+      "type" : "Twitter",
+      "price": 1200,
+      "discountPercentage": 10,
+      "smallShowFiveFeatures": {
+        "feature1": "Verified account for added credibility",
+        "feature2": "Access to Twitter Analytics",
+        "feature3": "Active subscription with exclusive perks",
+        "feature4": "Ownership of popular, engaged Twitter profiles",
+        "feature5": "Integration of useful tools for improved functionality"
+      }
+    },
+    {
+      "id": 2,
+      "year": 2017,
+      "name": "Twitter Account Two",
+      "price": 1300,
+      "type" : "Twitter",
+      "discountPercentage": 50,
+      "smallShowFiveFeatures": {
+        "feature1": "Exclusive access to premium features",
+        "feature2": "Custom Twitter content creation tools",
+        "feature3": "Active community with regular events",
+        "feature4": "Advanced analytics tools",
+        "feature5": "Integration with popular social media tools"
+      }
+    },
+    {
+      "id": 3,
+      "year": 2019,
+      "name": "Twitter Account Three",
+      "price": 1000,
+      "type" : "Twitter",
+      "discountPercentage": 60,
+      "smallShowFiveFeatures": {
+        "feature1": "High-level account security measures",
+        "feature2": "Custom account roles and permissions",
+        "feature3": "Private messaging",
+        "feature4": "Automated content backups",
+        "feature5": "Integration with marketing-related tools"
+      }
+    },
+    {
+      "id": 4,
+      "year": 2020,
+      "name": "Twitter Account Four",
+      "price": 3000,
+      "type" : "Twitter",
+      "discountPercentage": 40,
+      "smallShowFiveFeatures": {
+        "feature1": "Exclusive access to premium content creation tools",
+        "feature2": "Custom Twitter profile design",
+        "feature3": "Seamless content scheduling capabilities",
+        "feature4": "Integration with productivity tools",
+        "feature5": "Active community trading and marketplace"
+      }
+    },
+    {
+      "id": 5,
+      "year": 2021,
+      "name": "Twitter Account Five",
+      "price": 2500,
+      "type" : "Twitter",
+      "discountPercentage": 20,
+      "smallShowFiveFeatures": {
+        "feature1": "Custom Twitter username",
+        "feature2": "Advanced account analytics and insights",
+        "feature3": "Integration with AI-powered chatbots",
+        "feature4": "Exclusive access to beta features",
+        "feature5": "Active community events and giveaways"
+      }
+    },
+    {
+      "id": 6,
+      "year": 2022,
+      "name": "Twitter Account Six",
+      "price": 4000,
+      "type" : "Twitter",
+      "discountPercentage": 30,
+      "smallShowFiveFeatures": {
+        "feature1": "Custom Twitter username",
+        "feature2": "Advanced account analytics and insights",
+        "feature3": "Integration with AI-powered chatbots",
+        "feature4": "Exclusive access to beta features",
+        "feature5": "Active community events and giveaways"
+      }
+    },
+    {
+      "id": 7,
+      "year": 2023,
+      "name": "Twitter Account Seven",
+      "price": 4000,
+      "type" : "Twitter",
+      "discountPercentage": 30,
+      "smallShowFiveFeatures": {
+        "feature1": "Custom Twitter username",
+        "feature2": "Advanced account analytics and insights",
+        "feature3": "Integration with AI-powered chatbots",
+        "feature4": "Exclusive access to beta features",
+        "feature5": "Active community events and giveaways"
+      }
+    },
+    {
+      "id": 8,
+      "year": 2024,
+      "name": "Twitter Account Eight",
+      "price": 4000,
+      "type" : "Twitter",
+      "discountPercentage": 30,
+      "smallShowFiveFeatures": {
+        "feature1": "Custom Twitter username",
+        "feature2": "Advanced account analytics and insights",
+        "feature3": "Integration with AI-powered chatbots",
+        "feature4": "Exclusive access to beta features",
+        "feature5": "Active community events and giveaways"
+      }
+    }
+  ]
