@@ -1,16 +1,16 @@
 "use client";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import discordData from "../../dataFolder/discord.json";
 import instagramData from "../../dataFolder/instagram.json";
 import twitterData from "../../dataFolder/twitter.json";
 import { FaDiscord } from "react-icons/fa";
 
-export default function page() {
-  const [showMore, setShowMore] = React.useState(false);
-  const [ishowMore, isetShowMore] = React.useState(false);
-  const [tshowMore, tsetShowMore] = React.useState(false);
+export default function Page() {
+  const [showMore, setShowMore] = useState(false);
+  const [ishowMore, isetShowMore] = useState(false);
+  const [tshowMore, tsetShowMore] = useState(false);
   return (
     <>
       <div className="bg-normal w-[100%]">
