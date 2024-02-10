@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { FaDiscord } from "react-icons/fa";
 import Link from "next/link";
 
-const page = () => {
+const Page = () => {
   const pathname = usePathname();
   const id = pathname.split("/")[3];
   console.log(discordData[id - 1]);
@@ -126,4 +126,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
