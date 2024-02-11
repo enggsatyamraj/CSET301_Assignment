@@ -15,7 +15,7 @@ const WeOffer = () => {
             Maximize Your Potential with Our Comprehensive Services
           </h2>
           <p className="text-center text-[15px] md:text-[16px] opacity-75 w-[99%] md:w-[65%] mx-auto mb-12">
-            At Discord Arena, we're committed to empowering your digital
+            At Discord Arena, we&apos;re committed to empowering your digital
             presence with our wide range of premium services. Explore our
             offerings below:
           </p>
@@ -76,7 +76,7 @@ const WeOffer = () => {
                 <p>
                   Our specialized Discord services include server management,
                   community building, moderation tools, and customization
-                  options to enhance your Discord server's functionality and
+                  options to enhance your Discord server&apos;s functionality and
                   appeal.
                 </p>
               </div>
@@ -136,7 +136,7 @@ const WeOffer = () => {
               <div className="px-6 pb-4 opacity-75">
                 <p>
                   Utilize our Discord invite and referral services to increase
-                  your server's membership and activity, reaching a broader
+                  your server&apos;s membership and activity, reaching a broader
                   audience and fostering community growth.
                 </p>
               </div>
@@ -177,7 +177,7 @@ const WeOffer = () => {
               </div>
               <div className="px-6 pb-4 opacity-75">
                 <p>
-                  Monitor and manage your Discord server's online and offline
+                  Monitor and manage your Discord server&apos;s online and offline
                   members with our advanced tools and features, ensuring
                   efficient communication and coordination within your
                   community.
