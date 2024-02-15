@@ -10,6 +10,23 @@ const Page = () => {
   const id = pathname.split("/")[3];
   console.log(discordData[id - 1]);
   const data = discordData[id - 1];
+  const reviews = [
+    {
+      "name": "John Doe",
+      "rating": 5,
+      "comment": "I purchased a twitter Account and have been extremely satisfied with the features and benefits it offers. The boosted servers and active Nitro subscription have significantly enhanced my twitter experience, and the ownership of popular servers has allowed me to connect with a large and engaged community. Overall, I highly recommend 2016 twitter Accounts to anyone looking to elevate their twitter experience."
+    },
+    {
+      "name": "Jane Smith",
+      "rating": 4,
+      "comment": "I recently bought a twitter Account and have been impressed with the verified account and boosted servers. The active Nitro subscription has also provided me with exclusive perks and benefits, making it a valuable investment. The integration of useful bots has further improved the functionality and automation of my twitter experience. I would definitely recommend 2016 twitter Accounts to others."
+    },
+    {
+      "name": "Alex Johnson",
+      "rating": 5,
+      "comment": "I've been using a twitter Account for a while now, and it has exceeded my expectations. The verified account and boosted servers have been essential for managing and growing my server, and the active Nitro subscription has provided me with custom emojis and animated avatars. The ownership of popular servers has allowed me to connect with a large and active community, and the integration of useful bots has enhanced the overall user experience. I highly recommend 2016 twitter Accounts to anyone looking for a premium twitter experience."
+    }
+  ]
   return (
     <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
       <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
@@ -83,7 +100,7 @@ const Page = () => {
 
         <h1 className="mb-3 mt-5 text-2xl font-semibold">Reviews</h1>
         <div className="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2">
-          {data.reviews.map((item, index) => {
+          {reviews.map((item, index) => {
             return (
               <div key={index} className="relative rounded-md border-[1px] p-4">
                 <h1 className="absolute top-[-18px] w-fit rounded-lg bg-[#00C9A7] px-3 py-1">

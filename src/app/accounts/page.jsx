@@ -157,7 +157,7 @@ export default function Page() {
               onClick={() => isetShowMore(!ishowMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              {showMore ? "Show less accounts" : "Show more accounts"}
+              {ishowMore ? "Show less accounts" : "Show more accounts"}
             </div>
           </div>
         </div>
@@ -222,7 +222,7 @@ export default function Page() {
               onClick={() => tsetShowMore(!tshowMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              {showMore ? "Show less accounts" : "Show more accounts"}
+              {tshowMore ? "Show less accounts" : "Show more accounts"}
             </div>
           </div>
         </div>

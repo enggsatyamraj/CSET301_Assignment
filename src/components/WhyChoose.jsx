@@ -28,8 +28,8 @@ const WhyChoose = () => {
     },
   ]
   return (
-    <div className="bg-[#121212] text-white">
-      <div className="max-w-[1280px] min-h-[60vh] flex flex-col justify-center px-4 pb-12">
+    <div className="bg-[#121212] text-white py-12">
+      <div className="max-w-[1080px] min-h-[60vh] mx-auto flex flex-col justify-center px-4 pb-12">
         <div className=" ">
           <h2 class="md:text-4xl text-3xl font-semibold mb-6 w-[98%] sm:w-[80%] md:w-[70%] lg:w-[60%]">Elevate Your Strategy with Our Trusted Solutions</h2>
             <ul>

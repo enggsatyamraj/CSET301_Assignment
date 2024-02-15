@@ -10,6 +10,27 @@ const Page = () => {
   const id = pathname.split("/")[3];
   console.log(discordData[id - 1]);
   const data = discordData[id - 1];
+  const reviews = [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "rating": 5,
+      "review": "I purchased a instagram Account and have been extremely satisfied with the features and benefits it offers. The boosted servers and active Nitro subscription have enhanced my server management and communication capabilities, and the integration of useful bots has improved the overall user experience. Additionally, the ownership of popular, engaged instagram servers has allowed me to connect with a large and active community. Overall, I highly recommend 2017 instagram Accounts for anyone looking to elevate their instagram experience."
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "rating": 4,
+      "review": "I recently purchased a instagram Account and have been impressed with the range of features and benefits it offers. The verified account and boosted servers have provided added credibility and enhanced capabilities for managing and growing my server. The active Nitro subscription has also offered exclusive perks and benefits, and the integration of useful bots has improved functionality and automation. Overall, I am satisfied with my purchase and would recommend 2017 instagram Accounts to others looking to enhance their instagram experience."
+    },
+    {
+      "id": 3,
+      "name": "Alex Johnson",
+      "rating": 5,
+      "review": "I have been using a instagram Account for some time now and have found it to be a valuable investment. The verified account and boosted servers have provided added credibility and enhanced capabilities for managing and growing my server. The active Nitro subscription has also offered exclusive perks and benefits, and the integration of useful bots has improved functionality and automation. Additionally, the ownership of popular, engaged instagram servers has allowed me to connect with a large and active community. Overall, I highly recommend 2017 instagram Accounts for anyone looking to elevate their instagram experience."
+    }
+  ]
+
   return (
     <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
       <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
@@ -83,7 +104,7 @@ const Page = () => {
 
         <h1 className="mb-3 mt-5 text-2xl font-semibold">Reviews</h1>
         <div className="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2">
-          {data.reviews.map((item, index) => {
+          {reviews.map((item, index) => {
             return (
               <div key={index} className="relative rounded-md border-[1px] p-4">
                 <h1 className="absolute top-[-18px] w-fit rounded-lg bg-[#00C9A7] px-3 py-1">
@@ -95,7 +116,7 @@ const Page = () => {
                   </span>{" "}
                   : <span>{item.rating}</span>
                 </p>
-                <p className="text-[14px] opacity-80">{item.comment}</p>
+                <p className="text-[14px] opacity-80">{item.review}</p>
               </div>
             );
           })}
