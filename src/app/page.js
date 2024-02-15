@@ -27,8 +27,8 @@ export default function page() {
     {
       heading:
         "Transform your Discord server into a VIP experience with a massive 14x Server Boost for 3 months! Enjoy an unparalleled level of perks for you and your community, including:",
-      paragraph:
-        "Transform your Discord server into a VIP experience with a massive 14x Server Boost for 3 months! Enjoy an unparalleled level of perks for you and your community, including:",
+      // paragraph:
+      // "Transform your Discord server into a VIP experience with a massive 14x Server Boost for 3 months! Enjoy an unparalleled level of perks for you and your community, including:",
       description:
         "Blazing-fast voice chat: Crystal-clear communication with no lag.Ultra-high video quality: Stream like a pro with smooth, high-resolution video.Custom roles and permissions: Fine-tune your server's management with granular control.Expanded file upload limits: Share large files and content seamlessly.Premium server features: Unlock exclusive benefits like custom emojis, animated icons, and more!Activate your instant delivery boost now and take your server to the next level! This limited-time offer won't last forever, so don't miss out!",
       link: "#",
@@ -67,15 +67,15 @@ export default function page() {
               established communities and high-engagement profiles. We offer
               verified Discord accounts for sale, ensuring credibility and
               trustworthiness. Additionally, explore our range of services to
-              buy server boosts for Discord, enhancing your server&apos;s visibility
-              and reach. Elevate your Twitter presence with our solutions to buy
-              Twitter followers, boosting your social proof and influence.
-              Explore our selection of aged social media accounts and tokens,
-              tailored to meet your specific needs. Join the ranks of successful
-              influencers, marketers, and businesses who have leveraged our
-              premium accounts to achieve their goals. Experience growth,
-              credibility, and success like never before. Unlock the power of
-              established social media accounts today.
+              buy server boosts for Discord, enhancing your server&apos;s
+              visibility and reach. Elevate your Twitter presence with our
+              solutions to buy Twitter followers, boosting your social proof and
+              influence. Explore our selection of aged social media accounts and
+              tokens, tailored to meet your specific needs. Join the ranks of
+              successful influencers, marketers, and businesses who have
+              leveraged our premium accounts to achieve their goals. Experience
+              growth, credibility, and success like never before. Unlock the
+              power of established social media accounts today.
             </p>
             <div className="radial_one"></div>
             {/* <div className="radial_two"></div> */}
@@ -84,21 +84,28 @@ export default function page() {
           {/* special discord offers */}
         </div>
       </div>
-      <div className="bg-black text-white py-8">
+
+      <WeOffer />
+      <div className="bg-black text-white pt-8 pb-12">
         <div className="min-h-[90vh] px-4 flex flex-col justify-center max-w-[1280px] mx-auto">
           <h1 className="text-3xl md:text-4xl text-center">DISCORD SERVICES</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-3 mt-[40px] gap-5">
             {specialDiscordServiceArray.map((item, index) => {
               return (
-                <div key={index} className="border-2 border-[#A5A6F6] p-5 rounded-lg">
+                <div
+                  key={index}
+                  className="border-2 border-[#A5A6F6] p-5 rounded-lg"
+                >
                   <div className="h-[200px] flex items-center justify-center ">
                     <FaDiscord size={100} className="text-[#A5A6F6] dance" />
                   </div>
                   <h1 className="text-[16px] mb-3 font-semibold">
                     {item.heading}
                   </h1>
-                  <p className="text-[15px] mt-3 mb-2 opacity-90">{item.paragraph}</p>
+                  <p className="text-[15px] mt-3 mb-2 opacity-90">
+                    {item.paragraph}
+                  </p>
                   <p className="mb-5 opacity-55 text-[14px] pl-2">
                     {item.description}
                   </p>
@@ -162,7 +169,6 @@ export default function page() {
         </div>
       </div>
 
-      <WeOffer />
       <WhyChoose />
       <BestProduct />
       <CustomerReview />
