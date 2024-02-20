@@ -184,6 +184,28 @@ const WeOffer = () => {
                 </p>
               </div>
             </div>
+
+            <div
+              className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
+              data-v0-t="card"
+            >
+              <div className="flex flex-col space-y-1.5 p-6">
+                <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
+                  <FaDiscord size={30} />
+                </span>
+                <h3 className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  Discord Nitro Boosters
+                </h3>
+              </div>
+              <div className="px-6 pb-4 opacity-75">
+                <p>
+                  Our specialized Discord services include server management,
+                  community building, moderation tools, and customization
+                  options to enhance your Discord server&apos;s functionality and
+                  appeal.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -169,8 +169,9 @@ export default function page() {
         </div>
       </div>
 
-      <WhyChoose />
       <BestProduct />
+      <WhyChoose />
+
       <CustomerReview />
       <ContactUs />
       <Footer />
