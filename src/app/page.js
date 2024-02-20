@@ -8,6 +8,9 @@ import WhyChoose from "@/components/WhyChoose";
 import Link from "next/link";
 import React from "react";
 import { FaDiscord } from "react-icons/fa";
+import { Actor } from "next/font/google";
+
+const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export default function page() {
   const specialDiscordServiceArray = [
@@ -46,7 +49,7 @@ export default function page() {
     },
   ];
   return (
-    <>
+    <div className={actor.className}>
       <div className="bg-normal w-[100%]">
         <div className="max-w-[1280px] mx-auto px-4 text-white relative min-h-[100vh] w-[100%] ">
           {/* Hero section */}
@@ -175,6 +178,6 @@ export default function page() {
       <CustomerReview />
       <ContactUs />
       <Footer />
-    </>
+    </div>
   );
 }
