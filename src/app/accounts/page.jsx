@@ -6,13 +6,17 @@ import discordData from "../../dataFolder/discord.json";
 import instagramData from "../../dataFolder/instagram.json";
 import twitterData from "../../dataFolder/twitter.json";
 import { FaDiscord } from "react-icons/fa";
+import { Actor } from "next/font/google";
+
+const actor = Actor({ weight: "400", subsets: ["latin"] });
+
 
 export default function Page() {
   const [showMore, setShowMore] = useState(false);
   const [ishowMore, isetShowMore] = useState(false);
   const [tshowMore, tsetShowMore] = useState(false);
   return (
-    <>
+    <div className={actor.className}>
       <div className="bg-normal w-[100%]">
         <div className="relative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 text-white sm:px-12 ">
           <div className="z-4 relative flex min-h-[90vh] flex-col justify-center">
@@ -229,6 +233,6 @@ export default function Page() {
       </div>
 
       <Footer />
-    </>
+    </div>
   );
 }
