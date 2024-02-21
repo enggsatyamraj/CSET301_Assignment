@@ -83,14 +83,14 @@ const page = () => {
             </p>
             <p className="text-[15px] mt-4 md:w-[70%] sm:w-[80%] w-[90%] lg:w-[50%] opacity-60">
               At Discord Arena, we understand that a vibrant online presence is
-              crucial in today's digital landscape. Our carefully curated
+              crucial in today&apos;s digital landscape. Our carefully curated
               selection of accounts reflects our commitment to delivering
-              excellence. Whether you're seeking a Discord community that aligns
+              excellence. Whether you&apos;re seeking a Discord community that aligns
               with your interests, an Instagram account with a unique aesthetic,
               or a Twitter handle that stands out, Discord Arena is dedicated to
               providing accounts that go beyond expectations. We believe in the
               power of exclusivity, quality, and a seamless user experience, and
-              we're here to help you achieve your online aspirations.
+              we&apos;re here to help you achieve your online aspirations.
             </p>
             <Link
               href={"/contactus"}
@@ -110,7 +110,7 @@ const page = () => {
             At Discord Arena, we take pride in offering a curated selection of
             premium accounts in three major categories: Discord, Instagram, and
             Twitter. Each account is meticulously chosen to ensure exclusivity,
-            quality, and a seamless experience for our users. Whether you're a
+            quality, and a seamless experience for our users. Whether you&apos;re a
             gamer looking for the perfect Discord community or a social media
             enthusiast seeking a premium Instagram or Twitter account, Discord
             Arena is your ultimate destination.
