@@ -35,24 +35,24 @@ const jsonLdScript = {
         "@type": "Organization",
         name: "Twitter Arena",
       },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue:
-          item.reviews.reduce((total, review) => total + review.rating, 0) /
-          item.reviews.length,
-        reviewCount: item.reviews.length,
-      },
-      review: item.reviews.map((review) => {
-        return {
-          "@type": "Review",
-          author: review.name,
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: review.rating,
-          },
-          reviewBody: review.comment,
-        };
-      }),
+      // aggregateRating: {
+      //   "@type": "AggregateRating",
+      //   ratingValue:
+      //     item.reviews.reduce((total, review) => total + review.rating, 0) /
+      //     item.reviews.length,
+      //   reviewCount: item.reviews.length,
+      // },
+      // review: item.reviews.map((review) => {
+      //   return {
+      //     "@type": "Review",
+      //     author: review.name,
+      //     reviewRating: {
+      //       "@type": "Rating",
+      //       ratingValue: review.rating,
+      //     },
+      //     reviewBody: review.comment,
+      //   };
+      // }),
     };
   }),
 };
