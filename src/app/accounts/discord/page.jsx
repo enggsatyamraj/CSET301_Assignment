@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { Actor } from "next/font/google";
 import discordData from "../../../dataFolder/discord.json";
@@ -13,6 +13,9 @@ const jsonLdScript = {
   "@context": "https://schema.org/",
   "@type": "ItemList",
   itemListElement: discordData.map((item, index) => {
+    // Check if item.reviews is an array with length greater than 0
+    const hasReviews = Array.isArray(item.reviews) && item.reviews.length > 0;
+
     return {
       "@type": "Product",
       position: index + 1,
@@ -35,24 +38,28 @@ const jsonLdScript = {
         "@type": "Organization",
         name: "Discord Arena",
       },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue:
-          item.reviews.reduce((total, review) => total + review.rating, 0) /
-          item.reviews.length,
-        reviewCount: item.reviews.length,
-      },
-      review: item.reviews.map((review) => {
-        return {
-          "@type": "Review",
-          author: review.name,
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: review.rating,
-          },
-          reviewBody: review.comment,
-        };
-      }),
+      aggregateRating: hasReviews
+        ? {
+            "@type": "AggregateRating",
+            ratingValue:
+              item.reviews.reduce((total, review) => total + review.rating, 0) /
+              item.reviews.length,
+            reviewCount: item.reviews.length,
+          }
+        : undefined,
+      review: hasReviews
+        ? item.reviews.map((review) => {
+            return {
+              "@type": "Review",
+              author: review.name,
+              reviewRating: {
+                "@type": "Rating",
+                ratingValue: review.rating,
+              },
+              reviewBody: review.comment,
+            };
+          })
+        : undefined,
     };
   }),
 };
@@ -106,9 +113,12 @@ const page = () => {
       </Head>
       <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[100px]">
         <div className="max-w-[1000px] mx-auto">
-          <button onClick={()=>{
-            window.history.back()
-          }} className="border-[1px] px-3 py-1 rounded-lg">
+          <button
+            onClick={() => {
+              window.history.back();
+            }}
+            className="border-[1px] px-3 py-1 rounded-lg"
+          >
             Go Back
           </button>
           {/* hero section */}
@@ -124,11 +134,11 @@ const page = () => {
               journey! Dive into a world of premium Discord accounts
               meticulously crafted to elevate your communication, server
               management, and overall Discord experience. Unleash exclusive
-              features, boost your server&apos;s credibility with verified accounts,
-              and stand out with custom handles. Our Discord accounts page is
-              your gateway to a seamless, enriched, and personalized Discord
-              adventure. Explore the possibilities and redefine your online
-              presence in the Discord Arena!
+              features, boost your server&apos;s credibility with verified
+              accounts, and stand out with custom handles. Our Discord accounts
+              page is your gateway to a seamless, enriched, and personalized
+              Discord adventure. Explore the possibilities and redefine your
+              online presence in the Discord Arena!
             </p>
           </div>
           <div className="min-h-[500px] py-12">
@@ -187,7 +197,7 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
