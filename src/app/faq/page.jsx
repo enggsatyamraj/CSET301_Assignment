@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import { Actor } from "next/font/google";
+import Footer from "@/components/Footer";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -459,7 +460,7 @@ export default function page() {
 
   return (
     <div className={actor.className}>
-      <div className="bg-normal w-[100%] min-h-[100vh] text-white pt-[100px] px-4 relative">
+      <div className="bg-normal w-[100%] min-h-[100vh] text-white pt-[100px] pb-10 px-7 sm:px-12 relative">
         <Head>
           <title>
             Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts
@@ -573,6 +574,7 @@ export default function page() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
