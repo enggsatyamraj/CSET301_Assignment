@@ -198,7 +198,7 @@ export default function Page() {
                     Instagram Account
                   </p>
                   <ul className="list-disc pl-4 text-[13px] opacity-85">
-                    <li>{item.smallShowFiveFeatures.feature1}</li>
+                    <li>{item.smallShowFiveFeatures.feature1 ? item.smallShowFiveFeatures.feature1 : "Authentic and secure account"}</li>
                     <li>{item.smallShowFiveFeatures.feature2}</li>
                     <li>{item.smallShowFiveFeatures.feature3}</li>
                     <li>{item.smallShowFiveFeatures.feature4}</li>

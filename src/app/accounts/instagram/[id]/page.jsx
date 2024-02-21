@@ -8,7 +8,6 @@ import { Actor } from "next/font/google";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
-
 const Page = () => {
   const pathname = usePathname();
   const id = pathname.split("/")[3];
@@ -101,14 +100,15 @@ const Page = () => {
           </div>
 
           <div>
-            {data.questionAnswerArray.map((item, index) => {
-              return (
-                <div key={index}>
-                  <h1 className="mb-3 mt-5 text-2xl ">{item.question}</h1>
-                  <p className="opacity-80">{item.answer}</p>
-                </div>
-              );
-            })}
+            {data.questionAnswerArray &&
+              data.questionAnswerArray.map((item, index) => {
+                return (
+                  <div key={index}>
+                    <h1 className="mb-3 mt-5 text-2xl ">{item.question}</h1>
+                    <p className="opacity-80">{item.answer}</p>
+                  </div>
+                );
+              })}
           </div>
 
           <h1 className="mb-3 mt-5 text-2xl font-semibold">Reviews</h1>

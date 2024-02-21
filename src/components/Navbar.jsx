@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const handleOpen = () => {
     setOpen(!isOpen);
-    console.log("isopen ", isOpen);
+    // console.log("isopen ", isOpen);
   };
 
   useEffect(() => {

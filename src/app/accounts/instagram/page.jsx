@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { Actor } from "next/font/google";
 import instagramData from "../../../dataFolder/instagram.json";
@@ -8,6 +8,7 @@ import Head from "next/head";
 import Footer from "@/components/Footer";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
+// console.log(instagramData);
 
 const jsonLdScript = {
   "@context": "https://schema.org/",
@@ -35,24 +36,6 @@ const jsonLdScript = {
         "@type": "Organization",
         name: "Discord Arena",
       },
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue:
-          item.reviews.reduce((total, review) => total + review.rating, 0) /
-          item.reviews.length,
-        reviewCount: item.reviews.length,
-      },
-      review: item.reviews.map((review) => {
-        return {
-          "@type": "Review",
-          author: review.name,
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: review.rating,
-          },
-          reviewBody: review.comment,
-        };
-      }),
     };
   }),
 };
@@ -61,59 +44,54 @@ const page = () => {
   return (
     <div className={actor.className}>
       <Head>
-        <Head>
-          <meta charSet="UTF-8" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <meta
-            name="description"
-            content="Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more."
-          />
-          <meta
-            name="keywords"
-            content="Instagram, Instagram accounts, Premium accounts, Boosted profiles, Social media"
-          />
-          <meta name="author" content="Discord Arena" />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more."
+        />
+        <meta
+          name="keywords"
+          content="Instagram, Instagram accounts, Premium accounts, Boosted profiles, Social media"
+        />
+        <meta name="author" content="Discord Arena" />
 
-          {/* Open Graph / Facebook */}
-          <meta property="og:type" content="website" />
-          <meta
-            property="og:url"
-            content="https://www.discordarena.com/instagram"
-          />
-          <meta
-            property="og:title"
-            content="Instagram Accounts - Discord Arena"
-          />
-          <meta
-            property="og:description"
-            content="Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more."
-          />
-          <meta property="og:image" content="URL_TO_YOUR_LOGO_IMAGE" />
-          <meta property="og:image:alt" content="Discord Arena Logo" />
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://www.discordarena.com/instagram"
+        />
+        <meta
+          property="og:title"
+          content="Instagram Accounts - Discord Arena"
+        />
+        <meta
+          property="og:description"
+          content="Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more."
+        />
+        <meta property="og:image" content="URL_TO_YOUR_LOGO_IMAGE" />
+        <meta property="og:image:alt" content="Discord Arena Logo" />
 
-          {/* Twitter */}
-          <meta property="twitter:card" content="summary_large_image" />
-          <meta
-            property="twitter:url"
-            content="https://www.discordarena.com/instagram"
-          />
-          <meta
-            property="twitter:title"
-            content="Instagram Accounts - Discord Arena"
-          />
-          <meta
-            property="twitter:description"
-            content="Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more."
-          />
-          <meta property="twitter:image" content="URL_TO_YOUR_LOGO_IMAGE" />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdScript) }}
-          />
-        </Head>
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://www.discordarena.com/instagram"
+        />
+        <meta
+          property="twitter:title"
+          content="Instagram Accounts - Discord Arena"
+        />
+        <meta
+          property="twitter:description"
+          content="Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more."
+        />
+        <meta property="twitter:image" content="URL_TO_YOUR_LOGO_IMAGE" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdScript) }}
+        />
       </Head>
       <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[100px]">
         <div className="max-w-[1000px] mx-auto">
@@ -170,11 +148,26 @@ const page = () => {
                       Instagram Account
                     </p>
                     <ul className="list-disc pl-4 text-[13px] opacity-85">
-                      <li>{item.smallShowFiveFeatures.feature1}</li>
-                      <li>{item.smallShowFiveFeatures.feature2}</li>
-                      <li>{item.smallShowFiveFeatures.feature3}</li>
-                      <li>{item.smallShowFiveFeatures.feature4}</li>
-                      <li>{item.smallShowFiveFeatures.feature5}</li>
+                      <li>
+                        {item.smallShowFiveFeatures &&
+                          item.smallShowFiveFeatures.feature1}
+                      </li>
+                      <li>
+                        {item.smallShowFiveFeatures &&
+                          item.smallShowFiveFeatures.feature2}
+                      </li>
+                      <li>
+                        {item.smallShowFiveFeatures &&
+                          item.smallShowFiveFeatures.feature3}
+                      </li>
+                      <li>
+                        {item.smallShowFiveFeatures &&
+                          item.smallShowFiveFeatures.feature4}
+                      </li>
+                      <li>
+                        {item.smallShowFiveFeatures &&
+                          item.smallShowFiveFeatures.feature5}
+                      </li>
                     </ul>
                     <div className="mt-5 flex items-center gap-3">
                       <Link
