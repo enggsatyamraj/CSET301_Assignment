@@ -64,9 +64,12 @@ const Navbar = () => {
               "max-w-[1280px] h-[90px]   flex justify-between sm:px-12 px-7 items-center bg-transparent mx-auto"
             }
           >
-            <div className="md:text-3xl text-2xl font-semibold tracking-widest">
+            <Link
+              href={"/"}
+              className="md:text-3xl text-2xl font-semibold tracking-widest"
+            >
               Discord Arena
-            </div>
+            </Link>
             <div className="md:flex hidden gap-10 ">
               {navbarLinks.map((item, index) => {
                 return (
@@ -91,9 +94,15 @@ const Navbar = () => {
           } flex flex-col gap-4 text-xl items-center justify-center absolute z-[100]  text-white right-0 top-0 bottom-0 left-0 transition-all duration-500 backdrop-blur-lg`}
         >
           <div className="absolute right-6 top-8 flex justify-between items-center left-6">
-            <div className="md:text-3xl text-2xl font-semibold tracking-widest">
+            <Link
+              onClick={() => {
+                handleOpen();
+              }}
+              href={"/"}
+              className="md:text-3xl text-2xl font-semibold tracking-widest"
+            >
               Discord Arena
-            </div>
+            </Link>
             <RxCross2 size={27} color="#fff" onClick={handleOpen} />
           </div>
           {navbarLinks.map((item, index) => {

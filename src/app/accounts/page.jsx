@@ -7,14 +7,16 @@ import instagramData from "../../dataFolder/instagram.json";
 import twitterData from "../../dataFolder/twitter.json";
 import { FaDiscord } from "react-icons/fa";
 import { Actor } from "next/font/google";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
-
 export default function Page() {
-  const [showMore, setShowMore] = useState(false);
-  const [ishowMore, isetShowMore] = useState(false);
-  const [tshowMore, tsetShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
+  // const [ishowMore, isetShowMore] = useState(false);
+  // const [tshowMore, tsetShowMore] = useState(false);
   return (
     <div className={actor.className}>
       <div className="bg-normal w-[100%]">
@@ -46,8 +48,8 @@ export default function Page() {
                 <div
                   key={item.id}
                   className={`border-[1px] ${
-                    !showMore ? (index > 2 ? "hidden" : "") : ""
-                  } h-fit overflow-hidden rounded-md p-4`}
+                    index > 2 && "hidden"
+                  }  h-fit overflow-hidden rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
                     <FaDiscord
@@ -91,13 +93,15 @@ export default function Page() {
               );
             })}
           </div>
-          <div className="">
-            <div
-              onClick={() => setShowMore(!showMore)}
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/discord"}
+              // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              {showMore ? "Show less accounts" : "Show more accounts"}
-            </div>
+              Show more
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
           </div>
         </div>
       </div>
@@ -111,11 +115,11 @@ export default function Page() {
                 <div
                   key={item.id}
                   className={`border-[1px] ${
-                    !ishowMore ? (index > 2 ? "hidden" : "") : ""
-                  } h-fit overflow-hidden rounded-md p-4`}
+                    index > 2 && "hidden"
+                  }  h-fit overflow-hidden rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
-                    <FaDiscord
+                    <FaInstagram
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
@@ -156,13 +160,15 @@ export default function Page() {
               );
             })}
           </div>
-          <div className="">
-            <div
-              onClick={() => isetShowMore(!ishowMore)}
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/instagram"}
+              // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              {ishowMore ? "Show less accounts" : "Show more accounts"}
-            </div>
+              Show more
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
           </div>
         </div>
       </div>
@@ -176,11 +182,11 @@ export default function Page() {
                 <div
                   key={item.id}
                   className={`border-[1px] ${
-                    !tshowMore ? (index > 2 ? "hidden" : "") : ""
-                  } h-fit overflow-hidden rounded-md p-4`}
+                    index > 2 && "hidden"
+                  }  h-fit overflow-hidden rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
-                    <FaDiscord
+                    <FaXTwitter
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
@@ -221,13 +227,15 @@ export default function Page() {
               );
             })}
           </div>
-          <div className="">
-            <div
-              onClick={() => tsetShowMore(!tshowMore)}
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/twitter"}
+              // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              {tshowMore ? "Show less accounts" : "Show more accounts"}
-            </div>
+              Show more
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
           </div>
         </div>
       </div>

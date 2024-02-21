@@ -462,7 +462,7 @@ export default function Page() {
           <div>
             {blogs.concat(additionalBlogs).map((blog, index) => {
               return (
-                <div key={index} className="bg-[#2a2727] mb-8 p-5 rounded-lg">
+                <div key={index} className="blogs_div bg-[#2a2727] mb-8 p-5 rounded-lg">
                   <p className="lg:text-[28px] md:text-[26px] sm:text-[24px] text-[22px]">
                     {blog.title}
                   </p>
