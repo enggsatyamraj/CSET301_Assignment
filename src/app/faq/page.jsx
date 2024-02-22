@@ -553,7 +553,7 @@ export default function page() {
         <div className="radial_one"></div>
         <div className="max-w-[1280px] mx-auto">
           <p className={`md:text-[36px] text-[32px] pb-2 mb-4 text-center`}>
-            FAQ
+            Frequently Asked Questions
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-4">
             {faqItems.concat(additionalFaqItems).map((item, index) => {

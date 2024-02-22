@@ -6,6 +6,7 @@ import { TbBrandValorant } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { Actor } from "next/font/google";
+import Link from "next/link";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -24,7 +25,8 @@ const WeOffer = () => {
               offerings below:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div
+              <Link
+                href={"/accounts/discord"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -43,8 +45,9 @@ const WeOffer = () => {
                     Discord server or social media platforms.
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href={"/accounts/discord"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -63,8 +66,9 @@ const WeOffer = () => {
                     communities effortlessly.
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href={"/accounts/discord"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -84,8 +88,9 @@ const WeOffer = () => {
                     and appeal.
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href={"/accounts/instagram"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -104,8 +109,9 @@ const WeOffer = () => {
                     and boosting your visibility on the platform.
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href={"/accounts/twitter"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -124,8 +130,9 @@ const WeOffer = () => {
                     profiles for your marketing campaigns.
                   </p>
                 </div>
-              </div>
-              <div
+              </Link>
+              <Link
+                href={"/accounts/discord"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -144,9 +151,10 @@ const WeOffer = () => {
                     broader audience and fostering community growth.
                   </p>
                 </div>
-              </div>
+              </Link>
 
-              <div
+              <Link
+                href={"/accounts/discord"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -165,9 +173,10 @@ const WeOffer = () => {
                     interactions.
                   </p>
                 </div>
-              </div>
+              </Link>
 
-              <div
+              <Link
+                href={"/accounts/discord"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -187,9 +196,10 @@ const WeOffer = () => {
                     your community.
                   </p>
                 </div>
-              </div>
+              </Link>
 
-              <div
+              <Link
+                href={"/accounts/discord"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -209,7 +219,7 @@ const WeOffer = () => {
                     and appeal.
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

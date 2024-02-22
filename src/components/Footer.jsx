@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -6,31 +7,58 @@ const Footer = () => {
       <div className="max-w-[1080px] mx-auto px-7 grid  justify-center  gap-5 grid-cols-2 md:grid-cols-4">
         <div className="w-fit">
           <h1 className="font-bold text-xl mb-4">Company</h1>
-          <h1 className="opacity-70 text-[14px] my-2">About us</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Team</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Careers</h1>
+          <Link href={"/aboutus"} className="opacity-70 text-[14px] my-2">
+            About us
+          </Link>
+          <br />
+          <Link href={"/"} className="opacity-70 text-[14px] my-2">
+            Home
+          </Link>
+          <br />
+          <Link href={"/accounts"} className="opacity-70 text-[14px] my-2">
+            Accounts
+          </Link>
         </div>
         <div className="w-fit">
           <h1 className="font-bold text-xl mb-4">Services</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Branding</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Web development</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Digital marketing</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Mobile app</h1>
-          <h1 className="opacity-70 text-[14px] my-2">SEO</h1>
-          <h1 className="opacity-70 text-[14px] my-2">User testing</h1>
+          <Link
+            href={"/accounts/discord"}
+            className="opacity-70 text-[14px] my-2"
+          >
+            Discord Accounts
+          </Link>
+          <br />
+          <Link
+            href={"/accounts/twitter"}
+            className="opacity-70 text-[14px] my-2"
+          >
+            Twitter Accounts
+          </Link>
+          <br />
+          <Link
+            href={"/accounts/instagram"}
+            className="opacity-70 text-[14px] my-2"
+          >
+            Instagram Accounts
+          </Link>
         </div>
         <div className="w-fit">
           <h1 className="font-bold text-xl mb-4">Resources</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Blog</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Case Study</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Testimonials</h1>
+          <Link href={"/blogs"} className="opacity-70 text-[14px] my-2">
+            Blog
+          </Link>
+          <br />
+          <Link href={"/faq"} className="opacity-70 text-[14px] my-2">
+            FAQs
+          </Link>
+          {/* <h1 className="opacity-70 text-[14px] my-2">Testimonials</h1> */}
         </div>
         <div className="w-fit">
           <h1 className="font-bold text-xl mb-4">Follow us</h1>
           <h1 className="opacity-70 text-[14px] my-2">Instagram</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Figma</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Dribble</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Behance</h1>
+          <h1 className="opacity-70 text-[14px] my-2">Telegram</h1>
+          <h1 className="opacity-70 text-[14px] my-2">Twitter</h1>
+          {/* <h1 className="opacity-70 text-[14px] my-2">Behance</h1> */}
           <h1 className="opacity-70 text-[14px] my-2">Facebook</h1>
         </div>
       </div>

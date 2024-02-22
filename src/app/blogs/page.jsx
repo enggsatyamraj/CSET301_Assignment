@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import { Actor } from "next/font/google";
+import Footer from "@/components/Footer";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -368,7 +369,7 @@ export default function Page() {
 
   return (
     <div className={actor.className}>
-      <div className="bg-normal w-[100%] relative min-h-[100vh] text-white pt-[100px] px-4">
+      <div className="bg-normal w-[100%] relative min-h-[100vh] text-white pt-[100px] pb-[100px] px-4">
         <Head>
           <title>
             Discord Arena - Blogs || Discord Accounts || Instagram Accounts
@@ -462,7 +463,10 @@ export default function Page() {
           <div>
             {blogs.concat(additionalBlogs).map((blog, index) => {
               return (
-                <div key={index} className="blogs_div bg-[#2a2727] mb-8 p-5 rounded-lg">
+                <div
+                  key={index}
+                  className="blogs_div bg-[#2a2727] mb-8 p-5 rounded-lg"
+                >
                   <p className="lg:text-[28px] md:text-[26px] sm:text-[24px] text-[22px]">
                     {blog.title}
                   </p>
@@ -489,6 +493,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

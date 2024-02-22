@@ -12,7 +12,7 @@ const navbarLinks = [
   { name: "Accounts", url: "/accounts" },
   { name: "About Us", url: "/aboutus" },
   { name: "Blogs", url: "/blogs" },
-  { name: "FAQ", url: "/faq" },
+  { name: "FAQs", url: "/faq" },
 ];
 
 const Navbar = () => {
@@ -84,6 +84,9 @@ const Navbar = () => {
               })}
             </div>
             <div className="md:hidden flex items-center">
+              <Link href="/accounts" className="hover:cursor-pointer text-[15px] border-[1px] px-2 py-1 rounded-lg mr-4">
+                Accounts
+              </Link>
               <RxHamburgerMenu size={25} color="#fff" onClick={handleOpen} />
             </div>
           </div>
