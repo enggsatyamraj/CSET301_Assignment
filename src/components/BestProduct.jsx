@@ -61,8 +61,8 @@ const BestProduct = () => {
             Elevate Your Online Presence with Premium Social Media Solutions
           </h1>
           <p className="text-[15px] mb-4 opacity-90">
-            At Discord Arena, we&apos;re thrilled to welcome you to a realm where
-            excellence seamlessly converges with innovation in the dynamic
+            At Discord Arena, we&apos;re thrilled to welcome you to a realm
+            where excellence seamlessly converges with innovation in the dynamic
             landscape of social media solutions. As your dedicated platform, our
             commitment to delivering unparalleled products remains steadfast,
             evolving to encompass an even more extensive array of offerings
@@ -113,9 +113,9 @@ const BestProduct = () => {
         <div>
           <div className="border-2 p-4 rounded-lg">
             <h1 className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              Gaming
+              Raferral Services
             </h1>
-            <h1 className="text-[19px] mt-3 font-semibold">Valorent</h1>
+            <h1 className="text-[19px] mt-3 font-semibold">Instagram</h1>
             <div className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
               <Link href={"/accounts"}>Read more</Link>
               <FaArrowCircleRight size={15} />
@@ -124,11 +124,9 @@ const BestProduct = () => {
           <div className="border-2 p-4 rounded-lg mt-4">
             <div className="h-[150px] bg-[#FFA800] mb-3 rounded-lg"></div>
             <h1 className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              Gaming
+              Raferral Services
             </h1>
-            <h1 className="text-[19px] mt-3 font-semibold">
-              League of Legends
-            </h1>
+            <h1 className="text-[19px] mt-3 font-semibold">Discord</h1>
             <div className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
               <Link href={"/accounts"}>Read more</Link>
               <FaArrowCircleRight size={15} />
@@ -136,9 +134,9 @@ const BestProduct = () => {
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
             <h1 className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              Gaming
+              Raferral Services
             </h1>
-            <h1 className="text-[19px] mt-3 font-semibold">Minecraft</h1>
+            <h1 className="text-[19px] mt-3 font-semibold">Twitter</h1>
             <div className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
               <Link href={"/accounts"}>Read more</Link>
               <FaArrowCircleRight size={15} />
