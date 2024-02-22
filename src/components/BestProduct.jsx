@@ -72,7 +72,7 @@ const BestProduct = () => {
             href={"/accounts"}
             className="text-[13px] text-[#A5A6F6] border-[#A5A6F6] border-[1px] rounded-[30px] px-3 py-1"
           >
-            SHOW MORE
+            Explore all accounts
           </Link>
         </div>
 
@@ -86,8 +86,8 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Discord</h1>
             <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
-              <Link href={"/accounts/discord"}>Read more</Link>
-              <FaArrowCircleRight size={25} />
+              <Link href={"/accounts/discord"}>Discover discord accounts</Link>
+              <FaArrowCircleRight size={15} />
             </Link>
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
@@ -96,7 +96,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Twitter</h1>
             <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
-              <Link href={"/accounts/twitter"}>Read more</Link>
+              <Link href={"/accounts/twitter"}>Discover twitter accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
@@ -106,7 +106,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Instagram</h1>
             <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
-              <Link href={"/accounts/instagram"}>Read more</Link>
+              <Link href={"/accounts/instagram"}>Discover instagram accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
@@ -119,7 +119,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Instagram</h1>
             <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <Link href={"/accounts/instagram"}>Read more</Link>
+              <Link href={"/accounts/instagram"}>Explore instagram accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
@@ -132,7 +132,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Discord</h1>
             <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <div>Read more</div>
+              <div>Explore discord accounts</div>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
@@ -142,7 +142,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Twitter</h1>
             <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <Link href={"/accounts/twitter"}>Read more</Link>
+              <Link href={"/accounts/twitter"}>Explore twitter accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>

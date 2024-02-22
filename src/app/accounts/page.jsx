@@ -15,9 +15,6 @@ import Head from "next/head";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export default function Page() {
-  // const [showMore, setShowMore] = useState(false);
-  // const [ishowMore, isetShowMore] = useState(false);
-  // const [tshowMore, tsetShowMore] = useState(false);
   return (
     <div className={actor.className}>
       <script type="application/ld+json">
@@ -104,7 +101,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="bg-normal w-[100%]">
+      <div id="accounts_details" className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
           <h1 className="mb-4 text-2xl font-semibold">Discord Accounts</h1>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">

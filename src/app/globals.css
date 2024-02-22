@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 .radial_one {
   /* background: radial-gradient(circle, #ff7e5f , #ff2e63); */
   background-color: #8b7bcf;
@@ -35,8 +39,6 @@
   color: transparent;
 }
 
-
-
 .dance {
   filter: drop-shadow(0px 0px 20px #a5a6f6);
 }
@@ -58,10 +60,9 @@
 }
 
 .accountDance {
-  filter: drop-shadow(0px 0px 5px #958f9a );
+  filter: drop-shadow(0px 0px 5px #958f9a);
 }
 
-
-.blogs_div{
+.blogs_div {
   box-shadow: 0px 0px 10px inset #f6ebff;
 }

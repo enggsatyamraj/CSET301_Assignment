@@ -485,7 +485,7 @@ export default function Page() {
                     }}
                     className="text-[#FFFBFB] transition-all duration-300 border-[1px] px-4 py-1 mt-3 rounded-lg opacity-70"
                   >
-                    {showMore[index] ? "Show Less" : "Show More"}
+                    {showMore[index] ? "Read Less" : "Read More"}
                   </button>
                 </div>
               );
