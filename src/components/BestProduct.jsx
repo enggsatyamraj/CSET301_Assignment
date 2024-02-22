@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
-import { FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowCircleRight, FaDiscord } from "react-icons/fa";
 
 const BestProduct = () => {
   return (
@@ -78,69 +78,73 @@ const BestProduct = () => {
 
         <div>
           <div className="border-2 p-4 rounded-lg">
-            <div className="h-[150px] bg-[#A5A6F6] mb-3 rounded-lg"></div>
+            <div className="h-[150px] bg-[#A5A6F6] mb-3 rounded-lg flex items-center justify-center">
+              <FaDiscord size={50} />
+            </div>
             <h1 className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              social media
+              Social Media
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Discord</h1>
-            <div className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
-              <Link href={"/accounts"}>Read more</Link>
-              <FaArrowCircleRight size={15} />
-            </div>
+            <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
+              <Link href={"/accounts/discord"}>Read more</Link>
+              <FaArrowCircleRight size={25} />
+            </Link>
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
             <h1 className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              social media
+              Social Media
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Twitter</h1>
-            <div className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
-              <Link href={"/accounts"}>Read more</Link>
+            <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
+              <Link href={"/accounts/twitter"}>Read more</Link>
               <FaArrowCircleRight size={15} />
-            </div>
+            </Link>
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
             <h1 className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              social media
+              Social Media
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Instagram</h1>
-            <div className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
-              <Link href={"/accounts"}>Read more</Link>
+            <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
+              <Link href={"/accounts/instagram"}>Read more</Link>
               <FaArrowCircleRight size={15} />
-            </div>
+            </Link>
           </div>
         </div>
 
         <div>
           <div className="border-2 p-4 rounded-lg">
             <h1 className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              Raferral Services
+              Referral Services
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Instagram</h1>
-            <div className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <Link href={"/accounts"}>Read more</Link>
+            <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
+              <Link href={"/accounts/instagram"}>Read more</Link>
               <FaArrowCircleRight size={15} />
-            </div>
+            </Link>
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
-            <div className="h-[150px] bg-[#FFA800] mb-3 rounded-lg"></div>
+            <div className="h-[150px] bg-[#FFA800] flex items-center justify-center mb-3 rounded-lg">
+              <FaDiscord size={50} />
+            </div>
             <h1 className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              Raferral Services
+              Referral Services
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Discord</h1>
-            <div className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <Link href={"/accounts"}>Read more</Link>
+            <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
+              <div>Read more</div>
               <FaArrowCircleRight size={15} />
-            </div>
+            </Link>
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
             <h1 className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              Raferral Services
+              Referral Services
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Twitter</h1>
-            <div className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <Link href={"/accounts"}>Read more</Link>
+            <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
+              <Link href={"/accounts/twitter"}>Read more</Link>
               <FaArrowCircleRight size={15} />
-            </div>
+            </Link>
           </div>
         </div>
       </div>

@@ -107,14 +107,14 @@ const page = () => {
       <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[100px]">
         <div className="max-w-[1000px] mx-auto">
           {/* hero section */}
-          <button
+          {/* <button
             onClick={() => {
               window.history.back();
             }}
             className="border-[1px] px-3 py-1 rounded-lg"
           >
             Go Back
-          </button>
+          </button> */}
           <div className="min-h-[400px] flex flex-col justify-center ">
             <h1 className="text-3xl md:text-4xl font-semibold mb-2 lg:w-[60%] md:w-[70%]">
               Elevate Your Tweets with Premium Twitter Accounts

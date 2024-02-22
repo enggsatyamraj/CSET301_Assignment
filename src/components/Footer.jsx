@@ -55,8 +55,9 @@ const Footer = () => {
         </div>
         <div className="w-fit">
           <h1 className="font-bold text-xl mb-4">Follow us</h1>
-          <h1 className="opacity-70 text-[14px] my-2">Instagram</h1>
+          <h1 className="opacity-70 text-[14px] my-2">Discord</h1>
           <h1 className="opacity-70 text-[14px] my-2">Telegram</h1>
+          <h1 className="opacity-70 text-[14px] my-2">Instagram</h1>
           <h1 className="opacity-70 text-[14px] my-2">Twitter</h1>
           {/* <h1 className="opacity-70 text-[14px] my-2">Behance</h1> */}
           <h1 className="opacity-70 text-[14px] my-2">Facebook</h1>

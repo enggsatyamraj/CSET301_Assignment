@@ -113,14 +113,14 @@ const page = () => {
       </Head>
       <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[100px]">
         <div className="max-w-[1000px] mx-auto">
-          <button
+          {/* <button
             onClick={() => {
               window.history.back();
             }}
             className="border-[1px] px-3 py-1 rounded-lg"
           >
             Go Back
-          </button>
+          </button> */}
           {/* hero section */}
           <div className="min-h-[400px] flex flex-col justify-center ">
             <h1 className="text-3xl md:text-4xl font-semibold mb-2">
