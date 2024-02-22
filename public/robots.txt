@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.discordarena.com/
+
+# Sitemaps
+Sitemap: https://www.discordarena.com/sitemap.xml
