@@ -6,27 +6,98 @@ import discordData from "../../dataFolder/discord.json";
 import instagramData from "../../dataFolder/instagram.json";
 import twitterData from "../../dataFolder/twitter.json";
 import { FaDiscord } from "react-icons/fa";
+import { Actor } from "next/font/google";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
+import Head from "next/head";
+
+const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export default function Page() {
-  const [showMore, setShowMore] = useState(false);
-  const [ishowMore, isetShowMore] = useState(false);
-  const [tshowMore, tsetShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
+  // const [ishowMore, isetShowMore] = useState(false);
+  // const [tshowMore, tsetShowMore] = useState(false);
   return (
-    <>
+    <div className={actor.className}>
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Discord Arena",
+            "url": "https://www.discordarena.com/",
+            "logo": "URL_TO_YOUR_LOGO_IMAGE",
+            "description": "Unlock the full potential of your digital presence with Discord Arena.",
+            "foundingDate": "YEAR_OF_FOUNDATION",
+            "founders": [
+              {
+                "@type": "Person",
+                "name": "Discord Arena",
+                "url": "https://www.discordarena.com/"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "YOUR_EMAIL",
+              "contactType": "customer support"
+            }
+          }
+        `}
+      </script>
+      <Head>
+        <title>Discover Your Unique Niche | Discord Arena</title>
+        <meta
+          name="description"
+          content="Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs."
+        />
+        <meta
+          name="keywords"
+          content="Discord Arena, digital presence, cutting-edge solutions, innovation, transparent pricing, tailored solutions"
+        />
+        <meta name="author" content="Discord Arena" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          property="og:title"
+          content="Discover Your Unique Niche | Discord Arena"
+        />
+        <meta
+          property="og:description"
+          content="Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.discordarena.com/" />
+        <meta property="og:image" content="URL_TO_YOUR_SOCIAL_SHARE_IMAGE" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@yourtwitterhandle" />
+        <meta
+          name="twitter:title"
+          content="Discover Your Unique Niche | Discord Arena"
+        />
+        <meta
+          name="twitter:description"
+          content="Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs."
+        />
+        <meta name="twitter:image" content="URL_TO_YOUR_SOCIAL_SHARE_IMAGE" />
+      </Head>
       <div className="bg-normal w-[100%]">
         <div className="relative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 text-white sm:px-12 ">
           <div className="z-4 relative flex min-h-[90vh] flex-col justify-center">
             <p className="lh:w-[60%] mb-6 text-3xl sm:w-[80%]  sm:text-4xl md:w-[70%] md:text-5xl">
-              Find Your niche
+              Discover Your Unique Niche with Discord Arena
             </p>
             <p className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[50%]">
-              Risus commodo id odio turpis pharetra elementum. Pulvinar porta
-              porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros
-              Risus commodo id odio turpis pharetra elementum. Pulvinar porta
-              porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit,
-              itaque.
+              Explore a world of possibilities with Discord Arena, where we
+              specialize in providing top-notch services tailored to your unique
+              needs. Our expert team ensures a seamless experience, offering
+              services such as aged social media accounts, Discord services,
+              reaction services, and more. With a focus on innovation and
+              transparent pricing, we guarantee satisfaction and results for
+              your digital endeavors. Join us on a journey of excellence, where
+              your goals meet unparalleled expertise. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Sit, itaque.
             </p>
+
             <div className="radial_one"></div>
             {/* <div className="radial_two"></div> */}
           </div>
@@ -42,8 +113,8 @@ export default function Page() {
                 <div
                   key={item.id}
                   className={`border-[1px] ${
-                    !showMore ? (index > 2 ? "hidden" : "") : ""
-                  } h-fit overflow-hidden rounded-md p-4`}
+                    index > 2 && "hidden"
+                  }  h-fit overflow-hidden rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
                     <FaDiscord
@@ -87,13 +158,15 @@ export default function Page() {
               );
             })}
           </div>
-          <div className="">
-            <div
-              onClick={() => setShowMore(!showMore)}
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/discord"}
+              // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              {showMore ? "Show less accounts" : "Show more accounts"}
-            </div>
+              Show more
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
           </div>
         </div>
       </div>
@@ -107,11 +180,11 @@ export default function Page() {
                 <div
                   key={item.id}
                   className={`border-[1px] ${
-                    !ishowMore ? (index > 2 ? "hidden" : "") : ""
-                  } h-fit overflow-hidden rounded-md p-4`}
+                    index > 2 && "hidden"
+                  }  h-fit overflow-hidden rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
-                    <FaDiscord
+                    <FaInstagram
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
@@ -125,7 +198,7 @@ export default function Page() {
                     Instagram Account
                   </p>
                   <ul className="list-disc pl-4 text-[13px] opacity-85">
-                    <li>{item.smallShowFiveFeatures.feature1}</li>
+                    <li>{item.smallShowFiveFeatures.feature1 ? item.smallShowFiveFeatures.feature1 : "Authentic and secure account"}</li>
                     <li>{item.smallShowFiveFeatures.feature2}</li>
                     <li>{item.smallShowFiveFeatures.feature3}</li>
                     <li>{item.smallShowFiveFeatures.feature4}</li>
@@ -152,13 +225,15 @@ export default function Page() {
               );
             })}
           </div>
-          <div className="">
-            <div
-              onClick={() => isetShowMore(!ishowMore)}
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/instagram"}
+              // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              {ishowMore ? "Show less accounts" : "Show more accounts"}
-            </div>
+              Show more
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
           </div>
         </div>
       </div>
@@ -172,11 +247,11 @@ export default function Page() {
                 <div
                   key={item.id}
                   className={`border-[1px] ${
-                    !tshowMore ? (index > 2 ? "hidden" : "") : ""
-                  } h-fit overflow-hidden rounded-md p-4`}
+                    index > 2 && "hidden"
+                  }  h-fit overflow-hidden rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
-                    <FaDiscord
+                    <FaXTwitter
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
@@ -217,18 +292,20 @@ export default function Page() {
               );
             })}
           </div>
-          <div className="">
-            <div
-              onClick={() => tsetShowMore(!tshowMore)}
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/twitter"}
+              // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              {tshowMore ? "Show less accounts" : "Show more accounts"}
-            </div>
+              Show more
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
           </div>
         </div>
       </div>
 
       <Footer />
-    </>
+    </div>
   );
 }
