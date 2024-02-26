@@ -1,3 +1,4 @@
+"use client";
 import BestProduct from "@/components/BestProduct";
 import ContactUs from "@/components/ContactUs";
 import CustomerReview from "@/components/CustomerReview";
@@ -6,14 +7,45 @@ import Navbar from "@/components/Navbar";
 import WeOffer from "@/components/WeOffer";
 import WhyChoose from "@/components/WhyChoose";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FaDiscord } from "react-icons/fa";
 import { Actor } from "next/font/google";
 import Head from "next/head";
+import { ImCross } from "react-icons/im";
+import discordData from "../dataFolder/discord.json";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
-export default function page() {
+export default function Page() {
+  const [show, setShow] = useState(true);
+  const handleClick = () => {
+    setShow(false);
+    console.log("clicked");
+  };
+
+  // useEffect(() => {
+  //   if (show) {
+  //     document.body.style.overflow = "hidden";
+  //     document.documentElement.style.overflow = "hidden";
+  //     document.addEventListener("touchmove", preventScroll, { passive: false });
+  //     document.addEventListener("wheel", preventScroll, { passive: false });
+  //   } else {
+  //     document.body.style.overflow = "auto";
+  //     document.documentElement.style.overflow = "auto";
+  //     document.removeEventListener("touchmove", preventScroll);
+  //     document.removeEventListener("wheel", preventScroll);
+  //   }
+  //   return () => {
+  //     document.body.style.overflow = "auto";
+  //     document.documentElement.style.overflow = "auto";
+  //     document.removeEventListener("touchmove", preventScroll);
+  //     document.removeEventListener("wheel", preventScroll);
+  //   };
+  // }, [show]);
+
+  // function preventScroll(e) {
+  //   e.preventDefault();
+  // }
   const specialDiscordServiceArray = [
     {
       heading:
@@ -135,6 +167,69 @@ export default function page() {
       <div className="bg-normal w-[100%]">
         <div className="max-w-[1280px] mx-auto px-4 text-white relative min-h-[100vh] w-[100%] ">
           {/* Hero section */}
+          <div
+            className={`blogs_div ${
+              show === false && "hidden"
+            } absolute md:right-20 md:left-20 lg:right-30 lg:left-30 right-5 left-5 mt-[120px] z-10 border-white text-white overflow-y-auto bg-[#121212] rounded-lg p-4`}
+          >
+            <button className="absolute right-3 top-3" onClick={handleClick}>
+              <ImCross size={20} />
+            </button>
+            <h4 className="md:text-3xl text-2xl text-center  mb-4 mt-5">
+              Buy aged discord accounts
+            </h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {discordData.map((item, index) => {
+                return (
+                  <div
+                    key={item.id}
+                    className={`border-[1px] ${
+                      index > 2 && "hidden"
+                    } h-fit overflow-hidden rounded-md p-4`}
+                  >
+                    <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
+                      <FaDiscord
+                        size={50}
+                        className="accountDance text-[#8474C4]"
+                      />
+                    </div>
+
+                    <p className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
+                      Buy{" "}
+                      <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
+                        {item.year}
+                      </span>{" "}
+                      Discord Account
+                    </p>
+                    {/* <ul className="list-disc pl-4 text-[13px] opacity-85">
+                      <li>{item.smallShowFiveFeatures.feature1}</li>
+                      <li>{item.smallShowFiveFeatures.feature2}</li>
+                      <li>{item.smallShowFiveFeatures.feature3}</li>
+                      <li>{item.smallShowFiveFeatures.feature4}</li>
+                      <li>{item.smallShowFiveFeatures.feature5}</li>
+                    </ul> */}
+                    <div className="mt-5 flex items-center gap-3">
+                      <Link
+                        href={`/accounts/discord/${item.id}`}
+                        className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
+                      >
+                        Info
+                      </Link>
+                      <Link
+                        href={"/"}
+                        className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
+                      >
+                        Buy
+                      </Link>
+                      <span className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold ">
+                        $ {item.price}
+                      </span>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
           <div
             id="mainSection"
             className="min-h-[100vh] relative flex flex-col pl-[20px] py-[100px] sm:pl-[50px] justify-center z-4"
