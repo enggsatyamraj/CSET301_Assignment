@@ -193,4 +193,19 @@ const page = () => {
   );
 };
 
+// Implement getStaticPaths to generate static paths
+export async function getStaticPaths() {
+  return {
+    paths: [],
+    fallback: false
+  };
+}
+
+// Implement getStaticProps to fetch data for each page
+export async function getStaticProps({ params }) {
+  return {
+    props: {},
+  };
+}
+
 export default page;

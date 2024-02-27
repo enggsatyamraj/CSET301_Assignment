@@ -8,7 +8,24 @@ import Head from "next/head";
 import Footer from "@/components/Footer";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
-// console.log(instagramData);
+
+
+// Implement getStaticPaths to generate static paths
+export async function getStaticPaths() {
+  return {
+    paths: [],
+    fallback: false
+  };
+}
+
+// Implement getStaticProps to fetch data for each page
+export async function getStaticProps({ params }) {
+  return {
+    props: {},
+  };
+}
+
+
 
 const jsonLdScript = {
   "@context": "https://schema.org/",
