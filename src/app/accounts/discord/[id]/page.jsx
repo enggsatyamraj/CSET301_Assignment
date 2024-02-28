@@ -68,7 +68,7 @@ const Page = () => {
               ${data.price}
             </span>
             <button className="flex-[3] items-center rounded-md bg-[#F6EBFF] px-3  py-[10px] text-xl  font-bold text-black">
-              Purchase
+              <Link href={data.link}>Purchase</Link>
             </button>
           </div>
           <p className="mb-3 mt-7 text-2xl">

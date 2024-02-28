@@ -17,35 +17,41 @@ import discordData from "../dataFolder/discord.json";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export default function Page() {
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
+  const [scrollPosition, setScrollPosition] = useState(0);
+  
+  const handleScroll = () => {
+    setScrollPosition(window.scrollY);
+  };
+
+  useEffect(() => {
+    let timeout;
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(timeout);
+    };
+  }, []);
+
+  const popUpTop = scrollPosition + 5;
+
   const handleClick = () => {
     setShow(false);
+    document.body.style.overflow = ""; // Enable scrolling when pop-up is closed
     console.log("clicked");
   };
 
-  // useEffect(() => {
-  //   if (show) {
-  //     document.body.style.overflow = "hidden";
-  //     document.documentElement.style.overflow = "hidden";
-  //     document.addEventListener("touchmove", preventScroll, { passive: false });
-  //     document.addEventListener("wheel", preventScroll, { passive: false });
-  //   } else {
-  //     document.body.style.overflow = "auto";
-  //     document.documentElement.style.overflow = "auto";
-  //     document.removeEventListener("touchmove", preventScroll);
-  //     document.removeEventListener("wheel", preventScroll);
-  //   }
-  //   return () => {
-  //     document.body.style.overflow = "auto";
-  //     document.documentElement.style.overflow = "auto";
-  //     document.removeEventListener("touchmove", preventScroll);
-  //     document.removeEventListener("wheel", preventScroll);
-  //   };
-  // }, [show]);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShow(true);
+      document.body.style.overflow = "hidden"; // Disable scrolling when pop-up is shown
+    }, 2500);
 
-  // function preventScroll(e) {
-  //   e.preventDefault();
-  // }
+    return () => {
+      clearTimeout(timeout);
+      document.body.style.overflow = ""; // Ensure scrolling is enabled when component is unmounted
+    };
+  }, []);
   const specialDiscordServiceArray = [
     {
       heading:
@@ -168,17 +174,18 @@ export default function Page() {
         <div className="max-w-[1280px] mx-auto px-4 text-white relative min-h-[100vh] w-[100%] ">
           {/* Hero section */}
           <div
-            className={`blogs_div ${
+            className={`main_div ${
               show === false && "hidden"
-            } absolute md:right-20 md:left-20 lg:right-30 lg:left-30 right-5 left-5 mt-[120px] z-10 border-white text-white overflow-y-auto bg-[#121212] rounded-lg p-4`}
+            } absolute md:right-20 md:left-20 lg:right-50 lg:left-50 h-[500px] right-5 left-5 mt-[120px] z-10 border-white text-white overflow-y-auto  rounded-lg p-4`}
+            style={{ top: `${popUpTop}px` }}
           >
-            <button className="absolute right-3 top-3" onClick={handleClick}>
+            <button className="absolute right-5 top-5" onClick={handleClick}>
               <ImCross size={20} />
             </button>
             <h4 className="md:text-3xl text-2xl text-center  mb-4 mt-5">
               Buy aged discord accounts
             </h4>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 px-5 lg:grid-cols-3 gap-7">
               {discordData.map((item, index) => {
                 return (
                   <div
@@ -201,13 +208,6 @@ export default function Page() {
                       </span>{" "}
                       Discord Account
                     </p>
-                    {/* <ul className="list-disc pl-4 text-[13px] opacity-85">
-                      <li>{item.smallShowFiveFeatures.feature1}</li>
-                      <li>{item.smallShowFiveFeatures.feature2}</li>
-                      <li>{item.smallShowFiveFeatures.feature3}</li>
-                      <li>{item.smallShowFiveFeatures.feature4}</li>
-                      <li>{item.smallShowFiveFeatures.feature5}</li>
-                    </ul> */}
                     <div className="mt-5 flex items-center gap-3">
                       <Link
                         href={`/accounts/discord/${item.id}`}
@@ -228,6 +228,11 @@ export default function Page() {
                   </div>
                 );
               })}
+            </div>
+            <div className="w-[100%] flex items-center justify-center">
+              <button className="border-[1px] border-[#A5A6F6] text-[#A5A6F6] px-3 py-2 mt-12 w-fit rounded-lg mx-auto">
+                <Link href="/accounts">Shop now</Link>
+              </button>
             </div>
           </div>
           <div
@@ -304,47 +309,6 @@ export default function Page() {
                 </div>
               );
             })}
-
-            {/* <div className="border-2 border-[#F178B6] p-5 rounded-lg">
-              <div className="h-[200px] flex items-center justify-center">
-                <FaDiscord size={100} className="text-[#F178B6] danceTwo" />
-              </div>
-              <p className="mb-5 opacity-75">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <Link
-                href="#"
-                className="border-[#F178B6] border-2 px-4 py-1 text-[#F178B6]  rounded-lg"
-              >
-                Purchase
-              </Link>
-            </div>
-            <div className="border-2 border-[#CE9031] p-5 rounded-lg">
-              <div className="h-[200px] flex items-center justify-center">
-                <FaDiscord size={100} className="text-[#CE9031] danceThree" />
-              </div>
-              <p className="mb-5 opacity-75">
-                Est velit egestas dui id ornare. At imperdiet dui accumsan sit.
-                Amet mauris commodo quis imperdiet. Non pulvinar neque laoreet
-                suspendisse interdum consectetur libero id faucibus. Fusce id
-                velit ut tortor pretium viverra suspendisse. Non curabitur
-                gravida arcu ac tortor dignissim convallis. Vitae elementum
-                curabitur vitae nunc sed velit dignissim sodales ut. Vivamus
-                arcu felis bibendum ut tristique et. Est velit egestas dui id.
-              </p>
-              <Link
-                href={"#"}
-                className="border-[#CE9031] border-2 px-4 py-1 text-[#CE9031] mt-3 rounded-lg"
-              >
-                Purchase
-              </Link>
-            </div> */}
           </div>
         </div>
       </div>

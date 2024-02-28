@@ -96,7 +96,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Twitter</h1>
             <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
-              <Link href={"/accounts/twitter"}>Discover twitter accounts</Link>
+              <Link href={"/accounts/twitter"}>See some twitter accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
@@ -106,7 +106,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Instagram</h1>
             <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
-              <Link href={"/accounts/instagram"}>Discover instagram accounts</Link>
+              <Link href={"/accounts/instagram"}>Uncover Instagram accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
@@ -119,7 +119,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Instagram</h1>
             <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <Link href={"/accounts/instagram"}>Explore instagram accounts</Link>
+              <Link href={"/accounts/instagram"}>Investigate Instagram users</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
@@ -132,7 +132,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Discord</h1>
             <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <div>Explore discord accounts</div>
+              <div>Explore the world of discord accounts</div>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
@@ -142,7 +142,7 @@ const BestProduct = () => {
             </h1>
             <h1 className="text-[19px] mt-3 font-semibold">Twitter</h1>
             <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <Link href={"/accounts/twitter"}>Explore twitter accounts</Link>
+              <Link href={"/accounts/twitter"}>Navigate through twitter accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
