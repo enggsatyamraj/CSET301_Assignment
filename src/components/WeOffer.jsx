@@ -213,10 +213,7 @@ const WeOffer = () => {
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Our specialized Discord services include server management,
-                    community building, moderation tools, and customization
-                    options to enhance your Discord server&apos;s functionality
-                    and appeal.
+                  Explore a range of tailored Discord solutions, encompassing adept server administration, fostering vibrant community engagement, deploying cutting-edge moderation utilities, and incorporating personalized features. Elevate the prowess and allure of your Discord server with our diverse suite of services.
                   </p>
                 </div>
               </Link>

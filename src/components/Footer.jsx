@@ -43,7 +43,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="w-fit">
-          <h1 className="font-bold text-xl mb-4">Resources</h1>
+          <h2 className="font-bold text-xl mb-4">Resources</h2>
           <Link href={"/blogs"} className="opacity-70 text-[14px] my-2">
             Blog
           </Link>
@@ -51,16 +51,15 @@ const Footer = () => {
           <Link href={"/faq"} className="opacity-70 text-[14px] my-2">
             FAQs
           </Link>
-          {/* <h1 className="opacity-70 text-[14px] my-2">Testimonials</h1> */}
         </div>
         <div className="w-fit">
-          <h1 className="font-bold text-xl mb-4">Follow us</h1>
+          <h3 className="font-bold text-xl mb-4">Follow us</h3>
           <Link href={"https://discord.com/invite/qngdg7f8Jt"} className="opacity-70 text-[14px] my-2">Discord</Link>
-          <h1 className="opacity-70 text-[14px] my-2">Telegram</h1>
+          <h3 className="opacity-70 text-[14px] my-2">Telegram</h3>
           <Link href={"https://www.instagram.com/discord_arena/"} className="opacity-70 text-[14px] my-2">Instagram</Link>
-          <h1 className="opacity-70 text-[14px] my-2">Twitter</h1>
+          <h3 className="opacity-70 text-[14px] my-2">Twitter</h3>
           {/* <h1 className="opacity-70 text-[14px] my-2">Behance</h1> */}
-          <h1 className="opacity-70 text-[14px] my-2">Facebook</h1>
+          <h3 className="opacity-70 text-[14px] my-2">Facebook</h3>
         </div>
       </div>
     </div>

@@ -171,10 +171,10 @@ const CustomerReview = () => {
             <div className="flex items-center gap-4">
               {commentArray[index].icons}
               <div>
-                <h1 className="text-xl font-semibold">
+                <h2 className="text-xl font-semibold">
                   {commentArray[index].name}
-                </h1>
-                <h1 className="opacity-75">{commentArray[index].company}</h1>
+                </h2>
+                <h3 className="opacity-75">{commentArray[index].company}</h3>
               </div>
             </div>
             <p className="mt-4">{commentArray[index].review}</p>
@@ -187,20 +187,20 @@ const CustomerReview = () => {
                   .icons
               }
               <div>
-                <h1 className="text-xl font-semibold">
+                <h4 className="text-xl font-semibold">
                   {
                     commentArray[
                       index === commentArray.length - 1 ? 0 : index + 1
                     ].name
                   }
-                </h1>
-                <h1 className="opacity-75">
+                </h4>
+                <h5 className="opacity-75">
                   {
                     commentArray[
                       index === commentArray.length - 1 ? 0 : index + 1
                     ].company
                   }
-                </h1>
+                </h5>
               </div>
             </div>
             <p className="mt-4">
