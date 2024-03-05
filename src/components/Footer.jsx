@@ -54,12 +54,12 @@ const Footer = () => {
         </div>
         <div className="w-fit">
           <h3 className="font-bold text-xl mb-4">Follow us</h3>
-          <Link href={"https://discord.com/invite/qngdg7f8Jt"} className="opacity-70 text-[14px] my-2">Discord</Link>
-          <h3 className="opacity-70 text-[14px] my-2">Telegram</h3>
+          <Link href={"https://discord.gg/Z2eXvbkufU"} target="_blank" className="opacity-70 text-[14px] my-2">Discord</Link>
+          <Link href={"https://t.me/halfmoonisgod"} target="_blank" className="opacity-70 text-[14px] my-2">Telegram</Link>
           <Link href={"https://www.instagram.com/discord_arena/"} className="opacity-70 text-[14px] my-2">Instagram</Link>
-          <h3 className="opacity-70 text-[14px] my-2">Twitter</h3>
+          {/* <Link href={"https://t.me/halfmoonisgod"} target="_blank" className="opacity-70 text-[14px] my-2">Twitter</Link> */}
           {/* <h1 className="opacity-70 text-[14px] my-2">Behance</h1> */}
-          <h3 className="opacity-70 text-[14px] my-2">Facebook</h3>
+          {/* <h3 className="opacity-70 text-[14px] my-2">Facebook</h3> */}
         </div>
       </div>
     </div>
