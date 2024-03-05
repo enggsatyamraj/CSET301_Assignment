@@ -8,15 +8,15 @@ const ShopNow = () => {
   return (
     <div className="fixed right-5 bottom-10 flex flex-col gap-4">
       <Link
-      target="_blank"
+        target="_blank"
         href={"https://t.me/halfmoonisgod"}
         className=" h-[50px] w-[50px] shadow-md shadow-white bg-black cursor-pointer text-white border-2 rounded-full flex items-center justify-center"
       >
         <FaTelegramPlane size={25} />
       </Link>
       <Link
-      target="_blank"
-        href={"/accounts#accounts_details"}
+        target="_blank"
+        href={"https://discord.gg/Z2eXvbkufU"}
         className=" h-[50px] w-[50px] shadow-md shadow-white bg-black cursor-pointer text-white border-2 rounded-full flex items-center justify-center"
       >
         <FaDiscord size={25} />
