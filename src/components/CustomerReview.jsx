@@ -154,7 +154,7 @@ const CustomerReview = () => {
       </Head>
       <div className="max-w-[1280px] py-12 mx-auto px-4">
         <div className="flex justify-between items-center">
-          <h1 className="sm:text-3xl text-2xl">Our Happy Customers</h1>
+          <h2 className="sm:text-3xl text-2xl">Our Happy Customers</h2>
           <div className="flex gap-3">
             <MdKeyboardArrowLeft
               onClick={handlePrevious}

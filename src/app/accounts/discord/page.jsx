@@ -114,12 +114,12 @@ const page = () => {
       <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[100px]">
         <div className="max-w-[1000px] mx-auto">
           <div className="min-h-[400px] flex flex-col justify-center ">
-            <h1 className="text-3xl md:text-4xl font-semibold mb-2">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-2">
               Discord Accounts
-            </h1>
-            <h1 className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
+            </h2>
+            <h2 className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
               Elevate Your Discord Experience with Premium Accounts
-            </h1>
+            </h2>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
               Welcome to the ultimate destination for enhancing your Discord
               journey! Dive into a world of premium Discord accounts
@@ -133,9 +133,9 @@ const page = () => {
             </p>
           </div>
           <div className="min-h-[500px] py-12">
-            <h1 className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
+            <h2 className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
               Shop Discord Accounts
-            </h1>
+            </h2>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {discordData.map((item, index) => {
                 return (

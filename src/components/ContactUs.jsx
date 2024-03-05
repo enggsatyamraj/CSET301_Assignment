@@ -36,9 +36,9 @@ const ContactUs = () => {
         />
       </Head>
       <div className="max-w-[1280px] rounded-lg bg-[#A5A6F6] mx-auto py-12 min-h-[60vh] flex flex-col justify-center px-4">
-        <h1 className="text-center text-3xl md:text-4xl text-[#0D0E14]">
+        <h2 className="text-center text-3xl md:text-4xl text-[#0D0E14]">
           Get in Touch with Discord Arena
-        </h1>
+        </h2>
         <p className="text-center md:w-[40%] mx-auto opacity-60 mt-[30px]">
           Whether you have questions, need assistance, or want to explore
           collaboration opportunities, we&apos;re here for you. Fill in your email

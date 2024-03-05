@@ -105,13 +105,13 @@ const page = () => {
             Go Back
           </button> */}
           <div className="min-h-[400px] flex flex-col justify-center ">
-            <h1 className="text-3xl md:text-4xl font-semibold mb-2">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-2">
               Instagram Accounts
-            </h1>
-            <h1 className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
+            </h2>
+            <h2 className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
               Elevate Your Instagram Presence with Exclusive Features and
               Verified Profiles
-            </h1>
+            </h2>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
               Immerse yourself in a world of premium Instagram accounts crafted
               to enhance your social media journey. Boost your profile&apos;s
@@ -123,9 +123,9 @@ const page = () => {
             </p>
           </div>
           <div className="min-h-[500px] py-12">
-            <h1 className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
+            <h2 className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
               Shop Instagram Accounts
-            </h1>
+            </h2>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {instagramData.map((item, index) => {
                 return (

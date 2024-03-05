@@ -116,13 +116,13 @@ const page = () => {
             Go Back
           </button> */}
           <div className="min-h-[400px] flex flex-col justify-center ">
-            <h1 className="text-3xl md:text-4xl font-semibold mb-2 lg:w-[60%] md:w-[70%]">
+            <h2 className="text-3xl md:text-4xl font-semibold mb-2 lg:w-[60%] md:w-[70%]">
               Elevate Your Tweets with Premium Twitter Accounts
-            </h1>
-            <h1 className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
+            </h2>
+            <h2 className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
               Unlock Exclusive Features and Verified Profiles for a Impactful
               Twitter Presence
-            </h1>
+            </h2>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
               Welcome to a collection of premium Twitter accounts designed to
               elevate your social media impact. Boost your profile&apos;s
@@ -134,9 +134,9 @@ const page = () => {
             </p>
           </div>
           <div className="min-h-[500px] py-12">
-            <h1 className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
+            <h2 className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
               Shop Twitter Accounts
-            </h1>
+            </h2>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {TwitterData.map((item, index) => {
                 return (

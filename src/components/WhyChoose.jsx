@@ -64,7 +64,7 @@ const WhyChoose = () => {
           <ul>
             {pointsArray.map((item, index) => (
               <li key={index} className="mb-8 relative max-w-[900px] border-[1px] p-4 rounded-lg">
-                <h1 className="sm:text-[17px] text-[15px] font-semibold absolute bg-[#dcdcdc] px-2 text-[#121212] rounded-md -top-[15px]">{item.title}</h1>
+                <h2 className="sm:text-[17px] text-[15px] font-semibold absolute bg-[#dcdcdc] px-2 text-[#121212] rounded-md -top-[15px]">{item.title}</h2>
                 <p>{item.description}</p>
               </li>
             ))}

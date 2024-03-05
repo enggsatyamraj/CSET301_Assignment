@@ -57,9 +57,9 @@ const BestProduct = () => {
 
       <div className="max-w-[1280px] px-4 min-h-[100vh] grid grid-cols-1 md:grid-cols-3 mx-auto gap-4">
         <div>
-          <h1 className="text-3xl w-[80%] font-semibold mb-4">
+          <h2 className="text-3xl w-[80%] font-semibold mb-4">
             Elevate Your Online Presence with Premium Social Media Solutions
-          </h1>
+          </h2>
           <p className="text-[15px] mb-4 opacity-90">
             At Discord Arena, we&apos;re thrilled to welcome you to a realm
             where excellence seamlessly converges with innovation in the dynamic

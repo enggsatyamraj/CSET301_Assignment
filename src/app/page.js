@@ -274,7 +274,7 @@ export default function Page() {
       <WeOffer />
       <div className="bg-black text-white pt-8 pb-12">
         <div className="min-h-[90vh] px-4 flex flex-col justify-center max-w-[1280px] mx-auto">
-          <h1 className="text-3xl md:text-4xl text-center">DISCORD SERVICES</h1>
+          <h2 className="text-3xl md:text-4xl text-center">DISCORD SERVICES</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 mt-[40px] gap-5">
             {specialDiscordServiceArray.map((item, index) => {
