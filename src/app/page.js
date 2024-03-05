@@ -216,7 +216,8 @@ export default function Page() {
                         Info
                       </Link>
                       <Link
-                        href={"/"}
+                        href={item.link}
+                        target="_blank"
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                       >
                         Buy

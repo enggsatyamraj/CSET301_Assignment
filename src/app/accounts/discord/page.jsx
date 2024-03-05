@@ -172,6 +172,7 @@ const page = () => {
                         Info
                       </Link>
                       <Link
+                        target="_blank"
                         href={item.link}
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                       >

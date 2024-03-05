@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { Actor } from "next/font/google";
 import TwitterData from "../../../dataFolder/twitter.json";
@@ -125,11 +125,12 @@ const page = () => {
             </h1>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
               Welcome to a collection of premium Twitter accounts designed to
-              elevate your social media impact. Boost your profile&apos;s credibility
-              with verified accounts, unlock exclusive features, and make a mark
-              with custom handles. Your gateway to a seamless, enriched, and
-              personalized Twitter adventure is here. Explore the possibilities
-              and redefine your online presence in the Twitterverse!
+              elevate your social media impact. Boost your profile&apos;s
+              credibility with verified accounts, unlock exclusive features, and
+              make a mark with custom handles. Your gateway to a seamless,
+              enriched, and personalized Twitter adventure is here. Explore the
+              possibilities and redefine your online presence in the
+              Twitterverse!
             </p>
           </div>
           <div className="min-h-[500px] py-12">
@@ -172,7 +173,8 @@ const page = () => {
                         Info
                       </Link>
                       <Link
-                        href={"/"}
+                        target="_blank"
+                        href={item.link}
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                       >
                         Buy

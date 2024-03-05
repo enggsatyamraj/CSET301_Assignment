@@ -67,9 +67,13 @@ const Page = () => {
             <span className="flex flex-1 items-center justify-center rounded-md bg-[#00C89D] px-3 py-[10px]  text-xl font-bold  text-black ">
               ${data.price}
             </span>
-            <button className="flex-[3] items-center rounded-md bg-[#F6EBFF] px-3  py-[10px] text-xl  font-bold text-black">
-              <Link href={data.link}>Purchase</Link>
-            </button>
+            <Link
+              href={data.link}
+              target="_blank"
+              className="flex-[3] text-center justify-center items-center rounded-md bg-[#F6EBFF] px-3  py-[10px] text-xl  font-bold text-black"
+            >
+              Purchase
+            </Link>
           </div>
           <p className="mb-3 mt-7 text-2xl">
             Cheap {data.year} {data.type} accounts

@@ -5,6 +5,7 @@
     "type": "instagram",
     "name": "Instagram Account One",
     "price": 1000,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "discountPercentage": 15,
     "smallShowFiveFeatures": {
       "feature1": "Verified account for enhanced credibility",
@@ -96,6 +97,7 @@
     "type": "instagram",
     "name": "Instagram Account One",
     "price": 1200,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "discountPercentage": 10,
     "smallShowFiveFeatures": {
       "feature1": "Verified account for added credibility",
@@ -187,6 +189,7 @@
     "type": "instagram",
     "name": "Instagram Account Two",
     "price": 1400,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "discountPercentage": 12,
     "smallShowFiveFeatures": {
       "feature1": "Enhanced security with two-factor authentication",
@@ -278,6 +281,7 @@
     "type": "instagram",
     "name": "Instagram Account Three",
     "price": 1600,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "discountPercentage": 15,
     "smallShowFiveFeatures": {
       "feature1": "Advanced analytics for strategic content planning",
@@ -369,6 +373,7 @@
     "type": "instagram",
     "name": "Instagram Account Four",
     "price": 1800,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "discountPercentage": 12,
     "smallShowFiveFeatures": {
       "feature1": "In-depth audience demographics for targeted content creation",
@@ -460,6 +465,7 @@
     "type": "instagram",
     "name": "Instagram Account Five",
     "price": 1800,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "discountPercentage": 20,
     "smallShowFiveFeatures": {
       "feature1": "AI-powered content recommendation engine",
@@ -551,6 +557,7 @@
     "type": "instagram",
     "name": "Instagram Account Six",
     "price": 2000,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "discountPercentage": 15,
     "smallShowFiveFeatures": {
       "feature1": "Immersive virtual events integration",
@@ -639,6 +646,7 @@
   {
     "id": 8,
     "year": 2022,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "type": "discord",
     "name": "Discord Account 2022 Edition",
     "price": 1500,
@@ -732,6 +740,7 @@
     "type": "discord",
     "name": "Discord Account 2023 Pro",
     "price": 1800,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "discountPercentage": 20,
     "smallShowFiveFeatures": {
       "feature1": "Immersive virtual events integration",
@@ -822,6 +831,7 @@
     "type": "discord",
     "name": "Discord Account 2024 Pro",
     "price": 1800,
+    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "discountPercentage": 20,
     "smallShowFiveFeatures": {
       "feature1": "Immersive virtual events integration",

@@ -142,6 +142,7 @@ export default function Page() {
                       Info
                     </Link>
                     <Link
+                      target="_blank"
                       href={item.link}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                     >
@@ -195,7 +196,11 @@ export default function Page() {
                     Instagram Account
                   </p>
                   <ul className="list-disc pl-4 text-[13px] opacity-85">
-                    <li>{item.smallShowFiveFeatures.feature1 ? item.smallShowFiveFeatures.feature1 : "Authentic and secure account"}</li>
+                    <li>
+                      {item.smallShowFiveFeatures.feature1
+                        ? item.smallShowFiveFeatures.feature1
+                        : "Authentic and secure account"}
+                    </li>
                     <li>{item.smallShowFiveFeatures.feature2}</li>
                     <li>{item.smallShowFiveFeatures.feature3}</li>
                     <li>{item.smallShowFiveFeatures.feature4}</li>
@@ -209,7 +214,8 @@ export default function Page() {
                       Info
                     </Link>
                     <Link
-                      href={"/"}
+                      target="_blank"
+                      href={item.link}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                     >
                       Buy
@@ -276,7 +282,8 @@ export default function Page() {
                       Info
                     </Link>
                     <Link
-                      href={"/"}
+                      target="_blank"
+                      href={item.link}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                     >
                       Buy
