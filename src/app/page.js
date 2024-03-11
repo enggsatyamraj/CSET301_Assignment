@@ -179,7 +179,7 @@ export default function Page() {
             } absolute md:right-20 md:left-20 lg:right-50 lg:left-50 h-[500px] right-5 left-5 mt-[120px] z-10 border-white text-white overflow-y-auto  rounded-lg p-4`}
             style={{ top: `${popUpTop}px` }}
           >
-            <button className="absolute right-5 top-5" onClick={handleClick}>
+            <button className="absolute right-5 top-5" role="button" onClick={handleClick}>
               <ImCross size={20} />
             </button>
             <h4 className="md:text-3xl text-2xl text-center  mb-4 mt-5">
