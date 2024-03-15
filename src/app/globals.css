@@ -18,10 +18,10 @@
   filter: blur(100px);
 }
 .radial_two {
-  background-color: #ef9364;
+  background-color: #8b7bcf;
   position: absolute;
-  bottom: -20px;
-  left: -20px;
+  bottom: 20px;
+  right: 150px;
   height: 200px;
   width: 200px;
   border-radius: 100%;

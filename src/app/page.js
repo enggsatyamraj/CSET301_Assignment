@@ -13,13 +13,15 @@ import { Actor } from "next/font/google";
 import Head from "next/head";
 import { ImCross } from "react-icons/im";
 import discordData from "../dataFolder/discord.json";
+import Image from "next/image";
+import smartPeople from '../../public/smart-people.png'
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export default function Page() {
   const [show, setShow] = useState(false);
   const [scrollPosition, setScrollPosition] = useState(0);
-  
+
   const handleScroll = () => {
     setScrollPosition(window.scrollY);
   };
@@ -179,7 +181,11 @@ export default function Page() {
             } absolute md:right-20 md:left-20 lg:right-50 lg:left-50 h-[500px] right-5 left-5 mt-[120px] z-10 border-white text-white overflow-y-auto  rounded-lg p-4`}
             style={{ top: `${popUpTop}px` }}
           >
-            <button className="absolute right-5 top-5" title="close button" onClick={handleClick}>
+            <button
+              className="absolute right-5 top-5"
+              title="close button"
+              onClick={handleClick}
+            >
               <ImCross size={20} />
             </button>
             <h4 className="md:text-3xl text-2xl text-center  mb-4 mt-5">
@@ -238,33 +244,39 @@ export default function Page() {
           </div>
           <div
             id="mainSection"
-            className="min-h-[100vh] relative flex flex-col pl-[20px] py-[100px] sm:pl-[50px] justify-center z-4"
+            className="min-h-[100vh]  relative flex items-center pl-[10px] py-[100px] sm:pl-[30px] justify-center z-4"
           >
-            <p className="pt-[60px]  text-4xl sm:text-5xl mb-10 md:text-5xl lg:text-6xl  sm:w-[97%] md:w-[90%] lg:w-[70%]">
-              Unlock Growth Opportunities with{" "}
-              <span className="span_text">Premium Social Media</span> accounts
-            </p>
-            <p className=" md:text-[16px] text-[15px] md:w-[90%] sm:w-[97%] w-[99%] lg:w-[90%] opacity-60">
-              Discover a diverse selection of aged Discord, Twitter, and
-              Telegram accounts, including verified and phone-verified options,
-              at unbeatable prices. Buy Discord accounts from 2015 and beyond,
-              with the assurance of authenticity and quality. Our collection
-              includes aged Discord accounts for sale, providing you with
-              established communities and high-engagement profiles. We offer
-              verified Discord accounts for sale, ensuring credibility and
-              trustworthiness. Additionally, explore our range of services to
-              buy server boosts for Discord, enhancing your server&apos;s
-              visibility and reach. Elevate your Twitter presence with our
-              solutions to buy Twitter followers, boosting your social proof and
-              influence. Explore our selection of aged social media accounts and
-              tokens, tailored to meet your specific needs. Join the ranks of
-              successful influencers, marketers, and businesses who have
-              leveraged our premium accounts to achieve their goals. Experience
-              growth, credibility, and success like never before. Unlock the
-              power of established social media accounts today.
-            </p>
+            <div className=" flex-[3]">
+              <p className="pt-[60px]  text-4xl sm:text-5xl mb-10 md:text-5xl lg:text-[55px]  ">
+                Unlock Growth Opportunities with{" "}
+                <span className="span_text">Premium Social Media</span> accounts
+              </p>
+              <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
+                Discover a diverse selection of aged Discord, Twitter, and
+                Telegram accounts, including verified and phone-verified
+                options, at unbeatable prices. Buy Discord accounts from 2015
+                and beyond, with the assurance of authenticity and quality. Our
+                collection includes aged Discord accounts for sale, providing
+                you with established communities and high-engagement profiles.
+                We offer verified Discord accounts for sale, ensuring
+                credibility and trustworthiness. Additionally, explore our range
+                of services to buy server boosts for Discord, enhancing your
+                server&apos;s visibility and reach. Elevate your Twitter
+                presence with our solutions to buy Twitter followers, boosting
+                your social proof and influence. Explore our selection of aged
+                social media accounts and tokens, tailored to meet your specific
+                needs. Join the ranks of successful influencers, marketers, and
+                businesses who have leveraged our premium accounts to achieve
+                their goals. Experience growth, credibility, and success like
+                never before. Unlock the power of established social media
+                accounts today.
+              </p>
+            </div>
+            <div className="flex-[1.5] hidden lg:block">
+              <Image src={smartPeople} className="h-[500px] w-auto" alt="smart people images"/>
+            </div>
             <div className="radial_one"></div>
-            {/* <div className="radial_two"></div> */}
+            <div className="radial_two"></div>
           </div>
 
           {/* special discord offers */}
