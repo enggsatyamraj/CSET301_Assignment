@@ -273,7 +273,7 @@ export default function Page() {
               </p>
             </div>
             <div className="flex-[1.5] hidden lg:block">
-              <Image src={smartPeople} className="h-[500px] w-auto" alt="smart people images"/>
+              <Image src={smartPeople} alt="smart people images"/>
             </div>
             <div className="radial_one"></div>
             <div className="radial_two"></div>
