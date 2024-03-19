@@ -244,7 +244,7 @@ export default function Page() {
           </div>
           <div
             id="mainSection"
-            className="min-h-[100vh]  relative flex items-center pl-[10px] py-[100px] sm:pl-[30px] justify-center z-4"
+            className="min-h-[100vh]  relative flex items-center flex-col lg:flex-row pl-[10px] py-[100px] sm:pl-[30px] justify-center z-4"
           >
             <div className=" flex-[3]">
               <p className="pt-[60px]  text-4xl sm:text-5xl mb-10 md:text-5xl lg:text-[55px]  ">
@@ -272,7 +272,7 @@ export default function Page() {
                 accounts today.
               </p>
             </div>
-            <div className="flex-[1.5] hidden lg:block">
+            <div className="flex-[1.5] lg:block">
               <Image src={smartPeople} alt="smart people images"/>
             </div>
             <div className="radial_one"></div>
