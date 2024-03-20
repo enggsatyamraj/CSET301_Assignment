@@ -103,7 +103,7 @@ export default function Page() {
 
       <div id="accounts_details" className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <h2 className="mb-4 text-2xl font-semibold">Discord Accounts</h2>
+          <b className="mb-4 text-2xl font-semibold">Discord Accounts</b>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
             {discordData.map((item, index) => {
               return (
@@ -168,7 +168,7 @@ export default function Page() {
 
       <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <h2 className="mb-4 text-2xl font-semibold">Instagram Accounts</h2>
+          <b className="mb-4 text-2xl font-semibold">Instagram Accounts</b>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
             {instagramData.map((item, index) => {
               return (
@@ -237,7 +237,7 @@ export default function Page() {
 
       <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <h2 className="mb-4 text-2xl font-semibold">Twitter Accounts</h2>
+          <b className="mb-4 text-2xl font-semibold">Twitter Accounts</b>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
             {twitterData.map((item, index) => {
               return (

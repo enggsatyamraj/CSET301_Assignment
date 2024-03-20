@@ -188,9 +188,9 @@ export default function Page() {
             >
               <ImCross size={20} />
             </button>
-            <h4 className="md:text-3xl text-2xl text-center  mb-4 mt-5">
+            <b className="md:text-3xl text-2xl text-center  mb-4 mt-5">
               Buy aged discord accounts
-            </h4>
+            </b>
             <div className="grid grid-cols-1 sm:grid-cols-2 px-5 lg:grid-cols-3 gap-7">
               {discordData.map((item, index) => {
                 return (
@@ -298,9 +298,9 @@ export default function Page() {
                   <div className="h-[200px] flex items-center justify-center ">
                     <FaDiscord size={100} className="text-[#A5A6F6] dance" />
                   </div>
-                  <h2 className="text-[16px] mb-3 font-semibold">
+                  <b className="text-[16px] mb-3 font-semibold">
                     {item.heading}
-                  </h2>
+                  </b>
                   <p className="text-[15px] mt-3 mb-2 opacity-90">
                     {item.paragraph}
                   </p>

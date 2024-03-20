@@ -123,9 +123,9 @@ const page = () => {
             </p>
           </div>
           <div className="min-h-[500px] py-12">
-            <h2 className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
+            <b className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
               Shop Instagram Accounts
-            </h2>
+            </b>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {instagramData.map((item, index) => {
                 return (

@@ -47,7 +47,7 @@ const Page = () => {
             Discord account from here with decent price. Interested members will
             contact me in Discord or Telegram.
           </p>
-          <h2 className="mb-3 mt-5 text-2xl font-semibold">Account Details</h2>
+          <b className="mb-3 mt-5 text-2xl font-semibold">Account Details</b>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
             <div className="flex h-[200px] w-[100%] items-center justify-center rounded-[10px] border-[1px] border-[#fff] text-3xl">
               <FaDiscord size={100} className="dance text-[#A5A6F6]" />
@@ -80,7 +80,7 @@ const Page = () => {
           </p>
           <p className="text-[16px] opacity-85">{data.introduction}</p>
 
-          <h2 className="mb-3 mt-5 text-2xl font-semibold">Features</h2>
+          <b className="mb-3 mt-5 text-2xl font-semibold">Features</b>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
             {data.features.map((item, index) => {
@@ -102,14 +102,14 @@ const Page = () => {
             {data.questionAnswerArray.map((item, index) => {
               return (
                 <div key={index}>
-                  <h2 className="mb-3 mt-5 text-2xl ">{item.question}</h2>
+                  <b className="mb-3 mt-5 text-2xl ">{item.question}</b>
                   <p className="opacity-80">{item.answer}</p>
                 </div>
               );
             })}
           </div>
 
-          <h2 className="mb-3 mt-5 text-2xl font-semibold">Reviews</h2>
+          <b className="mb-3 mt-5 text-2xl font-semibold">Reviews</b>
           <div className="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2">
             {reviews.map((item, index) => {
               return (
@@ -117,9 +117,9 @@ const Page = () => {
                   key={index}
                   className="relative rounded-md border-[1px] p-4"
                 >
-                  <h2 className="absolute top-[-18px] w-fit rounded-lg bg-[#00C9A7] px-3 py-1">
+                  <b className="absolute top-[-18px] w-fit rounded-lg bg-[#00C9A7] px-3 py-1">
                     {item.name}
-                  </h2>
+                  </b>
                   <p className="mb-3 mt-4">
                     <span className="rounded-sm bg-[#4D8076] px-3 py-1 font-semibold">
                       Rating
@@ -132,7 +132,7 @@ const Page = () => {
             })}
           </div>
 
-          <h2 className="mb-6 mt-5 text-2xl font-semibold">FAQs</h2>
+          <b className="mb-6 mt-5 text-2xl font-semibold">FAQs</b>
           <div>
             {data.faq.map((item, index) => {
               return (

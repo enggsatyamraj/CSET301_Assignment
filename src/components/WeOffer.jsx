@@ -17,9 +17,9 @@ const WeOffer = () => {
       <div className="bg-[#121212]">
         <div className=" text-white min-h-screen py-[60px] md:py-[100px] max-w-[1280px] mx-auto">
           <div className="max-w-6xl mx-auto px-4">
-            <h2 className="sm:text-3xl text-xl md:text-4xl font-semibold text-center mb-6">
+            <b className="sm:text-3xl text-xl md:text-4xl font-semibold text-center mb-6">
               Maximize Your Potential with Our Comprehensive Services
-            </h2>
+            </b>
             <p className="text-center text-[15px] md:text-[16px] opacity-75 w-[99%] md:w-[65%] mx-auto mb-12">
               At Discord Arena, we&apos;re committed to empowering your digital
               presence with our wide range of premium services. Explore our
@@ -35,9 +35,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <h3 className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Discord Aged Accounts
-                  </h3>
+                  </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -58,9 +58,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <h3 className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Discord Services
-                  </h3>
+                  </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -81,9 +81,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaXTwitter size={30} />
                   </span>
-                  <h3 className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Twitter Aged Accounts
-                  </h3>
+                  </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -103,9 +103,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <h3 className="text-2xl font-semibold leading-none tracking-tight">
+                  <b className="text-2xl font-semibold leading-none tracking-tight">
                     Discord Invites and Referrals
-                  </h3>
+                  </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -125,9 +125,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <TbBrandMinecraft size={30} />
                   </span>
-                  <h3 className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Zealy Invites and Referrals
-                  </h3>
+                  </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -148,9 +148,9 @@ const WeOffer = () => {
                   <span className="relative flex h-11 w-11 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <TbBrandMinecraft size={30} className="rounded-full" />
                   </span>
-                  <h3 className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Reaction Services
-                  </h3>
+                  </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -171,9 +171,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaInstagram size={30} />
                   </span>
-                  <h3 className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Instagram Aged Accounts
-                  </h3>
+                  </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -195,9 +195,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <TbBrandMinecraft size={30} />
                   </span>
-                  <h3 className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Online/Offline Members
-                  </h3>
+                  </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -218,9 +218,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <h3 className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Discord Nitro Boosters
-                  </h3>
+                  </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>

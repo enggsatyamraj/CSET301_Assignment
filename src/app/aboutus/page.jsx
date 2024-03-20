@@ -68,9 +68,9 @@ const page = () => {
       <div className="bg-normal w-[100%] pt-[100px]">
         <div className="max-w-[1280px] mx-auto px-7 sm:px-12 text-white relative min-h-[60vh] w-[100%] ">
           <div className="min-h-[90vh] py-10 relative flex flex-col justify-center z-4">
-            <h2 className="text-[#A5A6F6] font-bold md:text-2xl text-2xl my-3 tracking-widest">
+            <b className="text-[#A5A6F6] font-bold md:text-2xl text-2xl my-3 tracking-widest">
               About Discord Arena
-            </h2>
+            </b>
             <p className="text-3xl sm:text-3xl mb-6 md:text-4xl  sm:w-[80%] md:w-[70%] lh:w-[60%]">
               Empowering Your Digital Presence with Premium Accounts
             </p>
@@ -105,7 +105,7 @@ const page = () => {
 
       <div className="bg-[#121212] py-12">
         <div className="max-w-[1280px] mx-auto px-7 sm:px-12 text-white relative min-h-[60vh] w-[100%] ">
-          <h2 className="text-3xl font-bold">Our Services</h2>
+          <b className="text-3xl font-bold">Our Services</b>
           <p className="opacity-80 mt-5 text-[15px] w-[98%] md:w-[80%]">
             At Discord Arena, we take pride in offering a curated selection of
             premium accounts in three major categories: Discord, Instagram, and
@@ -116,9 +116,9 @@ const page = () => {
             Arena is your ultimate destination.
           </p>
 
-          <h2 className="text-3xl font-bold mt-[50px]">
+          <b className="text-3xl font-bold mt-[50px]">
             Why Choose Discord Arena?
-          </h2>
+          </b>
           <p className="opacity-80 mt-5 text-[15px] w-[98%] md:w-[80%] mb-10">
             - Exclusive Accounts: Access a handpicked selection of exclusive
             Discord, Instagram, and Twitter accounts.
