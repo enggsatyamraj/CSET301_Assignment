@@ -116,13 +116,13 @@ const page = () => {
             Go Back
           </button> */}
           <div className="min-h-[400px] flex flex-col justify-center ">
-            <h2 className="text-3xl md:text-4xl font-semibold mb-2 lg:w-[60%] md:w-[70%]">
+            <h1 className="text-3xl md:text-4xl font-semibold mb-2 lg:w-[60%] md:w-[70%]">
               Elevate Your Tweets with Premium Twitter Accounts
-            </h2>
-            <h2 className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
+            </h1>
+            <b className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
               Unlock Exclusive Features and Verified Profiles for a Impactful
               Twitter Presence
-            </h2>
+            </b>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
               Welcome to a collection of premium Twitter accounts designed to
               elevate your social media impact. Boost your profile&apos;s
@@ -156,7 +156,7 @@ const page = () => {
                       <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                         {item.year}
                       </span>{" "}
-                      Twitter Accounts
+                      Twitter Accounts for ${item.price}
                     </p>
                     <ul className="list-disc pl-4 text-[13px] opacity-85">
                       <li>{item.smallShowFiveFeatures.feature1}</li>
@@ -179,9 +179,6 @@ const page = () => {
                       >
                         Buy
                       </Link>
-                      <span className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold ">
-                        $ {item.price}
-                      </span>
                     </div>
                   </div>
                 );

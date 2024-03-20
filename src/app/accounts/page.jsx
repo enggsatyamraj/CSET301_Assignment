@@ -125,7 +125,7 @@ export default function Page() {
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                       {item.year}
                     </span>{" "}
-                    Discord Account
+                    Discord Account for ${item.price}
                   </p>
                   <ul className="list-disc pl-4 text-[13px] opacity-85">
                     <li>{item.smallShowFiveFeatures.feature1}</li>
@@ -148,9 +148,6 @@ export default function Page() {
                     >
                       Buy
                     </Link>
-                    <span className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold ">
-                      $ {item.price}
-                    </span>
                   </div>
                 </div>
               );
@@ -193,7 +190,7 @@ export default function Page() {
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                       {item.year}
                     </span>{" "}
-                    Instagram Account
+                    Instagram Account for ${item.price}
                   </p>
                   <ul className="list-disc pl-4 text-[13px] opacity-85">
                     <li>
@@ -220,9 +217,6 @@ export default function Page() {
                     >
                       Buy
                     </Link>
-                    <span className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold ">
-                      $ {item.price}
-                    </span>
                   </div>
                 </div>
               );
@@ -265,7 +259,7 @@ export default function Page() {
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                       {item.year}
                     </span>{" "}
-                    Twitter Account
+                    Twitter Account for ${item.price}
                   </p>
                   <ul className="list-disc pl-4 text-[13px] opacity-85">
                     <li>{item.smallShowFiveFeatures.feature1}</li>
@@ -288,9 +282,6 @@ export default function Page() {
                     >
                       Buy
                     </Link>
-                    <span className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold ">
-                      $ {item.price}
-                    </span>
                   </div>
                 </div>
               );
