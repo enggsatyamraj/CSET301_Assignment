@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import { Actor } from "next/font/google";
 import Footer from "@/components/Footer";
+import PageWrapper from "../PageWrapper";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -461,118 +462,135 @@ export default function page() {
   return (
     <div className={actor.className}>
       <div className="bg-normal w-[100%] min-h-[100vh] text-white pt-[100px] pb-10 px-7 sm:px-12 relative">
-        <Head>
-          <title>
-            Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts
-          </title>
-          <meta
-            name="description"
-            content="Explore our FAQ page to find answers to common questions about our services."
-          />
+        <PageWrapper>
+          <Head>
+            <title>
+              Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts
+            </title>
+            <meta
+              name="description"
+              content="Explore our FAQ page to find answers to common questions about our services."
+            />
 
-          {/* Open Graph Meta Tags */}
-          <meta
-            property="og:title"
-            content="Your Website - Frequently Asked Questions"
-          />
-          <meta
-            property="og:description"
-            content="Explore our FAQ page to find answers to common questions about our services."
-          />
-          <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.discordarena.com//faq" />
-          <meta
-            property="og:image"
-            content="https://www.discordarena.com/og-image.jpg"
-          />
+            {/* Open Graph Meta Tags */}
+            <meta
+              property="og:title"
+              content="Your Website - Frequently Asked Questions"
+            />
+            <meta
+              property="og:description"
+              content="Explore our FAQ page to find answers to common questions about our services."
+            />
+            <meta property="og:type" content="website" />
+            <meta
+              property="og:url"
+              content="https://www.discordarena.com//faq"
+            />
+            <meta
+              property="og:image"
+              content="https://www.discordarena.com/og-image.jpg"
+            />
 
-          {/* Twitter Meta Tags */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta
-            name="twitter:title"
-            content="Your Website - Frequently Asked Questions"
-          />
-          <meta
-            name="twitter:description"
-            content="Explore our FAQ page to find answers to common questions about our services."
-          />
-          <meta
-            name="twitter:image"
-            content="https://www.discordarena.com/twitter-image.jpg"
-          />
+            {/* Twitter Meta Tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta
+              name="twitter:title"
+              content="Your Website - Frequently Asked Questions"
+            />
+            <meta
+              name="twitter:description"
+              content="Explore our FAQ page to find answers to common questions about our services."
+            />
+            <meta
+              name="twitter:image"
+              content="https://www.discordarena.com/twitter-image.jpg"
+            />
 
-          {/* Additional Meta Tags */}
-          <meta
-            name="keywords"
-            content="discord, accounts, faq, frequently asked questions"
-          />
-          <meta name="robots" content="index, follow" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <meta name="author" content="Discord Arena" />
-          <meta name="distribution" content="web" />
-          <meta name="revisit-after" content="7 days" />
-          <meta name="rating" content="general" />
-          <meta name="language" content="en-us" />
-          <meta name="classification" content="Business" />
-          <meta name="copyright" content="2022" />
-          <meta name="theme-color" content="#000000" />
-          <meta name="msapplication-TileColor" content="#000000" />
-          <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-          <meta name="google-site-verification" content="verification_token" />
-          <meta name="application-name" content="Discord Arena" />
-          <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta name="apple-mobile-web-app-title" content="Discord Arena" />
-          <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-          <meta name="apple-mobile-web-app-title" content="Discord Arena" />
-          <meta name="mobile-web-app-capable" content="yes" />
-          <meta name="msapplication-navbutton-color" content="#000000" />
-          <meta name="msapplication-starturl" content="/" />
-          <meta name="application-name" content="Discord Arena" />
-          <meta name="referrer" content="no-referrer-when-downgrade" />
-          <meta name="format-detection" content="telephone=no" />
-          <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-          <meta name="HandheldFriendly" content="True" />
-          <meta name="MobileOptimized" content="320" />
-          <meta name="apple-touch-fullscreen" content="yes" />
-          <meta name="robots" content="index, follow" />
-          <meta name="googlebot" content="index, follow" />
-          <meta name="bingbot" content="index, follow" />
-          <meta name="yandex" content="index, follow" />
-          <meta name="referrer" content="no-referrer-when-downgrade" />
-          <meta name="format-detection" content="telephone=no" />
+            {/* Additional Meta Tags */}
+            <meta
+              name="keywords"
+              content="discord, accounts, faq, frequently asked questions"
+            />
+            <meta name="robots" content="index, follow" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1.0"
+            />
+            <meta name="author" content="Discord Arena" />
+            <meta name="distribution" content="web" />
+            <meta name="revisit-after" content="7 days" />
+            <meta name="rating" content="general" />
+            <meta name="language" content="en-us" />
+            <meta name="classification" content="Business" />
+            <meta name="copyright" content="2022" />
+            <meta name="theme-color" content="#000000" />
+            <meta name="msapplication-TileColor" content="#000000" />
+            <meta
+              name="msapplication-TileImage"
+              content="/ms-icon-144x144.png"
+            />
+            <meta
+              name="google-site-verification"
+              content="verification_token"
+            />
+            <meta name="application-name" content="Discord Arena" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-title" content="Discord Arena" />
+            <meta
+              name="apple-mobile-web-app-status-bar-style"
+              content="black"
+            />
+            <meta name="apple-mobile-web-app-title" content="Discord Arena" />
+            <meta name="mobile-web-app-capable" content="yes" />
+            <meta name="msapplication-navbutton-color" content="#000000" />
+            <meta name="msapplication-starturl" content="/" />
+            <meta name="application-name" content="Discord Arena" />
+            <meta name="referrer" content="no-referrer-when-downgrade" />
+            <meta name="format-detection" content="telephone=no" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta
+              name="apple-mobile-web-app-status-bar-style"
+              content="black"
+            />
+            <meta name="HandheldFriendly" content="True" />
+            <meta name="MobileOptimized" content="320" />
+            <meta name="apple-touch-fullscreen" content="yes" />
+            <meta name="robots" content="index, follow" />
+            <meta name="googlebot" content="index, follow" />
+            <meta name="bingbot" content="index, follow" />
+            <meta name="yandex" content="index, follow" />
+            <meta name="referrer" content="no-referrer-when-downgrade" />
+            <meta name="format-detection" content="telephone=no" />
 
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: jsonLdMarkup }}
-          />
-        </Head>
-        <div className="radial_one"></div>
-        <div className="max-w-[1280px] mx-auto">
-          <p className={`md:text-[36px] text-[32px] pb-2 mb-4 text-center`}>
-            Frequently Asked Questions
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-4">
-            {faqItems.concat(additionalFaqItems).map((item, index) => {
-              return (
-                <div
-                  key={index}
-                  className="mb-4 opacity-90 max-w-[500px] mx-auto"
-                >
-                  <p className="mb-1 sm:text-[23px] text-[21px] lg:text-[25px]">
-                    {item.question}
-                  </p>
-                  <p className="sm:text-[16px] text-[14px] opacity-70 lg:text-[18px]">
-                    {item.answer}
-                  </p>
-                </div>
-              );
-            })}
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: jsonLdMarkup }}
+            />
+          </Head>
+          <div className="radial_one"></div>
+          <div className="max-w-[1280px] mx-auto">
+            <p className={`md:text-[36px] text-[32px] pb-2 mb-4 text-center`}>
+              Frequently Asked Questions
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-4">
+              {faqItems.concat(additionalFaqItems).map((item, index) => {
+                return (
+                  <div
+                    key={index}
+                    className="mb-4 opacity-90 max-w-[500px] mx-auto"
+                  >
+                    <p className="mb-1 sm:text-[23px] text-[21px] lg:text-[25px]">
+                      {item.question}
+                    </p>
+                    <p className="sm:text-[16px] text-[14px] opacity-70 lg:text-[18px]">
+                      {item.answer}
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
           </div>
-        </div>
+        </PageWrapper>
       </div>
       <Footer />
     </div>

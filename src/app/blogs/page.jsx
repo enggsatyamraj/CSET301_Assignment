@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Head from "next/head";
 import { Actor } from "next/font/google";
 import Footer from "@/components/Footer";
+import PageWrapper from "../PageWrapper";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -370,128 +371,142 @@ export default function Page() {
   return (
     <div className={actor.className}>
       <div className="bg-normal w-[100%] relative min-h-[100vh] text-white pt-[100px] pb-[100px] px-4">
-        <Head>
-          <title>
-            Discord Arena - Blogs || Discord Accounts || Instagram Accounts
-          </title>
-          <meta
-            name="description"
-            content="Explore our blogs to get insights into Discord and Instagram accounts, server boosts, social media growth, and more."
-          />
-          <meta
-            property="og:title"
-            content="Your Website - Explore Our Blogs for Discord and Instagram"
-          />
-          <meta
-            property="og:description"
-            content="Explore our blogs to get insights into Discord and Instagram accounts, server boosts, social media growth, and more."
-          />
-          <meta property="og:type" content="website" />
-          <meta
-            property="og:url"
-            content="https://www.discordarena.com/blogs"
-          />
-          <meta
-            property="og:image"
-            content="https://www.discordarena.com/og-image.jpg"
-          />
+        <PageWrapper>
+          <Head>
+            <title>
+              Discord Arena - Blogs || Discord Accounts || Instagram Accounts
+            </title>
+            <meta
+              name="description"
+              content="Explore our blogs to get insights into Discord and Instagram accounts, server boosts, social media growth, and more."
+            />
+            <meta
+              property="og:title"
+              content="Your Website - Explore Our Blogs for Discord and Instagram"
+            />
+            <meta
+              property="og:description"
+              content="Explore our blogs to get insights into Discord and Instagram accounts, server boosts, social media growth, and more."
+            />
+            <meta property="og:type" content="website" />
+            <meta
+              property="og:url"
+              content="https://www.discordarena.com/blogs"
+            />
+            <meta
+              property="og:image"
+              content="https://www.discordarena.com/og-image.jpg"
+            />
 
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta
-            name="twitter:title"
-            content="Your Website - Explore Our Blogs for Discord and Instagram"
-          />
-          <meta
-            name="twitter:description"
-            content="Explore our blogs to get insights into Discord and Instagram accounts, server boosts, social media growth, and more."
-          />
-          <meta
-            name="twitter:image"
-            content="https://www.discordarena.com/twitter-image.jpg"
-          />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta
+              name="twitter:title"
+              content="Your Website - Explore Our Blogs for Discord and Instagram"
+            />
+            <meta
+              name="twitter:description"
+              content="Explore our blogs to get insights into Discord and Instagram accounts, server boosts, social media growth, and more."
+            />
+            <meta
+              name="twitter:image"
+              content="https://www.discordarena.com/twitter-image.jpg"
+            />
 
-          <meta
-            name="keywords"
-            content="discord, accounts, instagram, blogs, social media growth, server boosts"
-          />
-          <meta name="robots" content="index, follow" />
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-          />
-          <meta name="author" content="Discord Arena" />
-          <meta name="distribution" content="web" />
-          <meta name="revisit-after" content="7 days" />
-          <meta name="rating" content="general" />
-          <meta name="language" content="en-us" />
-          <meta name="classification" content="Business" />
-          <meta name="copyright" content="2022" />
-          <meta name="theme-color" content="#000000" />
-          <meta name="msapplication-TileColor" content="#000000" />
-          <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-          <meta name="google-site-verification" content="verification_token" />
-          <meta name="application-name" content="Discord Arena" />
-          <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta name="apple-mobile-web-app-title" content="Discord Arena" />
-          <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-          <meta name="apple-mobile-web-app-title" content="Discord Arena" />
-          <meta name="mobile-web-app-capable" content="yes" />
-          <meta name="msapplication-navbutton-color" content="#000000" />
-          <meta name="msapplication-starturl" content="/" />
-          <meta name="application-name" content="Discord Arena" />
-          <meta name="referrer" content="no-referrer-when-downgrade" />
-          <meta name="format-detection" content="telephone=no" />
-          <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-          <meta name="HandheldFriendly" content="True" />
-          <meta name="MobileOptimized" content="320" />
-          <meta name="apple-touch-fullscreen" content="yes" />
-          <meta name="robots" content="index, follow" />
-          <meta name="googlebot" content="index, follow" />
-          <meta name="bingbot" content="index, follow" />
-          <meta name="yandex" content="index, follow" />
-          <meta name="referrer" content="no-referrer-when-downgrade" />
-          <meta name="format-detection" content="telephone=no" />
+            <meta
+              name="keywords"
+              content="discord, accounts, instagram, blogs, social media growth, server boosts"
+            />
+            <meta name="robots" content="index, follow" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1.0"
+            />
+            <meta name="author" content="Discord Arena" />
+            <meta name="distribution" content="web" />
+            <meta name="revisit-after" content="7 days" />
+            <meta name="rating" content="general" />
+            <meta name="language" content="en-us" />
+            <meta name="classification" content="Business" />
+            <meta name="copyright" content="2022" />
+            <meta name="theme-color" content="#000000" />
+            <meta name="msapplication-TileColor" content="#000000" />
+            <meta
+              name="msapplication-TileImage"
+              content="/ms-icon-144x144.png"
+            />
+            <meta
+              name="google-site-verification"
+              content="verification_token"
+            />
+            <meta name="application-name" content="Discord Arena" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-title" content="Discord Arena" />
+            <meta
+              name="apple-mobile-web-app-status-bar-style"
+              content="black"
+            />
+            <meta name="apple-mobile-web-app-title" content="Discord Arena" />
+            <meta name="mobile-web-app-capable" content="yes" />
+            <meta name="msapplication-navbutton-color" content="#000000" />
+            <meta name="msapplication-starturl" content="/" />
+            <meta name="application-name" content="Discord Arena" />
+            <meta name="referrer" content="no-referrer-when-downgrade" />
+            <meta name="format-detection" content="telephone=no" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta
+              name="apple-mobile-web-app-status-bar-style"
+              content="black"
+            />
+            <meta name="HandheldFriendly" content="True" />
+            <meta name="MobileOptimized" content="320" />
+            <meta name="apple-touch-fullscreen" content="yes" />
+            <meta name="robots" content="index, follow" />
+            <meta name="googlebot" content="index, follow" />
+            <meta name="bingbot" content="index, follow" />
+            <meta name="yandex" content="index, follow" />
+            <meta name="referrer" content="no-referrer-when-downgrade" />
+            <meta name="format-detection" content="telephone=no" />
 
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: jsonLdMarkup }}
-          />
-        </Head>
-        <div className="radial_one"></div>
-        <div className="max-w-[1280px] mx-auto">
-          <div>
-            {blogs.concat(additionalBlogs).map((blog, index) => {
-              return (
-                <div
-                  key={index}
-                  className="blogs_div bg-[#2a2727] mb-8 p-5 rounded-lg"
-                >
-                  <p className="lg:text-[28px] md:text-[26px] sm:text-[24px] text-[22px]">
-                    {blog.title}
-                  </p>
-                  <p
-                    className={`lg:text-[16px] mt-3 ${
-                      showMore[index]
-                        ? "transition-h duration-300"
-                        : "h-[50px] transition-h duration-300"
-                    } overflow-hidden md:text-[15px] transition-all duration-300 sm:text-[14px] text-[14px] opacity-70`}
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: jsonLdMarkup }}
+            />
+          </Head>
+          <div className="radial_one"></div>
+          <div className="max-w-[1280px] mx-auto">
+            <div>
+              {blogs.concat(additionalBlogs).map((blog, index) => {
+                return (
+                  <div
+                    key={index}
+                    className="blogs_div bg-[#2a2727] mb-8 p-5 rounded-lg"
                   >
-                    {blog.description}
-                  </p>
-                  <button
-                    onClick={() => {
-                      handleShow(index);
-                    }}
-                    className="text-[#FFFBFB] transition-all duration-300 border-[1px] px-4 py-1 mt-3 rounded-lg opacity-70"
-                  >
-                    {showMore[index] ? "Read Less" : "Read More"}
-                  </button>
-                </div>
-              );
-            })}
+                    <p className="lg:text-[28px] md:text-[26px] sm:text-[24px] text-[22px]">
+                      {blog.title}
+                    </p>
+                    <p
+                      className={`lg:text-[16px] mt-3 ${
+                        showMore[index]
+                          ? "transition-h duration-300"
+                          : "h-[50px] transition-h duration-300"
+                      } overflow-hidden md:text-[15px] transition-all duration-300 sm:text-[14px] text-[14px] opacity-70`}
+                    >
+                      {blog.description}
+                    </p>
+                    <button
+                      onClick={() => {
+                        handleShow(index);
+                      }}
+                      className="text-[#FFFBFB] transition-all duration-300 border-[1px] px-4 py-1 mt-3 rounded-lg opacity-70"
+                    >
+                      {showMore[index] ? "Read Less" : "Read More"}
+                    </button>
+                  </div>
+                );
+              })}
+            </div>
           </div>
-        </div>
+        </PageWrapper>
       </div>
       <Footer />
     </div>
