@@ -174,6 +174,7 @@ const CustomerReview = () => {
                 <b className="text-xl font-semibold">
                   {commentArray[index].name}
                 </b>
+                <br/>
                 <b className="opacity-75">{commentArray[index].company}</b>
               </div>
             </div>
@@ -194,6 +195,7 @@ const CustomerReview = () => {
                     ].name
                   }
                 </b>
+                <br/>
                 <b className="opacity-75">
                   {
                     commentArray[

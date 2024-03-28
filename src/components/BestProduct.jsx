@@ -84,6 +84,7 @@ const BestProduct = () => {
             <b className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Discord Social Media
             </b>
+            <br/>
             <b className="text-[19px] mt-3 font-semibold">Discord aged accounts</b>
             <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
               <Link href={"/accounts/discord"}>Discover discord accounts</Link>
@@ -94,6 +95,7 @@ const BestProduct = () => {
             <b className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Twitter Social media links
             </b>
+            <br/>
             <b className="text-[19px] mt-3 font-semibold">Twitter  </b>
             <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
               <Link href={"/accounts/twitter"}>See some twitter accounts</Link>
@@ -104,6 +106,7 @@ const BestProduct = () => {
             <b className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Instagram Referral
             </b>
+            <br/>
             <b className="text-[19px] mt-3 font-semibold">Instagram social media accounts</b>
             <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
               <Link href={"/accounts/instagram"}>Uncover Instagram accounts</Link>
@@ -117,6 +120,7 @@ const BestProduct = () => {
             <b className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Referral Services
             </b>
+            <br/>
             <b className="text-[19px] mt-3 font-semibold">Instagram</b>
             <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
               <Link href={"/accounts/instagram"}>Investigate Instagram users</Link>
@@ -130,6 +134,7 @@ const BestProduct = () => {
             <b className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Social Media Accounts
             </b>
+            <br/>
             <b className="text-[19px] mt-3 font-semibold">Discord nitro accounts</b>
             <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
               <div>Explore the world of discord accounts</div>
@@ -140,6 +145,7 @@ const BestProduct = () => {
             <b className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Referral Account Services
             </b>
+            <br/>
             <b className="text-[19px] mt-3 font-semibold">Twitter latest accounts</b>
             <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
               <Link href={"/accounts/twitter"}>Navigate through twitter accounts</Link>
