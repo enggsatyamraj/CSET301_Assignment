@@ -111,7 +111,7 @@ export default function Page() {
                   key={item.id}
                   className={`border-[1px] ${
                     index > 2 && "hidden"
-                  }  h-fit overflow-hidden rounded-md p-4`}
+                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
                     <FaDiscord
@@ -176,7 +176,7 @@ export default function Page() {
                   key={item.id}
                   className={`border-[1px] ${
                     index > 2 && "hidden"
-                  }  h-fit overflow-hidden rounded-md p-4`}
+                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
                     <FaInstagram
@@ -245,7 +245,7 @@ export default function Page() {
                   key={item.id}
                   className={`border-[1px] ${
                     index > 2 && "hidden"
-                  }  h-fit overflow-hidden rounded-md p-4`}
+                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
                     <FaXTwitter
