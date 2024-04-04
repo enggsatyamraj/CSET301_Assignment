@@ -14,46 +14,12 @@ import Head from "next/head";
 import { ImCross } from "react-icons/im";
 import discordData from "../dataFolder/discord.json";
 import Image from "next/image";
-import smartPeople from '../../public/smart-people.png'
+import smartPeople from "../../public/smart-people.png";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export default function Page() {
-  const [show, setShow] = useState(false);
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  const handleScroll = () => {
-    setScrollPosition(window.scrollY);
-  };
-
-  useEffect(() => {
-    let timeout;
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      clearTimeout(timeout);
-    };
-  }, []);
-
-  const popUpTop = scrollPosition + 5;
-
-  const handleClick = () => {
-    setShow(false);
-    document.body.style.overflow = ""; // Enable scrolling when pop-up is closed
-    console.log("clicked");
-  };
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShow(true);
-      document.body.style.overflow = "hidden"; // Disable scrolling when pop-up is shown
-    }, 2500);
-
-    return () => {
-      clearTimeout(timeout);
-      document.body.style.overflow = ""; // Ensure scrolling is enabled when component is unmounted
-    };
-  }, []);
+  
   const specialDiscordServiceArray = [
     {
       heading:
@@ -175,10 +141,10 @@ export default function Page() {
       <div className="bg-normal w-[100%]">
         <div className="max-w-[1280px] mx-auto px-4 text-white relative min-h-[100vh] w-[100%] ">
           {/* Hero section */}
-          <div
+          {/* <div
             className={`main_div ${
               show === false && "hidden"
-            } absolute md:right-20 md:left-20 lg:right-50 lg:left-50 h-[500px] right-5 left-5 mt-[120px] z-10 border-white text-white overflow-y-auto  rounded-lg p-4`}
+            } absolute md:right-20 md:left-20 lg:right-70 lg:left-70 h-[500px] right-5 left-5 mt-[120px] z-10 border-white text-white overflow-y-auto  rounded-lg p-4`}
             style={{ top: `${popUpTop}px` }}
           >
             <button
@@ -188,17 +154,17 @@ export default function Page() {
             >
               <ImCross size={20} />
             </button>
-            <b className="md:text-3xl text-2xl text-center  mb-4 mt-5">
+            <p className="md:text-3xl text-2xl text-center  mb-4 mt-5">
               Buy aged discord accounts
-            </b>
-            <div className="grid grid-cols-1 sm:grid-cols-2 px-5 lg:grid-cols-3 gap-7">
+            </p>
+            <div className="flex items-center justify-center flex-wrap gap-7">
               {discordData.map((item, index) => {
                 return (
                   <div
                     key={item.id}
                     className={`border-[1px] ${
                       index > 2 && "hidden"
-                    } h-fit overflow-hidden rounded-md p-4`}
+                    } h-fit overflow-hidden rounded-md lg:w-[250px] md:w-[200px]   p-4`}
                   >
                     <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
                       <FaDiscord
@@ -241,7 +207,7 @@ export default function Page() {
                 <Link href="/accounts">Shop now</Link>
               </button>
             </div>
-          </div>
+          </div> */}
           <div
             id="mainSection"
             className="min-h-[100vh]  relative flex items-center flex-col lg:flex-row pl-[10px] py-[100px] sm:pl-[30px] gap-5 justify-center z-4"
@@ -273,7 +239,7 @@ export default function Page() {
               </p>
             </div>
             <div className="flex-[1.5] lg:block ">
-              <Image src={smartPeople} className="" alt="smart people images"/>
+              <Image src={smartPeople} className="" alt="smart people images" />
             </div>
             <div className="radial_one"></div>
             <div className="radial_two"></div>
