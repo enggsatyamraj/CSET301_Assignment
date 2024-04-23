@@ -370,6 +370,15 @@ export default function Page() {
 
   return (
     <div className={actor.className}>
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe>
+      </noscript>
+
       <div className="bg-normal w-[100%] relative min-h-[100vh] text-white pt-[100px] pb-[100px] px-4">
         <PageWrapper>
           <Head>

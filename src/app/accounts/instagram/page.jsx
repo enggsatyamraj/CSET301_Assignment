@@ -43,6 +43,15 @@ const jsonLdScript = {
 const page = () => {
   return (
     <div className={actor.className}>
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe>
+      </noscript>
+
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -177,7 +186,7 @@ const page = () => {
                         Info
                       </Link>
                       <Link
-                      target="_blank"
+                        target="_blank"
                         href={item.link}
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                       >

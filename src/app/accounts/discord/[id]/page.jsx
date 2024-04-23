@@ -43,6 +43,15 @@ const Page = () => {
 
   return (
     <div className={actor.className}>
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe>
+      </noscript>
+
       <Head>
         <title>Buy {data.year} Discord Accounts (Aged) | Discord Arena</title>
         <meta name="description" content={data.introduction} />
@@ -199,7 +208,9 @@ const Page = () => {
             })}
           </div>
 
-          <h2 className="mb-3 mt-5 text-2xl font-semibold">FAQs related to aged Discord Accounts - {data.year}</h2>
+          <h2 className="mb-3 mt-5 text-2xl font-semibold">
+            FAQs related to aged Discord Accounts - {data.year}
+          </h2>
           <div>
             {data.faq.map((item, index) => {
               return (

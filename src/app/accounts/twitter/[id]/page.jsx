@@ -41,6 +41,15 @@ const Page = () => {
   }
   return (
     <div className={actor.className}>
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe>
+      </noscript>
+
       <Head>
         <title>
           Buy {data.year} {data.type} Accounts - {data.discountPercentage}%
@@ -223,7 +232,9 @@ const Page = () => {
             })}
           </div>
 
-          <h2 className=" mt-5 mb-3 text-2xl font-semibold">FAQs related to Twitter Accounts - {data.year}</h2>
+          <h2 className=" mt-5 mb-3 text-2xl font-semibold">
+            FAQs related to Twitter Accounts - {data.year}
+          </h2>
           <div className="mt-3">
             {data.faq.map((item, index) => {
               return (

@@ -6,6 +6,15 @@ import React from "react";
 const page = () => {
   return (
     <>
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe>
+      </noscript>
+
       <Head>
         <script type="application/ld+json">
           {`
@@ -85,12 +94,13 @@ const page = () => {
               At Discord Arena, we understand that a vibrant online presence is
               crucial in today&apos;s digital landscape. Our carefully curated
               selection of accounts reflects our commitment to delivering
-              excellence. Whether you&apos;re seeking a Discord community that aligns
-              with your interests, an Instagram account with a unique aesthetic,
-              or a Twitter handle that stands out, Discord Arena is dedicated to
-              providing accounts that go beyond expectations. We believe in the
-              power of exclusivity, quality, and a seamless user experience, and
-              we&apos;re here to help you achieve your online aspirations.
+              excellence. Whether you&apos;re seeking a Discord community that
+              aligns with your interests, an Instagram account with a unique
+              aesthetic, or a Twitter handle that stands out, Discord Arena is
+              dedicated to providing accounts that go beyond expectations. We
+              believe in the power of exclusivity, quality, and a seamless user
+              experience, and we&apos;re here to help you achieve your online
+              aspirations.
             </p>
             <Link
               href={"/contactus"}
@@ -110,10 +120,10 @@ const page = () => {
             At Discord Arena, we take pride in offering a curated selection of
             premium accounts in three major categories: Discord, Instagram, and
             Twitter. Each account is meticulously chosen to ensure exclusivity,
-            quality, and a seamless experience for our users. Whether you&apos;re a
-            gamer looking for the perfect Discord community or a social media
-            enthusiast seeking a premium Instagram or Twitter account, Discord
-            Arena is your ultimate destination.
+            quality, and a seamless experience for our users. Whether
+            you&apos;re a gamer looking for the perfect Discord community or a
+            social media enthusiast seeking a premium Instagram or Twitter
+            account, Discord Arena is your ultimate destination.
           </p>
 
           <b className="text-3xl font-bold mt-[50px]">

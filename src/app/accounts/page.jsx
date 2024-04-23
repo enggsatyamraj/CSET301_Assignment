@@ -17,6 +17,15 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export default function Page() {
   return (
     <div className={actor.className}>
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+        ></iframe>
+      </noscript>
+
       <Head>
         <title>Discover Your Unique Niche | Discord Arena</title>
         <meta
