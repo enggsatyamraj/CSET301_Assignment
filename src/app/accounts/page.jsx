@@ -17,31 +17,6 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export default function Page() {
   return (
     <div className={actor.className}>
-      <script type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Discord Arena",
-            "url": "https://www.discordarena.com/",
-            "logo": "URL_TO_YOUR_LOGO_IMAGE",
-            "description": "Unlock the full potential of your digital presence with Discord Arena.",
-            "foundingDate": "YEAR_OF_FOUNDATION",
-            "founders": [
-              {
-                "@type": "Person",
-                "name": "Discord Arena",
-                "url": "https://www.discordarena.com/"
-              }
-            ],
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "email": "YOUR_EMAIL",
-              "contactType": "customer support"
-            }
-          }
-        `}
-      </script>
       <Head>
         <title>Discover Your Unique Niche | Discord Arena</title>
         <meta
@@ -76,6 +51,31 @@ export default function Page() {
           content="Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs."
         />
         <meta name="twitter:image" content="URL_TO_YOUR_SOCIAL_SHARE_IMAGE" />
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Discord Arena",
+            "url": "https://www.discordarena.com/",
+            "logo": "URL_TO_YOUR_LOGO_IMAGE",
+            "description": "Unlock the full potential of your digital presence with Discord Arena.",
+            "foundingDate": "YEAR_OF_FOUNDATION",
+            "founders": [
+              {
+                "@type": "Person",
+                "name": "Discord Arena",
+                "url": "https://www.discordarena.com/"
+              }
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "YOUR_EMAIL",
+              "contactType": "customer support"
+            }
+          }
+        `}
+        </script>
       </Head>
       <div className="bg-normal w-[100%] pt-[80px]">
         <div className="relative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 text-white sm:px-12 ">

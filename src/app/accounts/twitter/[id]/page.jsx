@@ -5,6 +5,8 @@ import { usePathname } from "next/navigation";
 import { FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
 import { Actor } from "next/font/google";
+import Head from "next/head";
+import Footer from "@/components/Footer";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -32,8 +34,87 @@ const Page = () => {
         "I've been using a twitter Account for a while now, and it has exceeded my expectations. The verified account and boosted servers have been essential for managing and growing my server, and the active Nitro subscription has provided me with custom emojis and animated avatars. The ownership of popular servers has allowed me to connect with a large and active community, and the integration of useful bots has enhanced the overall user experience. I highly recommend 2016 twitter Accounts to anyone looking for a premium twitter experience.",
     },
   ];
+  function calculateAverageRating(reviews) {
+    if (reviews.length === 0) return 0; // Return 0 if there are no reviews
+    const totalRating = reviews.reduce((acc, curr) => acc + curr.rating, 0);
+    return (totalRating / reviews.length).toFixed(1); // Return the average rating rounded to 1 decimal place
+  }
   return (
     <div className={actor.className}>
+      <Head>
+        <title>
+          Buy {data.year} {data.type} Accounts - {data.discountPercentage}%
+          Discount | Twitter Accounts | Discord Arena
+        </title>
+        <meta
+          name="description"
+          content={`Buy your Twitter accounts here on Twitter Accounts. Simply buy Twitter account from here with a decent price. Interested members will contact me on Twitter or Telegram.`}
+        />
+        <meta
+          name="keywords"
+          content="Twitter, accounts, purchase, discount, buy, sale"
+        />
+        <meta
+          property="og:title"
+          content={`Buy ${data.year} ${data.type} Accounts - ${data.discountPercentage}% Discount | Twitter Accounts`}
+        />
+        <meta
+          property="og:description"
+          content={`Buy your Twitter accounts here on Twitter Accounts. Simply buy Twitter account from here with a decent price. Interested members will contact me on Twitter or Telegram.`}
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content={`https://yourwebsite.com/twitter-accounts/${id}`}
+        />
+        <meta
+          property="og:image"
+          content="https://yourwebsite.com/twitter-thumbnail.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content={`Buy ${data.year} ${data.type} Accounts - ${data.discountPercentage}% Discount | Twitter Accounts`}
+        />
+        <meta
+          name="twitter:description"
+          content={`Buy your Twitter accounts here on Twitter Accounts. Simply buy Twitter account from here with a decent price. Interested members will contact me on Twitter or Telegram.`}
+        />
+        <meta
+          name="twitter:image"
+          content="https://yourwebsite.com/twitter-thumbnail.jpg"
+        />
+        <script type="application/ld+json">
+          {`
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "${data.year} ${data.type} Accounts",
+        "description": "Buy your Twitter accounts here on Twitter Accounts. Simply buy Twitter account from here with a decent price. Interested members will contact me on Twitter or Telegram.",
+        "brand": {
+          "@type": "Organization",
+          "name": "Twitter Accounts"
+        },
+        "offers": {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": "${data.price}",
+          "availability": "http://schema.org/InStock",
+          "url": "https://yourwebsite.com/twitter-accounts/${id}",
+          "seller": {
+            "@type": "Organization",
+            "name": "YoYoHoni"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "${calculateAverageRating(reviews)}",
+          "reviewCount": "${reviews.length}"
+        }
+      }
+    `}
+        </script>
+      </Head>
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
           <p className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
@@ -41,18 +122,21 @@ const Page = () => {
             {data.discountPercentage}% Discount Buy Now
           </p>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
-          <p className="text-[15px] opacity-80 md:text-[1.15rem]">
-            Buy your Twitter accounts here on instagram Accounts. Simply Buy
-            Twitter account from here with decent price. Interested members will
-            contact me in Twitter or Telegram.
+          <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
+            Buy {data.year} Twitter accounts at cheap prices here on Discord
+            Arena.
           </p>
-          <b className="mb-3 mt-5 text-2xl font-semibold">Account Details</b>
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
+          <b className="mb-3 mt-5 text-2xl font-semibold">
+            Buy {data.year} Twitter Account{" "}
+          </b>
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <div className="flex h-[200px] w-[100%] items-center justify-center rounded-[10px] border-[1px] border-[#fff] text-3xl">
               <FaXTwitter size={100} className="dance text-[#A5A6F6]" />
             </div>
             <div>
-              <p className="mb-5 text-2xl">Buy {data.year} Twitter Account </p>
+              <p className="mb-3 text-2xl">
+                Buy cheap {data.year} Twitter Account{" "}
+              </p>
               <ul className="list-disc pl-4 text-[15px] opacity-85">
                 <li>{data.smallShowFiveFeatures.feature1}</li>
                 <li>{data.smallShowFiveFeatures.feature2}</li>
@@ -62,7 +146,7 @@ const Page = () => {
               </ul>
             </div>
           </div>
-          <div className="mt-4 flex gap-5">
+          <div className="mt-4 flex gap-5 mb-4">
             <span className="flex flex-1 items-center justify-center rounded-md bg-[#00C89D] px-3 py-[10px]  text-xl font-bold  text-black ">
               ${data.price}
             </span>
@@ -74,14 +158,18 @@ const Page = () => {
               Purchase
             </Link>
           </div>
-          <p className="mb-3 mt-7 text-2xl">
+          {/* <p className="mb-3 mt-7 text-2xl">
             Cheap {data.year} {data.type} accounts
           </p>
-          <p className="text-[16px] opacity-85">{data.introduction}</p>
+          <p className="text-[16px] opacity-85">{data.introduction}</p> */}
 
-          <b className="mb-3 mt-5 text-2xl font-semibold">Features</b>
+          <br />
 
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+          <b className="mb-3 mt-5 text-2xl font-semibold">
+            Features and benefits of used twitter accounts - {data.year}
+          </b>
+
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-3">
             {data.features.map((item, index) => {
               return (
                 <div
@@ -97,7 +185,9 @@ const Page = () => {
             })}
           </div>
 
-          <div>
+          <br />
+
+          {/* <div>
             {data.questionAnswerArray.map((item, index) => {
               return (
                 <div key={index}>
@@ -106,10 +196,12 @@ const Page = () => {
                 </div>
               );
             })}
-          </div>
+          </div> */}
 
-          <b className="mb-3 mt-5 text-2xl font-semibold">Reviews</b>
-          <div className="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2">
+          <h2 className="mb-3 mt-5 text-2xl font-semibold">
+            Customer Testimonials
+          </h2>
+          <div className="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2 mb-4">
             {reviews.map((item, index) => {
               return (
                 <div
@@ -131,11 +223,11 @@ const Page = () => {
             })}
           </div>
 
-          <b className="mb-6 mt-5 text-2xl font-semibold">FAQs</b>
-          <div>
+          <h2 className=" mt-5 mb-3 text-2xl font-semibold">FAQs related to Twitter Accounts - {data.year}</h2>
+          <div className="mt-3">
             {data.faq.map((item, index) => {
               return (
-                <details key={index} className="mb-5">
+                <details key={index} className="mb-5 opacity-80">
                   <summary className="px-3 text-[16px]  md:text-xl">
                     {item.question}
                   </summary>
@@ -152,6 +244,7 @@ const Page = () => {
             See more FAQs
           </Link>
         </div>
+        <Footer />
       </div>
     </div>
   );

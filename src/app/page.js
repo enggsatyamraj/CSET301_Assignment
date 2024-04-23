@@ -19,7 +19,6 @@ import smartPeople from "../../public/smart-people.png";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export default function Page() {
-  
   const specialDiscordServiceArray = [
     {
       heading:
@@ -58,7 +57,6 @@ export default function Page() {
   return (
     <div className={actor.className}>
       <Head>
-        {/* Meta tags */}
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
@@ -140,74 +138,6 @@ export default function Page() {
       </Head>
       <div className="bg-normal w-[100%]">
         <div className="max-w-[1280px] mx-auto px-4 text-white relative min-h-[100vh] w-[100%] ">
-          {/* Hero section */}
-          {/* <div
-            className={`main_div ${
-              show === false && "hidden"
-            } absolute md:right-20 md:left-20 lg:right-70 lg:left-70 h-[500px] right-5 left-5 mt-[120px] z-10 border-white text-white overflow-y-auto  rounded-lg p-4`}
-            style={{ top: `${popUpTop}px` }}
-          >
-            <button
-              className="absolute right-5 top-5"
-              title="close button"
-              onClick={handleClick}
-            >
-              <ImCross size={20} />
-            </button>
-            <p className="md:text-3xl text-2xl text-center  mb-4 mt-5">
-              Buy aged discord accounts
-            </p>
-            <div className="flex items-center justify-center flex-wrap gap-7">
-              {discordData.map((item, index) => {
-                return (
-                  <div
-                    key={item.id}
-                    className={`border-[1px] ${
-                      index > 2 && "hidden"
-                    } h-fit overflow-hidden rounded-md lg:w-[250px] md:w-[200px]   p-4`}
-                  >
-                    <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
-                      <FaDiscord
-                        size={50}
-                        className="accountDance text-[#8474C4]"
-                      />
-                    </div>
-
-                    <p className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
-                      Buy{" "}
-                      <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
-                        {item.year}
-                      </span>{" "}
-                      Discord Account
-                    </p>
-                    <div className="mt-5 flex items-center gap-3">
-                      <Link
-                        href={`/accounts/discord/${item.id}`}
-                        className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
-                      >
-                        Info
-                      </Link>
-                      <Link
-                        href={item.link}
-                        target="_blank"
-                        className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
-                      >
-                        Buy
-                      </Link>
-                      <span className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold ">
-                        $ {item.price}
-                      </span>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-            <div className="w-[100%] flex items-center justify-center">
-              <button className="border-[1px] border-[#A5A6F6] text-[#A5A6F6] px-3 py-2 mt-12 w-fit rounded-lg mx-auto">
-                <Link href="/accounts">Shop now</Link>
-              </button>
-            </div>
-          </div> */}
           <div
             id="mainSection"
             className="min-h-[100vh]  relative flex items-center flex-col lg:flex-row pl-[10px] py-[100px] sm:pl-[30px] gap-5 justify-center z-4"

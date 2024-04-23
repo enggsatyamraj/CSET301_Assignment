@@ -17,9 +17,9 @@ const WeOffer = () => {
       <div className="bg-[#121212]">
         <div className=" text-white min-h-screen py-[60px] md:py-[100px] max-w-[1280px] mx-auto">
           <div className="max-w-6xl mx-auto px-4">
-            <b className="sm:text-3xl text-xl md:text-4xl font-semibold text-center mb-6">
+            <p className="sm:text-3xl text-xl md:text-4xl font-semibold text-center mb-6">
               Maximize Your Potential with Our Comprehensive Services
-            </b>
+            </p>
             <p className="text-center text-[15px] md:text-[16px] opacity-75 w-[99%] md:w-[65%] mx-auto mb-12">
               At Discord Arena, we&apos;re committed to empowering your digital
               presence with our wide range of premium services. Explore our

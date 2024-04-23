@@ -3,6 +3,9 @@ import React from "react";
 import { Actor } from "next/font/google";
 import Footer from "@/components/Footer";
 import PageWrapper from "../PageWrapper";
+import discordData from "../../dataFolder/discord.json";
+import instagramData from "../../dataFolder/instagram.json";
+import twitterData from "../../dataFolder/twitter.json";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -438,22 +441,37 @@ export default function page() {
     },
   ];
 
+  const allData = [
+    ...faqItems,
+    ...additionalFaqItems,
+    ...discordData.reduce(
+      (acc, cur) => [...acc, ...cur.questionAnswerArray],
+      []
+    ),
+    ...instagramData.reduce(
+      (acc, cur) => [...acc, ...cur.questionAnswerArray],
+      []
+    ),
+    ...twitterData.reduce(
+      (acc, cur) => [...acc, ...cur.questionAnswerArray],
+      []
+    ),
+  ];
+
   const jsonLdMarkup = `
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
-        ${faqItems.concat(additionalFaqItems).map(
+        ${allData.map(
           (item, index) => `{
-            "@type": "Question",
-            "name": "${item.question}",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "${item.answer}"
-            }
-          }${
-            index < faqItems.length + additionalFaqItems.length - 1 ? "," : ""
-          }`
+          "@type": "Question",
+          "name": "${item.question}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "${item.answer}"
+          }
+        }${index < allData.length - 1 ? "," : ""}`
         )}
       ]
     }
@@ -475,7 +493,7 @@ export default function page() {
             {/* Open Graph Meta Tags */}
             <meta
               property="og:title"
-              content="Your Website - Frequently Asked Questions"
+              content="Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts"
             />
             <meta
               property="og:description"
@@ -484,7 +502,7 @@ export default function page() {
             <meta property="og:type" content="website" />
             <meta
               property="og:url"
-              content="https://www.discordarena.com//faq"
+              content="https://www.discordarena.com/faq"
             />
             <meta
               property="og:image"
@@ -495,7 +513,7 @@ export default function page() {
             <meta name="twitter:card" content="summary_large_image" />
             <meta
               name="twitter:title"
-              content="Your Website - Frequently Asked Questions"
+              content="Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts"
             />
             <meta
               name="twitter:description"
@@ -547,20 +565,6 @@ export default function page() {
             <meta name="application-name" content="Discord Arena" />
             <meta name="referrer" content="no-referrer-when-downgrade" />
             <meta name="format-detection" content="telephone=no" />
-            <meta name="apple-mobile-web-app-capable" content="yes" />
-            <meta
-              name="apple-mobile-web-app-status-bar-style"
-              content="black"
-            />
-            <meta name="HandheldFriendly" content="True" />
-            <meta name="MobileOptimized" content="320" />
-            <meta name="apple-touch-fullscreen" content="yes" />
-            <meta name="robots" content="index, follow" />
-            <meta name="googlebot" content="index, follow" />
-            <meta name="bingbot" content="index, follow" />
-            <meta name="yandex" content="index, follow" />
-            <meta name="referrer" content="no-referrer-when-downgrade" />
-            <meta name="format-detection" content="telephone=no" />
 
             <script
               type="application/ld+json"
@@ -573,7 +577,7 @@ export default function page() {
               Frequently Asked Questions
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-4">
-              {faqItems.concat(additionalFaqItems).map((item, index) => {
+              {allData.map((item, index) => {
                 return (
                   <div
                     key={index}
