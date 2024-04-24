@@ -126,9 +126,9 @@ const page = () => {
             account, Discord Arena is your ultimate destination.
           </p>
 
-          <b className="text-3xl font-bold mt-[50px]">
+          <h2 className="text-3xl font-bold mt-[50px]">
             Why Choose Discord Arena?
-          </b>
+          </h2>
           <p className="opacity-80 mt-5 text-[15px] w-[98%] md:w-[80%] mb-10">
             - Exclusive Accounts: Access a handpicked selection of exclusive
             Discord, Instagram, and Twitter accounts.
