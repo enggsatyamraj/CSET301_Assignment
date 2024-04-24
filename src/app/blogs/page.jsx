@@ -375,7 +375,7 @@ export default function Page() {
           src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
           height="0"
           width="0"
-          style="display:none;visibility:hidden"
+          style={{ display: 'none', visibility: 'hidden' }}
         ></iframe>
       </noscript>
 
