@@ -28,6 +28,17 @@
   filter: blur(70px);
 }
 
+.radial_three {
+  background-color: #EF9364;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  filter: blur(70px);
+}
+
 .span_text {
   background-image: linear-gradient(
     23deg,
