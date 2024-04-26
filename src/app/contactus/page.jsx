@@ -1,7 +1,8 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import order_completed from "../../../public/order-completed.svg";
+import form_submit from "../../../public/Group.svg";
 import Footer from "@/components/Footer";
 
 const Page = () => {
@@ -67,9 +68,11 @@ const Page = () => {
             Contact Us
           </h2>
           {formSubmitted ? (
-            <div className="w-[100%] min-h-[20vh] flex justify-center items-center">
-              <p>Thank you for your submission, We will get to you within 24 hrs.</p>
-              
+            <div className="w-[100%] min-h-[20vh] px-4 py-3 flex flex-col justify-center items-center">
+              <p className="text-center mb-6">
+                Thank you for your submission, We will get to you within 24 hrs.
+              </p>
+              <Image src={form_submit} alt="form submitted" className="max-w-[300px] md:w-[60%] w-[80%] h-auto"/>
             </div>
           ) : (
             <div className="flex flex-col lg:flex-row items-center mt-4 gap-4 px-5">
