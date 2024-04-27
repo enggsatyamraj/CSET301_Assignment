@@ -134,7 +134,7 @@ const page = () => {
                 return (
                   <div
                     key={item.id}
-                    className={`border-[1px] h-fit overflow-hidden rounded-md p-4`}
+                    className={`border-[1px] overflow-hidden rounded-md p-4`}
                   >
                     <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
                       <FaInstagram

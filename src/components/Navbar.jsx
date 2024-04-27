@@ -13,6 +13,7 @@ const navbarLinks = [
   { name: "About Us", url: "/aboutus" },
   { name: "Blogs", url: "/blogs" },
   { name: "FAQs", url: "/faq" },
+  { name: "Contact Us", url: "/contactus" },
 ];
 
 const Navbar = () => {
@@ -70,7 +71,7 @@ const Navbar = () => {
             >
               Discord Arena
             </Link>
-            <div className="md:flex hidden gap-10 ">
+            <div className="md:flex hidden md:gap-6 lg:gap-10 ">
               {navbarLinks.map((item, index) => {
                 return (
                   <Link

@@ -247,17 +247,6 @@ const Page = () => {
             })}
           </div>
 
-          {/* <div>
-            {data.questionAnswerArray.map((item, index) => {
-              return (
-                <div key={index}>
-                  <b className="mb-3 mt-5 text-2xl ">{item.question}</b>
-                  <p className="opacity-80">{item.answer}</p>
-                </div>
-              );
-            })}
-          </div> */}
-
           <h2 className="mb-3 mt-5 text-2xl font-semibold">
             Customer Testimonials
           </h2>
