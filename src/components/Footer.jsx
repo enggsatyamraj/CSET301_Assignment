@@ -31,10 +31,10 @@ const Footer = () => {
           </Link>
           <br />
           <Link
-            href={"/accounts/twitter"}
+            href={"/accounts/"}
             className="opacity-70 text-[14px] my-2"
           >
-            Twitter Accounts
+             Accounts
           </Link>
           <br />
           <Link
@@ -81,7 +81,7 @@ const Footer = () => {
             Instagram
           </Link>
           <br />
-          {/* <Link href={"https://t.me/halfmoonisgod"} target="_blank" className="opacity-70 text-[14px] my-2">Twitter</Link> */}
+          {/* <Link href={"https://t.me/halfmoonisgod"} target="_blank" className="opacity-70 text-[14px] my-2"></Link> */}
           {/* <b className="opacity-70 text-[14px] my-2">Behance</b> */}
           {/* <b className="opacity-70 text-[14px] my-2">Facebook</b> */}
         </div>

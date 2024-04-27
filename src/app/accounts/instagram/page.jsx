@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { Actor } from "next/font/google";
 import instagramData from "../../../dataFolder/instagram.json";
@@ -40,6 +39,61 @@ const jsonLdScript = {
   }),
 };
 
+export const generateMetadata = () => {
+  const title = "Instagram Accounts - Discord Arena";
+  const description =
+    "Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more.";
+  const keywords =
+    "Instagram, Instagram accounts, Premium accounts, Boosted profiles, Social media";
+  const author = "Discord Arena";
+  const ogUrl = "https://www.discordarena.com/instagram";
+  const ogImage = "URL_TO_YOUR_LOGO_IMAGE";
+
+  const jsonLdScript = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    url: ogUrl,
+    name: "Discord Arena",
+    logo: ogImage,
+    description: description,
+    sameAs: [
+      "https://www.facebook.com/your-facebook-url",
+      "https://twitter.com/your-twitter-url",
+      "https://www.instagram.com/your-instagram-url",
+      // Add other social media URLs here
+    ],
+  };
+
+  return {
+    title: title,
+    description: description,
+    keywords: keywords,
+    authors: [{ name: author }],
+    openGraph: {
+      type: "website",
+      url: ogUrl,
+      title: title,
+      description: description,
+      images: [
+        {
+          url: ogImage,
+          alt: "Discord Arena Logo",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      url: ogUrl,
+      title: title,
+      description: description,
+      images: [ogImage],
+    },
+    other: {
+      "application-ld+json": JSON.stringify(jsonLdScript),
+    },
+  };
+};
+
 const page = () => {
   return (
     <div className={actor.className}>
@@ -48,71 +102,11 @@ const page = () => {
           src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
           height="0"
           width="0"
-          style={{ display: 'none', visibility: 'hidden' }}
+          style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
-
-      <Head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more."
-        />
-        <meta
-          name="keywords"
-          content="Instagram, Instagram accounts, Premium accounts, Boosted profiles, Social media"
-        />
-        <meta name="author" content="Discord Arena" />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://www.discordarena.com/instagram"
-        />
-        <meta
-          property="og:title"
-          content="Instagram Accounts - Discord Arena"
-        />
-        <meta
-          property="og:description"
-          content="Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more."
-        />
-        <meta property="og:image" content="URL_TO_YOUR_LOGO_IMAGE" />
-        <meta property="og:image:alt" content="Discord Arena Logo" />
-
-        {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://www.discordarena.com/instagram"
-        />
-        <meta
-          property="twitter:title"
-          content="Instagram Accounts - Discord Arena"
-        />
-        <meta
-          property="twitter:description"
-          content="Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more."
-        />
-        <meta property="twitter:image" content="URL_TO_YOUR_LOGO_IMAGE" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdScript) }}
-        />
-      </Head>
       <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[100px]">
         <div className="max-w-[1000px] mx-auto">
-          {/* hero section */}
-          {/* <button
-            onClick={() => {
-              window.history.back();
-            }}
-            className="border-[1px] px-3 py-1 rounded-lg"
-          >
-            Go Back
-          </button> */}
           <div className="min-h-[400px] flex flex-col justify-center ">
             <h1 className="text-3xl md:text-4xl font-semibold mb-2">
               Instagram Accounts
@@ -180,7 +174,10 @@ const page = () => {
                     </ul>
                     <div className="mt-5 flex items-center gap-3">
                       <Link
-                        href={`/accounts/instagram/${item.id}`}
+                        href={`/accounts/instagram/${item.name
+                          .split(" ")
+                          .join("-")
+                          .toLowerCase()}`}
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                       >
                         Info

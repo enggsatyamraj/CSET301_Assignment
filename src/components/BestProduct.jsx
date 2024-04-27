@@ -93,12 +93,12 @@ const BestProduct = () => {
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
             <b className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              Twitter Social media links
+               Social media links
             </b>
             <br/>
-            <b className="text-[19px] mt-3 font-semibold">Twitter  </b>
-            <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
-              <Link href={"/accounts/twitter"}>See some twitter accounts</Link>
+            <b className="text-[19px] mt-3 font-semibold">  </b>
+            <Link href={"/accounts/"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
+              <Link href={"/accounts/"}>See some  accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
@@ -146,9 +146,9 @@ const BestProduct = () => {
               Referral Account Services
             </b>
             <br/>
-            <b className="text-[19px] mt-3 font-semibold">Twitter latest accounts</b>
-            <Link href={"/accounts/twitter"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
-              <Link href={"/accounts/twitter"}>Navigate through twitter accounts</Link>
+            <b className="text-[19px] mt-3 font-semibold"> latest accounts</b>
+            <Link href={"/accounts/"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
+              <Link href={"/accounts/"}>Navigate through  accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>

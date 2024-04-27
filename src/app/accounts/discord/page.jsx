@@ -1,67 +1,65 @@
-"use client";
 import React from "react";
 import { Actor } from "next/font/google";
 import discordData from "../../../dataFolder/discord.json";
 import { FaDiscord } from "react-icons/fa";
 import Link from "next/link";
-import Head from "next/head";
 import Footer from "@/components/Footer";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
-const jsonLdScript = {
-  "@context": "https://schema.org/",
-  "@type": "ItemList",
-  itemListElement: discordData.map((item, index) => {
-    // Check if item.reviews is an array with length greater than 0
-    const hasReviews = Array.isArray(item.reviews) && item.reviews.length > 0;
+export const generateMetadata = () => {
+  const title = "Discord Arena - Premium Discord Accounts";
+  const description =
+    "Elevate your Discord experience with premium accounts from Discord Arena. Explore exclusive features, boosted servers, and more.";
+  const keywords =
+    "Discord, Discord accounts, Premium accounts, Boosted servers, Nitro subscription";
+  const author = "Discord Arena";
+  const ogUrl = "https://www.discordarena.com/";
+  const ogImage = "https://example.com/og-image.jpg";
 
-    return {
-      "@type": "Product",
-      position: index + 1,
-      name: item.name,
-      description: item.introduction,
-      sku: `Discord-${item.id}`,
-      image: "URL_TO_IMAGE", // Replace with the actual URL of your product image
-      offers: {
-        "@type": "Offer",
-        priceCurrency: "USD",
-        price: item.price,
-        itemCondition: "https://schema.org/NewCondition", // You can adjust this based on your condition
-        availability: "https://schema.org/InStock", // Adjust based on availability
-        seller: {
-          "@type": "Organization",
-          name: "Discord Arena",
+  const jsonLdScript = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    url: ogUrl,
+    name: "Discord Arena",
+    logo: ogImage,
+    description: description,
+    sameAs: [
+      "https://www.facebook.com/your-facebook-url",
+      "https://twitter.com/your-twitter-url",
+      "https://www.instagram.com/your-instagram-url",
+      // Add other social media URLs here
+    ],
+  };
+
+  return {
+    title: title,
+    description: description,
+    keywords: keywords,
+    authors: [{ name: author }],
+    openGraph: {
+      type: "website",
+      url: ogUrl,
+      title: title,
+      description: description,
+      images: [
+        {
+          url: ogImage,
+          alt: "Discord Arena Logo",
         },
-      },
-      brand: {
-        "@type": "Organization",
-        name: "Discord Arena",
-      },
-      aggregateRating: hasReviews
-        ? {
-            "@type": "AggregateRating",
-            ratingValue:
-              item.reviews.reduce((total, review) => total + review.rating, 0) /
-              item.reviews.length,
-            reviewCount: item.reviews.length,
-          }
-        : undefined,
-      review: hasReviews
-        ? item.reviews.map((review) => {
-            return {
-              "@type": "Review",
-              author: review.name,
-              reviewRating: {
-                "@type": "Rating",
-                ratingValue: review.rating,
-              },
-              reviewBody: review.comment,
-            };
-          })
-        : undefined,
-    };
-  }),
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      url: ogUrl,
+      title: title,
+      description: description,
+      images: [ogImage],
+    },
+    other: {
+      "application-ld+json": JSON.stringify(jsonLdScript),
+    },
+  };
 };
 
 const page = () => {
@@ -72,54 +70,9 @@ const page = () => {
           src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
           height="0"
           width="0"
-          style={{ display: 'none', visibility: 'hidden' }}
+          style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
-
-      <Head>
-        <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-          name="description"
-          content="Elevate your Discord experience with premium accounts from Discord Arena. Explore exclusive features, boosted servers, and more."
-        />
-        <meta
-          name="keywords"
-          content="Discord, Discord accounts, Premium accounts, Boosted servers, Nitro subscription"
-        />
-        <meta name="author" content="Discord Arena" />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.discordarena.com/" />
-        <meta
-          property="og:title"
-          content="Discord Arena - Premium Discord Accounts"
-        />
-        <meta
-          property="og:description"
-          content="Elevate your Discord experience with premium accounts from Discord Arena. Explore exclusive features, boosted servers, and more."
-        />
-        <meta property="og:image" content="URL_TO_YOUR_LOGO_IMAGE" />
-        <meta property="og:image:alt" content="Discord Arena Logo" />
-
-        {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.discordarena.com/" />
-        <meta
-          property="twitter:title"
-          content="Discord Arena - Premium Discord Accounts"
-        />
-        <meta
-          property="twitter:description"
-          content="Elevate your Discord experience with premium accounts from Discord Arena. Explore exclusive features, boosted servers, and more."
-        />
-        <meta property="twitter:image" content="URL_TO_YOUR_LOGO_IMAGE" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdScript) }}
-        />
-      </Head>
       <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[100px]">
         <div className="max-w-[1000px] mx-auto">
           <div className="min-h-[400px] flex flex-col justify-center ">
@@ -175,7 +128,10 @@ const page = () => {
                     </ul>
                     <div className="mt-5 flex items-center gap-3">
                       <Link
-                        href={`/accounts/discord/${item.id}`}
+                        href={`/accounts/discord/${item.name
+                          .split(" ")
+                          .join("-")
+                          .toLowerCase()}`}
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                       >
                         Info

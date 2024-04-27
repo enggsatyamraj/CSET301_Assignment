@@ -10,30 +10,106 @@ import Footer from "@/components/Footer";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
+export const reviews = [
+  {
+    name: "John Doe",
+    rating: 5,
+    comment:
+      "I purchased a Discord Account and have been extremely satisfied with the features and benefits it offers. The boosted servers and active Nitro subscription have significantly enhanced my Discord experience, and the ownership of popular servers has allowed me to connect with a large and engaged community. Overall, I highly recommend 2016 Discord Accounts to anyone looking to elevate their Discord experience.",
+  },
+  {
+    name: "Jane Smith",
+    rating: 4,
+    comment:
+      "I recently bought a Discord Account and have been impressed with the verified account and boosted servers. The active Nitro subscription has also provided me with exclusive perks and benefits, making it a valuable investment. The integration of useful bots has further improved the functionality and automation of my Discord experience. I would definitely recommend 2016 Discord Accounts to others.",
+  },
+  {
+    name: "Alex Johnson",
+    rating: 5,
+    comment:
+      "I've been using a Discord Account for a while now, and it has exceeded my expectations. The verified account and boosted servers have been essential for managing and growing my server, and the active Nitro subscription has provided me with custom emojis and animated avatars. The ownership of popular servers has allowed me to connect with a large and active community, and the integration of useful bots has enhanced the overall user experience. I highly recommend 2016 Discord Accounts to anyone looking for a premium Discord experience.",
+  },
+];
+
+// export const generateMetadata = ({ data, reviews }) => {
+//   const calculateAverageRating = (reviews) => {
+//     if (reviews.length === 0) return 0;
+//     const totalRatings = reviews.reduce(
+//       (sum, review) => sum + review.rating,
+//       0
+//     );
+//     return totalRatings / reviews.length;
+//   };
+
+//   const jsonLdScript = {
+//     "@context": "https://schema.org",
+//     "@type": "Product",
+//     name: "Discord aged Account",
+//     image: "https://example.com/photos/1x1/photo.jpg",
+//     description: data.introduction,
+//     brand: {
+//       "@type": "Thing",
+//       name: "Discord",
+//     },
+//     aggregateRating: {
+//       "@type": "AggregateRating",
+//       ratingValue: calculateAverageRating(reviews).toString(),
+//       reviewCount: reviews.length.toString(),
+//     },
+//     offers: {
+//       "@type": "Offer",
+//       url: data.link,
+//       priceCurrency: "USD",
+//       price: data.price,
+//       priceValidUntil: "2025-12-31",
+//       availability: "https://schema.org/InStock",
+//       seller: {
+//         "@type": "Organization",
+//         name: "Your Website Name",
+//       },
+//     },
+//   };
+
+//   return {
+//     title: `Buy ${data.year} Discord Accounts (Aged) | Discord Arena`,
+//     description: data.introduction,
+//     openGraph: {
+//       title: data.name,
+//       description: data.introduction,
+//       images: [
+//         {
+//           url: "https://example.com/photos/1x1/photo.jpg",
+//           alt: data.name,
+//         },
+//       ],
+//       url: data.link,
+//       type: "website",
+//       siteName: "Your Website Name",
+//     },
+//     twitter: {
+//       title: data.name,
+//       description: data.introduction,
+//       images: ["https://example.com/photos/1x1/photo.jpg"],
+//       card: "summary_large_image",
+//     },
+//     other: {
+//       "application-ld+json": JSON.stringify(jsonLdScript),
+//     },
+//   };
+// };
+
 const Page = () => {
   const pathname = usePathname();
-  const id = pathname.split("/")[3];
-  const data = discordData[id - 1];
-  const reviews = [
-    {
-      name: "John Doe",
-      rating: 5,
-      comment:
-        "I purchased a Discord Account and have been extremely satisfied with the features and benefits it offers. The boosted servers and active Nitro subscription have significantly enhanced my Discord experience, and the ownership of popular servers has allowed me to connect with a large and engaged community. Overall, I highly recommend 2016 Discord Accounts to anyone looking to elevate their Discord experience.",
-    },
-    {
-      name: "Jane Smith",
-      rating: 4,
-      comment:
-        "I recently bought a Discord Account and have been impressed with the verified account and boosted servers. The active Nitro subscription has also provided me with exclusive perks and benefits, making it a valuable investment. The integration of useful bots has further improved the functionality and automation of my Discord experience. I would definitely recommend 2016 Discord Accounts to others.",
-    },
-    {
-      name: "Alex Johnson",
-      rating: 5,
-      comment:
-        "I've been using a Discord Account for a while now, and it has exceeded my expectations. The verified account and boosted servers have been essential for managing and growing my server, and the active Nitro subscription has provided me with custom emojis and animated avatars. The ownership of popular servers has allowed me to connect with a large and active community, and the integration of useful bots has enhanced the overall user experience. I highly recommend 2016 Discord Accounts to anyone looking for a premium Discord experience.",
-    },
-  ];
+  const title = pathname.split("/").pop();
+  let id;
+  for (let i = 0; i < discordData.length; i++) {
+    if (discordData[i].name.toLowerCase() == title.split("-").join(" ")) {
+      id = i;
+      break;
+    }
+  }
+
+  const data = discordData[id];
 
   function calculateAverageRating(reviews) {
     if (reviews.length === 0) return 0; // Return 0 if there are no reviews
@@ -48,10 +124,9 @@ const Page = () => {
           src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
           height="0"
           width="0"
-          style={{ display: 'none', visibility: 'hidden' }}
+          style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
-
       <Head>
         <title>Buy {data.year} Discord Accounts (Aged) | Discord Arena</title>
         <meta name="description" content={data.introduction} />

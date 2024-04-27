@@ -12,8 +12,22 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 const Page = () => {
   const pathname = usePathname();
-  const id = pathname.split("/")[3];
-  const data = discordData[id - 1];
+  const title = pathname.split("/").pop(); // Extract the title from the end of the path
+  console.log("this is the title ........", title);
+  let id;
+
+  // Find the item index based on the title
+  for (let i = 0; i < discordData.length; i++) {
+    console.log(
+      "this is the discord data name",
+      discordData[i].name.toLowerCase()
+    );
+    if (discordData[i].name.toLowerCase() == title.split("-").join(" ")) {
+      id = i;
+      break;
+    }
+  }
+  const data = discordData[id];
   const reviews = [
     {
       id: 1,
@@ -51,7 +65,7 @@ const Page = () => {
           src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
           height="0"
           width="0"
-          style={{ display: 'none', visibility: 'hidden' }}
+          style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
 
@@ -67,13 +81,13 @@ const Page = () => {
         <meta property="og:url" content={data.link} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Your Website Name" />
-        <meta name="twitter:title" content={data.name} />
-        <meta name="twitter:description" content={data.introduction} />
+        <meta name=":title" content={data.name} />
+        <meta name=":description" content={data.introduction} />
         <meta
-          name="twitter:image"
+          name=":image"
           content="https://example.com/photos/1x1/photo.jpg"
         />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name=":card" content="summary_large_image" />
         <script type="application/ld+json">
           {`
             {

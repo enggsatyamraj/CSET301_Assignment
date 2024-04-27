@@ -45,14 +45,9 @@ const ContactUs = () => {
           below, and our team will get back to you promptly.
         </p>
         <div className=" max-w-[500px] mx-auto mt-[20px] flex">
-          <input
-            type="text"
-            placeholder="Your Email"
-            className="px-4 py-2 rounded-[30px] w-[90%] md:w-[400px]"
-          />
-          <button className="bg-[#0D0E14] text-white px-3 py-[5px] mx-4 rounded-[30px]">
-            SEND
-          </button>
+          <Link href={"/contactus"} className="bg-[#0D0E14] text-white px-3 py-[5px] mx-4 rounded-[30px]">
+            Contact us
+          </Link>
         </div>
       </div>
 

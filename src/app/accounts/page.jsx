@@ -1,18 +1,72 @@
-"use client";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import discordData from "../../dataFolder/discord.json";
 import instagramData from "../../dataFolder/instagram.json";
-import twitterData from "../../dataFolder/twitter.json";
 import { FaDiscord } from "react-icons/fa";
 import { Actor } from "next/font/google";
 import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import Head from "next/head";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
+
+export function generateMetadata() {
+  return {
+    title: "Discover Your Unique Niche | Discord Arena | Accounts | Discord accounts | Instagram accounts",
+    description:
+      "Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs.",
+    keywords:
+      "Discord Arena, digital presence, cutting-edge solutions, innovation, transparent pricing, tailored solutions",
+    author: "Discord Arena",
+    viewport: "width=device-width, initial-scale=1.0",
+    openGraph: {
+      title: "Discover Your Unique Niche | Discord Arena",
+      description:
+        "Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs.",
+      type: "website",
+      url: "https://www.discordarena.com/",
+      images: [
+        {
+          url: "URL_TO_YOUR_SOCIAL_SHARE_IMAGE",
+          width: 800,
+          height: 600,
+          alt: "Discover Your Unique Niche | Discord Arena",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@yourhandle",
+      title: "Discover Your Unique Niche | Discord Arena",
+      description:
+        "Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs.",
+      image: "URL_TO_YOUR_SOCIAL_SHARE_IMAGE",
+    },
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Discord Arena",
+      url: "https://www.discordarena.com/",
+      logo: "URL_TO_YOUR_LOGO_IMAGE",
+      description:
+        "Unlock the full potential of your digital presence with Discord Arena.",
+      foundingDate: "YEAR_OF_FOUNDATION",
+      founders: [
+        {
+          "@type": "Person",
+          name: "Discord Arena",
+          url: "https://www.discordarena.com/",
+        },
+      ],
+      contactPoint: {
+        "@type": "ContactPoint",
+        email: "YOUR_EMAIL",
+        contactType: "customer support",
+      },
+    },
+  };
+}
 
 export default function Page() {
   return (
@@ -22,11 +76,11 @@ export default function Page() {
           src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
           height="0"
           width="0"
-          style={{ display: 'none', visibility: 'hidden' }}
+          style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
 
-      <Head>
+      {/* <Head>
         <title>Discover Your Unique Niche | Discord Arena</title>
         <meta
           name="description"
@@ -49,17 +103,17 @@ export default function Page() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.discordarena.com/" />
         <meta property="og:image" content="URL_TO_YOUR_SOCIAL_SHARE_IMAGE" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yourtwitterhandle" />
+        <meta name=":card" content="summary_large_image" />
+        <meta name=":site" content="@yourhandle" />
         <meta
-          name="twitter:title"
+          name=":title"
           content="Discover Your Unique Niche | Discord Arena"
         />
         <meta
-          name="twitter:description"
+          name=":description"
           content="Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs."
         />
-        <meta name="twitter:image" content="URL_TO_YOUR_SOCIAL_SHARE_IMAGE" />
+        <meta name=":image" content="URL_TO_YOUR_SOCIAL_SHARE_IMAGE" />
         <script type="application/ld+json">
           {`
           {
@@ -85,7 +139,7 @@ export default function Page() {
           }
         `}
         </script>
-      </Head>
+      </Head> */}
       <div className="bg-normal w-[100%] pt-[80px]">
         <div className="relative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 text-white sm:px-12 ">
           <div className="z-4 relative flex min-h-[90vh] flex-col justify-center">
@@ -145,7 +199,10 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     <Link
-                      href={`accounts/discord/${item.id}`}
+                      href={`accounts/discord/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                     >
                       Info
@@ -214,7 +271,10 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     <Link
-                      href={`accounts/instagram/${item.id}`}
+                      href={`accounts/instagram/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                     >
                       Info
@@ -244,11 +304,11 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="bg-normal w-[100%]">
+      {/* <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <b className="mb-4 text-2xl font-semibold">Twitter Accounts</b>
+          <b className="mb-4 text-2xl font-semibold"> Accounts</b>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
-            {twitterData.map((item, index) => {
+            {Data.map((item, index) => {
               return (
                 <div
                   key={item.id}
@@ -257,7 +317,7 @@ export default function Page() {
                   }  h-fit overflow-hidden mt-3 rounded-md p-4`}
                 >
                   <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
-                    <FaXTwitter
+                    <FaX
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
@@ -268,7 +328,7 @@ export default function Page() {
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                       {item.year}
                     </span>{" "}
-                    Twitter Account for ${item.price}
+                     Account for ${item.price}
                   </p>
                   <ul className="list-disc pl-4 text-[13px] opacity-85">
                     <li>{item.smallShowFiveFeatures.feature1}</li>
@@ -279,7 +339,10 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     <Link
-                      href={`accounts/twitter/${item.id}`}
+                      href={`accounts//${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                     >
                       Info
@@ -298,7 +361,7 @@ export default function Page() {
           </div>
           <div className="mt-4 w-fit ml-auto">
             <Link
-              href={"/accounts/twitter"}
+              href={"/accounts/"}
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
@@ -307,7 +370,7 @@ export default function Page() {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </div>

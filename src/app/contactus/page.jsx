@@ -4,6 +4,9 @@ import Image from "next/image";
 import order_completed from "../../../public/order-completed.svg";
 import form_submit from "../../../public/Group.svg";
 import Footer from "@/components/Footer";
+import { generateMetadata } from "./metadata";
+
+generateMetadata();
 
 const Page = () => {
   const [result, setResult] = useState("");
@@ -72,7 +75,11 @@ const Page = () => {
               <p className="text-center mb-6">
                 Thank you for your submission, We will get to you within 24 hrs.
               </p>
-              <Image src={form_submit} alt="form submitted" className="max-w-[300px] md:w-[60%] w-[80%] h-auto"/>
+              <Image
+                src={form_submit}
+                alt="form submitted"
+                className="max-w-[300px] md:w-[60%] w-[80%] h-auto"
+              />
             </div>
           ) : (
             <div className="flex flex-col lg:flex-row items-center mt-4 gap-4 px-5">

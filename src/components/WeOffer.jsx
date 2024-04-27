@@ -72,7 +72,7 @@ const WeOffer = () => {
                 </div>
               </Link>
 
-              <Link
+              {/* <Link
                 href={"/accounts/twitter"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
@@ -92,7 +92,7 @@ const WeOffer = () => {
                     profiles for your marketing campaigns.
                   </p>
                 </div>
-              </Link>
+              </Link> */}
 
               <Link
                 href={"/accounts/discord"}
