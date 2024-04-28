@@ -7,9 +7,10 @@ import PageWrapper from "./PageWrapper";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
-  title: "Discord arena",
+  title: "Welcome to Discord Arena: Explore Aged and Verified Accounts",
   description:
-    "A place to find discord accounts and join discord servers, communities and events.",
+    "A place to find and buy discord accounts at Ease. We specialize in providing premium Discord, Instagram, and accounts tailored to meet your unique needs.",
+  keywords: "discord, accounts, instagram, aged accounts, verified accounts, Discord Arena, Aged Discord accounts for sale, Verified Discord accounts,Buy phone-verified Discord accounts,Thriving communities, Discord services, Reaction services, Instagram accounts, Instagram accounts",
   icons: {
     icon: ["/favicon.ico?v=4"],
     apple: ["/apple-touch-icon.png?v=4"],

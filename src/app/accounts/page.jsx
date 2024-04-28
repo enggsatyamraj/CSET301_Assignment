@@ -13,11 +13,11 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export function generateMetadata() {
   return {
-    title: "Discover Your Unique Niche | Discord Arena | Accounts | Discord accounts | Instagram accounts",
+    title: "Our Services: Aged, Verified, and Premium Discord Accounts | Instagram accounts",
     description:
       "Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs.",
     keywords:
-      "Discord Arena, digital presence, cutting-edge solutions, innovation, transparent pricing, tailored solutions",
+      "Discord Arena, Aged Discord accounts for sale, Verified Discord accounts,Buy phone-verified Discord accounts,Thriving communities, Discord services, Reaction services, Instagram accounts, Instagram account",
     author: "Discord Arena",
     viewport: "width=device-width, initial-scale=1.0",
     openGraph: {

@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 export const generateMetadata = () => {
-  const title = "About Us - Discord Arena";
+  const title = "About Us - Discord Arena | Premium Accounts";
   const description =
     "Discover Discord Arena - Your go-to source for premium Discord, Instagram, and accounts. Learn about our mission, values, and the high-quality services we provide.";
   const keywords =
