@@ -162,8 +162,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <span className="span_text">Premier Source for Verified</span> accounts
               </p>
               <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
-              Welcome to Discord Arena, your premier destination for top-tier aged Discord and Telegram accounts. Discover a diverse selection of verified and phone-verified options at unbeatable prices. Whether you're in search of Discord accounts from 2015 and beyond or seeking to enhance your server's visibility with server boosts, we've got you covered.
-              Our collection features aged Discord accounts for sale, offering established communities and high-engagement profiles for your needs. Dive into our verified Discord accounts for sale, ensuring credibility and trustworthiness with every purchase. Plus, explore our range of services to buy server boosts for Discord, elevating your server's presence and reach in no time.
+              Welcome to Discord Arena, your premier destination for top-tier aged Discord and Telegram accounts. Discover a diverse selection of verified and phone-verified options at unbeatable prices. Whether you&lsquo;re in search of Discord accounts from 2015 and beyond or seeking to enhance your server&lsquo;s visibility with server boosts, we&lsquo;ve got you covered.
+              Our collection features aged Discord accounts for sale, offering established communities and high-engagement profiles for your needs. Dive into our verified Discord accounts for sale, ensuring credibility and trustworthiness with every purchase. Plus, explore our range of services to buy server boosts for Discord, elevating your server&lsquo;s presence and reach in no time.
               Explore our solutions to buy followers, propelling your credibility and success to new heights. Additionally, browse our selection of aged social media accounts and tokens, meticulously tailored to meet your specific requirements.
               </p>
             </div>

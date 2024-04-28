@@ -92,7 +92,7 @@ const Page = () => {
 
               <Link
                 target="_blank"
-                className="underline mb-6 bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
+                className="mb-6 bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
                 href={"https://yoyohoni.mysellix.io/contact"}
               >
                 Order inquiry
@@ -132,7 +132,7 @@ const Page = () => {
               </p>
               <Link
                 target="_blank"
-                className="underline mb-3  bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
+                className="mb-3 bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
                 href={"https://yoyohoni.mysellix.io/contact"}
               >
                 Order inquiry
