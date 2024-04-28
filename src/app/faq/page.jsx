@@ -10,6 +10,34 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const faqItems = [
   {
+    question:"What are aged Discord accounts, and why should I consider buying them?",
+    answer:"Aged Discord accounts have a history of activity and engagement. Purchasing them allows you to join established communities, access exclusive features, and enhance your online presence.",
+  },
+  {
+    question: "How do I know if a Discord account is verified?",
+    answer: "Verified Discord accounts are linked to valid phone numbers. Look for the \"verified\" badge next to a user's profile. We offer phone-verified accounts for added credibility.",
+  },
+  {
+    question: "Can I trust the accounts for sale on Discord Arena?",
+    answer: "Absolutely! Our verified and aged Discord accounts undergo thorough checks. We prioritize authenticity and reliability, ensuring a positive experience for buyers.",
+  },
+  {
+    question: "What's the process for buying a Discord account?",
+    answer: "It's simple! Explore our range, choose the account that suits your needs, and complete the purchase. Hassle-free and secure.",
+  },
+  {
+    question: "Are there premium features available with certain accounts?",
+    answer: "Yes! Premium Discord accounts offer additional perks, such as exclusive servers, custom emojis, and enhanced security.",
+  },
+  {
+    question: "Can I find niche-specific accounts on Discord Arena?",
+    answer: "Absolutely! Whether you're into gaming, art, or music, we curate accounts to match various interests.",
+  },
+  {
+    question: "Is customer support available if I have questions after purchasing an account?",
+    answer: "Yes! Reach out to our support team for any queries or assistance. We're here to help.",
+  },
+  {
     question: "What services do you offer for Discord accounts?",
     answer:
       "We provide various services for Discord, including account sales, server boosts, and invite purchases. Explore our offerings for more details.",
