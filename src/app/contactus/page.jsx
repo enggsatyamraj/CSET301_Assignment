@@ -67,7 +67,7 @@ const Page = () => {
       <div className="bg-normal min-h-[100vh] w-[100vw] overflow-hidden  relative">
         <div className="radial_one"></div>
         <div className="radial_three"></div>
-        <div className="max-w-[1152px] py-8 w-[90%] min-h-[50vh] mt-[100px] bg-[#121212] rounded-lg bg-opacity-55 backdrop-blur-sm text-white mx-auto mb-[100px]">
+        <div className="max-w-[1152px] py-8 px-3 w-[90%] min-h-[50vh] mt-[100px] bg-[#121212] rounded-lg bg-opacity-55 backdrop-blur-sm text-white mx-auto mb-[100px]">
           <h2 className="md:text-4xl sm:text-3xl text-2xl font-semibold text-center ">
             Contact Us
           </h2>
@@ -92,7 +92,7 @@ const Page = () => {
 
               <Link
                 target="_blank"
-                className="underline mb-6 bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
+                className="underline mt-4 mb-6 bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
                 href={"https://yoyohoni.mysellix.io/contact"}
               >
                 Order inquiry

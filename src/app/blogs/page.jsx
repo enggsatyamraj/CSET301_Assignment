@@ -1,41 +1,35 @@
-"use client";
-import React, { useState } from "react";
+
+import React from "react";
 import Head from "next/head";
 import { Actor } from "next/font/google";
 import Footer from "@/components/Footer";
 import PageWrapper from "../PageWrapper";
-import { generateMetadata } from "./metadata";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const blogs = [
   {
-    title:
-      "Unlocking the Magic: Aged Discord Accounts Await You!",
+    title: "Unlocking the Magic: Aged Discord Accounts Await You!",
     description:
       "Dive into the world of seasoned Discord profiles—your gateway to thriving communities. Explore our collection of aged Discord accounts for sale, carefully curated for authenticity and engagement.",
   },
   {
-    title:
-      "Phone-Verified Discord Accounts: Secure, Reliable, and Ready!",
+    title: "Phone-Verified Discord Accounts: Secure, Reliable, and Ready!",
     description:
       "Looking for hassle-free communication? Our phone-verified Discord accounts guarantee authenticity. Connect confidently with fellow users and explore exciting servers.",
   },
   {
-    title:
-      "The Ultimate Guide: How to Buy Discord Accounts Wisely",
+    title: "The Ultimate Guide: How to Buy Discord Accounts Wisely",
     description:
       "Uncover insider tips on purchasing the right Discord accounts. Whether you’re interested in aged profiles or phone-verified ones, make informed decisions with our expert advice.",
   },
   {
-    title:
-      "Unveiling Aged and Verified Discord Profiles: Your Next Move",
+    title: "Unveiling Aged and Verified Discord Profiles: Your Next Move",
     description:
       "Dive deep into the world of high-quality Discord accounts. Explore aged profiles with rich histories and verified status. Join the ranks of satisfied users today.",
   },
   {
-    title:
-      "Unlock Opportunities: Buy Discord Accounts Today",
+    title: "Unlock Opportunities: Buy Discord Accounts Today",
     description:
       "Ready to take the leap? Explore our diverse range of Discord accounts and find the perfect match for your online journey. Don’t miss out—buy now and thrive in Discord Arena!",
   },
@@ -285,17 +279,123 @@ export const additionalBlogs = [
   },
 ];
 
-generateMetadata();
+export const generateMetadata = () => {
+  const jsonLdMarkup = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": "https://www.discordarena.com/blogs",
+    },
+    headline:
+      "Discord Arena - Blogs || Discord Accounts, Instagram Accounts, Server Boosts, Social Media Growth",
+    description:
+      "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting, Snapchat accounts for personal use, and accelerating YouTube channel growth.",
+    image: "https://www.discordarena.com/og-image.jpg",
+    author: {
+      "@type": "Organization",
+      name: "Discord Arena",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Discord Arena",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.discordarena.com/logo.jpg",
+      },
+    },
+    datePublished: "2024-02-20",
+    dateModified: "2024-02-20",
+    blogPost: [
+      ...blogs.map((blog) => ({
+        "@type": "BlogPosting",
+        headline: blog.headline,
+        description: blog.description,
+      })),
+      ...additionalBlogs.map((blog) => ({
+        "@type": "BlogPosting",
+        headline: blog.headline,
+        description: blog.description,
+      })),
+    ],
+  };
+
+  return {
+    title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
+    description:
+      "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting, Snapchat accounts for personal use, and accelerating YouTube channel growth.",
+    openGraph: {
+      title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
+      description:
+        "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting, Snapchat accounts for personal use, and accelerating YouTube channel growth.",
+      type: "website",
+      url: "https://www.discordarena.com/blogs",
+      images: [
+        {
+          url: "https://www.discordarena.com/og-image.jpg",
+          width: 1200,
+          height: 630,
+          alt: "Discord Arena Blogs",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
+      description:
+        "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting, Snapchat accounts for personal use, and accelerating YouTube channel growth.",
+      images: ["https://www.discordarena.com/-image.jpg"],
+    },
+    keywords:
+      "discord, accounts, instagram, blogs, social media growth, server boosts",
+    robots: "index, follow",
+    viewport: "width=device-width, initial-scale=1.0",
+    authors: [
+      {
+        name: "Discord Arena",
+        url: "https://www.discordarena.com",
+      },
+    ],
+    revisitAfter: { duration: 7, unit: "days" },
+    rating: "general",
+    language: "en-us",
+    classification: "Business",
+    copyright: "2023 Discord Arena",
+    themeColor: "#000000",
+    msapplicationTileColor: "#000000",
+    msapplicationTileImage: "/ms-icon-144x144.png",
+    googleSiteVerification: "verification_token",
+    applicationName: "Discord Arena",
+    appleWebAppCapable: true,
+    appleWebAppTitle: "Discord Arena",
+    appleWebAppStatusBarStyle: "black",
+    mobileWebAppCapable: true,
+    msapplicationNavbuttonColor: "#000000",
+    msapplicationStartUrl: "/",
+    referrer: "no-referrer-when-downgrade",
+    formatDetection: {
+      telephone: false,
+    },
+    jsonLd: jsonLdMarkup,
+    alternates: {
+      canonical: "https://www.discordarena.com/blogs",
+      languages: {
+        "en-US": "https://www.discordarena.com/blogs",
+        "es-ES": "https://www.discordarena.com/es/blogs",
+      },
+    },
+  };
+};
 
 export default function Page() {
-  const [showMore, setShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
 
-  const handleShow = (index) => {
-    setShowMore((prevShowMore) => ({
-      ...prevShowMore,
-      [index]: !prevShowMore[index],
-    }));
-  };
+  // const handleShow = (index) => {
+  //   setShowMore((prevShowMore) => ({
+  //     ...prevShowMore,
+  //     [index]: !prevShowMore[index],
+  //   }));
+  // };
 
   return (
     <div className={actor.className}>
@@ -323,22 +423,20 @@ export default function Page() {
                       {blog.title}
                     </p>
                     <p
-                      className={`lg:text-[16px] mt-3 ${
-                        showMore[index]
-                          ? "transition-h duration-300"
-                          : "h-[50px] transition-h duration-300"
-                      } overflow-hidden md:text-[15px] transition-all duration-300 sm:text-[14px] text-[14px] opacity-70`}
+                      className={`lg:text-[16px] mt-3
+                        h-[50px] transition-h duration-300"
+                       overflow-hidden md:text-[15px] transition-all duration-300 sm:text-[14px] text-[14px] opacity-70`}
                     >
                       {blog.description}
                     </p>
-                    <button
+                    {/* <button
                       onClick={() => {
                         handleShow(index);
                       }}
                       className="text-[#FFFBFB] transition-all duration-300 border-[1px] px-4 py-1 mt-3 rounded-lg opacity-70"
                     >
                       {showMore[index] ? "Read Less" : "Read More"}
-                    </button>
+                    </button> */}
                   </div>
                 );
               })}
