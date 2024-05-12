@@ -67,15 +67,15 @@ export default function Page() {
 
       <Head>
       {/* Google tag (gtag.js) start*/}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-47WWXHZ0GV"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-47WWXHZ0GV"></script>
+  <script dangerouslySetInnerHTML={{ __html: `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)}
+    gtag('js', new Date());
 
-        gtag('config', 'G-47WWXHZ0GV');
-      </script>
-      {/* Google tag (gtag.js) end */}
+    gtag('config', 'G-47WWXHZ0GV');
+  `}} />
+  {/* Google tag (gtag.js) end */}
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
