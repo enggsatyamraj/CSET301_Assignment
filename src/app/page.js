@@ -15,9 +15,8 @@ import { ImCross } from "react-icons/im";
 import discordData from "../dataFolder/discord.json";
 import Image from "next/image";
 import smartPeople from "../../public/smart-people.png";
-import ReactGA from 'react-ga';
-const TRACKING_ID = "G-47WWXHZ0GV"; // OUR_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+import { GoogleTagManager } from '@next/third-parties/google';
+ 
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -57,6 +56,7 @@ export default function Page() {
       borderColor: "#A5A6F6",
     },
   ];
+
   return (
     <div className={actor.className}>
       <noscript>
@@ -69,6 +69,7 @@ export default function Page() {
       </noscript>
 
       <Head>
+        <GoogleTagManager gtmId="G-47WWXHZ0GV" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
