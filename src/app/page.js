@@ -15,6 +15,9 @@ import { ImCross } from "react-icons/im";
 import discordData from "../dataFolder/discord.json";
 import Image from "next/image";
 import smartPeople from "../../public/smart-people.png";
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-47WWXHZ0GV"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -66,16 +69,6 @@ export default function Page() {
       </noscript>
 
       <Head>
-      {/* Google tag (gtag.js) start*/}
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-47WWXHZ0GV"></script>
-  <script dangerouslySetInnerHTML={{ __html: `
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments)}
-    gtag('js', new Date());
-
-    gtag('config', 'G-47WWXHZ0GV');
-  `}} />
-  {/* Google tag (gtag.js) end */}
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
