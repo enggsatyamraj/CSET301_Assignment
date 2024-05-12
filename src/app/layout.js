@@ -3,6 +3,8 @@ import Navbar from "@/components/Navbar";
 import ShopNow from "@/components/ShopNow";
 import { Actor } from "next/font/google";
 import PageWrapper from "./PageWrapper";
+import { GoogleTagManager } from '@next/third-parties/google';
+
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -19,9 +21,12 @@ export const metadata = {
   manifest: "/site.webmanifest",
 };
 
+ 
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <GoogleTagManager gtmId="G-47WWXHZ0GV" />
       <body className={actor.className}>
         {/* <PageWrapper> */}
           <Navbar />
