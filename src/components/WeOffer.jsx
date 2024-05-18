@@ -80,7 +80,7 @@ const WeOffer = () => {
                     <FaDiscord size={30} />
                   </span>
                   <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Discord server boosters
+                    Discord Server Boosters
                   </b>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
