@@ -48,6 +48,74 @@ const WeOffer = () => {
                 </div>
               </Link>
 
+              <Link
+                href={"/accounts/instagram"}
+                className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
+                data-v0-t="card"
+              >
+                <div className="flex flex-col space-y-1.5 p-6">
+                  <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
+                    <FaInstagram size={30} />
+                  </span>
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                    Instagram Aged Accounts
+                  </b>
+                </div>
+                <div className="px-6 pb-4 opacity-75">
+                  <p>
+                    Acquire aged Instagram accounts with established followers,
+                    giving you a head start in your Instagram marketing efforts
+                    and boosting your visibility on the platform.
+                  </p>
+                </div>
+              </Link>
+
+              <Link
+                href={"/accounts/discord"}
+                className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
+                data-v0-t="card"
+              >
+                <div className="flex flex-col space-y-1.5 p-6">
+                  <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
+                    <FaDiscord size={30} />
+                  </span>
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                    Discord server boosters
+                  </b>
+                </div>
+                <div className="px-6 pb-4 opacity-75">
+                  <p>
+                    Explore a range of tailored Discord solutions, encompassing
+                    adept server administration, fostering vibrant community
+                    engagement, deploying cutting-edge moderation utilities, and
+                    incorporating personalized features. Elevate the prowess and
+                    allure of your Discord server with our diverse suite of
+                    services.
+                  </p>
+                </div>
+              </Link>
+
+              <Link
+                href={"/accounts/discord"}
+                className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
+                data-v0-t="card"
+              >
+                <div className="flex flex-col space-y-1.5 p-6">
+                  <span className="relative flex h-11 w-11 items-center justify-center shrink-0 overflow-hidden rounded-full">
+                    <TbBrandMinecraft size={30} className="rounded-full" />
+                  </span>
+                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                    Reaction Services
+                  </b>
+                </div>
+                <div className="px-6 pb-4 opacity-75">
+                  <p>
+                    Enhance user engagement and interaction with our custom
+                    reaction services, adding dynamic elements and fun to your
+                    Discord server or social media platforms.
+                  </p>
+                </div>
+              </Link>
 
               <Link
                 href={"/accounts/discord"}
@@ -71,28 +139,6 @@ const WeOffer = () => {
                   </p>
                 </div>
               </Link>
-
-              {/* <Link
-                href={"/accounts/twitter"}
-                className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
-                data-v0-t="card"
-              >
-                <div className="flex flex-col space-y-1.5 p-6">
-                  <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
-                    <FaXTwitter size={30} />
-                  </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Twitter Aged Accounts
-                  </b>
-                </div>
-                <div className="px-6 pb-4 opacity-75">
-                  <p>
-                    Access aged Twitter accounts with a history of organic
-                    growth and engagement, allowing you to leverage established
-                    profiles for your marketing campaigns.
-                  </p>
-                </div>
-              </Link> */}
 
               <Link
                 href={"/accounts/discord"}
@@ -138,54 +184,6 @@ const WeOffer = () => {
                 </div>
               </Link>
 
-
-              <Link
-                href={"/accounts/discord"}
-                className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
-                data-v0-t="card"
-              >
-                <div className="flex flex-col space-y-1.5 p-6">
-                  <span className="relative flex h-11 w-11 items-center justify-center shrink-0 overflow-hidden rounded-full">
-                    <TbBrandMinecraft size={30} className="rounded-full" />
-                  </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Reaction Services
-                  </b>
-                </div>
-                <div className="px-6 pb-4 opacity-75">
-                  <p>
-                    Enhance user engagement and interaction with our custom
-                    reaction services, adding dynamic elements and fun to your
-                    Discord server or social media platforms.
-                  </p>
-                </div>
-              </Link>
-
-              
-              <Link
-                href={"/accounts/instagram"}
-                className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
-                data-v0-t="card"
-              >
-                <div className="flex flex-col space-y-1.5 p-6">
-                  <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
-                    <FaInstagram size={30} />
-                  </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Instagram Aged Accounts
-                  </b>
-                </div>
-                <div className="px-6 pb-4 opacity-75">
-                  <p>
-                    Acquire aged Instagram accounts with established followers,
-                    giving you a head start in your Instagram marketing efforts
-                    and boosting your visibility on the platform.
-                  </p>
-                </div>
-              </Link>
-              
-              
-
               <Link
                 href={"/accounts/discord"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
@@ -205,31 +203,6 @@ const WeOffer = () => {
                     offline members with our advanced tools and features,
                     ensuring efficient communication and coordination within
                     your community.
-                  </p>
-                </div>
-              </Link>
-
-              <Link
-                href={"/accounts/discord"}
-                className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
-                data-v0-t="card"
-              >
-                <div className="flex flex-col space-y-1.5 p-6">
-                  <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
-                    <FaDiscord size={30} />
-                  </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Discord Nitro Boosters
-                  </b>
-                </div>
-                <div className="px-6 pb-4 opacity-75">
-                  <p>
-                    Explore a range of tailored Discord solutions, encompassing
-                    adept server administration, fostering vibrant community
-                    engagement, deploying cutting-edge moderation utilities, and
-                    incorporating personalized features. Elevate the prowess and
-                    allure of your Discord server with our diverse suite of
-                    services.
                   </p>
                 </div>
               </Link>
