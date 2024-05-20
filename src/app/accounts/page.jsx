@@ -7,13 +7,15 @@ import { FaDiscord } from "react-icons/fa";
 import { Actor } from "next/font/google";
 import { FaInstagram } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
+import discordServerData from '../../dataFolder/discordserver.json'
 import Head from "next/head";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export function generateMetadata() {
   return {
-    title: "Our Services: Aged, Verified, and Premium Discord Accounts | Instagram accounts",
+    title:
+      "Our Services: Aged, Verified, and Premium Discord Accounts | Instagram accounts",
     description:
       "Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs.",
     keywords:
@@ -294,6 +296,78 @@ export default function Page() {
           <div className="mt-4 w-fit ml-auto">
             <Link
               href={"/accounts/instagram"}
+              // onClick={() => setShowMore(!showMore)}
+              className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
+            >
+              Show more
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-normal w-[100%]">
+        <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
+          <b className="mb-4 text-2xl font-semibold">Discord Server</b>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
+            {discordServerData.map((item, index) => {
+              return (
+                <div
+                  key={item.id}
+                  className={`border-[1px] ${
+                    index > 2 && "hidden"
+                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
+                >
+                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
+                    <FaDiscord
+                      size={50}
+                      className="accountDance text-[#8474C4]"
+                    />
+                  </div>
+
+                  <p className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
+                    Buy{" "}
+                    <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
+                      {item.year}
+                    </span>{" "}
+                    Discord Server for ${item.price}
+                  </p>
+                  <ul className="list-disc pl-4 text-[13px] opacity-85">
+                    <li>
+                      {item.smallShowFiveFeatures.feature1
+                        ? item.smallShowFiveFeatures.feature1
+                        : "Authentic and secure account"}
+                    </li>
+                    <li>{item.smallShowFiveFeatures.feature2}</li>
+                    <li>{item.smallShowFiveFeatures.feature3}</li>
+                    <li>{item.smallShowFiveFeatures.feature4}</li>
+                    <li>{item.smallShowFiveFeatures.feature5}</li>
+                  </ul>
+                  <div className="mt-5 flex items-center gap-3">
+                    <Link
+                      href={`accounts/discordserver/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
+                      className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
+                    >
+                      Info
+                    </Link>
+                    <Link
+                      target="_blank"
+                      href={item.link}
+                      className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
+                    >
+                      Buy
+                    </Link>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/discordserver"}
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >

@@ -71,7 +71,7 @@ const WeOffer = () => {
               </Link>
 
               <Link
-                href={"/accounts/discord"}
+                href={"/accounts/discordserver"}
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
