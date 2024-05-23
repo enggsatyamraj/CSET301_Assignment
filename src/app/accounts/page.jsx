@@ -17,9 +17,9 @@ export function generateMetadata() {
     title:
       "Our Services: Aged, Verified, and Premium Discord Accounts | Instagram accounts",
     description:
-      "Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs.",
+      "Unlock the full potential of your digital presence with Discord Arena. Specializing in cutting-edge solutions tailored to your unique needs. Discover our selection of aged and verified Discord accounts for sale at Discord Arena. Improve your server's credibility and security with our high-quality accounts. Browse now",
     keywords:
-      "Discord Arena, Aged Discord accounts for sale, Verified Discord accounts,Buy phone-verified Discord accounts,Thriving communities, Discord services, Reaction services, Instagram accounts, Instagram account",
+      "Discord Arena, Aged Discord accounts for sale, Verified Discord accounts,  Buy Discord accounts,  Secure Discord accounts, Reliable Discord accounts, Aged Discord accounts for sale, Verified Discord accounts,Buy phone-verified Discord accounts,Thriving communities, Discord services, Reaction services, Instagram accounts, Instagram account",
     author: "Discord Arena",
     viewport: "width=device-width, initial-scale=1.0",
     openGraph: {
