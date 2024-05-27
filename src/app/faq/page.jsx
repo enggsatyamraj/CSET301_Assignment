@@ -498,7 +498,7 @@ export const generateMetadata = () => {
   `;
 
   return {
-    title: "Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts",
+    title: "FAQ Page | Discord Accounts | Instgram Accounts | Discord Servers | Discord Arena",
     description:
       "Explore our FAQ page to find answers to common questions about our services.",
     openGraph: {

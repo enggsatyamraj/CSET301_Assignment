@@ -127,58 +127,6 @@ const Page = () => {
           style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
-      <Head>
-        <title>Buy {data.year} Discord Accounts (Aged) | Discord Arena</title>
-        <meta name="description" content={data.introduction} />
-        <meta property="og:title" content={data.name} />
-        <meta property="og:description" content={data.introduction} />
-        <meta
-          property="og:image"
-          content="https://example.com/photos/1x1/photo.jpg"
-        />
-        <meta property="og:url" content={data.link} />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Your Website Name" />
-        <meta name="twitter:title" content={data.name} />
-        <meta name="twitter:description" content={data.introduction} />
-        <meta
-          name="twitter:image"
-          content="https://example.com/photos/1x1/photo.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": "${data.name}",
-              "image": "https://example.com/photos/1x1/photo.jpg",
-              "description": "${data.introduction}",
-              "brand": {
-                "@type": "Thing",
-                "name": "Discord"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "${calculateAverageRating(reviews)}",
-                "reviewCount": "${reviews.length}"
-              },
-              "offers": {
-                "@type": "Offer",
-                "url": "${data.link}",
-                "priceCurrency": "USD",
-                "price": "${data.price}",
-                "priceValidUntil": "2025-12-31",
-                "availability": "https://schema.org/InStock",
-                "seller": {
-                  "@type": "Organization",
-                  "name": "YoYoHoni"
-                }
-              }
-            }
-          `}
-        </script>
-      </Head>
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
           <p className="mx-auto  text-2xl sm:text-3xl md:text-4xl">

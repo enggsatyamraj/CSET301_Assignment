@@ -1,4 +1,3 @@
-
 import React from "react";
 import Head from "next/head";
 import { Actor } from "next/font/google";
@@ -321,7 +320,7 @@ export const generateMetadata = () => {
   };
 
   return {
-    title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
+    title: "Blogs | Discord Accounts | Instagram Accounts | Discord Servers | Discord Arena",
     description:
       "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting, Snapchat accounts for personal use, and accelerating YouTube channel growth.",
     openGraph: {
