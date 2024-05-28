@@ -24,7 +24,7 @@ const ContactUsComponent = () => {
     const formData = new FormData(event.target);
 
     // Append your Web3Forms access key to the form data
-    formData.append("access_key", "3f857728-a8e4-4797-9439-82309b39f633");
+    formData.append("access_key", "d6dad1cc-1f8d-4a29-8473-19097c4f28e5");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -174,7 +174,7 @@ const ContactUsComponent = () => {
                     required
                   />
                 </div>
-                <div className="mb-4">
+                {/* <div className="mb-4">
                   <label
                     htmlFor="phone_number"
                     className="block mb-[2px] text-md font-medium text-white dark:text-white"
@@ -189,7 +189,7 @@ const ContactUsComponent = () => {
                     placeholder="+916202632130"
                     required
                   />
-                </div>
+                </div> */}
                 <div>
                   <label
                     htmlFor="message"
