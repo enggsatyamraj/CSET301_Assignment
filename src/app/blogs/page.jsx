@@ -8,14 +8,32 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const blogs = [
   {
-    title: "Unlocking the Magic: Aged Discord Accounts Await You!",
+    title:
+      "The Art of Discord Server Boosting: Maximizing Benefits for Your Community",
     description:
-      "Dive into the world of seasoned Discord profiles—your gateway to thriving communities. Explore our collection of aged Discord accounts for sale, carefully curated for authenticity and engagement.",
+      "Discord server boosting is an art that can elevate your community to new heights, and in this comprehensive guide, we'll explore the intricacies of maximizing benefits for your server. Whether you're a server owner looking to enhance your community or a member interested in contributing, our expert tips are tailored to help you master the art of Discord server boosting.\n\nTo begin, we'll provide a comprehensive understanding of the boosting process, exploring the benefits and perks that come with boosted servers. DiscordArena specializes in offering a range of services, including Discord tokens, server invites, and more, complementing your boosting strategies.\n\nUnlock the potential of Nitro boosting and understand how it can create a more engaging and interactive environment for your community. Our blog is your go-to resource for navigating the world of server boosts on the Discord platform.\n\nJoin us as we unravel the secrets of Discord server boosting. Explore our services, ask questions, and let DiscordArena be your trusted partner in maximizing benefits for your community.",
+  },
+  {
+    title:
+      "Instagram Accounts for Sale: Finding the Perfect Fit for Your Social Media Goals",
+    description:
+      "Finding the perfect Instagram account for your social media goals is a crucial step in achieving success on the platform. In this comprehensive guide, we'll explore the world of Instagram accounts for sale, providing insights into the factors to consider when making a purchase. Whether you're an influencer, business owner, or content creator, our expert tips are tailored to help you navigate the dynamic landscape of buying Instagram accounts.\n\nTo start, we'll delve into the value of aged and verified Instagram accounts. DiscordArena specializes in offering a curated selection of accounts, ensuring authenticity and reliability in every purchase.\n\nExplore the features and potential of Instagram accounts, from established followers to existing engagement levels. Our blog is your go-to resource for making informed decisions and finding the perfect Instagram account that aligns with your social media goals.\n\nJoin us as we guide you through the process of finding the perfect fit for your social media goals. Explore our services, ask questions, and let DiscordArena be your trusted partner in the dynamic world of Instagram account acquisition.",
   },
   {
     title: "Phone-Verified Discord Accounts: Secure, Reliable, and Ready!",
     description:
       "Looking for hassle-free communication? Our phone-verified Discord accounts guarantee authenticity. Connect confidently with fellow users and explore exciting servers.",
+  },
+  {
+    title: "Unlocking the Magic: Aged Discord Accounts Await You!",
+    description:
+      "Dive into the world of seasoned Discord profiles—your gateway to thriving communities. Explore our collection of aged Discord accounts for sale, carefully curated for authenticity and engagement.",
+  },
+  {
+    title:
+      "Maximizing Discord Potential: A Guide to Nitro Boosting for Your Community",
+    description:
+      "Enhance your Discord community with our comprehensive guide to Nitro boosting. Gain a deep understanding of the boosting process, explore the myriad benefits, and learn how to purchase server boosts using Discord Nitro. Our blog caters to both Discord server owners and members, offering valuable insights into maximizing server potential. Explore our range of services, including Discord tokens, server invites, and more, to elevate your Discord experience. At DiscordArena, we specialize in unlocking the dynamics of Nitro boosting, enabling your community to flourish and grow. Join us on a journey to create a Discord environment that fosters engagement and lasting connections.",
   },
   {
     title: "The Ultimate Guide: How to Buy Discord Accounts Wisely",
@@ -132,12 +150,6 @@ export const blogs = [
   },
   {
     title:
-      "Maximizing Discord Potential: A Guide to Nitro Boosting for Your Community",
-    description:
-      "Enhance your Discord community with our comprehensive guide to Nitro boosting. Gain a deep understanding of the boosting process, explore the myriad benefits, and learn how to purchase server boosts using Discord Nitro. Our blog caters to both Discord server owners and members, offering valuable insights into maximizing server potential. Explore our range of services, including Discord tokens, server invites, and more, to elevate your Discord experience. At DiscordArena, we specialize in unlocking the dynamics of Nitro boosting, enabling your community to flourish and grow. Join us on a journey to create a Discord environment that fosters engagement and lasting connections.",
-  },
-  {
-    title:
       "Snapchat Delight: A Comprehensive Guide to Buying and Exploring Premium Accounts",
     description:
       "Experience the convenience of buying Snapchat accounts for personal use with our comprehensive guide. Explore our curated selection of Snapchat accounts, tailored to diverse preferences, and enhance your Snapchat experience. Our blog provides profound insights into the unique features of Snapchat accounts, catering to users seeking convenience and flexibility. Explore our range of services, including aged and verified accounts, to find the perfect Snapchat account for your needs. At DiscordArena, we invite you to dive into the world of ephemeral content and personal connections, guiding you through the steps of enhancing your Snapchat experience with premium accounts that bring added value to your digital interactions.",
@@ -206,21 +218,9 @@ export const additionalBlogs = [
       "Embark on your  journey with confidence as we provide a step-by-step guide to creating a  account. Whether you're new to social media or a seasoned user exploring  for the first time, our detailed instructions are tailored to help you set up your profile and navigate the verse with ease.\n\nTo start, we'll guide you through the  sign-up page, providing the necessary information and insights into creating a profile that stands out. Our blog caters to both individuals and businesses, ensuring that you have the knowledge to make the most of your  experience.\n\nExplore our curated selection of  accounts for sale, designed to cater to various niches and industries. Whether you're looking for a fresh start or an account with an established following, DiscordArena has options to suit your preferences.\n\nJoin us as we demystify the process of creating a  account. Explore our services, ask questions, and let DiscordArena be your trusted companion in the world of social media engagement on .",
   },
   {
-    title:
-      "The Art of Discord Server Boosting: Maximizing Benefits for Your Community",
-    description:
-      "Discord server boosting is an art that can elevate your community to new heights, and in this comprehensive guide, we'll explore the intricacies of maximizing benefits for your server. Whether you're a server owner looking to enhance your community or a member interested in contributing, our expert tips are tailored to help you master the art of Discord server boosting.\n\nTo begin, we'll provide a comprehensive understanding of the boosting process, exploring the benefits and perks that come with boosted servers. DiscordArena specializes in offering a range of services, including Discord tokens, server invites, and more, complementing your boosting strategies.\n\nUnlock the potential of Nitro boosting and understand how it can create a more engaging and interactive environment for your community. Our blog is your go-to resource for navigating the world of server boosts on the Discord platform.\n\nJoin us as we unravel the secrets of Discord server boosting. Explore our services, ask questions, and let DiscordArena be your trusted partner in maximizing benefits for your community.",
-  },
-  {
     title: " Growth Unleashed: Strategies for Acing Your Social Media Game",
     description:
       "Unleash the full potential of  growth with our expert strategies designed to ace your social media game. In this comprehensive guide, we'll provide insights into the benefits of purchasing  followers and how strategically increasing your following can contribute to overall account engagement. Whether you're an individual looking to boost your personal brand or a business aiming for social media dominance, our expert tips are tailored to help you succeed on the  platform.\n\nTo start, we'll delve into the strategic advantages of buying  followers and how it can contribute to increased visibility and reach. Explore our curated selection of aged  accounts, tailored to various niches and industries, to find the perfect fit for your  growth strategy.\n\nJoin us as we unravel the secrets of  growth. Explore our services, ask questions, and let DiscordArena be your trusted companion in the dynamic world of  engagement.",
-  },
-  {
-    title:
-      "Instagram Accounts for Sale: Finding the Perfect Fit for Your Social Media Goals",
-    description:
-      "Finding the perfect Instagram account for your social media goals is a crucial step in achieving success on the platform. In this comprehensive guide, we'll explore the world of Instagram accounts for sale, providing insights into the factors to consider when making a purchase. Whether you're an influencer, business owner, or content creator, our expert tips are tailored to help you navigate the dynamic landscape of buying Instagram accounts.\n\nTo start, we'll delve into the value of aged and verified Instagram accounts. DiscordArena specializes in offering a curated selection of accounts, ensuring authenticity and reliability in every purchase.\n\nExplore the features and potential of Instagram accounts, from established followers to existing engagement levels. Our blog is your go-to resource for making informed decisions and finding the perfect Instagram account that aligns with your social media goals.\n\nJoin us as we guide you through the process of finding the perfect fit for your social media goals. Explore our services, ask questions, and let DiscordArena be your trusted partner in the dynamic world of Instagram account acquisition.",
   },
   {
     title:
@@ -320,9 +320,9 @@ export const generateMetadata = () => {
   };
 
   return {
-    title: "Blogs | Discord Accounts | Instagram Accounts | Discord Servers | Discord Arena",
+    title: "Blogs | Discord Accounts | Instagram Accounts | Discord Arena",
     description:
-      "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting, Snapchat accounts for personal use, and accelerating YouTube channel growth.",
+      "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting and much more. Join us on a journey of discovery as we explore the dynamic world of social media growth and engagement",
     openGraph: {
       title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
       description:

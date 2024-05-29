@@ -10,6 +10,45 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const faqItems = [
   {
+    question: "How quickly will I receive my order after payment?",
+    answer:
+      "The average time for receiving an order is 10-15 minutes.",
+  },
+  {
+    question: "What if I have a problem with my order?",
+    answer:
+      "If you have any problems with your order, please contact our support team.",
+  },
+  {
+    question: "What payment methods do you accept?",
+    answer:
+      "We accept all major credit and debit cards, as well as PayPal.",
+  },
+  {
+    question: "What if I want to cancel my order?",
+    answer:
+      "If you want to cancel your order, please contact our support team as soon as possible.",
+  },
+  {
+    question: "Do you offer refunds?",
+    answer:
+      "We offer refunds on a case-by-case basis. Please contact our support team for more information.",
+  },
+  {
+    question: "I need an Instagram / Twitter / Discord account, with / without photo, with real / fake subscribers, 2010/2015, Russia / Germany / US / India . Do you have such?",
+    answer:
+      "Yes, we have a wide range of accounts available for purchase. Please vsit our account section for more information.",
+  },
+  {
+    question: "What is the difference between fresher and aged accounts ?",
+    answer:
+      "The fresher the account, the more it is sensible to actions in the first days of use, and more likely to ask for phone verification at login or after a few actions. The more aged, the more it can endure. However, while aged accounts can easily accept login from other locations and resist at more daily actions, it is safer to warm up any account regardless of age, like proceeding with only a few actions daily, for a few days. If fresh accounts are warmed up properly, in time they can be as much as effective as aged accounts.",
+  },
+  {
+    quesion: "Is buying Discord account legal?",
+    answer: "Yes, buying Discord accounts is legal. However, it is important to ensure that you are purchasing accounts from a reputable source(Which is Discord Arena for Sure) to avoid any potential issues.",
+  },
+  {
     question:"What are aged Discord accounts, and why should I consider buying them?",
     answer:"Aged Discord accounts have a history of activity and engagement. Purchasing them allows you to join established communities, access exclusive features, and enhance your online presence.",
   },
@@ -498,9 +537,9 @@ export const generateMetadata = () => {
   `;
 
   return {
-    title: "FAQ Page | Discord Accounts | Instgram Accounts | Discord Servers | Discord Arena",
+    title: "FAQ Regarding Social Accounts | Discord / Instgram Accounts | Discord Arena",
     description:
-      "Explore our FAQ page to find answers to common questions about our services.",
+      "Explore our FAQ page to find answers to common questions about our services regarding Purchasing Discord and Instagram Accounts. We also provide information on Discord Server Boosts and Social Media Growth. Visit Discord Arena for more details.",
     openGraph: {
       title:
         "Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts",
