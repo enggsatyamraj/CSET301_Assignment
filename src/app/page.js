@@ -74,30 +74,11 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Discover a diverse selection of aged Discord,  and Telegram accounts, including verified and phone-verified options, at unbeatable prices. Buy Discord accounts from 2015 and beyond, with the assurance of authenticity and quality. Our collection includes aged Discord accounts for sale, providing you with established communities and high-engagement profiles. We offer verified Discord accounts for sale, ensuring credibility and trustworthiness. Additionally, explore our range of services to buy server boosts for Discord, enhancing your server's visibility and reach. Elevate your  presence with our solutions to buy  followers, boosting your social proof and influence. Explore our selection of aged social media accounts and tokens, tailored to meet your specific needs. Join the ranks of successful influencers, marketers, and businesses who have leveraged our premium accounts to achieve their goals. Experience growth, credibility, and success like never before. Unlock the power of established social media accounts today."
+          content="Discover top-tier aged and verified Discord accounts at Discord Arena. Boost your online presence with our premium services and unbeatable prices."
         />
         <meta
           name="keywords"
-          content="dis cord, discord software, discord login
-                                  discord log in,
-                                  discord login in,
-                                  discord bots,
-                                  discord website,
-                                  bots in discord,
-                                  bot on discord,
-                                  discord bot discord,
-                                  instagram account buy and sell,
-                                    instagram account for,
-                                    sale instagram page,
-                                    used instagram account,
-                                    link accounts instagram,
-                                    get on instagram,
-                                    find other instagram account,
-                                    buy page instagram,
-                                    instagram buy sell,
-                                    instagram account for sale free,
-
-"
+          content="Aged Discord accounts, verified Discord accounts, buy Discord accounts, Discord server boosts, social media accounts for sale, Buy Instagram accounts"
         />
         <meta name="author" content="Discord Arena" />
 

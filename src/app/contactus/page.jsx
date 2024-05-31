@@ -7,11 +7,11 @@ import Link from "next/link";
 import ContactUsComponent from "@/components/ContactUsComponent";
 
 export const generateMetadata = () => {
-  const title = "Contact Us - Discord Arena | Premium Accounts Support";
+  const title = "Contact Us | Get in Touch with Discord Arena";
   const description =
-    "Have questions or need assistance? Get in touch with our team at Discord Arena. We are here to help with all your queries related to premium Discord, Instagram, and other accounts. Buy exclusive accounts today!";
+    "Have questions or need assistance? Contact Discord Arena for prompt support and expert advice on all our services and products.";
   const keywords =
-    "contact us, Discord Arena, premium accounts, Discord, Instagram, customer support, inquiries";
+    "Contact Discord Arena, support for Discord accounts, get in touch, customer service, contact us, Discord Arena, premium accounts, Discord, Instagram, customer support, inquiries";
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/contact-us";
   const ogImage = "URL_TO_YOUR_SOCIAL_SHARE_IMAGE";

@@ -537,9 +537,9 @@ export const generateMetadata = () => {
   `;
 
   return {
-    title: "FAQ Regarding Social Accounts | Discord / Instgram Accounts | Discord Arena",
+    title: "Frequently Asked Questions | Discord Arena",
     description:
-      "Explore our FAQ page to find answers to common questions about our services regarding Purchasing Discord and Instagram Accounts. We also provide information on Discord Server Boosts and Social Media Growth. Visit Discord Arena for more details.",
+      "Find answers to common questions about buying and using aged Discord accounts, server boosts, and other services offered by Discord Arena.",
     openGraph: {
       title:
         "Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts",
@@ -561,7 +561,7 @@ export const generateMetadata = () => {
         "Explore our FAQ page to find answers to common questions about our services.",
       images: ["https://www.discordarena.com/-image.jpg"],
     },
-    keywords: "discord, accounts, faq, frequently asked questions",
+    keywords: "Discord account FAQs, buying Discord accounts, server boost questions, Discord Arena support, discord, accounts, faq, frequently asked questions",
     robots: "index, follow",
     viewport: "width=device-width, initial-scale=1.0",
     authors: [
