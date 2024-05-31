@@ -411,6 +411,10 @@ export default function Page() {
 
       <div className="bg-normal overflow-x-hidden w-[100%] relative min-h-[100vh] text-white pt-[100px] pb-[100px] px-4">
         <PageWrapper>
+          <Head>
+              <title>Expert Tips & Insights on Discord Accounts | Discord Arena Blog</title>
+          </Head>
+          <h1 className=" text-4xl font-bold mb-8 ">                Expert Tips & Insights on Discord Accounts</h1>
           <div className="radial_one"></div>
           <div className="max-w-[1280px] mx-auto">
             <div>

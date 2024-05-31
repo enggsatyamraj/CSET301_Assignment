@@ -145,6 +145,9 @@ export default function Page() {
       <div className="bg-normal w-[100%] pt-[80px]">
         <div className="relative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 text-white sm:px-12 ">
           <div className="z-4 relative flex min-h-[90vh] flex-col justify-center">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl mb-8">
+              Aged Discord & Social Media Accounts for Sale
+            </h1>
             <p className="lh:w-[60%] mb-6 text-3xl sm:w-[80%]  sm:text-4xl md:w-[70%] md:text-5xl">
               Discover Your Unique Niche with Discord Arena
             </p>
