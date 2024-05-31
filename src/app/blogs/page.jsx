@@ -320,9 +320,11 @@ export const generateMetadata = () => {
   };
 
   return {
-    title: "Blogs | Discord Accounts | Instagram Accounts | Discord Arena",
+    title: "Expert Tips & Insights on Discord Accounts | Discord Arena Blog",
     description:
-      "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting and much more. Join us on a journey of discovery as we explore the dynamic world of social media growth and engagement",
+      "Explore our blog for expert advice, tips, and insights on using aged Discord accounts to maximize your online presence and engagement.",
+    keywords:
+      "Discord account tips, social media strategies, expert Discord advice, Discord engagement tips, discord accounts, discord tokens, discord server boosts, discord nitro, discord engagement, discord security, discord growth",  
     openGraph: {
       title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
       description:

@@ -4,11 +4,11 @@ import Link from "next/link";
 import React from "react";
 
 export const generateMetadata = () => {
-  const title = "About Us - Discord Arena | Buy Premium Accounts at Ease";
+  const title = "About Us | Trusted Provider of Discord Accounts | Discord Arena";
   const description =
-    "Discover Discord Arena - Your go-to source for premium Discord, Instagram, and accounts. Learn about our mission, values, and the high-quality services we provide. Contact us today! ";
+    "Learn about Discord Arena, your reliable source for aged and verified Discord accounts. Our commitment to quality and customer satisfaction sets us apart.";
   const keywords =
-    "Discord Arena, premium accounts, Discord, Instagram, , exclusive accounts, high-quality accounts, buy accounts";
+    "Trusted Discord account provider, Discord account supplier, about Discord Arena, premium accounts, Discord, Instagram, , exclusive accounts, high-quality accounts, buy accounts";
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/aboutus";
   const ogImage = "URL_TO_YOUR_SOCIAL_SHARE_IMAGE";

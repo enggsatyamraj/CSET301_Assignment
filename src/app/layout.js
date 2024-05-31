@@ -9,10 +9,10 @@ import { GoogleTagManager } from '@next/third-parties/google';
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
-  title: "Discord Arena | Buy Premium Discord & Social Accounts at Ease",
+  title: "Buy Premium Aged Discord & Social Accounts | Discord Arena",
   description:
-    "A place to find and buy discord accounts at Ease. We specialize in providing premium Discord, Instagram, and accounts tailored to meet your unique needs. Discover top-quality aged and verified Discord accounts for sale at Discord Arena. Enhance your server's credibility with our secure and reliable accounts. Perfect for businesses, communities, and enthusiasts. Buy now for instant access and boost your online presence!",
-  keywords: "Aged Discord accounts for sale, Buy Discord Account, Discord Account for Sale, Verified Discord accounts, Buy Discord accounts, Secure Discord accounts, Reliable Discord accounts, Discord accounts marketplace, Purchase Discord accounts, Aged Discord accounts, Verified Discord accounts for sale, Buy aged Discord accounts, Instagram accounts",
+    "Discover top-tier aged and verified Discord accounts at Discord Arena. Boost your online presence with our premium services and unbeatable prices.",
+  keywords: "Aged Discord accounts, verified Discord accounts, buy Discord accounts, Discord server boosts, social media accounts for sale, Buy Instagram accounts",
   icons: {
     icon: ["/favicon.ico?v=4"],
     apple: ["/apple-touch-icon.png?v=4"],

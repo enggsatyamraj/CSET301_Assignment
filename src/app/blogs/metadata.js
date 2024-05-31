@@ -9,9 +9,9 @@ export const generateMetadata = () => {
         "@id": "https://www.discordarena.com/blogs",
       },
       headline:
-        "Discord Arena - Blogs || Discord Accounts, Instagram Accounts, Server Boosts, Social Media Growth",
+        "Expert Tips & Insights on Discord Accounts | Discord Arena Blog",
       description:
-        "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting, Snapchat accounts for personal use, and accelerating YouTube channel growth.",
+        "Explore our blog for expert advice, tips, and insights on using aged Discord accounts to maximize your online presence and engagement.",
       image: "https://www.discordarena.com/og-image.jpg",
       author: {
         "@type": "Organization",
@@ -42,9 +42,9 @@ export const generateMetadata = () => {
     };
   
     return {
-      title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
+      title: "Expert Tips & Insights on Discord Accounts | Discord Arena Blog",
       description:
-        "Discover a wealth of information in our blogs covering topics such as optimizing Discord engagement, securing your Discord account, navigating Discord tokens, growth strategies, monetizing Instagram, creating and growing your account, efficient management of multiple social media accounts, Discord Nitro boosting, Snapchat accounts for personal use, and accelerating YouTube channel growth.",
+        "Explore our blog for expert advice, tips, and insights on using aged Discord accounts to maximize your online presence and engagement.",
       openGraph: {
         title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
         description:
