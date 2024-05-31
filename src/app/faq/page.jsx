@@ -720,9 +720,7 @@ export default function page() {
           </Head>
           <div className="radial_one"></div>
           <div className="max-w-[1280px] mx-auto">
-            <p className={`md:text-[36px] text-[32px] pb-2 mb-4 text-center`}>
-              Frequently Asked Questions
-            </p>
+          <h1 className="text-4xl font-bold text-center mb-8">Frequently Asked Questions About Our Services</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-4">
               {allData.map((item, index) => {
                 return (

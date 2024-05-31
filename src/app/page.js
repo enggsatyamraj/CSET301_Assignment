@@ -166,7 +166,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <WeOffer />
       <div className="bg-black text-white pt-8 pb-12">
         <div className="min-h-[90vh] px-4 flex flex-col justify-center max-w-[1280px] mx-auto">
-          <h1 className="text-3xl md:text-4xl text-center">DISCORD SERVICES</h1>
+          <h1 className="text-3xl md:text-4xl text-center">Buy Premium Aged Discord & Social Media Accounts</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-3 mt-[40px] gap-5">
             {specialDiscordServiceArray.map((item, index) => {

@@ -77,9 +77,9 @@ const Page = () => {
         <div className="radial_one"></div>
         <div className="radial_three"></div>
         <div className="max-w-[1152px] py-8 px-3 w-[90%] min-h-[50vh] mt-[100px] bg-[#121212] rounded-lg bg-opacity-55 backdrop-blur-sm text-white mx-auto mb-[100px]">
-          <h2 className="md:text-4xl sm:text-3xl text-2xl font-semibold text-center ">
-            Contact Us
-          </h2>
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold text-center ">
+            Get in Touch with Discord Arena
+          </h1>
           <ContactUsComponent />
         </div>
         <Footer />
