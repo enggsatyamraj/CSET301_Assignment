@@ -11,8 +11,7 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export const faqItems = [
   {
     question: "How quickly will I receive my order after payment?",
-    answer:
-      "The average time for receiving an order is 10-15 minutes.",
+    answer: "The average time for receiving an order is 10-15 minutes.",
   },
   {
     question: "What if I have a problem with my order?",
@@ -21,8 +20,7 @@ export const faqItems = [
   },
   {
     question: "What payment methods do you accept?",
-    answer:
-      "We accept all major credit and debit cards, as well as PayPal.",
+    answer: "We accept all major credit and debit cards, as well as PayPal.",
   },
   {
     question: "What if I want to cancel my order?",
@@ -35,7 +33,8 @@ export const faqItems = [
       "We offer refunds on a case-by-case basis. Please contact our support team for more information.",
   },
   {
-    question: "I need an Instagram / Twitter / Discord account, with / without photo, with real / fake subscribers, 2010/2015, Russia / Germany / US / India . Do you have such?",
+    question:
+      "I need an Instagram / Twitter / Discord account, with / without photo, with real / fake subscribers, 2010/2015, Russia / Germany / US / India . Do you have such?",
     answer:
       "Yes, we have a wide range of accounts available for purchase. Please vsit our account section for more information.",
   },
@@ -45,36 +44,46 @@ export const faqItems = [
       "The fresher the account, the more it is sensible to actions in the first days of use, and more likely to ask for phone verification at login or after a few actions. The more aged, the more it can endure. However, while aged accounts can easily accept login from other locations and resist at more daily actions, it is safer to warm up any account regardless of age, like proceeding with only a few actions daily, for a few days. If fresh accounts are warmed up properly, in time they can be as much as effective as aged accounts.",
   },
   {
-    quesion: "Is buying Discord account legal?",
-    answer: "Yes, buying Discord accounts is legal. However, it is important to ensure that you are purchasing accounts from a reputable source(Which is Discord Arena for Sure) to avoid any potential issues.",
+    question: "Is buying Discord account legal?",
+    answer:
+      "Yes, buying Discord accounts is legal. However, it is important to ensure that you are purchasing accounts from a reputable source(Which is Discord Arena for Sure) to avoid any potential issues.",
   },
   {
-    question:"What are aged Discord accounts, and why should I consider buying them?",
-    answer:"Aged Discord accounts have a history of activity and engagement. Purchasing them allows you to join established communities, access exclusive features, and enhance your online presence.",
+    question:
+      "What are aged Discord accounts, and why should I consider buying them?",
+    answer:
+      "Aged Discord accounts have a history of activity and engagement. Purchasing them allows you to join established communities, access exclusive features, and enhance your online presence.",
   },
   {
     question: "How do I know if a Discord account is verified?",
-    answer: "Verified Discord accounts are linked to valid phone numbers. Look for the \"verified\" badge next to a user's profile. We offer phone-verified accounts for added credibility.",
+    answer:
+      'Verified Discord accounts are linked to valid phone numbers. Look for the "verified" badge next to a user\'s profile. We offer phone-verified accounts for added credibility.',
   },
   {
     question: "Can I trust the accounts for sale on Discord Arena?",
-    answer: "Absolutely! Our verified and aged Discord accounts undergo thorough checks. We prioritize authenticity and reliability, ensuring a positive experience for buyers.",
+    answer:
+      "Absolutely! Our verified and aged Discord accounts undergo thorough checks. We prioritize authenticity and reliability, ensuring a positive experience for buyers.",
   },
   {
     question: "What's the process for buying a Discord account?",
-    answer: "It's simple! Explore our range, choose the account that suits your needs, and complete the purchase. Hassle-free and secure.",
+    answer:
+      "It's simple! Explore our range, choose the account that suits your needs, and complete the purchase. Hassle-free and secure.",
   },
   {
     question: "Are there premium features available with certain accounts?",
-    answer: "Yes! Premium Discord accounts offer additional perks, such as exclusive servers, custom emojis, and enhanced security.",
+    answer:
+      "Yes! Premium Discord accounts offer additional perks, such as exclusive servers, custom emojis, and enhanced security.",
   },
   {
     question: "Can I find niche-specific accounts on Discord Arena?",
-    answer: "Absolutely! Whether you're into gaming, art, or music, we curate accounts to match various interests.",
+    answer:
+      "Absolutely! Whether you're into gaming, art, or music, we curate accounts to match various interests.",
   },
   {
-    question: "Is customer support available if I have questions after purchasing an account?",
-    answer: "Yes! Reach out to our support team for any queries or assistance. We're here to help.",
+    question:
+      "Is customer support available if I have questions after purchasing an account?",
+    answer:
+      "Yes! Reach out to our support team for any queries or assistance. We're here to help.",
   },
   {
     question: "What services do you offer for Discord accounts?",
@@ -109,8 +118,7 @@ export const faqItems = [
       "We accept a variety of payment methods, including credit cards, PayPal, and bank transfers, for purchasing Discord accounts, tokens, and other related services.",
   },
   {
-    question:
-      "How can I track my order for Discord server boosts or invites?",
+    question: "How can I track my order for Discord server boosts or invites?",
     answer:
       "Upon processing your order, you`ll receive a confirmation email with tracking information for Discord server boosts or invites. Monitor your order through the provided details.",
   },
@@ -175,8 +183,7 @@ export const faqItems = [
       "Yes, all our Discord tokens and accounts adhere to Discord’s terms of service. We prioritize compliance to provide a reliable and trustworthy service.",
   },
   {
-    question:
-      "Can I purchase Discord server invites for specific communities?",
+    question: "Can I purchase Discord server invites for specific communities?",
     answer:
       "Yes, we offer Discord server invites tailored to specific communities and interests. Explore our selection to find the right server invites for your preferences.",
   },
@@ -257,8 +264,7 @@ export const faqItems = [
       "To create a new  account, visit the  sign-up page, provide the necessary information, and follow the on-screen instructions to set up your account.",
   },
   {
-    question:
-      "What is the process for finding social media accounts by email?",
+    question: "What is the process for finding social media accounts by email?",
     answer:
       "While we do not offer this service, you can use online tools and search engines to look for social media accounts linked to a specific email address.",
   },
@@ -274,8 +280,7 @@ export const faqItems = [
       "Yes, we offer  accounts for sale that cater to various niches and industries. Browse our selection to find accounts suited to your interests.",
   },
   {
-    question:
-      "How can I create a new Discord account for online interactions?",
+    question: "How can I create a new Discord account for online interactions?",
     answer:
       "To create a new Discord account, visit the Discord sign-up page, enter the required details, and follow the prompts to set up your account for online interactions.",
   },
@@ -335,8 +340,7 @@ export const faqItems = [
       "Certainly! Contact our sales team to inquire about discounts for bulk purchases of accounts or services. We may have special offers tailored to your needs.",
   },
   {
-    question:
-      "How can I protect my Discord account from unauthorized access?",
+    question: "How can I protect my Discord account from unauthorized access?",
     answer:
       "To protect your Discord account, enable two-factor authentication (2FA), use a strong and unique password, and be cautious of phishing attempts. Our customer support can assist with security-related queries.",
   },
@@ -401,8 +405,7 @@ export const additionalFaqItems = [
       "Explore popular hashtags, engage with relevant communities, and follow accounts in your niche. This can help attract followers interested in your content.",
   },
   {
-    question:
-      "What's the best way to start an Instagram account from scratch?",
+    question: "What's the best way to start an Instagram account from scratch?",
     answer:
       "Define your niche, create engaging content, use relevant hashtags, interact with your audience, and collaborate with other users to grow your Instagram account organically.",
   },
@@ -417,8 +420,7 @@ export const additionalFaqItems = [
       "Go to 'Settings' on your Instagram profile, select 'Add Account,' and enter the login details of the additional account. You can switch between accounts easily.",
   },
   {
-    question:
-      "What are the best Instagram accounts to follow for inspiration?",
+    question: "What are the best Instagram accounts to follow for inspiration?",
     answer:
       "Explore accounts in your areas of interest, such as travel, art, or technology. Look for influencers, creators, and brands that align with your preferences.",
   },
@@ -506,10 +508,7 @@ export const additionalFaqItems = [
 export const allData = [
   ...faqItems,
   ...additionalFaqItems,
-  ...discordData.reduce(
-    (acc, cur) => [...acc, ...cur.questionAnswerArray],
-    []
-  ),
+  ...discordData.reduce((acc, cur) => [...acc, ...cur.questionAnswerArray], []),
   ...instagramData.reduce(
     (acc, cur) => [...acc, ...cur.questionAnswerArray],
     []
@@ -561,7 +560,8 @@ export const generateMetadata = () => {
         "Explore our FAQ page to find answers to common questions about our services.",
       images: ["https://www.discordarena.com/-image.jpg"],
     },
-    keywords: "Discord account FAQs, buying Discord accounts, server boost questions, Discord Arena support, discord, accounts, faq, frequently asked questions",
+    keywords:
+      "Discord account FAQs, buying Discord accounts, server boost questions, Discord Arena support, discord, accounts, faq, frequently asked questions",
     robots: "index, follow",
     viewport: "width=device-width, initial-scale=1.0",
     authors: [
@@ -595,26 +595,6 @@ export const generateMetadata = () => {
 };
 
 export default function page() {
-
-  const jsonLdMarkup = `
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        ${allData.map(
-          (item, index) => `{
-          "@type": "Question",
-          "name": "${item.question}",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "${item.answer}"
-          }
-        }${index < allData.length - 1 ? "," : ""}`
-        )}
-      ]
-    }
-  `;
-
   return (
     <div className={actor.className}>
       <noscript>
@@ -628,112 +608,25 @@ export default function page() {
 
       <div className="bg-normal w-[100%] min-h-[100vh] text-white pt-[100px] pb-10 px-7 sm:px-12 relative">
         <PageWrapper>
-          <Head>
-            <title>
-              Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts
-            </title>
-            <meta
-              name="description"
-              content="Explore our FAQ page to find answers to common questions about our services."
-            />
-
-            {/* Open Graph Meta Tags */}
-            <meta
-              property="og:title"
-              content="Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts"
-            />
-            <meta
-              property="og:description"
-              content="Explore our FAQ page to find answers to common questions about our services."
-            />
-            <meta property="og:type" content="website" />
-            <meta
-              property="og:url"
-              content="https://www.discordarena.com/faq"
-            />
-            <meta
-              property="og:image"
-              content="https://www.discordarena.com/og-image.jpg"
-            />
-
-            {/*  Meta Tags */}
-            <meta name=":card" content="summary_large_image" />
-            <meta
-              name=":title"
-              content="Discord Arena - FAQ Page || Discord Accounts || Instgram Accounts"
-            />
-            <meta
-              name=":description"
-              content="Explore our FAQ page to find answers to common questions about our services."
-            />
-            <meta
-              name=":image"
-              content="https://www.discordarena.com/-image.jpg"
-            />
-
-            {/* Additional Meta Tags */}
-            <meta
-              name="keywords"
-              content="discord, accounts, faq, frequently asked questions"
-            />
-            <meta name="robots" content="index, follow" />
-            <meta
-              name="viewport"
-              content="width=device-width, initial-scale=1.0"
-            />
-            <meta name="author" content="Discord Arena" />
-            <meta name="distribution" content="web" />
-            <meta name="revisit-after" content="7 days" />
-            <meta name="rating" content="general" />
-            <meta name="language" content="en-us" />
-            <meta name="classification" content="Business" />
-            <meta name="copyright" content="2022" />
-            <meta name="theme-color" content="#000000" />
-            <meta name="msapplication-TileColor" content="#000000" />
-            <meta
-              name="msapplication-TileImage"
-              content="/ms-icon-144x144.png"
-            />
-            <meta
-              name="google-site-verification"
-              content="verification_token"
-            />
-            <meta name="application-name" content="Discord Arena" />
-            <meta name="apple-mobile-web-app-capable" content="yes" />
-            <meta name="apple-mobile-web-app-title" content="Discord Arena" />
-            <meta
-              name="apple-mobile-web-app-status-bar-style"
-              content="black"
-            />
-            <meta name="apple-mobile-web-app-title" content="Discord Arena" />
-            <meta name="mobile-web-app-capable" content="yes" />
-            <meta name="msapplication-navbutton-color" content="#000000" />
-            <meta name="msapplication-starturl" content="/" />
-            <meta name="application-name" content="Discord Arena" />
-            <meta name="referrer" content="no-referrer-when-downgrade" />
-            <meta name="format-detection" content="telephone=no" />
-
-            <script
-              type="application/ld+json"
-              dangerouslySetInnerHTML={{ __html: jsonLdMarkup }}
-            />
-          </Head>
           <div className="radial_one"></div>
           <div className="max-w-[1280px] mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-8">Frequently Asked Questions About Our Services</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 gap-4">
+            <h1 className="text-4xl font-bold text-center mb-8">
+              Frequently Asked Questions About Our Services
+            </h1>
+            <div className="">
               {allData.map((item, index) => {
                 return (
                   <div
                     key={index}
-                    className="mb-4 opacity-90 max-w-[500px] mx-auto"
+                    className="mb-8 opacity-90 mx-auto lg:max-w-[80%]"
                   >
-                    <p className="mb-1 sm:text-[23px] text-[21px] lg:text-[25px]">
+                    <p className="mb-1 sm:text-[21px] text-[19px] lg:text-[23px]">
                       {item.question}
                     </p>
                     <p className="sm:text-[16px] text-[14px] opacity-70 lg:text-[18px]">
-                      {item.answer}
+                      -{">"} {item.answer}
                     </p>
+                    <div className="h-[0.5px] mt-3 bg-gradient-to-r from-white to-black"></div>
                   </div>
                 );
               })}
