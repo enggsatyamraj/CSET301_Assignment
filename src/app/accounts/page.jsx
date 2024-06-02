@@ -427,7 +427,7 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     <Link
-                      href={`accounts/discordserver/${item.name
+                      href={`accounts/reddit/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}
