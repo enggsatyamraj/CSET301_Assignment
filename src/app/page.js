@@ -15,10 +15,45 @@ import { ImCross } from "react-icons/im";
 import discordData from "../dataFolder/discord.json";
 import Image from "next/image";
 import smartPeople from "../../public/smart-people.png";
-import { GoogleTagManager } from '@next/third-parties/google';
- 
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
+
+export const generateMetaData = () => {
+  const jsonLd = {
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    name: "Discord Arena",
+    description:
+      "Discover a diverse selection of aged Discord, , and Telegram accounts, including verified and phone-verified options, at unbeatable prices. Buy Discord accounts from 2015 and beyond, with the assurance of authenticity and quality. Our collection includes aged Discord accounts for sale, providing you with established communities and high-engagement profiles. We offer verified Discord accounts for sale, ensuring credibility and trustworthiness. Additionally, explore our range of services to buy server boosts for Discord, enhancing your server's visibility and reach. Elevate your  presence with our solutions to buy  followers, boosting your social proof and influence. Explore our selection of aged social media accounts and tokens, tailored to meet your specific needs. Join the ranks of successful influencers, marketers, and businesses who have leveraged our premium accounts to achieve their goals. Experience growth, credibility, and success like never before. Unlock the power of established social media accounts today.",
+    url: "https://www.discordarena.com/",
+    about: {
+      "@type": "Thing",
+      name: "Discord Arena",
+      description:
+        "Our collection includes aged Discord accounts for sale, providing you with established communities and high-engagement profiles. We offer verified Discord accounts for sale, ensuring credibility and trustworthiness. Additionally, explore our range of services to buy server boosts for Discord, enhancing your server's visibility and reach. Elevate your  presence with our solutions to buy  followers, boosting your social proof and influence. Explore our selection of aged social media accounts and tokens, tailored to meet your specific needs.",
+    },
+  };
+
+  return {
+    title: "Buy Discord Accounts as Ease| Discord Arena",
+    description:
+      "Discover a diverse selection of aged Discord, , and Telegram accounts, including verified and phone-verified options, at unbeatable prices. Buy Discord accounts from 2015 and beyond, with the assurance of authenticity and quality. Our collection includes aged Discord accounts for sale, providing you with established communities and high-engagement profiles. We offer verified Discord accounts for sale, ensuring credibility and trustworthiness. Additionally, explore our range of services to buy server boosts for Discord, enhancing your servers visibility and reach. Elevate your  presence with our solutions to buy  followers, boosting your social proof and influence. Explore our selection of aged social media accounts and tokens, tailored to meet your specific needs. Join the ranks of successful influencers, marketers, and businesses who have leveraged our premium accounts to achieve their goals. Experience growth, credibility, and success like never before. Unlock the power of established social media accounts today.",
+    keywords:
+      "Aged Discord accounts, verified Discord accounts, buy Discord accounts, Discord server boosts, social media accounts for sale, Buy Instagram accounts",
+    author: "Discord Arena",
+    ogTitle: "Buy Discord Accounts as Ease| Discord Arena",
+    ogDescription:
+      "Discover a diverse selection of aged Discord, , and Telegram accounts, including verified and phone-verified options, at unbeatable prices. Buy Discord accounts from 2015 and beyond, with the assurance of authenticity and quality. Our collection includes aged Discord accounts for sale, providing you with established communities and high-engagement profiles. We offer verified Discord accounts for sale, ensuring credibility and trustworthiness. Additionally, explore our range of services to buy server boosts for Discord, enhancing your servers visibility and reach. Elevate your  presence with our solutions to buy  followers, boosting your social proof and influence. Explore our selection of aged social media accounts and tokens, tailored to meet your specific needs. Join the ranks of successful influencers, marketers, and businesses who have leveraged our premium accounts to achieve their goals. Experience growth, credibility, and success like never before. Unlock the power of established social media accounts today.",
+    ogType:
+      "Buying and selling of discord accounts || Buying and selling of instagram accounts",
+    ogUrl: "https://www.discordarena.com/",
+    ogImage: "https://www.discordarena.com/",
+    ogImageAlt:
+      "Buying and selling of discord accounts || Buying and selling of instagram accounts",
+    jsonLd,
+  };
+};
 
 export default function Page() {
   const specialDiscordServiceArray = [
@@ -64,7 +99,7 @@ export default function Page() {
           src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
           height="0"
           width="0"
-          style={{ display: 'none', visibility: 'hidden' }}
+          style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
 
@@ -143,13 +178,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div className=" flex-[3]">
               <p className="pt-[60px]  text-4xl sm:text-5xl mb-10 md:text-5xl lg:text-[55px]  ">
-              Welcome to Discord Arena {" "}
-                <span className="span_text">Premier Source for Verified</span> accounts
+                Welcome to Discord Arena{" "}
+                <span className="span_text">Premier Source for Verified</span>{" "}
+                accounts
               </p>
               <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
-              Welcome to Discord Arena, your premier destination for top-tier aged Discord and Telegram accounts. Discover a diverse selection of verified and phone-verified options at unbeatable prices. Whether you&lsquo;re in search of Discord accounts from 2015 and beyond or seeking to enhance your server&lsquo;s visibility with server boosts, we&lsquo;ve got you covered.
-              Our collection features aged Discord accounts for sale, offering established communities and high-engagement profiles for your needs. Dive into our verified Discord accounts for sale, ensuring credibility and trustworthiness with every purchase. Plus, explore our range of services to buy server boosts for Discord, elevating your server&lsquo;s presence and reach in no time.
-              Explore our solutions to buy followers, propelling your credibility and success to new heights. Additionally, browse our selection of aged social media accounts and tokens, meticulously tailored to meet your specific requirements.
+                Welcome to Discord Arena, your premier destination for top-tier
+                aged Discord and Telegram accounts. Discover a diverse selection
+                of verified and phone-verified options at unbeatable prices.
+                Whether you&lsquo;re in search of Discord accounts from 2015 and
+                beyond or seeking to enhance your server&lsquo;s visibility with
+                server boosts, we&lsquo;ve got you covered. Our collection
+                features aged Discord accounts for sale, offering established
+                communities and high-engagement profiles for your needs. Dive
+                into our verified Discord accounts for sale, ensuring
+                credibility and trustworthiness with every purchase. Plus,
+                explore our range of services to buy server boosts for Discord,
+                elevating your server&lsquo;s presence and reach in no time.
+                Explore our solutions to buy followers, propelling your
+                credibility and success to new heights. Additionally, browse our
+                selection of aged social media accounts and tokens, meticulously
+                tailored to meet your specific requirements.
               </p>
             </div>
             <div className="flex-[1.5] lg:block ">
@@ -166,7 +215,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <WeOffer />
       <div className="bg-black text-white pt-8 pb-12">
         <div className="min-h-[90vh] px-4 flex flex-col justify-center max-w-[1280px] mx-auto">
-          <h1 className="text-3xl md:text-4xl text-center">Buy Premium Aged Discord & Social Media Accounts</h1>
+          <h1 className="text-3xl md:text-4xl text-center">
+            Buy Premium Aged Discord & Social Media Accounts
+          </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-3 mt-[40px] gap-5">
             {specialDiscordServiceArray.map((item, index) => {
