@@ -2,8 +2,9 @@
 import Head from "next/head";
 import React, { useState } from "react";
 import { FaRegUser } from "react-icons/fa";
-import { MdKeyboardArrowRight } from "react-icons/md";
-import { MdKeyboardArrowLeft } from "react-icons/md";
+import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 const CustomerReview = () => {
   const commentArray = [
@@ -125,6 +126,7 @@ const CustomerReview = () => {
     const newIndex = index + 1;
     setIndex(newIndex >= length ? 0 : newIndex);
   };
+
   return (
     <div className="bg-[#121212] text-white">
       <Head>
@@ -166,53 +168,33 @@ const CustomerReview = () => {
             />
           </div>
         </div>
-        <div className="mt-10 md:grid md:grid-cols-2 md:gap-4">
-          <div className="bg-[#1F1F1F] mx-auto p-6 rounded-lg border-[1px] mb-4">
-            <div className="flex items-center gap-4">
-              {commentArray[index].icons}
-              <div>
-                <b className="text-xl font-semibold">
-                  {commentArray[index].name}
-                </b>
-                <br/>
-                <b className="opacity-75">{commentArray[index].company}</b>
+        <Carousel
+          autoPlay={true}
+          emulateTouch={true}
+          infiniteLoop={true}
+          showArrows={false}
+          showThumbs={false}
+          showIndicators={false}
+          selectedItem={index}
+          onChange={(index) => setIndex(index)}
+        >
+          {commentArray.map((comment, idx) => (
+            <div
+              key={idx}
+              className="bg-[#1F1F1F] mx-auto p-6 mt-5 pb-4 rounded-lg border-[1px] mb-4"
+            >
+              <div className="flex items-center gap-4">
+                {comment.icons}
+                <div>
+                  <b className="text-xl font-semibold">{comment.name}</b>
+                  <br />
+                  <b className="opacity-75">{comment.company}</b>
+                </div>
               </div>
+              <p className="mt-4">{comment.review}</p>
             </div>
-            <p className="mt-4">{commentArray[index].review}</p>
-          </div>
-
-          <div className="bg-[#1F1F1F] hidden md:block mx-auto p-6 rounded-lg border-[1px] mb-4">
-            <div className="flex items-center gap-4">
-              {
-                commentArray[index === commentArray.length - 1 ? 0 : index + 1]
-                  .icons
-              }
-              <div>
-                <b className="text-xl font-semibold">
-                  {
-                    commentArray[
-                      index === commentArray.length - 1 ? 0 : index + 1
-                    ].name
-                  }
-                </b>
-                <br/>
-                <b className="opacity-75">
-                  {
-                    commentArray[
-                      index === commentArray.length - 1 ? 0 : index + 1
-                    ].company
-                  }
-                </b>
-              </div>
-            </div>
-            <p className="mt-4">
-              {
-                commentArray[index === commentArray.length - 1 ? 0 : index + 1]
-                  .review
-              }
-            </p>
-          </div>
-        </div>
+          ))}
+        </Carousel>
       </div>
     </div>
   );
