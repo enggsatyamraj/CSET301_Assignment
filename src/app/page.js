@@ -183,7 +183,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 and More
               </p>
               <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
-               <span>At Discord Arena, we offer high-quality aged Discord accounts, Instagram accounts, and Reddit accounts. Whether you're a business, influencer, or gamer, our accounts help you quickly establish a strong presence on social media.<br/><br/></span>
+               <span>At Discord Arena, we offer high-quality aged Discord accounts, Instagram accounts, and Reddit accounts. Whether you&lsquo;re a business, influencer, or gamer, our accounts help you quickly establish a strong presence on social media.<br/><br/></span>
 
                <span>Our aged Discord accounts let you join exclusive servers and enjoy enhanced security without the hassle of starting from scratch. Check out our selection of <u><a href="https://discordarena.com/accounts/discord">buy Discord accounts</a></u>, including <u><a href="https://discordarena.com/accounts/discord/buy-2015-aged-discord-account">2015 Discord accounts.</a></u><br/><br/></span>
 
