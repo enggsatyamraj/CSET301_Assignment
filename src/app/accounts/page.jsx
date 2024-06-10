@@ -98,8 +98,7 @@ export default function Page() {
               reaction services, and more. With a focus on innovation and
               transparent pricing, we guarantee satisfaction and results for
               your digital endeavors. Join us on a journey of excellence, where
-              your goals meet unparalleled expertise. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Sit, itaque.
+              your goals meet unparalleled expertise.
             </p>
 
             <div className="radial_one"></div>
