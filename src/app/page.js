@@ -178,27 +178,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           >
             <div className=" flex-[3]">
               <p className="pt-[60px]  text-4xl sm:text-5xl mb-10 md:text-5xl lg:text-[55px]  ">
-                Welcome to Discord Arena{" "}
-                <span className="span_text">Premier Source for Verified</span>{" "}
-                accounts
+                Welcome to Discord Arena: Your Source for{" "}
+                <span className="span_text">Aged Discord Accounts</span>{" "}
+                and More
               </p>
               <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
-                Welcome to Discord Arena, your premier destination for top-tier
-                aged Discord and Telegram accounts. Discover a diverse selection
-                of verified and phone-verified options at unbeatable prices.
-                Whether you&lsquo;re in search of Discord accounts from 2015 and
-                beyond or seeking to enhance your server&lsquo;s visibility with
-                server boosts, we&lsquo;ve got you covered. Our collection
-                features aged Discord accounts for sale, offering established
-                communities and high-engagement profiles for your needs. Dive
-                into our verified Discord accounts for sale, ensuring
-                credibility and trustworthiness with every purchase. Plus,
-                explore our range of services to buy server boosts for Discord,
-                elevating your server&lsquo;s presence and reach in no time.
-                Explore our solutions to buy followers, propelling your
-                credibility and success to new heights. Additionally, browse our
-                selection of aged social media accounts and tokens, meticulously
-                tailored to meet your specific requirements.
+               <span>At Discord Arena, we offer high-quality aged Discord accounts, Instagram accounts, and Reddit accounts. Whether you're a business, influencer, or gamer, our accounts help you quickly establish a strong presence on social media.<br/><br/></span>
+
+<span>Our aged Discord accounts let you join exclusive servers and enjoy enhanced security without the hassle of starting from scratch. Check out our selection of <u><a href="https://discordarena.com/accounts/discord">buy Discord accounts</a></u>, including <u><a href="https://discordarena.com/accounts/discord/buy-2015-aged-discord-account">2015 Discord accounts.</a></u><br/><br/></span>
+
+<span>We also provide aged <u><a href="https://discordarena.com/accounts/instagram">Instagram accounts</a></u> with a built-in following, making it easier to engage with a larger audience. Explore our Instagram accounts to find the perfect one for you.<br/><br/></span>
+
+<span>Enhance your Reddit experience with our aged <u><a href="https://discordarena.com/accounts/reddit">Reddit accounts</a></u>, which allow you to participate in discussions and gain credibility instantly. Browse through our Reddit accounts for options that suit your needs.<br/><br/></span>
+
+<span>In addition to accounts, we offer customized <u><a href="https://discordarena.com/accounts/discordserver">Discord servers</a></u> and various Discord services. All our accounts are of the highest quality, ensuring reliability and security.<br/><br/></span>
+
+<span>Choose Discord Arena for quality, affordability, and secure transactions. Start exploring our services today and boost your social media presence with ease!<br/><br/></span>
               </p>
             </div>
             <div className="flex-[1.5] lg:block ">
