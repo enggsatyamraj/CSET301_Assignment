@@ -15,6 +15,9 @@ import { ImCross } from "react-icons/im";
 import discordData from "../dataFolder/discord.json";
 import Image from "next/image";
 import smartPeople from "../../public/smart-people.png";
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-47WWXHZ0GV"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 import { GoogleTagManager } from "@next/third-parties/google";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
