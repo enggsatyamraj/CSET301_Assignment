@@ -9,7 +9,7 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 const navbarLinks = [
   { name: "Home", url: "/" },
-  { name: "Accounts", url: "/accounts#accounts_details" },
+  { name: "Accounts", url: "/accounts" },
   { name: "About Us", url: "/aboutus" },
   { name: "Blogs", url: "/blogs" },
   { name: "FAQs", url: "/faq" },
