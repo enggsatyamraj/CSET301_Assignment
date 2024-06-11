@@ -324,7 +324,7 @@ export const generateMetadata = () => {
     description:
       "Explore our blog for expert advice, tips, and insights on using aged Discord accounts to maximize your online presence and engagement.",
     keywords:
-      "Discord account tips, social media strategies, expert Discord advice, Discord engagement tips, discord accounts, discord tokens, discord server boosts, discord nitro, discord engagement, discord security, discord growth",  
+      "Discord account tips, social media strategies, expert Discord advice, Discord engagement tips, discord accounts, discord tokens, discord server boosts, discord nitro, discord engagement, discord security, discord growth",
     openGraph: {
       title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
       description:
@@ -412,9 +412,13 @@ export default function Page() {
       <div className="bg-normal overflow-x-hidden w-[100%] relative min-h-[100vh] text-white pt-[100px] pb-[100px] px-4">
         <PageWrapper>
           <Head>
-              <title>Expert Tips & Insights on Discord Accounts | Discord Arena Blog</title>
+            <title>
+              Expert Tips & Insights on Discord Accounts | Discord Arena Blog
+            </title>
           </Head>
-          <h1 className=" text-4xl font-bold mb-8 ">                Expert Tips & Insights on Discord Accounts</h1>
+          <h1 className=" text-3xl text-center  font-bold mb-12 ">
+            Expert Tips & Insights on Discord Accounts
+          </h1>
           <div className="radial_one"></div>
           <div className="max-w-[1280px] mx-auto">
             <div>

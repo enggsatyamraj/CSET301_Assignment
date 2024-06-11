@@ -59,7 +59,7 @@ const Navbar = () => {
   return (
     <div className={actor.className}>
       <div className="overflow-x-hidden z-10 ">
-        <div className="absolute left-0 right-0  z-10 text-white backdrop-blur-lg">
+        <div className="fixed left-0 right-0  z-10 text-white backdrop-blur-lg">
           <div
             className={
               "max-w-[1280px] h-[90px]   flex justify-between sm:px-12 px-7 items-center bg-transparent mx-auto"

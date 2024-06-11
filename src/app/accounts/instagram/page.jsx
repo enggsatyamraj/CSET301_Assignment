@@ -136,21 +136,24 @@ const page = () => {
                     key={item.id}
                     className={`border-[1px] overflow-hidden rounded-md p-4`}
                   >
-                    <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
+                    <div className="flex h-[150px] mb-3 w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
                       <FaInstagram
                         size={50}
                         className="accountDance text-[#8474C4]"
                       />
                     </div>
 
-                    <p className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
+                    <Link href={`/accounts/instagram/${item.name
+                          .split(" ")
+                          .join("-")
+                          .toLowerCase()}`} className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
                       Buy{" "}
                       <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                         {item.year}
                       </span>{" "}
-                      Instagram Account for ${item.price}
-                    </p>
-                    <ul className="list-disc pl-4 text-[13px] opacity-85">
+                      Instagram Account
+                    </Link>
+                    <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
                       <li>
                         {item.smallShowFiveFeatures &&
                           item.smallShowFiveFeatures.feature1}
@@ -173,7 +176,7 @@ const page = () => {
                       </li>
                     </ul>
                     <div className="mt-5 flex items-center gap-3">
-                      <Link
+                      {/* <Link
                         href={`/accounts/instagram/${item.name
                           .split(" ")
                           .join("-")
@@ -181,13 +184,13 @@ const page = () => {
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                       >
                         Info
-                      </Link>
+                      </Link> */}
                       <Link
                         target="_blank"
                         href={item.link}
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                       >
-                        Buy
+                        Buy for ${item.price}
                       </Link>
                     </div>
                   </div>

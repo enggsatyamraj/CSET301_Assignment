@@ -119,21 +119,27 @@ export default function Page() {
                     index > 2 && "hidden"
                   }  h-fit overflow-hidden mt-3 rounded-md p-4`}
                 >
-                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
+                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
                     <FaDiscord
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
                   </div>
 
-                  <p className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
+                  <Link
+                    href={`accounts/discord/${item.name
+                      .split(" ")
+                      .join("-")
+                      .toLowerCase()}`}
+                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                  >
                     Buy{" "}
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                       {item.year}
                     </span>{" "}
-                    Discord Account for ${item.price}
-                  </p>
-                  <ul className="list-disc pl-4 text-[13px] opacity-85">
+                    Discord Account
+                  </Link>
+                  <ul className="list-disc pl-4 mt-2 text-[13px] opacity-85">
                     <li>{item.smallShowFiveFeatures.feature1}</li>
                     <li>{item.smallShowFiveFeatures.feature2}</li>
                     <li>{item.smallShowFiveFeatures.feature3}</li>
@@ -141,7 +147,7 @@ export default function Page() {
                     <li>{item.smallShowFiveFeatures.feature5}</li>
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
-                    <Link
+                    {/* <Link
                       href={`accounts/discord/${item.name
                         .split(" ")
                         .join("-")
@@ -149,13 +155,13 @@ export default function Page() {
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                     >
                       Info
-                    </Link>
+                    </Link> */}
                     <Link
                       target="_blank"
                       href={item.link}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                     >
-                      Buy
+                      Buy for ${item.price}
                     </Link>
                   </div>
                 </div>
@@ -187,21 +193,27 @@ export default function Page() {
                     index > 2 && "hidden"
                   }  h-fit overflow-hidden mt-3 rounded-md p-4`}
                 >
-                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
+                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
                     <FaInstagram
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
                   </div>
 
-                  <p className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
+                  <Link
+                    href={`accounts/instagram/${item.name
+                      .split(" ")
+                      .join("-")
+                      .toLowerCase()}`}
+                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                  >
                     Buy{" "}
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                       {item.year}
                     </span>{" "}
-                    Instagram Account for ${item.price}
-                  </p>
-                  <ul className="list-disc pl-4 text-[13px] opacity-85">
+                    Instagram Account
+                  </Link>
+                  <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
                     <li>
                       {item.smallShowFiveFeatures.feature1
                         ? item.smallShowFiveFeatures.feature1
@@ -213,7 +225,7 @@ export default function Page() {
                     <li>{item.smallShowFiveFeatures.feature5}</li>
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
-                    <Link
+                    {/* <Link
                       href={`accounts/instagram/${item.name
                         .split(" ")
                         .join("-")
@@ -221,13 +233,13 @@ export default function Page() {
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                     >
                       Info
-                    </Link>
+                    </Link> */}
                     <Link
                       target="_blank"
                       href={item.link}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                     >
-                      Buy
+                      Buy for ${item.price}
                     </Link>
                   </div>
                 </div>
@@ -259,21 +271,27 @@ export default function Page() {
                     index > 2 && "hidden"
                   }  h-fit overflow-hidden mt-3 rounded-md p-4`}
                 >
-                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
+                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
                     <FaDiscord
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
                   </div>
 
-                  <p className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
+                  <Link
+                    href={`accounts/discordserver/${item.name
+                      .split(" ")
+                      .join("-")
+                      .toLowerCase()}`}
+                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                  >
                     Buy{" "}
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                       {item.year}
                     </span>{" "}
-                    Discord Server for ${item.price}
-                  </p>
-                  <ul className="list-disc pl-4 text-[13px] opacity-85">
+                    Discord Server
+                  </Link>
+                  <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
                     <li>
                       {item.smallShowFiveFeatures.feature1
                         ? item.smallShowFiveFeatures.feature1
@@ -285,7 +303,7 @@ export default function Page() {
                     <li>{item.smallShowFiveFeatures.feature5}</li>
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
-                    <Link
+                    {/* <Link
                       href={`accounts/discordserver/${item.name
                         .split(" ")
                         .join("-")
@@ -293,13 +311,13 @@ export default function Page() {
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                     >
                       Info
-                    </Link>
+                    </Link> */}
                     <Link
                       target="_blank"
                       href={item.link}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                     >
-                      Buy
+                      Buy for ${item.price}
                     </Link>
                   </div>
                 </div>
@@ -399,21 +417,27 @@ export default function Page() {
                     index > 2 && "hidden"
                   }  h-fit overflow-hidden mt-3 rounded-md p-4`}
                 >
-                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
+                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
                     <FaDiscord
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
                   </div>
 
-                  <p className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
+                  <Link
+                    href={`accounts/reddit/${item.name
+                      .split(" ")
+                      .join("-")
+                      .toLowerCase()}`}
+                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                  >
                     Buy{" "}
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                       {item.months} months
                     </span>{" "}
-                    old Reddit accounts for ${item.price}
-                  </p>
-                  <ul className="list-disc pl-4 text-[13px] opacity-85">
+                    old Reddit accounts
+                  </Link>
+                  <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
                     <li>
                       {item.smallShowFiveFeatures.feature1
                         ? item.smallShowFiveFeatures.feature1
@@ -425,7 +449,7 @@ export default function Page() {
                     <li>{item.smallShowFiveFeatures.feature5}</li>
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
-                    <Link
+                    {/* <Link
                       href={`accounts/reddit/${item.name
                         .split(" ")
                         .join("-")
@@ -433,13 +457,13 @@ export default function Page() {
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                     >
                       Info
-                    </Link>
+                    </Link> */}
                     <Link
                       target="_blank"
                       href={item.link}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                     >
-                      Buy
+                      Buy for ${item.price}
                     </Link>
                   </div>
                 </div>
