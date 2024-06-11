@@ -83,12 +83,21 @@ const page = () => {
               Enhance Your Reddit Accounts with Premium Features
             </b>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
-            Step into the ultimate hub for transforming your Reddit experience! Delve into a realm of premium Reddit accounts, expertly designed to elevate every aspect of your community engagement, content sharing, and overall journey. Unlock exclusive features, bolster your presence with high-karma accounts, and distinguish yourself with reputable profiles. Our Reddit account page serves as your portal to a seamless, enriched, and personalized Reddit adventure. Embark on this journey, explore the endless possibilities, and redefine your online presence within the vibrant Reddit community!
+              Step into the ultimate hub for transforming your Reddit
+              experience! Delve into a realm of premium Reddit accounts,
+              expertly designed to elevate every aspect of your community
+              engagement, content sharing, and overall journey. Unlock exclusive
+              features, bolster your presence with high-karma accounts, and
+              distinguish yourself with reputable profiles. Our Reddit account
+              page serves as your portal to a seamless, enriched, and
+              personalized Reddit adventure. Embark on this journey, explore the
+              endless possibilities, and redefine your online presence within
+              the vibrant Reddit community!
             </p>
           </div>
           <div className="min-h-[500px] py-12">
             <b className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
-            Shop Reddit Accounts
+              Shop Reddit Accounts
             </b>
             <div className="grid grid-cols-1 mt-5 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {discordData.map((item, index) => {
@@ -97,21 +106,27 @@ const page = () => {
                     key={item.id}
                     className={`border-[1px] overflow-hidden rounded-md p-4`}
                   >
-                    <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD]">
+                    <div className="flex h-[150px] w-[100%] mb-3 items-center justify-center rounded-sm bg-[#BBA8FD]">
                       <FaDiscord
                         size={50}
                         className="accountDance text-[#8474C4]"
                       />
                     </div>
 
-                    <p className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
+                    <Link
+                      href={`/accounts/reddit/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
+                      className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                    >
                       Buy{" "}
                       <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                         {item.months} months
                       </span>{" "}
-                      old Reddit accounts for ${item.price}
-                    </p>
-                    <ul className="list-disc pl-4 text-[13px] opacity-85">
+                      old Reddit accounts
+                    </Link>
+                    <ul className="list-disc pl-4 mt-2 text-[13px] opacity-85">
                       <li>{item.smallShowFiveFeatures.feature1}</li>
                       <li>{item.smallShowFiveFeatures.feature2}</li>
                       <li>{item.smallShowFiveFeatures.feature3}</li>
@@ -119,7 +134,7 @@ const page = () => {
                       <li>{item.smallShowFiveFeatures.feature5}</li>
                     </ul>
                     <div className="mt-5 flex items-center gap-3">
-                      <Link
+                      {/* <Link
                         href={`/accounts/reddit/${item.name
                           .split(" ")
                           .join("-")
@@ -127,13 +142,13 @@ const page = () => {
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
                       >
                         Info
-                      </Link>
+                      </Link> */}
                       <Link
                         target="_blank"
                         href={item.link}
                         className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                       >
-                        Buy
+                        Buy for ${item.price}
                       </Link>
                     </div>
                   </div>
