@@ -15,10 +15,10 @@ import { ImCross } from "react-icons/im";
 import discordData from "../dataFolder/discord.json";
 import Image from "next/image";
 import smartPeople from "../../public/smart-people.png";
+import { GoogleTagManager } from '@next/third-parties/google';
 import ReactGA from 'react-ga';
-const TRACKING_ID = "G-47WWXHZ0GV"; // OUR_TRACKING_ID
+const TRACKING_ID = "G-S9PV0VDRVG"; // OUR_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
-import { GoogleTagManager } from "@next/third-parties/google";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -99,7 +99,7 @@ export default function Page() {
     <div className={actor.className}>
       <noscript>
         <iframe
-          src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
+          src="https://www.googletagmanager.com/ns.html?id=G-S9PV0VDRVG"
           height="0"
           width="0"
           style={{ display: "none", visibility: "hidden" }}
@@ -107,7 +107,7 @@ export default function Page() {
       </noscript>
 
       <Head>
-        <GoogleTagManager gtmId="G-47WWXHZ0GV" />
+        <GoogleTagManager gtmId="G-S9PV0VDRVG" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta

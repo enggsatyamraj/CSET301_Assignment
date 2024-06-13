@@ -26,7 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="G-47WWXHZ0GV" />
+      <GoogleTagManager gtmId="G-S9PV0VDRVG" />
       <body className={actor.className}>
         {/* <PageWrapper> */}
           <Navbar />
