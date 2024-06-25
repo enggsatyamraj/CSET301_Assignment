@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import ShopNow from "@/components/ShopNow";
 import { Actor } from "next/font/google";
 import PageWrapper from "./PageWrapper";
-import { GoogleTagManager } from '@next/third-parties/google';
 import Script from "next/script";
 
 
@@ -25,22 +24,24 @@ export const metadata = {
  
 
 export default function RootLayout({ children }) {
-  return (
+  return (   
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-KM5VZD9Z" /> 
-      <Script 
-      id="gtm-script"
-      strategy="afterInteractive"
-      dangerouslySetInnerHTML={{
-        __html: `
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-KM5VZD9Z');
-        `
-      }}></Script>
-
+      <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=G-S9PV0VDRVG`}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-S9PV0VDRVG', {
+              page_path: window.location.pathname,
+            });
+          `,
+          }}
+        />
       <body className={actor.className}>
         {/* <PageWrapper> */}
           <Navbar />
