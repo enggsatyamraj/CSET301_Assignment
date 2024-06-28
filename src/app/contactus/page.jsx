@@ -7,7 +7,7 @@ import Link from "next/link";
 import ContactUsComponent from "@/components/ContactUsComponent";
 
 export const generateMetadata = () => {
-  const title = "Contact Us | Get in Touch with Discord Arena";
+  const title = "Contact Discord Arena | Inquiries About Aged and Old Discord Accounts";
   const description =
     "Have questions or need assistance? Contact Discord Arena for prompt support and expert advice on all our services and products.";
   const keywords =

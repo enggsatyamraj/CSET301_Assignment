@@ -15,7 +15,7 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export function generateMetadata() {
   return {
-    title: "Aged Discord & Social Media Accounts for Sale | Discord Arena",
+    title: "Aged Discord Accounts for Sale | Old Discord Accounts & More - Discord Arena",
     description:
       "Shop for aged Discord accounts, verified social media profiles, and more. Enhance your digital strategy with our trusted and high-quality accounts.",
     keywords:
