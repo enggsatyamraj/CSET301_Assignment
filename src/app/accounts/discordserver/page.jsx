@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const generateMetadata = () => {
-  const title = "Discord Arena - Premium Discord Accounts";
+  const title = "Discord Arena - Buy Premium Discord Servers - Accounts";
   const description =
     "Elevate your Discord experience with premium accounts from Discord Arena. Explore exclusive features, boosted servers, and more.";
   const keywords =

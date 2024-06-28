@@ -320,7 +320,7 @@ export const generateMetadata = () => {
   };
 
   return {
-    title: "Expert Tips & Insights on Discord Accounts | Discord Arena Blog",
+    title: "Latest News on Aged Discord Accounts | Discord Arena Blog",
     description:
       "Explore our blog for expert advice, tips, and insights on using aged Discord accounts to maximize your online presence and engagement.",
     keywords:
