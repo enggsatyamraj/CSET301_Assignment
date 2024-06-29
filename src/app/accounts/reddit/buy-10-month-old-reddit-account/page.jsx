@@ -10,7 +10,7 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const data = {
   id: 4,
-  months: 9,
+  months: 10,
   link: "https://yoyohoni.mysellix.io/product/6404d6d693e01",
   type: "Reddit",
   name: "Buy 9-Month Old Reddit Account",
