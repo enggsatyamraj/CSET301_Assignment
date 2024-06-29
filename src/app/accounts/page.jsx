@@ -174,7 +174,7 @@ export default function Page() {
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more
+              Show more discord
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
@@ -252,7 +252,7 @@ export default function Page() {
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more
+              Show more Instagram
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
@@ -330,7 +330,7 @@ export default function Page() {
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more
+              Show more servers
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
@@ -476,7 +476,7 @@ export default function Page() {
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more
+              Show more reddit
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
