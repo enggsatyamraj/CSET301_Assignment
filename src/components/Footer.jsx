@@ -12,11 +12,13 @@ const Footer = () => {
             About us
           </Link>
           <br />
-          <Link href={"/"} className="opacity-70 text-[14px] my-2">
+          <Link href={"/"} area-label='go Homepage' className="opacity-70 text-[14px] my-2">
             Home
           </Link>
           <br />
-          <Link href={"/accounts"} className="opacity-70 text-[14px] my-2">
+          <Link href={"/accounts"} 
+          area-label="See Accounts Tab"
+          className="opacity-70 text-[14px] my-2">
             Accounts
           </Link>
         </div>
@@ -25,6 +27,7 @@ const Footer = () => {
           <br />
           <Link
             href={"/accounts/discord"}
+            area-label="See Discord Accounts"
             className="opacity-70 text-[14px] my-2"
           >
             Discord Accounts
@@ -32,6 +35,7 @@ const Footer = () => {
           <br />
           <Link
             href={"/accounts/"}
+            area-label="See more Accounts"
             className="opacity-70 text-[14px] my-2"
           >
              Accounts
@@ -39,6 +43,7 @@ const Footer = () => {
           <br />
           <Link
             href={"/accounts/instagram"}
+            area-label="See Instagram Accounts"
             className="opacity-70 text-[14px] my-2"
           >
             Instagram Accounts
@@ -60,6 +65,7 @@ const Footer = () => {
           <br />
           <Link
             href={"https://discord.gg/Z2eXvbkufU"}
+            area-label="Discord"
             target="_blank"
             className="opacity-70 text-[14px] my-2"
           >
@@ -68,6 +74,7 @@ const Footer = () => {
           <br />
           <Link
             href={"https://t.me/halfmoonisgod"}
+            area-label="Telegram"
             target="_blank"
             className="opacity-70 text-[14px] my-2"
           >

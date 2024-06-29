@@ -242,7 +242,8 @@ export default function Page() {
                     {item.description && item.descriptionTwo}
                   </p>
                   <Link
-                    href={"/accounts/discord"}
+                     href={"/accounts/discord"}  
+                     area-label="show discord account"
                     className="border-[#A5A6F6] border-2 px-4 py-1 text-[#A5A6F6] rounded-lg"
                   >
                     Purchase

@@ -28,6 +28,7 @@ const WeOffer = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <Link
                 href={"/accounts/discord"}
+                area-label="see More Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -50,6 +51,7 @@ const WeOffer = () => {
 
               <Link
                 href={"/accounts/instagram"}
+                area-label="see More about Instagram Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -72,6 +74,7 @@ const WeOffer = () => {
 
               <Link
                 href={"/accounts/discordserver"}
+                area-label="see More Discord Servers"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -97,6 +100,7 @@ const WeOffer = () => {
 
               <Link
                 href={"/accounts/discord"}
+                area-label="Pricing Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -119,6 +123,7 @@ const WeOffer = () => {
 
               <Link
                 href={"/accounts/discord"}
+                area-label="see Pricing Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -142,6 +147,7 @@ const WeOffer = () => {
 
               <Link
                 href={"/accounts/discord"}
+                area-label="see more Pricing Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -164,6 +170,7 @@ const WeOffer = () => {
 
               <Link
                 href={"/accounts/discord"}
+                area-label="see More pricing of Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -186,6 +193,7 @@ const WeOffer = () => {
 
               <Link
                 href={"/accounts/discord"}
+                area-label="go to Discord Accounts page"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
