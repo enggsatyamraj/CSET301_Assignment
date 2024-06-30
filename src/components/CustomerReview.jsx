@@ -9,108 +9,73 @@ import { Carousel } from "react-responsive-carousel";
 const CustomerReview = () => {
   const commentArray = [
     {
-      name: "Emily Johnson",
-      company: "Digital Impact",
+      name: "Rajesh Verma",
+      company: "Tech Innovators",
       review:
-        "Discord Arena exceeded my expectations! Their expertise and innovative strategies played a vital role in enhancing my brand's visibility. The transparent pricing and personalized attention showcased their commitment to customer satisfaction. Highly recommended!",
+        "The collaboration with Discord Arena was exceptional! Their unique approach to problem-solving and dedication to results made a real difference. I appreciate their focus on innovation and client satisfaction. A fantastic team to work with!",
       icons: <FaRegUser />,
     },
     {
-      name: "Michael Smith",
-      company: "Tech Marvels",
+      name: "Anjali Mehta",
+      company: "Creative Sparks",
       review:
-        "I had a fantastic experience with Discord Arena. Their quality assurance is unmatched, ensuring reliable solutions for my digital projects. The team's constant innovation and adaptation to trends kept my strategies ahead of the curve. Transparent pricing is a cherry on top!",
+        "Discord Arena transformed our online presence. Their insights into market trends and user engagement strategies were invaluable. The team's commitment to excellence and client success is truly commendable. Highly recommended!",
       icons: <FaRegUser />,
     },
     {
-      name: "Sophia Brown",
-      company: "Innovate Hub",
+      name: "David Lee",
+      company: "Visionary Ventures",
       review:
-        "Discord Arena truly understands the uniqueness of each business. Their tailored solutions, including keyword optimization and data-driven approaches, gave my business the boost it needed. The team's dedication to customer satisfaction is evident in every interaction.",
+        "Working with Discord Arena was a game-changer for our business. Their strategic planning and thorough execution led to remarkable results. I was impressed by their professionalism and dedication to achieving our goals.",
       icons: <FaRegUser />,
     },
     {
-      name: "Daniel Miller",
-      company: "Epic Ventures",
+      name: "Priya Singh",
+      company: "Digital Dreams",
       review:
-        "Working with Discord Arena was a game-changer. Their commitment to innovation and staying ahead of the curve made a significant impact on my business. The transparent pricing and top-notch quality assurance add immense value to their services.",
+        "I was amazed by Discord Arena's innovative approach to digital marketing. Their creative solutions and attention to detail helped us reach new heights. Their customer support is responsive and always ready to assist.",
       icons: <FaRegUser />,
     },
     {
-      name: "Ava Thompson",
-      company: "Social Boosters",
+      name: "Alex Johnson",
+      company: "Future Tech",
       review:
-        "Discord Arena delivered exceptional results! The team's expertise and insights, coupled with a data-driven approach, significantly improved my social media strategy. Their transparent pricing model reflects honesty and integrity in their services.",
+        "Discord Arena's expertise in SEO and digital strategy is unmatched. They provided customized solutions that fit our specific needs. Their proactive communication and dedication to success set them apart.",
       icons: <FaRegUser />,
     },
     {
-      name: "Oliver Davis",
-      company: "Digital Dynamics",
+      name: "Nisha Rao",
+      company: "Brand Builders",
       review:
-        "I highly recommend Discord Arena for their outstanding services. Their tailored solutions and keyword optimization strategies have had a positive impact on my business. The team's dedication to customer satisfaction sets them apart in the digital arena.",
+        "Collaborating with Discord Arena was a pleasure. Their innovative marketing strategies and dedication to client satisfaction were impressive. They consistently delivered high-quality results, making them a trusted partner.",
       icons: <FaRegUser />,
     },
     {
-      name: "Emma Wilson",
-      company: "Creative Minds",
+      name: "Mark Thompson",
+      company: "NextGen Solutions",
       review:
-        "Discord Arena is a reliable partner for any digital endeavor. Their constant innovation and transparent pricing make them stand out. The team's personalized attention and prompt support ensure a positive and satisfying experience.",
+        "Discord Arena helped us streamline our digital strategies effectively. Their expertise in analytics and data-driven decisions made a significant impact. They are always ahead of the curve with their innovative approaches.",
       icons: <FaRegUser />,
     },
     {
-      name: "Liam Turner",
-      company: "Tech Revolution",
+      name: "Kavita Sharma",
+      company: "Dynamic Designs",
       review:
-        "Choosing Discord Arena was a strategic decision for my business. Their expertise and commitment to staying ahead of the curve kept my strategies cutting-edge. The transparent pricing and quality assurance instill confidence in their services.",
+        "Choosing Discord Arena was the best decision for our digital campaigns. Their tailored strategies and customer-centric approach yielded impressive results. Their team's creativity and enthusiasm were infectious!",
       icons: <FaRegUser />,
     },
     {
-      name: "Zoe Baker",
-      company: "Innovative Creations",
+      name: "Lucas Brown",
+      company: "Tech Titans",
       review:
-        "Discord Arena offers top-notch solutions tailored to the unique needs of each business. Their keyword optimization strategies and data-driven approaches significantly impacted my online presence. The team's dedication to customer satisfaction is commendable.",
+        "Discord Arena's comprehensive understanding of digital landscapes made a noticeable difference in our growth. Their commitment to delivering value and understanding our business needs was commendable.",
       icons: <FaRegUser />,
     },
     {
-      name: "William Martin",
-      company: "Digital Mavericks",
+      name: "Meera Kapoor",
+      company: "Social Stars",
       review:
-        "I'm impressed with Discord Arena's transparent pricing and quality assurance. Their tailored solutions, including keyword optimization, have proven to be effective in boosting my brand's visibility. The team's expertise is unmatched!",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "Grace White",
-      company: "Social Sparks",
-      review:
-        "Discord Arena delivered outstanding results for my social media strategy. Their innovative approaches and commitment to customer satisfaction make them a trusted partner. Transparent pricing and quality assurance set them apart in the digital landscape.",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "Ethan Adams",
-      company: "Tech Visionaries",
-      review:
-        "Working with Discord Arena was a fantastic experience. Their constant innovation and tailored solutions, including keyword optimization, significantly impacted my business. The team's dedication to customer satisfaction is truly commendable.",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "Chloe Turner",
-      company: "Creative Horizons",
-      review:
-        "Discord Arena is my go-to for digital solutions. Their transparent pricing, quality assurance, and tailored strategies have consistently delivered exceptional results. The team's expertise and commitment to innovation make them a valuable partner.",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "Noah Harris",
-      company: "Digital Pioneers",
-      review:
-        "Discord Arena stands out in the digital landscape with their innovative strategies and transparent pricing. Their tailored solutions, including keyword optimization, have positively impacted my business. The team's dedication to excellence is evident.",
-      icons: <FaRegUser />,
-    },
-    {
-      name: "Mia Johnson",
-      company: "Social Trailblazers",
-      review:
-        "I'm thrilled with the results Discord Arena delivered for my social media strategy. Their expertise, transparent pricing, and commitment to customer satisfaction make them a trusted partner. I highly recommend their services!",
+        "Discord Arena elevated our social media presence to new levels. Their unique strategies and hands-on approach were exactly what we needed. I appreciate their dedication to continuous improvement and client success.",
       icons: <FaRegUser />,
     },
   ];
