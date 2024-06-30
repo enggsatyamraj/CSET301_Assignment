@@ -15,7 +15,7 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export function generateMetadata() {
   return {
-    title: "Aged Discord & Social Media Accounts | Premium Verified Profiles",
+    title: "Buy Discord & Social Media Accounts | Buy Verified Profiles",
     description:
       "Discover a variety of aged and premium social media accounts, including Discord, Instagram, and Reddit. Enhance your online presence with verified profiles and exclusive features, perfect for marketers, influencers, and community builders. Explore our selection and elevate your digital footprint today!",
     keywords:

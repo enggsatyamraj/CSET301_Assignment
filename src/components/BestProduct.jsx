@@ -70,6 +70,7 @@ const BestProduct = () => {
           </p>
           <Link
             href={"/accounts"}
+            anchor="Explore all accounts"
             className="text-[13px] text-[#A5A6F6] border-[#A5A6F6] border-[1px] rounded-[30px] px-3 py-1"
           >
             Explore all accounts
