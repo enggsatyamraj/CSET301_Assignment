@@ -21,6 +21,11 @@ const Footer = () => {
           className="opacity-70 text-[14px] my-2">
             Accounts
           </Link>
+          <br />
+          <Link href={"/contactus"} className="opacity-70 text-[14px] my-2">
+            Contact us
+          </Link>
+          <br />
         </div>
         <div className="w-fit">
           <b className="font-bold text-xl mb-4">Services</b>
@@ -34,19 +39,28 @@ const Footer = () => {
           </Link>
           <br />
           <Link
+            href={"/accounts/instagram"}
             href={"/accounts/"}
             area-label="See more Accounts"
             className="opacity-70 text-[14px] my-2"
           >
-             Accounts
+             Instagram Accounts
           </Link>
           <br />
           <Link
+            href={"/accounts/discordserver"}
             href={"/accounts/instagram"}
             area-label="See Instagram Accounts"
             className="opacity-70 text-[14px] my-2"
           >
-            Instagram Accounts
+            Discord Servers
+          </Link>
+          <br />
+          <Link
+            href={"/accounts/reddit"}
+            className="opacity-70 text-[14px] my-2"
+          >
+            Reddit Acounts
           </Link>
         </div>
         <div className="w-fit">
@@ -82,7 +96,16 @@ const Footer = () => {
           </Link>
           <br />
           <Link
+            href={"https://www.facebook.com/profile.php?id=61561779807507&mibextid=LQQJ4d"}
+            target="_blank"
+            className="opacity-70 text-[14px] my-2"
+          >
+            Facebook
+          </Link>
+          <br />
+          <Link
             href={"https://www.instagram.com/discord_arena/"}
+            target="_blank"
             className="opacity-70 text-[14px] my-2"
           >
             Instagram

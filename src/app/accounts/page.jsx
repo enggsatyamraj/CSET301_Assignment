@@ -88,18 +88,20 @@ export default function Page() {
               Aged Discord & Social Media Accounts for Sale
             </h1>
             <p className="lh:w-[60%] mb-6 text-3xl sm:w-[80%]  sm:text-4xl md:w-[70%] md:text-5xl">
-              Discover Your Unique Niche with Discord Arena
+              Discover Premium Aged Discord & Social Media Accounts for Sale
             </p>
-            <p className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[50%]">
-              Explore a world of possibilities with Discord Arena, where we
-              specialize in providing top-notch services tailored to your unique
-              needs. Our expert team ensures a seamless experience, offering
-              services such as aged social media accounts, Discord services,
-              reaction services, and more. With a focus on innovation and
-              transparent pricing, we guarantee satisfaction and results for
-              your digital endeavors. Join us on a journey of excellence, where
-              your goals meet unparalleled expertise.
-            </p>
+            <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[50%]">
+  <p>
+    Explore our selection of high-quality <span className="font-bold">aged Discord accounts</span> and other social media accounts designed to boost your online presence. Whether you need <Link href="https://discordarena.com/accounts/discord" className="underline">Discord old accounts</Link> or established <Link href="https://discordarena.com/accounts/instagram" className="underline">Instagram accounts</Link>, we offer reliable options to meet your needs.
+  </p><br/>
+  <p>
+    Our accounts come with built-in credibility, making it easy to join exclusive communities and engage with wider audiences. Check out our <Link href="https://discordarena.com/accounts/reddit" className="underline">Reddit accounts</Link> for instant participation in discussions.
+  </p><br/>
+  <p>
+    Choose Discord Arena for secure transactions, competitive prices, and accounts that enhance your social media experience. Start browsing now and find the perfect account to elevate your online presence!
+  </p>
+</div>
+
 
             <div className="radial_one"></div>
             {/* <div className="radial_two"></div> */}
