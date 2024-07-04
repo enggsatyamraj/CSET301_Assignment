@@ -36,7 +36,7 @@ export const generateMetaData = () => {
   };
 
   return {
-    title: "Buy Discord Accounts as Ease| Discord Arena",
+    title: "Buy Aged & Old Discord Accounts | Discord Arena",
     description:
       "Discover a diverse selection of aged Discord, , and Telegram accounts, including verified and phone-verified options, at unbeatable prices. Buy Discord accounts from 2015 and beyond, with the assurance of authenticity and quality. Our collection includes aged Discord accounts for sale, providing you with established communities and high-engagement profiles. We offer verified Discord accounts for sale, ensuring credibility and trustworthiness. Additionally, explore our range of services to buy server boosts for Discord, enhancing your servers visibility and reach. Elevate your  presence with our solutions to buy  followers, boosting your social proof and influence. Explore our selection of aged social media accounts and tokens, tailored to meet your specific needs. Join the ranks of successful influencers, marketers, and businesses who have leveraged our premium accounts to achieve their goals. Experience growth, credibility, and success like never before. Unlock the power of established social media accounts today.",
     keywords:
@@ -230,7 +230,8 @@ export default function Page() {
                     {item.description && item.descriptionTwo}
                   </p>
                   <Link
-                    href={"/accounts/discord"}
+                     href={"/accounts/discord"}  
+                     area-label="show discord account"
                     className="border-[#A5A6F6] border-2 px-4 py-1 text-[#A5A6F6] rounded-lg"
                   >
                     Purchase

@@ -7,11 +7,11 @@ import Link from "next/link";
 import ContactUsComponent from "@/components/ContactUsComponent";
 
 export const generateMetadata = () => {
-  const title = "Contact Discord Arena | Inquiries About Aged and Old Discord Accounts";
+  const title = "Contact Us | Inquiries About Aged & Old Discord Accounts";
   const description =
-    "Have questions or need assistance? Contact Discord Arena for prompt support and expert advice on all our services and products.";
+    "Get in touch with Discord Arena for inquiries about our premium aged and verified social media accounts. Have questions or need assistance? Contact Discord Arena for prompt support and expert advice on all our services and products.";
   const keywords =
-    "Contact Discord Arena, support for Discord accounts, get in touch, customer service, contact us, Discord Arena, premium accounts, Discord, Instagram, customer support, inquiries";
+    "contact Discord Arena, customer support, premium accounts inquiry, aged Discord accounts, verified social media profiles, support team, Contact Discord Arena, support for Discord accounts, get in touch, customer service, contact us, Discord Arena, premium accounts, Discord, Instagram, customer support, inquiries";
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/contact-us";
   const ogImage = "URL_TO_YOUR_SOCIAL_SHARE_IMAGE";

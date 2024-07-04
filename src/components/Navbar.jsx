@@ -67,6 +67,7 @@ const Navbar = () => {
           >
             <Link
               href={"/"}
+              area-label="Go Homepage"
               className="md:text-3xl text-2xl font-semibold tracking-widest"
             >
               Discord Arena
@@ -103,6 +104,7 @@ const Navbar = () => {
                 handleOpen();
               }}
               href={"/"}
+              area-label="Go Indexpage"
               className="md:text-3xl text-2xl font-semibold tracking-widest"
             >
               Discord Arena

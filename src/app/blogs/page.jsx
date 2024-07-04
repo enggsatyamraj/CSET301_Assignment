@@ -320,11 +320,11 @@ export const generateMetadata = () => {
   };
 
   return {
-    title: "Latest News on Aged Discord Accounts | Discord Arena Blog",
+    title: "Latest News on Buy Discord Accounts | Discord Blogs",
     description:
-      "Explore our blog for expert advice, tips, and insights on using aged Discord accounts to maximize your online presence and engagement.",
+      "Stay updated with the latest news and insights on aged Discord accounts and other premium social media profiles. Explore our blog for expert advice, tips, and insights on using aged Discord accounts to maximize your online presence and engagement.",
     keywords:
-      "Discord account tips, social media strategies, expert Discord advice, Discord engagement tips, discord accounts, discord tokens, discord server boosts, discord nitro, discord engagement, discord security, discord growth",
+      "Discord Arena blog, aged Discord accounts news, social media updates, premium accounts articles, industry insights, Discord account tips, social media strategies, expert Discord advice, Discord engagement tips, discord accounts",
     openGraph: {
       title: "Discord Arena - Blogs || Discord Accounts || Instagram Accounts",
       description:

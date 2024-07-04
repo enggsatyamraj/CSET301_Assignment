@@ -15,11 +15,11 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export function generateMetadata() {
   return {
-    title: "Aged Discord Accounts for Sale | Old Discord Accounts & More - Discord Arena",
+    title: "Buy Discord & Social Media Accounts | Buy Verified Profiles",
     description:
-      "Shop for aged Discord accounts, verified social media profiles, and more. Enhance your digital strategy with our trusted and high-quality accounts.",
+      "Discover a variety of aged and premium social media accounts, including Discord, Instagram, and Reddit. Enhance your online presence with verified profiles and exclusive features, perfect for marketers, influencers, and community builders. Explore our selection and elevate your digital footprint today!",
     keywords:
-      "Buy aged Discord accounts, verified social media accounts, premium Discord services, social media engagement",
+      "aged accounts, buy Discord accounts, buy social media accounts, premium accounts, verified Discord accounts, aged Instagram accounts, Reddit accounts",
     author: "Discord Arena",
     viewport: "width=device-width, initial-scale=1.0",
     openGraph: {
@@ -176,7 +176,7 @@ export default function Page() {
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more
+              Show more discord
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
@@ -254,7 +254,7 @@ export default function Page() {
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more
+              Show more Instagram
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
@@ -332,7 +332,7 @@ export default function Page() {
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more
+              Show more servers
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
@@ -478,7 +478,7 @@ export default function Page() {
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more
+              Show more reddit
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
