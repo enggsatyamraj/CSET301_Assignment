@@ -1,132 +1,163 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-<loc>https://discordarena.com/</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>http://discordarena.com/</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://discordarena.com/accounts</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/aboutus</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://discordarena.com/aboutus</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/blogs</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://discordarena.com/blogs</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/faq</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://discordarena.com/faq</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/contactus</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://discordarena.com/contactus</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>http://discordarena.com/accounts#accounts_details</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord/buy-2015-aged-discord-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://discordarena.com/accounts/discord</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/instagram</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://discordarena.com/accounts/discord/buy-2015-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/reddit</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://discordarena.com/accounts/instagram</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discordserver</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://discordarena.com/accounts/reddit</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord/buy-2016-aged-discord-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://discordarena.com/accounts/discordserver</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord/buy-2017-aged-discord-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord/buy-2018-aged-discord-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/instagram</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord/buy-2019-aged-discord-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discordserver</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord/buy-2020-aged-discord-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord/buy-2015-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord/buy-2021-aged-discord-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord/buy-2016-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord/buy-2022-aged-discord-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord/buy-2017-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discord/buy-2023-aged-discord-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord/buy-2018-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/instagram/get-2015-instagram-accounts</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord/buy-2019-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discordserver/buy-30-server-boosts</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord/buy-2020-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/discordserver/buy-10-server-boosts</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord/buy-2021-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/reddit/buy-10-month-old-reddit-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord/buy-2022-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/reddit/buy-12-month-old-reddit-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discord/buy-2023-aged-discord-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/reddit/buy-11-month-old-reddit-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/instagram/get-2015-instagram-accounts</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 <url>
-<loc>https://discordarena.com/accounts/reddit/buy-9-month-old-reddit-account</loc>
-<lastmod>2024-06-11T08:08:37+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>http://discordarena.com/accounts/discordserver/buy-30-server-boosts</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
+</url>
+<url>
+  <loc>http://discordarena.com/accounts/discordserver/buy-10-server-boosts</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
+</url>
+<url>
+  <loc>http://discordarena.com/accounts/reddit/buy-10-month-old-reddit-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
+</url>
+<url>
+  <loc>http://discordarena.com/accounts/reddit/buy-12-month-old-reddit-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
+</url>
+<url>
+  <loc>http://discordarena.com/accounts/reddit/buy-11-month-old-reddit-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
+</url>
+<url>
+  <loc>http://discordarena.com/accounts/reddit/buy-9-month-old-reddit-account</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
+</url>
+<url>
+  <loc>http://discordarena.com/accounts/reddit</loc>
+  <changefreq>weekly</changefreq>
+  <lastmod>2024-06-30</lastmod>
 </url>
 </urlset>

@@ -8,11 +8,11 @@ import Footer from "@/components/Footer";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const generateMetadata = () => {
-  const title = "Discord Arena - Premium Reddit Accounts";
+  const title = "Buy Aged Reddit Accounts | Premium Karma Accounts";
   const description =
-    "Elevate your Discord experience with premium accounts from Discord Arena. Explore exclusive features, boosted servers, and more.";
+    "Buy premium Reddit accounts with high karma and established credibility. Enhance your Reddit presence with aged accounts, access exclusive subreddits, and boost your engagement. Perfect for content creators and marketers.";
   const keywords =
-    "Discord, Discord accounts, Premium accounts, Boosted servers, Nitro subscription";
+    "aged Reddit accounts, buy Reddit accounts, premium Reddit accounts, high karma Reddit accounts, established Reddit accounts, Reddit marketing, Reddit content creators";
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/";
   const ogImage = "https://example.com/og-image.jpg";

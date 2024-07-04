@@ -46,7 +46,7 @@
     #3f2182 56%,
     #5e3aef 100%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 

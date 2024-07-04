@@ -40,11 +40,11 @@ const jsonLdScript = {
 };
 
 export const generateMetadata = () => {
-  const title = "Instagram Accounts - Discord Arena";
+  const title = "Buy Aged Instagram Accounts | Premium Verified Profiles";
   const description =
-    "Enhance your Instagram experience with premium accounts from Discord Arena. Explore exclusive features, boosted profiles, and more.";
+    "Enhance your Instagram presence with premium aged accounts. Our verified profiles come with custom handles and exclusive features to boost your social media credibility. Perfect for influencers, brands, and marketers. ";
   const keywords =
-    "Instagram, Instagram accounts, Premium accounts, Boosted profiles, Social media";
+    "aged Instagram accounts, buy Instagram accounts, premium Instagram accounts, verified Instagram accounts, custom handle Instagram accounts, Instagram marketing";
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/instagram";
   const ogImage = "URL_TO_YOUR_LOGO_IMAGE";

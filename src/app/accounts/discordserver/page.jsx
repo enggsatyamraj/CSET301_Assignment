@@ -8,11 +8,11 @@ import Footer from "@/components/Footer";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const generateMetadata = () => {
-  const title = "Discord Arena - Buy Premium Discord Servers - Accounts";
+  const title = "Buy Premium Discord Servers | Verified & High Activity Servers";
   const description =
-    "Elevate your Discord experience with premium accounts from Discord Arena. Explore exclusive features, boosted servers, and more.";
+    "Enhance your Discord server with premium features and verified accounts. Our servers come with high activity levels, custom emojis, and dedicated support channels, perfect for boosting engagement and community interaction.";
   const keywords =
-    "Discord, Discord accounts, Premium accounts, Boosted servers, Nitro subscription";
+    "premium Discord servers, buy Discord servers, verified Discord servers, high activity Discord servers, custom emoji Discord servers, dedicated support channels, engaged community Discord servers";
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/";
   const ogImage = "https://example.com/og-image.jpg";

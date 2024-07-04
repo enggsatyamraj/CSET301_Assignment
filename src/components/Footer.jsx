@@ -41,6 +41,7 @@ const Footer = () => {
           <Link
             href={"/accounts/instagram"}
             // area-label="See more Accounts"
+
             className="opacity-70 text-[14px] my-2"
           >
              Instagram Accounts
@@ -48,7 +49,9 @@ const Footer = () => {
           <br />
           <Link
             href={"/accounts/discordserver"}
+
             // area-label="See Instagram Accounts"
+
             className="opacity-70 text-[14px] my-2"
           >
             Discord Servers
