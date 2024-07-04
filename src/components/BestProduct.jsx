@@ -57,9 +57,9 @@ const BestProduct = () => {
 
       <div className="max-w-[1280px] px-4 min-h-[100vh] grid grid-cols-1 md:grid-cols-3 mx-auto gap-4">
         <div>
-          <b className="text-3xl w-[80%] font-semibold mb-4">
+          <p className="text-3xl w-[80%] font-semibold mb-4">
             Elevate Your Online Presence with Premium Social Media Solutions
-          </b>
+          </p>
           <p className="text-[15px] mb-4 opacity-90">
             At Discord Arena, we&apos;re thrilled to welcome you to a realm
             where excellence seamlessly converges with innovation in the dynamic
@@ -82,33 +82,33 @@ const BestProduct = () => {
             <div className="h-[150px] bg-[#A5A6F6] mb-3 rounded-lg flex items-center justify-center">
               <FaDiscord size={50} />
             </div>
-            <b className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
+            <p className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Discord Social Media
-            </b>
+            </p>
             <br/>
-            <b className="text-[19px] mt-3 font-semibold">Vintage Discord Accounts</b>
+            <p className="text-[19px] mt-3 font-semibold">Vintage Discord Accounts</p>
             <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
               <Link href={"/accounts/discord"}>Discover discord accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
-            <b className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
+            <p className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
                Social media links
-            </b>
+            </p>
             <br/>
-            <b className="text-[19px] mt-3 font-semibold">  </b>
+            <p className="text-[19px] mt-3 font-semibold">  </p>
             <Link href={"/accounts/"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
               <Link href={"/accounts/"}>See some  accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
-            <b className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
+            <p className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Instagram Referral
-            </b>
+            </p>
             <br/>
-            <b className="text-[19px] mt-3 font-semibold">Instagram social media accounts</b>
+            <p className="text-[19px] mt-3 font-semibold">Instagram social media accounts</p>
             <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
               <Link href={"/accounts/instagram"}>Uncover Instagram accounts</Link>
               <FaArrowCircleRight size={15} />
@@ -118,11 +118,11 @@ const BestProduct = () => {
 
         <div>
           <div className="border-2 p-4 rounded-lg">
-            <b className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
+            <p className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Referral Services
-            </b>
+            </p>
             <br/>
-            <b className="text-[19px] mt-3 font-semibold">Instagram</b>
+            <p className="text-[19px] mt-3 font-semibold">Instagram</p>
             <Link href={"/accounts/instagram"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
               <Link href={"/accounts/instagram"}>Investigate Instagram users</Link>
               <FaArrowCircleRight size={15} />
@@ -132,22 +132,22 @@ const BestProduct = () => {
             <div className="h-[150px] bg-[#FFA800] flex items-center justify-center mb-3 rounded-lg">
               <FaDiscord size={50} />
             </div>
-            <b className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
+            <p className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Social Media Accounts
-            </b>
+            </p>
             <br/>
-            <b className="text-[19px] mt-3 font-semibold">Discord nitro accounts</b>
+            <p className="text-[19px] mt-3 font-semibold">Discord nitro accounts</p>
             <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
               <div>Explore the world of discord accounts</div>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
-            <b className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
+            <p className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Referral Account Services
-            </b>
+            </p>
             <br/>
-            <b className="text-[19px] mt-3 font-semibold"> latest accounts</b>
+            <p className="text-[19px] mt-3 font-semibold"> latest accounts</p>
             <Link href={"/accounts/"} className="flex gap-2 items-center text-[#FFA800] cursor-pointer">
               <Link href={"/accounts/"}>Navigate through  accounts</Link>
               <FaArrowCircleRight size={15} />

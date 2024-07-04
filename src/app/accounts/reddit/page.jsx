@@ -79,9 +79,9 @@ const page = () => {
             <h1 className="text-3xl md:text-4xl font-semibold mb-2">
               Buy Reddit Accounts
             </h1>
-            <b className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
+            <p className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
               Enhance Your Reddit Accounts with Premium Features
-            </b>
+            </p>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
               Step into the ultimate hub for transforming your Reddit
               experience! Delve into a realm of premium Reddit accounts,
@@ -96,9 +96,9 @@ const page = () => {
             </p>
           </div>
           <div className="min-h-[500px] py-12">
-            <b className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
+            <p className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
               Shop Reddit Accounts
-            </b>
+            </p>
             <div className="grid grid-cols-1 mt-5 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {discordData.map((item, index) => {
                 return (

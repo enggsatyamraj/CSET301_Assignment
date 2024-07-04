@@ -190,9 +190,9 @@ const Page = () => {
             Buy {data.year} Discord Server at cheap prices here on Discord
             Arena.
           </p>
-          <b className="mb-3 mt-5 text-2xl font-semibold">
+          <p className="mb-3 mt-5 text-2xl font-semibold">
             Buy {data.year} Discord Server{" "}
-          </b>
+          </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <div className="flex h-[200px] w-[100%] items-center justify-center rounded-[10px] border-[1px] border-[#fff] text-3xl">
               <FaDiscord size={100} className="dance text-[#A5A6F6]" />
@@ -227,9 +227,9 @@ const Page = () => {
           </p>
           <p className="text-[16px] opacity-85 mb-4">{data.introduction}</p> */}
 
-          <b className="mb-3 mt-5 text-2xl font-semibold">
+          <p className="mb-3 mt-5 text-2xl font-semibold">
             Features and benefits of discord servers - {data.year}
-          </b>
+          </p>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-3 mb-4">
             {data.features.map((item, index) => {
@@ -257,9 +257,9 @@ const Page = () => {
                   key={index}
                   className="relative rounded-md border-[1px] p-4"
                 >
-                  <b className="absolute top-[-18px] w-fit rounded-lg bg-[#00C9A7] px-3 py-1">
+                  <p className="absolute top-[-18px] w-fit rounded-lg bg-[#00C9A7] px-3 py-1">
                     {item.name}
-                  </b>
+                  </p>
                   <p className="mb-3 mt-4">
                     <span className="rounded-sm bg-[#4D8076] px-3 py-1 font-semibold">
                       Rating

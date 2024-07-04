@@ -111,7 +111,7 @@ export default function Page() {
 
       <div id="accounts_details" className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <b className="mb-4 text-2xl font-semibold">Discord Accounts</b>
+          <h2 className="mb-4 text-2xl font-semibold">Discord Accounts</h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
             {discordData.map((item, index) => {
               return (
@@ -185,7 +185,7 @@ export default function Page() {
 
       <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <b className="mb-4 text-2xl font-semibold">Instagram Accounts</b>
+          <h3 className="mb-4 text-2xl font-semibold">Instagram Accounts</h3>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
             {instagramData.map((item, index) => {
               return (
@@ -263,7 +263,7 @@ export default function Page() {
 
       <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <b className="mb-4 text-2xl font-semibold">Discord Server</b>
+          <p className="mb-4 text-2xl font-semibold">Discord Server</p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
             {discordServerData.map((item, index) => {
               return (
@@ -341,7 +341,7 @@ export default function Page() {
 
       {/* <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <b className="mb-4 text-2xl font-semibold"> Accounts</b>
+          <p className="mb-4 text-2xl font-semibold"> Accounts</p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
             {Data.map((item, index) => {
               return (
@@ -409,7 +409,7 @@ export default function Page() {
 
       <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <b className="mb-4 text-2xl font-semibold">Reddit Accounts</b>
+          <p className="mb-4 text-2xl font-semibold">Reddit Accounts</p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
             {redditAccountData.map((item, index) => {
               return (

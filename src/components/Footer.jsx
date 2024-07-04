@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-[#121212] border-t-[0.5px] text-white py-12">
       <div className="max-w-[1080px] mx-auto px-7 grid  justify-center  gap-5 grid-cols-2 md:grid-cols-4">
         <div className="w-fit">
-          <b className="font-bold text-xl mb-4">Company</b>
+          <p className="font-bold text-xl mb-4">Company</p>
           <br />
           <Link href={"/aboutus"} className="opacity-70 text-[14px] my-2">
             About us
@@ -28,7 +28,7 @@ const Footer = () => {
           <br />
         </div>
         <div className="w-fit">
-          <b className="font-bold text-xl mb-4">Services</b>
+          <p className="font-bold text-xl mb-4">Services</p>
           <br />
           <Link
             href={"/accounts/discord"}
@@ -65,7 +65,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="w-fit">
-          <b className="font-bold text-xl mb-4">Resources</b>
+          <p className="font-bold text-xl mb-4">Resources</p>
           <br />
           <Link href={"/blogs"} className="opacity-70 text-[14px] my-2">
             Blog
@@ -76,7 +76,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="w-fit">
-          <b className="font-bold text-xl mb-4">Follow us</b>
+          <p className="font-bold text-xl mb-4">Follow us</p>
           <br />
           <Link
             href={"https://discord.gg/Z2eXvbkufU"}
@@ -113,8 +113,8 @@ const Footer = () => {
           </Link>
           <br />
           {/* <Link href={"https://t.me/halfmoonisgod"} target="_blank" className="opacity-70 text-[14px] my-2"></Link> */}
-          {/* <b className="opacity-70 text-[14px] my-2">Behance</b> */}
-          {/* <b className="opacity-70 text-[14px] my-2">Facebook</b> */}
+          {/* <p className="opacity-70 text-[14px] my-2">Behance</p> */}
+          {/* <p className="opacity-70 text-[14px] my-2">Facebook</p> */}
         </div>
       </div>
     </div>

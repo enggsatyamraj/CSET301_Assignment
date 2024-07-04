@@ -214,9 +214,9 @@ export default function Page() {
                   <div className="h-[200px] flex items-center justify-center ">
                     <FaDiscord size={100} className="text-[#A5A6F6] dance" />
                   </div>
-                  <b className="text-[16px] mb-3 font-semibold">
+                  <p className="text-[16px] mb-3 font-semibold">
                     {item.heading}
-                  </b>
+                  </p>
                   <p className="text-[15px] mt-3 mb-2 opacity-90">
                     {item.paragraph}
                   </p>

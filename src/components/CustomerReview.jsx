@@ -121,7 +121,7 @@ const CustomerReview = () => {
       </Head> */}
       <div className="max-w-[1280px] py-12 mx-auto px-4">
         <div className="flex justify-between items-center">
-          <b className="sm:text-3xl text-2xl">Our Happy Customers</b>
+          <p className="sm:text-3xl text-2xl">Our Happy Customers</p>
           <div className="flex gap-3">
             <MdKeyboardArrowLeft
               onClick={handlePrevious}
@@ -151,9 +151,9 @@ const CustomerReview = () => {
               <div className="flex items-center gap-4">
                 {comment.icons}
                 <div>
-                  <b className="text-xl font-semibold">{comment.name}</b>
+                  <p className="text-xl font-semibold">{comment.name}</p>
                   <br />
-                  <b className="opacity-75">{comment.company}</b>
+                  <p className="opacity-75">{comment.company}</p>
                 </div>
               </div>
               <p className="mt-4">{comment.review}</p>

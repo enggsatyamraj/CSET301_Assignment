@@ -74,9 +74,9 @@ const WhyChoose = () => {
       </Head> */}
       <div className="max-w-[1080px] min-h-[60vh] mx-auto flex flex-col justify-center px-4 pb-12">
         <div className=" ">
-          <b className="md:text-4xl text-3xl font-semibold mb-6 w-[98%] sm:w-[80%] md:w-[70%] lg:w-[60%]">
+          <p className="md:text-4xl text-3xl font-semibold mb-6 w-[98%] sm:w-[80%] md:w-[70%] lg:w-[60%]">
             Elevate Your Strategy with Our Trusted Solutions
-          </b>
+          </p>
 
           <ul className="mt-5">
             {pointsArray.map((item, index) => (
@@ -84,9 +84,9 @@ const WhyChoose = () => {
                 key={index}
                 className="mb-8 relative max-w-[900px] border-[1px] p-4 rounded-lg"
               >
-                <b className="sm:text-[17px] text-[15px] font-semibold absolute bg-[#dcdcdc] px-2 text-[#121212] rounded-md -top-[15px]">
+                <p className="sm:text-[17px] text-[15px] font-semibold absolute bg-[#dcdcdc] px-2 text-[#121212] rounded-md -top-[15px]">
                   {item.title}
-                </b>
+                </p>
                 <p>{item.description}</p>
               </li>
             ))}
