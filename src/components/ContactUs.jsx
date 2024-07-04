@@ -9,32 +9,7 @@ const ContactUs = () => {
   };
   return (
     <div className="bg-[#121212] p-4">
-      <Head>
-        <title>Contact Us | Discord Arena</title>
-        <meta
-          name="description"
-          content="Get in touch with Discord Arena for any questions, assistance, or collaboration opportunities. Fill in your email, and our team will promptly respond to your inquiries."
-        />
-        <meta name="author" content="Discord Arena" />
-        {/* Add any other meta tags you may need */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Discord Arena",
-              url: "https://www.discordarena.com/",
-              logo: "URL_TO_YOUR_LOGO",
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: "+1-123-456-7890",
-                contactType: "Customer service",
-              },
-            }),
-          }}
-        />
-      </Head>
+      
       <div className="max-w-[1280px] rounded-lg bg-[#A5A6F6] mx-auto py-12 min-h-[60vh] flex flex-col justify-center px-4">
         <b className="text-center text-3xl md:text-4xl text-[#0D0E14]">
           Get in Touch with Discord Arena

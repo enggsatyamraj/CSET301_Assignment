@@ -35,9 +35,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Discord Aged Accounts
-                  </b>
+                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  Established Discord accounts
+                  </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -57,9 +57,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaInstagram size={30} />
                   </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Instagram Aged Accounts
-                  </b>
+                  </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -79,9 +79,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Discord Server Boosters
-                  </b>
+                  </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -104,9 +104,9 @@ const WeOffer = () => {
                   <span className="relative flex h-11 w-11 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <TbBrandMinecraft size={30} className="rounded-full" />
                   </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Reaction Services
-                  </b>
+                  </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -126,9 +126,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Discord Services
-                  </b>
+                  </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -149,9 +149,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <b className="text-2xl font-semibold leading-none tracking-tight">
+                  <p className="text-2xl font-semibold leading-none tracking-tight">
                     Discord Invites and Referrals
-                  </b>
+                  </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -171,9 +171,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <TbBrandMinecraft size={30} />
                   </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Zealy Invites and Referrals
-                  </b>
+                  </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
@@ -193,9 +193,9 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <TbBrandMinecraft size={30} />
                   </span>
-                  <b className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
                     Online/Offline Members
-                  </b>
+                  </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>

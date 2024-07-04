@@ -94,7 +94,7 @@ const CustomerReview = () => {
 
   return (
     <div className="bg-[#121212] text-white">
-      <Head>
+      {/* <Head>
         <title>Customer Reviews | Discord Arena</title>
         <meta
           name="description"
@@ -118,7 +118,7 @@ const CustomerReview = () => {
             }),
           }}
         />
-      </Head>
+      </Head> */}
       <div className="max-w-[1280px] py-12 mx-auto px-4">
         <div className="flex justify-between items-center">
           <b className="sm:text-3xl text-2xl">Our Happy Customers</b>

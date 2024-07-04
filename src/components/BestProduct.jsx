@@ -6,7 +6,7 @@ import { FaArrowCircleRight, FaDiscord } from "react-icons/fa";
 const BestProduct = () => {
   return (
     <div className="bg-[#121212] text-white">
-      <Head>
+      {/* <Head>
         <script type="application/ld+json">
           {`
           {
@@ -53,7 +53,7 @@ const BestProduct = () => {
           }
           `}
         </script>
-      </Head>
+      </Head> */}
 
       <div className="max-w-[1280px] px-4 min-h-[100vh] grid grid-cols-1 md:grid-cols-3 mx-auto gap-4">
         <div>
@@ -85,7 +85,7 @@ const BestProduct = () => {
               Discord Social Media
             </b>
             <br/>
-            <b className="text-[19px] mt-3 font-semibold">Discord aged accounts</b>
+            <b className="text-[19px] mt-3 font-semibold">Vintage Discord Accounts</b>
             <Link href={"/accounts/discord"} className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer">
               <Link href={"/accounts/discord"}>Discover discord accounts</Link>
               <FaArrowCircleRight size={15} />
