@@ -411,11 +411,11 @@ export default function Page() {
 
       <div className="bg-normal overflow-x-hidden w-[100%] relative min-h-[100vh] text-white pt-[100px] pb-[100px] px-4">
         <PageWrapper>
-          <Head>
+          {/* <Head>
             <title>
               Expert Tips & Insights on Discord Accounts | Discord Arena Blog
             </title>
-          </Head>
+          </Head> */}
           <h1 className=" text-3xl text-center  font-bold mb-12 ">
             Expert Tips & Insights on Discord Accounts
           </h1>

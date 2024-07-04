@@ -70,7 +70,7 @@ export const generateMetadata = () => {
 const AboutPage = () => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>About Us | Trusted Provider of Discord Accounts | Discord Arena</title>
         <meta name="description" content="Learn about Discord Arena, your reliable source for aged and verified Discord accounts. Our commitment to quality and customer satisfaction sets us apart." />
         <meta name="keywords" content="Trusted Discord account provider, Discord account supplier, about Discord Arena, premium accounts, Discord, Instagram, exclusive accounts, high-quality accounts, buy accounts" />
@@ -106,7 +106,7 @@ const AboutPage = () => {
             contactType: "customer support",
           },
         })}</script>
-      </Head>
+      </Head> */}
 
       <noscript>
         <iframe

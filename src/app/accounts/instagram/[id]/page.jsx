@@ -69,7 +69,7 @@ const Page = () => {
         ></iframe>
       </noscript>
 
-      <Head>
+      {/* <Head>
         <title>Buy {data.year} Instagram Accounts | Discord Arena</title>
         <meta name="description" content={data.introduction} />
         <meta property="og:title" content={data.name} />
@@ -120,7 +120,7 @@ const Page = () => {
             }
           `}
         </script>
-      </Head>
+      </Head> */}
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
           <p className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
