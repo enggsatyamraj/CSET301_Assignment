@@ -150,9 +150,9 @@ const CustomerReview = () => {
             >
               <div className="flex items-center gap-4">
                 {comment.icons}
-                <div>
+                <div className="flex flex-col items-start">
                   <p className="text-xl font-semibold">{comment.name}</p>
-                  <br />
+                  {/* <br /> */}
                   <p className="opacity-75">{comment.company}</p>
                 </div>
               </div>
