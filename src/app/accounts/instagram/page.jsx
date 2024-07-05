@@ -109,7 +109,7 @@ const page = () => {
         <div className="max-w-[1000px] mx-auto">
           <div className="min-h-[400px] flex flex-col justify-center ">
             <h1 className="text-3xl md:text-4xl font-semibold mb-2">
-              Buy Aged Instagram Accounts – Starting from $5 Only
+              Buy Aged Instagram Accounts – Starting from $3 Only
             </h1>
             <p className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
               High-Quality Aged Instagram Accounts for Sale
