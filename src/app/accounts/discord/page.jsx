@@ -77,21 +77,17 @@ const page = () => {
         <div className="max-w-[1000px] mx-auto">
           <div className="min-h-[400px] flex flex-col justify-center ">
             <h1 className="text-3xl md:text-4xl font-semibold mb-2">
-              Buy Discord Accounts
+              Buy Aged Discord Accounts – Starting from $2 Only
             </h1>
             <p className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
-              Elevate Your Discord Experience with Premium Accounts
+              Discover the Best Aged Discord Accounts for Sale
             </p>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
-              Welcome to the ultimate destination for enhancing your Discord
-              journey! Dive into a world of premium Discord accounts
-              meticulously crafted to elevate your communication, server
-              management, and overall Discord experience. Unleash exclusive
-              features, boost your server&apos;s credibility with verified
-              accounts, and stand out with custom handles. Our Discord accounts
-              page is your gateway to a seamless, enriched, and personalized
-              Discord adventure. Explore the possibilities and redefine your
-              online presence in the Discord Arena!
+              Looking for reliable aged Discord accounts? At Discord Arena, we offer a wide range of Discord old accounts to meet your needs. Our accounts provide instant access to exclusive communities and enhanced security.
+
+<p>Our collection includes <Link className="underline font-bold" href={"https://discordarena.com/accounts/discord/buy-2015-aged-discord-account"}>2015 Discord accounts</Link> and options starting at just $2. With <Link className="underline font-bold" href={"https://discordarena.com/accounts/discord/buy-2023-aged-discord-account"}>accounts starting at $2</Link>, finding the right account is easy and affordable.</p>
+
+<p>Choose Discord Arena for quality accounts, secure transactions, and the best prices. Browse our selection of Discord accounts today!</p>
             </p>
           </div>
           <div className="min-h-[500px] py-12">
