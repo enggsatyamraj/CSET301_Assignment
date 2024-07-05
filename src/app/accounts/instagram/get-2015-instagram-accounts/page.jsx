@@ -11,21 +11,21 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export const reviews = [
   {
     id: 1,
-    name: "John Doe",
+    name: "Ajay Verma",
     rating: 5,
     review:
       "I purchased a instagram Account and have been extremely satisfied with the features and benefits it offers. The boosted servers and active Nitro subscription have enhanced my server management and communication capabilities, and the integration of useful bots has improved the overall user experience. Additionally, the ownership of popular, engaged instagram servers has allowed me to connect with a large and active community. Overall, I highly recommend 2017 instagram Accounts for anyone looking to elevate their instagram experience.",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Sarah Davis",
     rating: 4,
     review:
       "I recently purchased a instagram Account and have been impressed with the range of features and benefits it offers. The verified account and boosted servers have provided added credibility and enhanced capabilities for managing and growing my server. The active Nitro subscription has also offered exclusive perks and benefits, and the integration of useful bots has improved functionality and automation. Overall, I am satisfied with my purchase and would recommend 2017 instagram Accounts to others looking to enhance their instagram experience.",
   },
   {
     id: 3,
-    name: "Alex Johnson",
+    name: "William Moore",
     rating: 5,
     review:
       "I have been using a instagram Account for some time now and have found it to be a valuable investment. The verified account and boosted servers have provided added credibility and enhanced capabilities for managing and growing my server. The active Nitro subscription has also offered exclusive perks and benefits, and the integration of useful bots has improved functionality and automation. Additionally, the ownership of popular, engaged instagram servers has allowed me to connect with a large and active community. Overall, I highly recommend 2017 instagram Accounts for anyone looking to elevate their instagram experience.",

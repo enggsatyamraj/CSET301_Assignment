@@ -37,7 +37,7 @@ const CustomerReview = () => {
       icons: <FaRegUser />,
     },
     {
-      name: "Alex Johnson",
+      name: "William Moore",
       company: "Future Tech",
       review:
         "Discord Arena's expertise in SEO and digital strategy is unmatched. They provided customized solutions that fit our specific needs. Their proactive communication and dedication to success set them apart.",
@@ -150,9 +150,9 @@ const CustomerReview = () => {
             >
               <div className="flex items-center gap-4">
                 {comment.icons}
-                <div>
+                <div className="flex flex-col items-start">
                   <p className="text-xl font-semibold">{comment.name}</p>
-                  <br />
+                  {/* <br /> */}
                   <p className="opacity-75">{comment.company}</p>
                 </div>
               </div>
