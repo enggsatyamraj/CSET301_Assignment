@@ -109,20 +109,17 @@ const page = () => {
         <div className="max-w-[1000px] mx-auto">
           <div className="min-h-[400px] flex flex-col justify-center ">
             <h1 className="text-3xl md:text-4xl font-semibold mb-2">
-              Instagram Accounts
+              Buy Aged Instagram Accounts – Starting from $3 Only
             </h1>
             <p className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
-              Elevate Your Instagram Presence with Exclusive Features and
-              Verified Profiles
+              High-Quality Aged Instagram Accounts for Sale
             </p>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
-              Immerse yourself in a world of premium Instagram accounts crafted
-              to enhance your social media journey. Boost your profile&apos;s
-              credibility with verified accounts, unlock exclusive features, and
-              make a statement with custom handles. Your doorway to a seamless,
-              enriched, and tailored Instagram adventure awaits. Explore the
-              possibilities and redefine your online presence in the Instagram
-              Universe!
+              <p>Are you looking to quickly boost your Instagram presence? At Discord Arena, we offer a variety of aged Instagram accounts to help you achieve instant credibility and engagement. Our accounts come with pre-established followers, making it easier to grow your influence.</p>
+
+<p>We have a diverse selection, including <Link className="underline font-bold" href={"https://discordarena.com/instagram/buy-2013-instagram-accounts"}>2013 Instagram accounts</Link> and affordable options starting at just $5. Whether you need an account with a long history or simply an active follower base, we have you covered. Check out our accounts starting at $5 for the best deals.</p>
+
+<p>Instagram accounts today and take your social media game to the next level!</p>
             </p>
           </div>
           <div className="min-h-[500px] py-12">
