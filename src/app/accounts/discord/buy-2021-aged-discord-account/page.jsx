@@ -118,28 +118,45 @@ export const data = {
         "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help with Discord Elysium 2021.",
     },
   ],
+  reviews: [
+    {
+      name: "Anshul Rajput",
+      rating: 4.5,
+      review: "Bought 2 alts for him both work like a charm",
+    },
+    {
+      name: "Rahul Singh",
+      rating: 5,
+      review: "Great service, got my account instantly",
+    },
+    {
+      name: "Charlos simon",
+      rating: 4,
+      review:
+        "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+    },
+  ],
 };
 
-export const reviews = [
-  {
-    name: "Ajay Verma",
-    rating: 5,
-    comment:
-      "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
-  },
-  {
-    name: "Sarah Davis",
-    rating: 4,
-    comment:
-      "SUPER FAST DELIVERY man i highly recommend",
-  },
-  {
-    name: "William Moore",
-    rating: 5,
-    comment:
-      "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
-  },
-];
+// export const reviews = [
+//   {
+//     name: "Ajay Verma",
+//     rating: 5,
+//     comment:
+//       "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+//   },
+//   {
+//     name: "Sarah Davis",
+//     rating: 4,
+//     comment: "SUPER FAST DELIVERY man i highly recommend",
+//   },
+//   {
+//     name: "William Moore",
+//     rating: 5,
+//     comment:
+//       "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
+//   },
+// ];
 
 export const generateMetadata = () => {
   const calculateAverageRating = (reviews) => {
@@ -163,8 +180,8 @@ export const generateMetadata = () => {
     },
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: calculateAverageRating(reviews).toString(),
-      reviewCount: reviews.length.toString(),
+      ratingValue: calculateAverageRating(data.reviews).toString(),
+      reviewCount: data.reviews.length.toString(),
     },
     offers: {
       "@type": "Offer",
@@ -299,7 +316,7 @@ const Page = () => {
             Customer Testimonials
           </h2>
           <div className="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2 mb-4">
-            {reviews.map((item, index) => {
+            {data.reviews.map((item, index) => {
               return (
                 <div
                   key={index}
@@ -314,7 +331,7 @@ const Page = () => {
                     </span>{" "}
                     : <span>{item.rating}</span>
                   </p>
-                  <p className="text-[14px] opacity-80">{item.comment}</p>
+                  <p className="text-[14px] opacity-80">{item.review}</p>
                 </div>
               );
             })}

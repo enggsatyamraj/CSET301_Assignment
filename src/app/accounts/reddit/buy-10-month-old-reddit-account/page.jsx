@@ -123,22 +123,22 @@ export const data = {
 
 export const reviews = [
   {
-    name: "Ajay Verma",
+    name: "ステファニー",
     rating: 5,
     comment:
-      "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+      "Actually legit no bots add ''evapol0'' discord if you want proof",
   },
   {
-    name: "Sarah Davis",
+    name: "Andrew",
     rating: 4,
     comment:
-      "SUPER FAST DELIVERY man i highly recommend",
+      "Very fast support, anything worked very well",
   },
   {
-    name: "William Moore",
+    name: "Lauren",
     rating: 5,
     comment:
-      "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
+      "super fast, very friendly, bought another account straight away",
   },
 ];
 

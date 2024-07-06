@@ -123,22 +123,22 @@ export const data = {
 
 export const reviews = [
   {
-    name: "Ajay Verma",
+    name: "Daniel",
     rating: 5,
     comment:
-      "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+      "SECOND BUYING form Discord Arena store ! Discord Arena is always so pleasant and responsible with its customers, now that I know a trusted salesperson I will definitely be back! ♥",
   },
   {
-    name: "Sarah Davis",
+    name: "艾米丽",
     rating: 4,
     comment:
-      "SUPER FAST DELIVERY man i highly recommend",
+      "2015 account is 100% legit, can vouch as another reputable seller",
   },
   {
-    name: "William Moore",
+    name: "チャールズ",
     rating: 5,
     comment:
-      "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
+      "Good seller, replies fast 100% legit",
   },
 ];
 

@@ -123,22 +123,22 @@ export const data = {
 
 export const reviews = [
   {
-    name: "Ajay Verma",
+    name: "Kyle",
     rating: 5,
     comment:
-      "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+      "Very good. Replied very fast.",
   },
   {
-    name: "Sarah Davis",
+    name: "斯蒂芬妮 ",
     rating: 4,
     comment:
-      "SUPER FAST DELIVERY man i highly recommend",
+      "very quick , professional :) i recommend",
   },
   {
-    name: "William Moore",
+    name: "Ryan",
     rating: 5,
     comment:
-      "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
+      "Best seller and best products ❤️",
   },
 ];
 

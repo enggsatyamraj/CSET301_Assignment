@@ -118,28 +118,53 @@ export const data = {
         "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help with Discord 2018 Mastermind.",
     },
   ],
+  reviews: [
+    {
+      name: "Carlos Hernandez",
+      review:
+        "The Discord 2018 Mastermind account has elevated my Discord experience. The strategic access to premium servers and tailored emojis are fantastic.",
+      rating: 5,
+    },
+    {
+      name: "Neha Sharma",
+      review:
+        "I am very pleased with the dynamic community and the cutting-edge moderation tools. The regular engagements keep the community active and enjoyable.",
+      rating: 4,
+    },
+    {
+      name: "Akira Tanaka",
+      review:
+        "The seamless integration with trending music bots is a game-changer. It has added a whole new level of fun to my server.",
+      rating: 5,
+    },
+    {
+      name: "Liam Brown",
+      review:
+        "Great value for the price. The features offered by Discord 2018 Mastermind, especially the premium server access and tailored emojis, are top-notch.",
+      rating: 4,
+    },
+  ],
 };
 
-export const reviews = [
-  {
-    name: "Ajay Verma",
-    rating: 5,
-    comment:
-      "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
-  },
-  {
-    name: "Sarah Davis",
-    rating: 4,
-    comment:
-      "SUPER FAST DELIVERY man i highly recommend",
-  },
-  {
-    name: "William Moore",
-    rating: 5,
-    comment:
-      "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
-  },
-];
+// export const reviews = [
+//   {
+//     name: "Ajay Verma",
+//     rating: 5,
+//     comment:
+//       "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+//   },
+//   {
+//     name: "Sarah Davis",
+//     rating: 4,
+//     comment: "SUPER FAST DELIVERY man i highly recommend",
+//   },
+//   {
+//     name: "William Moore",
+//     rating: 5,
+//     comment:
+//       "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
+//   },
+// ];
 
 export const generateMetadata = () => {
   const calculateAverageRating = (reviews) => {
@@ -163,8 +188,8 @@ export const generateMetadata = () => {
     },
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: calculateAverageRating(reviews).toString(),
-      reviewCount: reviews.length.toString(),
+      ratingValue: calculateAverageRating(data.reviews).toString(),
+      reviewCount: data.reviews.length.toString(),
     },
     offers: {
       "@type": "Offer",
@@ -299,7 +324,7 @@ const Page = () => {
             Customer Testimonials
           </h2>
           <div className="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2 mb-4">
-            {reviews.map((item, index) => {
+            {data.reviews.map((item, index) => {
               return (
                 <div
                   key={index}
@@ -314,7 +339,7 @@ const Page = () => {
                     </span>{" "}
                     : <span>{item.rating}</span>
                   </p>
-                  <p className="text-[14px] opacity-80">{item.comment}</p>
+                  <p className="text-[14px] opacity-80">{item.review}</p>
                 </div>
               );
             })}

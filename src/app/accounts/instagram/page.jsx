@@ -115,11 +115,34 @@ const page = () => {
               High-Quality Aged Instagram Accounts for Sale
             </p>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
-              <p>Are you looking to quickly boost your Instagram presence? At Discord Arena, we offer a variety of aged Instagram accounts to help you achieve instant credibility and engagement. Our accounts come with pre-established followers, making it easier to grow your influence.</p>
+              <p>
+                Are you looking to quickly boost your Instagram presence? At
+                Discord Arena, we offer a variety of aged Instagram accounts to
+                help you achieve instant credibility and engagement. Our
+                accounts come with pre-established followers, making it easier
+                to grow your influence.
+              </p>
 
-<p>We have a diverse selection, including <Link className="underline font-bold" href={"https://discordarena.com/instagram/buy-2013-instagram-accounts"}>2013 Instagram accounts</Link> and affordable options starting at just $5. Whether you need an account with a long history or simply an active follower base, we have you covered. Check out our accounts starting at $5 for the best deals.</p>
+              <p>
+                We have a diverse selection, including{" "}
+                <Link
+                  className="underline font-bold"
+                  href={
+                    "https://discordarena.com/instagram/buy-2013-instagram-accounts"
+                  }
+                >
+                  2013 Instagram accounts
+                </Link>{" "}
+                and affordable options starting at just $5. Whether you need an
+                account with a long history or simply an active follower base,
+                we have you covered. Check out our accounts starting at $5 for
+                the best deals.
+              </p>
 
-<p>Instagram accounts today and take your social media game to the next level!</p>
+              <p>
+                Instagram accounts today and take your social media game to the
+                next level!
+              </p>
             </p>
           </div>
           <div className="min-h-[500px] py-12">
@@ -140,10 +163,13 @@ const page = () => {
                       />
                     </div>
 
-                    <Link href={`/accounts/instagram/${item.name
-                          .split(" ")
-                          .join("-")
-                          .toLowerCase()}`} className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]">
+                    <Link
+                      href={`/accounts/instagram/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
+                      className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                    >
                       Buy{" "}
                       <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                         {item.year}
