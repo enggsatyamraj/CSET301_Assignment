@@ -106,88 +106,89 @@ export default function Page() {
                 More
               </p>
               <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
-                <span>
+                {/* <span>
+                Welcome to Discord Arena, your premier destination for aged Discord accounts and social media accounts. We specialize in providing high-quality aged Discord and Instagram accounts to help you enhance your online presence instantly.
+
+Looking to buy aged Discord? Our selection of Discord accounts includes everything from 2015 Discord accounts to the latest options, all at competitive prices. Whether you need a Discord account aged for immediate use or an instant Discord aged account, we have you covered.
+
+Our aged Discord accounts are perfect for those searching for a Discord old account buy or an old Discord account for sale. With Discord Arena, you get secure transactions, exceptional customer service, and top-quality accounts that help you stand out.
+
+Explore our Instagram accounts, designed to give you a head start with pre-established followers and engagement. Whether you’re looking for discordarena, discord arena, or to buy account Discord, our platform ensures you find exactly what you need.
+
+Choose Discord Arena for all your social media needs and boost your influence effortlessly. Discover why we are the trusted choice for buying aged Discord accounts and more.
+                </span> */}
+                {/* <br/> */}
                   At Discord Arena, we offer high-quality aged Discord accounts,
                   Instagram accounts, and Reddit accounts. Whether you&lsquo;re
                   a business, influencer, or gamer, our accounts help you
                   quickly establish a strong presence on social media.
-                  <br />
-                  <br />
-                </span>
-
-                <span>
                   Our aged Discord accounts let you join exclusive servers and
                   enjoy enhanced security without the hassle of starting from
                   scratch. Check out our selection of{" "}
-                  <u>
-                    <a href="https://discordarena.com/accounts/discord">
-                      buy Discord accounts
-                    </a>
-                  </u>
+                  <Link
+                    href={"https://discordarena.com/accounts/discord"}
+                    className="underline font-bold"
+                  >
+                    buy Discord accounts
+                  </Link>
+                  
                   , including{" "}
-                  <u>
-                    <a href="https://discordarena.com/accounts/discord/buy-2015-aged-discord-account">
-                      2015 Discord accounts.
-                    </a>
-                  </u>
-                  <br />
-                  <br />
-                </span>
-
-                <span>
+                  <Link
+                    href={"https://discordarena.com/accounts/discord/buy-2015-aged-discord-account"}
+                    className="underline font-bold"
+                  >
+                   2015 Discord accounts.
+                  </Link>
+                  
+                
                   We also provide aged{" "}
-                  <u>
-                    <a href="https://discordarena.com/accounts/instagram">
-                      Instagram accounts
-                    </a>
-                  </u>{" "}
+                  <Link
+                    href={"https://discordarena.com/accounts/instagram"}
+                    className="underline font-bold"
+                  >
+                    Instagram accounts
+                  </Link>
+                  
+                 {" "}
                   with a built-in following, making it easier to engage with a
                   larger audience. Explore our Instagram accounts to find the
                   perfect one for you.
-                  <br />
-                  <br />
-                </span>
-
-                <span>
+                
                   Enhance your Reddit experience with our aged{" "}
-                  <u>
-                    <a href="https://discordarena.com/accounts/reddit">
-                      Reddit accounts
-                    </a>
-                  </u>
+                  <Link
+                    href={"https://discordarena.com/accounts/reddit"}
+                    className="underline font-bold"
+                  >
+                   Reddit accounts
+                  </Link>
+                  
                   , which allow you to participate in discussions and gain
                   credibility instantly. Browse through our Reddit accounts for
                   options that suit your needs.
-                  <br />
-                  <br />
-                </span>
-
-                <span>
-                  In addition to accounts, we offer customized{" "}
-                  <u>
-                    <a href="https://discordarena.com/accounts/discordserver">
-                      Discord servers
-                    </a>
-                  </u>{" "}
+                
+                  In addition to accounts, we offer customized
+                  <Link
+                    href={"https://discordarena.com/accounts/discordserver"}
+                    className="underline font-bold"
+                  >
+                    Discord servers
+                  </Link>
+                  
+                  {" "}
                   and various Discord services. All our accounts are of the
                   highest quality, ensuring reliability and security.
-                  <br />
-                  <br />
-                </span>
-
-                <span>
                   Choose Discord Arena for quality, affordability, and secure
                   transactions. Start exploring our services today and boost
                   your social media presence with ease!
-                  <br />
-                  <br />
-                </span>
-              </p>
+                </p>
             </div>
             <div className="flex-[1.8] lg:block ">
-              <a href="https://discordarena.com/accounts/discord">
-                <Image src={smartPeople} className="" alt="buy aged accounts" />
-              </a>
+            <Link
+                    href={"https://discordarena.com/accounts/discord"}
+                    className="underline font-bold"
+                  >
+                    <Image src={smartPeople} className="" alt="buy aged accounts" />
+                  </Link>
             </div>
             <div className="radial_one"></div>
             <div className="radial_two"></div>
