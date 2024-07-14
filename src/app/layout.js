@@ -9,7 +9,7 @@ import Script from "next/script";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const metadata = {
-  title: "Buy Old & Aged Discord Accounts | Discord Arena",
+  title: "Premium Aged Discord Accounts for Sale | Discord Arena",
   description:
     "Discover a variety of aged and premium social media accounts, including Discord, Instagram, and Reddit. Boost your online presence with our premium services.",
   keywords: "Aged Discord accounts, aged discord accounts free, verified Discord accounts, buy Discord accounts, Discord server boosts, social media accounts for sale, Buy Instagram accounts, aged accounts, buy Discord accounts, buy social media accounts, premium accounts, verified Discord accounts, aged Instagram accounts, Reddit accounts",
