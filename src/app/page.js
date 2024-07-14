@@ -202,7 +202,7 @@ Choose Discord Arena for all your social media needs and boost your influence ef
       <div className="bg-black text-white pt-8 pb-12">
         <div className="min-h-[90vh] px-4 flex flex-col justify-center max-w-[1280px] mx-auto">
           <h1 className="text-3xl md:text-4xl text-center">
-            Buy Premium Aged Discord & Social Media Accounts
+            Buy Premium Aged Discord Accounts & Social Media Profiles
           </h1>
 
           <div className="grid grid-cols-1 md:grid-cols-3 mt-[40px] gap-5">
