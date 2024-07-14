@@ -37,13 +37,12 @@ const WeOffer = () => {
                     <FaDiscord size={30} />
                   </span>
                   <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                  Established Discord accounts
+                  Buy Aged Discord Accounts
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Gain access to established Discord accounts with a history
-                    of engagement and activity, connecting you with thriving
+                    Purchase aged Discord accounts with a history of engagement and activity. Connect with thriving communities instantly and boost your online presence.y, connecting you with thriving
                     communities effortlessly.
                   </p>
                 </div>
@@ -60,14 +59,12 @@ const WeOffer = () => {
                     <FaInstagram size={30} />
                   </span>
                   <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Instagram Aged Accounts
+                    Buy Aged Instagram Accounts
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Acquire aged Instagram accounts with established followers,
-                    giving you a head start in your Instagram marketing efforts
-                    and boosting your visibility on the platform.
+                    Get aged Instagram accounts with established followers. Enhance your Instagram marketing and visibility with our premium aged accounts.
                   </p>
                 </div>
               </Link>
@@ -83,17 +80,12 @@ const WeOffer = () => {
                     <FaDiscord size={30} />
                   </span>
                   <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Discord Server Boosters
+                   Boost Your Discord Server
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Explore a range of tailored Discord solutions, encompassing
-                    adept server administration, fostering vibrant community
-                    engagement, deploying cutting-edge moderation utilities, and
-                    incorporating personalized features. Elevate the prowess and
-                    allure of your Discord server with our diverse suite of
-                    services.
+                    Discover our Discord server boosters, offering expert server management, community engagement, and advanced moderation tools to elevate your server&lsquo;s performance.
                   </p>
                 </div>
               </Link>
@@ -109,14 +101,12 @@ const WeOffer = () => {
                     <TbBrandMinecraft size={30} className="rounded-full" />
                   </span>
                   <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Reaction Services
+                    Custom Reaction Services<br/>for Discord
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Enhance user engagement and interaction with our custom
-                    reaction services, adding dynamic elements and fun to your
-                    Discord server or social media platforms.
+                    Increase user engagement on your Discord server with our custom reaction services. Add dynamic and fun elements to enhance interaction.
                   </p>
                 </div>
               </Link>
@@ -132,15 +122,12 @@ const WeOffer = () => {
                     <FaDiscord size={30} />
                   </span>
                   <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Discord Services
+                    Comprehensive Discord Services
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Our specialized Discord services include server management,
-                    community building, moderation tools, and customization
-                    options to enhance your Discord server&apos;s functionality
-                    and appeal.
+                    Our Discord services include server management, community building, and advanced moderation tools. Customize your server for better functionality and appeal.
                   </p>
                 </div>
               </Link>
@@ -156,14 +143,12 @@ const WeOffer = () => {
                     <FaDiscord size={30} />
                   </span>
                   <p className="text-2xl font-semibold leading-none tracking-tight">
-                    Discord Invites and Referrals
+                    Discord Invites and Referral Services
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Utilize our Discord invite and referral services to increase
-                    your server&apos;s membership and activity, reaching a
-                    broader audience and fostering community growth.
+                    Expand your Discord server’s community with our invite and referral services. Boost membership and activity for greater community growth.  
                   </p>
                 </div>
               </Link>
@@ -179,14 +164,12 @@ const WeOffer = () => {
                     <TbBrandMinecraft size={30} />
                   </span>
                   <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Zealy Invites and Referrals
+                    Zealy Invite and Referral Services
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Explore our Zealy invite and referral services to boost your
-                    presence on this platform and drive user engagement and
-                    interactions.
+                    Utilize our Zealy invite and referral services to enhance your platform presence and drive higher user engagement and interaction.
                   </p>
                 </div>
               </Link>
@@ -202,15 +185,12 @@ const WeOffer = () => {
                     <TbBrandMinecraft size={30} />
                   </span>
                   <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Online/Offline Members
+                    Manage Online and<br/>Offline Members
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Monitor and manage your Discord server&apos;s online and
-                    offline members with our advanced tools and features,
-                    ensuring efficient communication and coordination within
-                    your community.
+                    Efficiently manage your Discord server’s online and offline members with our advanced tools. Ensure smooth communication and coordination within your community.
                   </p>
                 </div>
               </Link>
