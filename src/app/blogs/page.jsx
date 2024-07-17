@@ -320,7 +320,7 @@ export const generateMetadata = () => {
   };
 
   return {
-    title: "Latest News on Buy Discord Accounts | Discord Blogs",
+    title: "Latest News Discord Members & Accounts | Discord Blogs",
     description:
       "Stay updated with the latest news and insights on aged Discord accounts and other premium social media profiles. Explore our blog for expert advice, tips, and insights on using aged Discord accounts to maximize your online presence and engagement.",
     keywords:
@@ -417,7 +417,7 @@ export default function Page() {
             </title>
           </Head> */}
           <h1 className=" text-3xl text-center  font-bold mb-12 ">
-            Expert Tips & Insights on Discord Accounts
+            Expert Tips & Insights on Where To Buy Discord Accounts
           </h1>
           <div className="radial_one"></div>
           <div className="max-w-[1280px] mx-auto">

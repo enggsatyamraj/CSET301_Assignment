@@ -7,7 +7,7 @@ import Link from "next/link";
 import ContactUsComponent from "@/components/ContactUsComponent";
 
 export const generateMetadata = () => {
-  const title = "Contact Us | Inquiries About Aged & Old Discord Accounts";
+  const title = "Contact Us | Enquire About Aged Verified Discord Accounts";
   const description =
     "Get in touch with Discord Arena for inquiries about our premium aged and verified social media accounts. Have questions or need assistance? Contact Discord Arena for prompt support and expert advice on all our services and products.";
   const keywords =
@@ -78,7 +78,7 @@ const Page = () => {
         <div className="radial_three"></div>
         <div className="max-w-[1152px] py-8 px-3 w-[90%] min-h-[50vh] mt-[100px] bg-[#121212] rounded-lg bg-opacity-55 backdrop-blur-sm text-white mx-auto mb-[100px]">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold text-center ">
-            Get in Touch with Discord Arena
+            Get in Touch with Discord Arena : Trusted Discord Accounts Seller
           </h1>
           <ContactUsComponent />
         </div>
