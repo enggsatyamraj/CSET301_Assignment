@@ -28,7 +28,7 @@ const BlogsCard = ({ heading, time, linkurl }) => {
             }}
             className="flex gap-1 items-center font-semibold border-[1.5px] border-[#000] rounded-lg px-2 py-1"
           >
-            <span className="text-[13px]">Explore</span>
+            <span className="text-[13px]">Read More</span>
             <Image className="w-[15px]" src={rightbutton} alt="right button" />
           </button>
         </div>
