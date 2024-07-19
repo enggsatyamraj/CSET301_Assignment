@@ -7,11 +7,13 @@ import rightbutton from "../../../../public/RightButton.svg";
 import Footer from "@/components/Footer";
 import blogsData from "../../../dataFolder/blogs.json";
 
-const page = ({ params }) => {
-  // console.log(blogsData);
-  console.log(params);
-  console.log("this is the params data .............", params.id);
-  const title = decodeURIComponent(params.id);
+export const fetchData = (paramsData) => {
+  console.log(
+    "this is the params data inside fetchData function .............",
+    paramsData
+  );
+  const title = decodeURIComponent(paramsData);
+  console.log("this is the title inside fetchData function............", title);
   let id;
   for (let i = 0; i < blogsData.length; i++) {
     if (blogsData[i].name.toLowerCase() == title.split("-").join(" ")) {
@@ -25,6 +27,69 @@ const page = ({ params }) => {
   }
 
   const data = blogsData[id];
+  console.log("this is the data...............................", data);
+  return data;
+};
+
+export const generateMetadata = ({ params }) => {
+  console.log(
+    "this is the params data in generateMetaData.........",
+    decodeURIComponent(params.id)
+  );
+  const data = fetchData(decodeURIComponent(params.id));
+  console.log("this is the data in generateMetaData.........", data);
+  const jsonLdScript = {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    name: "Discord Aged Accounts",
+    image: "https://example.com/photos/1x1/photo.jpg",
+    description: data.content,
+    sku: data.sku,
+    mpn: data.mpn,
+    brand: {
+      "@type": "Brand",
+      name: "Discord",
+    },
+    review: {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "4",
+        bestRating: "5",
+      },
+    },
+  };
+
+  return {
+    title: `${data.name} | Blogs`,
+    description: data.content,
+    openGraph: {
+      title: data.name,
+      description: data.content,
+      images: [
+        {
+          url: "https://example.com/photos/1x1/photo.jpg",
+          alt: data.name,
+        },
+      ],
+      url: data.link,
+      type: "website",
+      siteName: "Your Website Name",
+    },
+    twitter: {
+      title: data.name,
+      description: data.content,
+      images: ["https://example.com/photos/1x1/photo.jpg"],
+      card: "summary_large_image",
+    },
+    other: {
+      "application-ld+json": JSON.stringify(jsonLdScript),
+    },
+  };
+};
+
+const page = ({ params }) => {
+  const data = fetchData(params.id);
   console.log(data);
   const sampleArray = [
     {
@@ -83,30 +148,6 @@ const page = ({ params }) => {
             </p>
           );
         })}
-        {/* <p className="text-[15px] md:text-[17px] mt-[10px] leading-[25px] opacity-70 text-center mx-auto md:w-[90%]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
-          exercitationem quaerat, suscipit libero doloremque beatae voluptas.
-          Consectetur in voluptas incidunt, praesentium magni aut quo aliquam!
-          Fuga sed illo laudantium porro deserunt dicta alias obcaecati
-          repudiandae, ut esse dignissimos rerum inventore tempore dolore
-          veniam. In obcaecati ea velit modi? Laudantium nobis excepturi
-          reprehenderit, deserunt delectus nisi consequatur nihil, sapiente quas
-          aliquid, consectetur quae maxime earum eveniet nulla est? Quo,
-          corporis autem?
-        </p>
-        <p className="text-[15px] md:text-[17px] mt-[10px] leading-[25px] opacity-70 text-center mx-auto md:w-[90%]">
-          Deleniti iste sint necessitatibus fugit dolores impedit ipsam debitis
-          fuga labore rerum saepe placeat animi similique porro iure ut aliquid
-          voluptatum, tenetur nihil tempora amet, ad cumque numquam id! Incidunt
-          repellat numquam repudiandae dolor earum voluptate quidem tempora
-          recusandae magni quasi. Recusandae suscipit facere aperiam corrupti,
-          reiciendis deserunt nesciunt corporis quam aspernatur quae labore
-          officia adipisci vero aliquam illum velit autem inventore sapiente
-          harum illo porro provident. Necessitatibus, quia! Adipisci
-          consequuntur explicabo reprehenderit nesciunt ex necessitatibus eos
-          hic vel asperiores, magni sunt,
-        </p> */}
-
         <Link
           href={"#"}
           className="text-[15px] opacity-70 md:text-[17px] underline underline-offset-[5px] mx-auto mt-[50px] mb-[30px] block text-center"

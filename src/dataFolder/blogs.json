@@ -7,7 +7,9 @@
       "This blog explores the history of AI and ML, their current applications across various sectors, and the ethical considerations surrounding their development.",
       "We delve into advanced machine learning algorithms, natural language processing, and the future potential of AI to solve complex problems.",
       "Join us on this deep dive into the fascinating world of artificial intelligence and machine learning."
-    ]
+    ],
+    "sku": "AI-ML-2024",
+    "mpn": "TECH-12345"
   },
   {
     "name": "Exploring the Outer Reaches: The Future of Space Exploration and Colonization",
@@ -17,7 +19,9 @@
       "This blog discusses the latest advancements in space technology, including plans for lunar missions, Mars colonization efforts, and the role of private companies in the space race.",
       "We explore the scientific discoveries made by space probes and telescopes, from exoplanet detection to unraveling the mysteries of black holes.",
       "Join us as we envision the possibilities and frontiers of human exploration beyond our planet."
-    ]
+    ],
+    "sku": "SPACE-2024",
+    "mpn": "EXPL-67890"
   },
   {
     "name": "Blockchain and Cryptocurrency: Revolutionizing Finance and Beyond",
@@ -27,7 +31,9 @@
       "This blog examines the fundamentals of blockchain, its applications beyond cryptocurrencies, and its potential to transform industries like supply chain management and voting systems.",
       "We discuss the benefits of decentralization, security features of blockchain networks, and the future outlook for digital currencies.",
       "Join us in exploring the decentralized future enabled by blockchain technology and cryptocurrencies."
-    ]
+    ],
+    "sku": "BLOCKCHAIN-2024",
+    "mpn": "CRYPTO-54321"
   },
   {
     "name": "Augmented Reality in Everyday Life: Enhancing Experiences and Shaping the Future",
@@ -37,6 +43,8 @@
       "This blog explores how AR is changing industries such as gaming, education, and retail by providing immersive interactions.",
       "We delve into AR applications in architecture visualization, virtual try-ons, and interactive learning tools.",
       "Join us as we delve into the exciting possibilities of augmented reality and its impact on daily life."
-    ]
+    ],
+    "sku": "AR-2024",
+    "mpn": "AUGMENT-98765"
   }
 ]
