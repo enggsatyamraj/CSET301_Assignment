@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 export const generateMetadata = () => {
-  const title = "About Discord Arena | Aged & Old Discord Accounts";
+  const title = "About Discord Arena | Buy Aged & Old Discord Accounts";
   const description =
     "Learn about Discord Arena, your trusted source for premium aged and verified social media accounts. Our mission is to provide high-quality accounts for enhanced online presence. Discover our story and commitment to excellence.";
   const keywords =
@@ -121,7 +121,7 @@ const AboutPage = () => {
         <div className="max-w-[1280px] mx-auto px-7 sm:px-12 text-white relative min-h-[60vh] w-[100%]">
           <div className="min-h-[90vh] py-10 relative flex flex-col justify-center z-4">
             <h1 className="text-[#A5A6F6] font-bold md:text-2xl text-2xl my-3 tracking-widest">
-              About Discord Arena: Your Trusted Provider of Premium Accounts
+              About Discord Arena: Your Trusted Provider of Premium Discord Accounts
             </h1>
             <p className="text-3xl sm:text-3xl mb-6 md:text-4xl sm:w-[80%] md:w-[70%] lh:w-[60%]">
               Empowering Your Digital Presence with Premium Accounts

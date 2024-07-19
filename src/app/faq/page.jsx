@@ -612,7 +612,7 @@ export default function page() {
           <div className="radial_one"></div>
           <div className="max-w-[1280px] mx-auto">
             <h1 className="text-4xl font-bold text-center mb-8">
-              Frequently Asked Questions About Our Services
+              Frequently Asked Questions About Our Services : Buy Discord Now
             </h1>
             <div className="">
               {allData.map((item, index) => {
