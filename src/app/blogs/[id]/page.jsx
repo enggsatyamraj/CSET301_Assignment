@@ -5,8 +5,27 @@ import Link from "next/link";
 import BlogsCard from "@/components/BlogsCard";
 import rightbutton from "../../../../public/RightButton.svg";
 import Footer from "@/components/Footer";
+import blogsData from "../../../dataFolder/blogs.json";
 
-const page = () => {
+const page = ({ params }) => {
+  // console.log(blogsData);
+  console.log(params);
+  console.log("this is the params data .............", params.id);
+  const title = decodeURIComponent(params.id);
+  let id;
+  for (let i = 0; i < blogsData.length; i++) {
+    if (blogsData[i].name.toLowerCase() == title.split("-").join(" ")) {
+      id = i;
+      console.log(
+        "this is the title everyone.......",
+        title.split("-").join(" ")
+      );
+      break;
+    }
+  }
+
+  const data = blogsData[id];
+  console.log(data);
   const sampleArray = [
     {
       heading:
@@ -33,10 +52,10 @@ const page = () => {
           alt="Discord Image"
         />
         <h1 className="md:text-4xl sm:text-3xl text-2xl my-5 uppercase tracking-wider">
-          How to make clickable thumbnails using photoshop
+          {data.name}
         </h1>
         <div className="flex items-center flex-wrap mt-[20px] gap-3 justify-between">
-          <div className="text-[15px]">4 mins Read | 1 Month Ago</div>
+          <div className="text-[15px]">{data.minutes_read}</div>
           <div className="flex gap-3 items-center">
             <Link
               className="border-[1.5px] bg-[#F36969] text-white border-black  rounded-lg px-2 py-1"
@@ -54,15 +73,17 @@ const page = () => {
             </div>
           </div>
         </div>
-        <p className="text-[15px] md:text-[17px] mt-[20px] leading-[25px] opacity-70 text-center mx-auto md:w-[90%]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis,
-          aliquid corrupti inventore error, aperiam pariatur asperiores eius
-          similique iure, alias accusamus. Veritatis dolores labore error
-          tempore aut eaque harum numquam officia distinctio, optio ex atque
-          libero repellat earum porro dignissimos modi facilis. Facere quae fuga
-          repudiandae consectetur corrupti, possimus voluptatem?
-        </p>
-        <p className="text-[15px] md:text-[17px] mt-[10px] leading-[25px] opacity-70 text-center mx-auto md:w-[90%]">
+        {data.content.map((item, index) => {
+          return (
+            <p
+              key={index}
+              className="text-[15px] md:text-[17px] mt-[20px] leading-[25px] opacity-70 text-center mx-auto md:w-[90%]"
+            >
+              {item}
+            </p>
+          );
+        })}
+        {/* <p className="text-[15px] md:text-[17px] mt-[10px] leading-[25px] opacity-70 text-center mx-auto md:w-[90%]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores
           exercitationem quaerat, suscipit libero doloremque beatae voluptas.
           Consectetur in voluptas incidunt, praesentium magni aut quo aliquam!
@@ -84,7 +105,7 @@ const page = () => {
           harum illo porro provident. Necessitatibus, quia! Adipisci
           consequuntur explicabo reprehenderit nesciunt ex necessitatibus eos
           hic vel asperiores, magni sunt,
-        </p>
+        </p> */}
 
         <Link
           href={"#"}
