@@ -83,11 +83,36 @@ const page = () => {
               Discover the Best Aged Discord Accounts for Sale
             </p>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
-              Looking for reliable aged Discord accounts? At Discord Arena, we offer a wide range of Discord old accounts to meet your needs. Our accounts provide instant access to exclusive communities and enhanced security.
-
-<p>Our collection includes <Link className="underline font-bold" href={"https://discordarena.com/accounts/discord/buy-2015-aged-discord-account"}>2015 Discord accounts</Link> and options starting at just $2. With <Link className="underline font-bold" href={"https://discordarena.com/accounts/discord/buy-2023-aged-discord-account"}>accounts starting at $2</Link>, finding the right account is easy and affordable.</p>
-
-<p>Choose Discord Arena for quality accounts, secure transactions, and the best prices. Browse our selection of Discord accounts today!</p>
+              Looking for reliable aged Discord accounts? At Discord Arena, we
+              offer a wide range of Discord old accounts to meet your needs. Our
+              accounts provide instant access to exclusive communities and
+              enhanced security.
+              <p>
+                Our collection includes{" "}
+                <Link
+                  className="underline font-bold"
+                  href={
+                    "https://discordarena.com/accounts/discord/buy-2015-aged-discord-account"
+                  }
+                >
+                  2015 Discord accounts
+                </Link>{" "}
+                and options starting at just $2. With{" "}
+                <Link
+                  className="underline font-bold"
+                  href={
+                    "https://discordarena.com/accounts/discord/buy-2023-aged-discord-account"
+                  }
+                >
+                  accounts starting at $2
+                </Link>
+                , finding the right account is easy and affordable.
+              </p>
+              <p>
+                Choose Discord Arena for quality accounts, secure transactions,
+                and the best prices. Browse our selection of Discord accounts
+                today!
+              </p>
             </p>
           </div>
           <div className="min-h-[500px] py-12">
