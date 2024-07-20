@@ -13,7 +13,7 @@ export const fetchData = (paramsData) => {
     paramsData
   );
   const title = decodeURIComponent(paramsData);
-  console.log("this is the title inside fetchData function............", title);
+  //console.log("this is the title inside fetchData function............", title);
   let id;
   for (let i = 0; i < blogsData.length; i++) {
     if (blogsData[i].name.toLowerCase() == title.split("-").join(" ")) {
@@ -27,7 +27,7 @@ export const fetchData = (paramsData) => {
   }
 
   const data = blogsData[id];
-  console.log("this is the data...............................", data);
+  //console.log("this is the data...............................", data);
   return data;
 };
 
@@ -37,7 +37,7 @@ export const generateMetadata = ({ params }) => {
     decodeURIComponent(params.id)
   );
   const data = fetchData(decodeURIComponent(params.id));
-  console.log("this is the data in generateMetaData.........", data);
+  //console.log("this is the data in generateMetaData.........", data);
   const jsonLdScript = {
     "@context": "https://schema.org/",
     "@type": "Product",
@@ -90,7 +90,7 @@ export const generateMetadata = ({ params }) => {
 
 const page = ({ params }) => {
   const data = fetchData(params.id);
-  console.log(data);
+  //console.log(data);
   const sampleArray = [
     {
       heading:

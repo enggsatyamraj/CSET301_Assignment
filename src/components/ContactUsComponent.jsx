@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import order_completed from '../../public/order-completed.svg';
-import form_submit from '../../public/Group.svg';
+import order_completed from "../../public/order-completed.svg";
+import form_submit from "../../public/Group.svg";
 import Link from "next/link";
 
 const ContactUsComponent = () => {
@@ -39,7 +39,7 @@ const ContactUsComponent = () => {
         setFormSubmitted(true);
         localStorage.setItem("formSubmitted", true);
       } else {
-        console.log("Error", data);
+        //console.log("Error", data);
         setResult(data.message);
       }
     } catch (error) {
