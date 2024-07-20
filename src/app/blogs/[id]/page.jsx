@@ -128,26 +128,36 @@ const page = ({ params }) => {
             >
               Buy Now
             </Link>
-            <div>
-              <Link
-                href={"/blogs/3213"}
-                className="flex gap-1 items-center font-semibold border-[1.5px] border-[#A1AEBF] rounded-lg px-2 py-1"
-              >
-                <span className="text-[13px]">Explore</span>
-              </Link>
-            </div>
           </div>
         </div>
-        {data.content.map((item, index) => {
-          return (
-            <p
-              key={index}
-              className="text-[15px] md:text-[17px] mt-[20px] leading-[25px] opacity-70 text-center mx-auto md:w-[90%]"
-            >
-              {item}
-            </p>
-          );
-        })}
+        <p className="text-[17px] md:text-[20px] mt-[20px] leading-[25px] opacity-80">
+          {data.content}
+        </p>
+        <div>
+          {data.subheadings.map((item, index) => {
+            return (
+              <div key={index} className="opacity-70 mb-7">
+                <h3 className="text-[20px] mt-[20px] font-bold underline-offset-5 underline tracking-wider">
+                  {item.subheading}
+                </h3>
+                <p className="text-[15px] mt-[5px]">
+                  {item.subcontent.map((item, index) => {
+                    return (
+                      <p key={index} className="mt-[3px]">
+                        {item}
+                      </p>
+                    );
+                  })}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+        <h3 className="text-[20px] mt-[20px] font-bold underline-offset-5 underline tracking-wider opacity-80">
+          Conclusion
+        </h3>
+        <p className="text-[15px] mt-[5px] opacity-70">{data.conclusion}</p>
+
         <Link
           href={"#"}
           className="text-[15px] opacity-70 md:text-[17px] underline underline-offset-[5px] mx-auto mt-[50px] mb-[30px] block text-center"

@@ -12,13 +12,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colors:{
-
+      colors: {},
+      textUnderlineOffset: {
+        5: "5px",
       },
-      backgroundColor:{
-        "normal" : "#100e0e",
-        "dance" : "#fff"
-      }
+      backgroundColor: {
+        normal: "#100e0e",
+        dance: "#fff",
+      },
     },
   },
   plugins: [],
