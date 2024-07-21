@@ -66,7 +66,7 @@ const generateSitemap = () => {
   sitemap += "</urlset>";
 
   try {
-    fs.writeFileSync(path.join(__dirname, "public", "sitemap.xml"), sitemap);
+    fs.writeFileSync(path.join(__dirname, "src/app", "sitemap.xml"), sitemap);
     console.log("Sitemap generated successfully.");
   } catch (error) {
     console.error("Error generating sitemap:", error);
