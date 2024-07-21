@@ -47,8 +47,7 @@ const Page = () => {
       id: 3,
       name: "Jessica Taylor",
       rating: 5,
-      review:
-        "the seller was helpful and helped with my problem.",
+      review: "the seller was helpful and helped with my problem.",
     },
   ];
 

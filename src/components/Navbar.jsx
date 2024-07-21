@@ -21,7 +21,7 @@ const Navbar = () => {
 
   const handleOpen = () => {
     setOpen(!isOpen);
-    // console.log("isopen ", isOpen);
+    // //console.log("isopen ", isOpen);
   };
 
   useEffect(() => {
@@ -86,7 +86,10 @@ const Navbar = () => {
               })}
             </div>
             <div className="md:hidden flex items-center">
-              <Link href="/accounts" className="hover:cursor-pointer text-[15px] border-[1px] px-2 py-1 rounded-lg mr-4">
+              <Link
+                href="/accounts"
+                className="hover:cursor-pointer text-[15px] border-[1px] px-2 py-1 rounded-lg mr-4"
+              >
                 Accounts
               </Link>
               <RxHamburgerMenu size={25} color="#fff" onClick={handleOpen} />

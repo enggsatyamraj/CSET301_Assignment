@@ -9,7 +9,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import discordServerData from "../../dataFolder/discordserver.json";
 import redditAccountData from "../../dataFolder/reddit.json";
-import Head from "next/head";
+import discordServerBoost from "../../dataFolder/discordServerBoost.json";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -91,17 +91,47 @@ export default function Page() {
               Discover Premium Aged Discord & Social Media Accounts for Sale
             </p>
             <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[50%]">
-  <p>
-    Explore our selection of high-quality <span className="font-bold">aged Discord accounts</span> and other social media accounts designed to boost your online presence. Whether you need <Link href="https://discordarena.com/accounts/discord" className="underline">Discord old accounts</Link> or established <Link href="https://discordarena.com/accounts/instagram" className="underline">Instagram accounts</Link>, we offer reliable options to meet your needs.
-  </p><br/>
-  <p>
-    Our accounts come with built-in credibility, making it easy to join exclusive communities and engage with wider audiences. Check out our <Link href="https://discordarena.com/accounts/reddit" className="underline">Reddit accounts</Link> for instant participation in discussions.
-  </p><br/>
-  <p>
-    Choose Discord Arena for secure transactions, competitive prices, and accounts that enhance your social media experience. Start browsing now and find the perfect account to elevate your online presence!
-  </p>
-</div>
-
+              <p>
+                Explore our selection of high-quality{" "}
+                <span className="font-bold">aged Discord accounts</span> and
+                other social media accounts designed to boost your online
+                presence. Whether you need{" "}
+                <Link
+                  href="https://discordarena.com/accounts/discord"
+                  className="underline"
+                >
+                  Discord old accounts
+                </Link>{" "}
+                or established{" "}
+                <Link
+                  href="https://discordarena.com/accounts/instagram"
+                  className="underline"
+                >
+                  Instagram accounts
+                </Link>
+                , we offer reliable options to meet your needs.
+              </p>
+              <br />
+              <p>
+                Our accounts come with built-in credibility, making it easy to
+                join exclusive communities and engage with wider audiences.
+                Check out our{" "}
+                <Link
+                  href="https://discordarena.com/accounts/reddit"
+                  className="underline"
+                >
+                  Reddit accounts
+                </Link>{" "}
+                for instant participation in discussions.
+              </p>
+              <br />
+              <p>
+                Choose Discord Arena for secure transactions, competitive
+                prices, and accounts that enhance your social media experience.
+                Start browsing now and find the perfect account to elevate your
+                online presence!
+              </p>
+            </div>
 
             <div className="radial_one"></div>
             {/* <div className="radial_two"></div> */}
@@ -479,6 +509,83 @@ export default function Page() {
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
               Show more reddit
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-normal w-[100%]">
+        <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
+          <p className="mb-4 text-2xl font-semibold">Discord Server Boost</p>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
+            {discordServerBoost.map((item, index) => {
+              return (
+                <div
+                  key={item.id}
+                  className={`border-[1px] ${
+                    index > 2 && "hidden"
+                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
+                >
+                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
+                    <FaDiscord
+                      size={50}
+                      className="accountDance text-[#8474C4]"
+                    />
+                  </div>
+
+                  <Link
+                    href={`accounts/discord-server-boost/${item.name
+                      .split(" ")
+                      .join("-")
+                      .toLowerCase()}`}
+                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                  >
+                    Buy {item.type}{" "}
+                    <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
+                      {item.year} months
+                    </span>{" "}
+                  </Link>
+                  <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
+                    <li>
+                      {item.smallShowFiveFeatures.feature1
+                        ? item.smallShowFiveFeatures.feature1
+                        : "Authentic and secure account"}
+                    </li>
+                    <li>{item.smallShowFiveFeatures.feature2}</li>
+                    <li>{item.smallShowFiveFeatures.feature3}</li>
+                    <li>{item.smallShowFiveFeatures.feature4}</li>
+                    <li>{item.smallShowFiveFeatures.feature5}</li>
+                  </ul>
+                  <div className="mt-5 flex items-center gap-3">
+                    {/* <Link
+                      href={`accounts/reddit/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
+                      className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
+                    >
+                      Info
+                    </Link> */}
+                    <Link
+                      target="_blank"
+                      href={item.link}
+                      className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
+                    >
+                      Buy for ${item.price}
+                    </Link>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/discord-server-boost"}
+              // onClick={() => setShowMore(!showMore)}
+              className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
+            >
+              Show more Discord Server Boost
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>

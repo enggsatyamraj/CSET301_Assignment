@@ -10,10 +10,7 @@ const page = () => {
         <div className="grid grid-cols-1 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {blogsContent.map((item, index) => {
             return (
-              <div
-                key={index}
-                className="flex justify-center items-center h-full"
-              >
+              <div key={index} className="flex justify-center items-center">
                 <BlogsCard
                   linkurl={`/blogs/${item?.name
                     .split(" ")
