@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import landscape from "../../../../public/landscape_image.jpeg";
 import Image from "next/image";
 import Link from "next/link";
@@ -27,7 +28,7 @@ export const generateMetadata = ({ params }) => {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "Discord Aged Accounts",
-    image: "https://example.com/photos/1x1/photo.jpg",
+    image: `https://example.com/photos/${data.no}/photo.jpg`,
     description: data.content,
     sku: data.sku,
     mpn: data.mpn,
@@ -44,9 +45,11 @@ export const generateMetadata = ({ params }) => {
       },
     },
   };
+
   const blogNumber = data.no; 
   const iconUrl = `/blogs-banner/blog-${blogNumber}.ico?v=4`;
-  const ogImageUrl = `/blogs-banner/blog-${blogNumber}.png?v=4`;
+  const ogImageUrl = `/blogs-banner/blog-${blogNumber}.png`;
+
   return {
     title: `${data.name} | Blogs`,
     description: data.content,
@@ -75,8 +78,9 @@ export const generateMetadata = ({ params }) => {
   };
 };
 
-const page = ({ params }) => {
+const BlogPage = ({ params }) => {
   const data = fetchData(params.id);
+  const metadata = generateMetadata({ params });
 
   // Exclude the current blog from the blogsData array
   const otherBlogs = blogsData.filter((blog) => blog.name !== data.name);
@@ -86,6 +90,35 @@ const page = ({ params }) => {
 
   return (
     <div className="bg-normal text-white pt-[100px]">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        
+        {/* Favicon */}
+        <link rel="icon" href={metadata.icons.icon[0]} />
+        <link rel="apple-touch-icon" href={metadata.icons.apple[0]} />
+        <link rel="shortcut icon" href={metadata.icons.shortcut[0]} />
+
+        {/* Open Graph */}
+        <meta property="og:title" content={metadata.openGraph.title} />
+        <meta property="og:description" content={metadata.openGraph.description} />
+        <meta property="og:image" content={metadata.openGraph.image} />
+        <meta property="og:url" content={metadata.openGraph.url} />
+        <meta property="og:type" content={metadata.openGraph.type} />
+        <meta property="og:site_name" content={metadata.openGraph.siteName} />
+
+        {/* Twitter Card */}
+        <meta name="twitter:title" content={metadata.twitter.title} />
+        <meta name="twitter:description" content={metadata.twitter.description} />
+        <meta name="twitter:image" content={metadata.twitter.image} />
+        <meta name="twitter:card" content={metadata.twitter.card} />
+
+        {/* JSON-LD */}
+        <script type="application/ld+json">
+          {metadata.other["application-ld+json"]}
+        </script>
+      </Head>
+      
       <div className="max-w-[1000px] relative min-h-[80vh] rounded-[5px] mx-auto border-2 border-[#A1AEBF] mb-[40px] md:p-5 p-3">
         <img
           src={`../blogs-banner/${data.image}`}
@@ -173,4 +206,4 @@ const page = ({ params }) => {
   );
 };
 
-export default page;
+export default BlogPage;
