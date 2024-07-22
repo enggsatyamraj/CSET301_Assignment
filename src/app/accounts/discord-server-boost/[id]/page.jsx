@@ -7,25 +7,25 @@ import { Actor } from "next/font/google";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
-export const reviews = [
-  {
-    name: "Ajay Verma",
-    rating: 5,
-    comment:
-      "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
-  },
-  {
-    name: "Sarah Davis",
-    rating: 4,
-    comment: "SUPER FAST DELIVERY man i highly recommend",
-  },
-  {
-    name: "William Moore",
-    rating: 5,
-    comment:
-      "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
-  },
-];
+// export const reviews = [
+//   {
+//     name: "Ajay Verma",
+//     rating: 5,
+//     comment:
+//       "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+//   },
+//   {
+//     name: "Sarah Davis",
+//     rating: 4,
+//     comment: "SUPER FAST DELIVERY man i highly recommend",
+//   },
+//   {
+//     name: "William Moore",
+//     rating: 5,
+//     comment:
+//       "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
+//   },
+// ];
 
 export const fetchData = (paramsData) => {
   const title = decodeURIComponent(paramsData);
@@ -159,10 +159,6 @@ const page = ({ params }) => {
               Purchase
             </Link>
           </div>
-          {/* <p className="mb-3 mt-7 text-2xl">
-            Cheap {data.year} {data.type} accounts
-          </p>
-          <p className="text-[16px] opacity-85 mb-4">{data.introduction}</p> */}
 
           <p className="mb-3 mt-5 text-2xl font-semibold">
             Features and benefits of used discord server boosts - {data.year}
@@ -188,7 +184,7 @@ const page = ({ params }) => {
             Customer Testimonials
           </h2>
           <div className="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2 mb-4">
-            {data.testmonials.map((item, index) => {
+            {data.testimonials.map((item, index) => {
               return (
                 <div
                   key={index}
