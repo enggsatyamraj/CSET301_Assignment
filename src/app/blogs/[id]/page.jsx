@@ -59,7 +59,7 @@ export const generateMetadata = ({ params }) => {
       description: data.content,
       images: [
         {
-          url: "https://example.com/photos/1x1/photo.jpg",
+          url: iconUrl,
           alt: data.name,
         },
       ],
@@ -70,7 +70,7 @@ export const generateMetadata = ({ params }) => {
     twitter: {
       title: data.name,
       description: data.content,
-      images: ["https://example.com/photos/1x1/photo.jpg"],
+      images: iconUrl,
       card: "summary_large_image",
     },
     other: {
