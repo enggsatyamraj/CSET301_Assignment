@@ -127,7 +127,7 @@ const WeOffer = () => {
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Discover and purchase top-tier Discord servers that fit your needs. Whether you're looking to boost community engagement or enhance server features, we have a range of high-quality options tailored for your success. Buy now and start building your ideal Discord community effortlessly!
+                    Discover and purchase top-tier Discord servers that fit your needs. Whether you&apos;re looking to boost community engagement or enhance server features, we have a range of high-quality options tailored for your success. Buy now and start building your ideal Discord community effortlessly!
                     </p>
                 </div>
               </Link>
