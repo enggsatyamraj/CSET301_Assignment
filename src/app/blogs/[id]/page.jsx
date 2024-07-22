@@ -61,7 +61,7 @@ export const generateMetadata = ({ params }) => {
     openGraph: {
       title: data.name,
       description: data.content,
-      image: ogImageUrl,
+      images: ogImageUrl,
       url: data.link,
       type: "website",
       siteName: "Your Website Name",
@@ -69,7 +69,7 @@ export const generateMetadata = ({ params }) => {
     twitter: {
       title: data.name,
       description: data.content,
-      image: ogImageUrl,
+      images: ogImageUrl,
       card: "summary_large_image",
     },
     other: {
