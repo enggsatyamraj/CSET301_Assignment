@@ -85,10 +85,10 @@ const page = ({ params }) => {
   return (
     <div className="bg-normal text-white pt-[100px]">
       <div className="max-w-[1000px] relative min-h-[80vh] rounded-[5px] mx-auto border-2 border-[#A1AEBF] mb-[40px] md:p-5 p-3">
-        <Image
-          src={landscape}
-          className="rounded-[30px] h-[300px] object-cover"
-          alt="Discord Image"
+        <img
+          src={`../blogs-banner/${data.image}`}
+          className="rounded-[30px] h-auto w-[100%] object-cover"
+          alt={data.name}
         />
         <h1 className="md:text-4xl sm:text-3xl text-2xl my-5 uppercase tracking-wider">
           {data.name}
