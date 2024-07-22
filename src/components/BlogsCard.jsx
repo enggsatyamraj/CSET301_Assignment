@@ -26,18 +26,21 @@ const BlogsCard = ({ heading, time, linkurl }) => {
   };
 
   return (
-    <div className="flex flex-col gap-4 h-full mx-auto max-w-[400px] w-[90%] border-[#A1AEBF] rounded-[20px] border-2 p-4">
-      <div className={`bg-[#8474C4] p-4 rounded-[20px]`}>
-        <div
-          onClick={() => {
-            router.push(linkurl);
-          }}
-          className={`border-l-[1.5px] cursor-pointer border-[#A1AEBF] px-3 text-[1.5rem] font-light`}
-        >
-          {heading}
+    <div className="flex flex-col justify-between gap-4 h-full mx-auto max-w-[400px] w-[90%] border-[#A1AEBF] rounded-[20px] border-2 p-4">
+      <div>
+        <div className={`bg-[#8474C4] p-4 rounded-[20px]`}>
+          <div
+            onClick={() => {
+              router.push(linkurl);
+            }}
+            className={`border-l-[1.5px] cursor-pointer border-[#A1AEBF] px-3 text-[1.5rem] font-light`}
+          >
+            {heading}
+          </div>
         </div>
+        <p className="px-3 text-[15px] font-[450] mt-4 opacity-75">{time}</p>
       </div>
-      <p className="px-3 text-[15px] font-[450] opacity-75">{time}</p>
+
       <div className="flex items-center justify-between px-2 pb-3">
         <div>
           <button
@@ -45,7 +48,7 @@ const BlogsCard = ({ heading, time, linkurl }) => {
             onClick={() => {
               router.push(linkurl);
             }}
-            className="flex gap-1 items-center font-semibold border-[1.5px] border-[#000] rounded-lg px-2 py-1"
+            className="flex gap-1 items-center font-semibold text-black bg-[#c3c3c3] rounded-lg px-2 py-1"
           >
             <span className="text-[13px]">Read More</span>
             <Image className="w-[15px]" src={rightbutton} alt="right button" />
