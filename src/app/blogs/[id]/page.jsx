@@ -8,36 +8,21 @@ import Footer from "@/components/Footer";
 import blogsData from "../../../dataFolder/blogs.json";
 
 export const fetchData = (paramsData) => {
-  console.log(
-    "this is the params data inside fetchData function .............",
-    paramsData
-  );
   const title = decodeURIComponent(paramsData);
-  //console.log("this is the title inside fetchData function............", title);
   let id;
   for (let i = 0; i < blogsData.length; i++) {
     if (blogsData[i].name.toLowerCase() == title.split("-").join(" ")) {
       id = i;
-      console.log(
-        "this is the title everyone.......",
-        title.split("-").join(" ")
-      );
       break;
     }
   }
 
   const data = blogsData[id];
-  //console.log("this is the data...............................", data);
   return data;
 };
 
 export const generateMetadata = ({ params }) => {
-  console.log(
-    "this is the params data in generateMetaData.........",
-    decodeURIComponent(params.id)
-  );
   const data = fetchData(decodeURIComponent(params.id));
-  //console.log("this is the data in generateMetaData.........", data);
   const jsonLdScript = {
     "@context": "https://schema.org/",
     "@type": "Product",
@@ -59,10 +44,16 @@ export const generateMetadata = ({ params }) => {
       },
     },
   };
-
+  const blogNumber = data.no; 
+  const iconUrl = `/blogs-banner/blog-${blogNumber}.ico?v=4`;
   return {
     title: `${data.name} | Blogs`,
     description: data.content,
+    icons: {
+      icon: [iconUrl],
+      apple: ["/apple-touch-icon.png?v=4"],
+      shortcut: [iconUrl],
+    },
     openGraph: {
       title: data.name,
       description: data.content,
@@ -90,31 +81,20 @@ export const generateMetadata = ({ params }) => {
 
 const page = ({ params }) => {
   const data = fetchData(params.id);
-  //console.log(data);
-  const sampleArray = [
-    {
-      heading:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, similique?",
-      time: "4 mins Read | 1 month Ago",
-    },
-    {
-      heading:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, similique?",
-      time: "4 mins Read | 1 month Ago",
-    },
-    {
-      heading:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, similique?",
-      time: "4 mins Read | 1 month Ago",
-    },
-  ];
+
+  // Exclude the current blog from the blogsData array
+  const otherBlogs = blogsData.filter((blog) => blog.name !== data.name);
+
+  // Select a subset of blogs to display
+  const sampleArray = otherBlogs.slice(0, 3); // Adjust the number as needed
+
   return (
     <div className="bg-normal text-white pt-[100px]">
-      <div className="max-w-[1000px] relative min-h-[80vh] rounded-[5px] mx-auto  border-2 border-[#A1AEBF]  mb-[40px] md:p-5 p-3">
-        <Image
-          src={landscape}
-          className="rounded-[30px] h-[300px] object-cover  "
-          alt="Discord Image"
+      <div className="max-w-[1000px] relative min-h-[80vh] rounded-[5px] mx-auto border-2 border-[#A1AEBF] mb-[40px] md:p-5 p-3">
+        <img
+          src={`../blogs-banner/${data.image}`}
+          className="rounded-[30px] h-auto w-[100%] object-cover"
+          alt={data.name}
         />
         <h1 className="md:text-4xl sm:text-3xl text-2xl my-5 uppercase tracking-wider">
           {data.name}
@@ -123,8 +103,8 @@ const page = ({ params }) => {
           <div className="text-[15px]">{data.minutes_read}</div>
           <div className="flex gap-3 items-center">
             <Link
-              className="border-[1.5px] bg-[#F36969] text-white border-black  rounded-lg px-2 py-1"
-              href={"#"}
+              className="border-[1.5px] bg-[#F36969] text-white border-black rounded-lg px-2 py-1"
+              href={"/accounts/discord"}
             >
               Buy Now
             </Link>
@@ -141,10 +121,10 @@ const page = ({ params }) => {
                   {item.subheading}
                 </h3>
                 <p className="text-[15px] mt-[5px]">
-                  {item.subcontent.map((item, index) => {
+                  {item.subcontent.map((subitem, subindex) => {
                     return (
-                      <p key={index} className="mt-[3px]">
-                        {item}
+                      <p key={subindex} className="mt-[3px]">
+                        {subitem}
                       </p>
                     );
                   })}
@@ -175,12 +155,16 @@ const page = ({ params }) => {
             return (
               <div
                 key={index}
-                className="flex justify-center items-center h-full"
+                className="flex justify-center items-start h-full"
               >
                 <BlogsCard
                   headingBackgroundColor={"bg-[#FFC700]"}
-                  heading={item.heading}
-                  time={item.time}
+                  heading={item.name}
+                  time={item.minutes_read}
+                  linkurl={`/blogs/${item.name
+                    .split(" ")
+                    .join("-")
+                    .toLowerCase()}`}
                   className="h-full"
                 />
               </div>

@@ -70,7 +70,7 @@ const WeOffer = () => {
               </Link>
 
               <Link
-                href={"/accounts/discordserver"}
+                href={"/accounts/discord-server-boost"}
                 area-label="see More Discord Servers"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
@@ -112,7 +112,7 @@ const WeOffer = () => {
               </Link>
 
               <Link
-                href={"/accounts/discord"}
+                href={"/accounts/discordserver"}
                 area-label="see Pricing Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
@@ -122,13 +122,13 @@ const WeOffer = () => {
                     <FaDiscord size={30} />
                   </span>
                   <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Comprehensive Discord Services
+                    Unlock Your Perfect<br/>Discord Server
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Our Discord services include server management, community building, and advanced moderation tools. Customize your server for better functionality and appeal.
-                  </p>
+                    Discover and purchase top-tier Discord servers that fit your needs. Whether you&apos;re looking to boost community engagement or enhance server features, we have a range of high-quality options tailored for your success. Buy now and start building your ideal Discord community effortlessly!
+                    </p>
                 </div>
               </Link>
 

@@ -109,7 +109,7 @@ const page = () => {
         <div className="max-w-[1000px] mx-auto">
           <div className="min-h-[400px] flex flex-col justify-center ">
             <h1 className="text-3xl md:text-4xl lg:max-w-[70%] font-semibold mb-5">
-              Buy Aged discord server boost Accounts – Starting from $6 Only
+              Buy Aged discord server boost Accounts – Starting from $10 Only
             </h1>
             <p className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
               High-Quality Aged discord server boost Accounts for Sale
@@ -128,14 +128,14 @@ const page = () => {
                 <Link
                   className="underline font-bold"
                   href={
-                    "https://discordarena.com/discord-server-boost/buy-discord-server-boost-14x-3-months"
+                    "discord-server-boost/ultimate-server-boost-(14-x-3-months)"
                   }
                 >
                   14x3 discord server boost accounts
                 </Link>{" "}
-                and affordable options starting at just $5. Whether you need an
+                and affordable options starting at just $10. Whether you need an
                 account with a long history or simply an active follower base,
-                we have you covered. Check out our accounts starting at $5 for
+                we have you covered. Check out our accounts starting at $10 for
                 the best deals.
               </p>
 

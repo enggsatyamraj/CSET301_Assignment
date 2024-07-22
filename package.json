@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "postbuild": "next-sitemap",
+    "build": "npm run generate-sitemap && next build",
     "start": "NODE_ENV=production next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-sitemap": "node generateSitemap.js"
   },
   "dependencies": {
     "@analytics/google-tag-manager": "^0.5.5",
