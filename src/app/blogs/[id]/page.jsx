@@ -44,10 +44,16 @@ export const generateMetadata = ({ params }) => {
       },
     },
   };
-
+  const blogNumber = data.no; 
+  const iconUrl = `/blogs-banner/blog-${blogNumber}.ico?v=4`;
   return {
     title: `${data.name} | Blogs`,
     description: data.content,
+    icons: {
+      icon: [iconUrl],
+      apple: ["/apple-touch-icon.png?v=4"],
+      shortcut: [iconUrl],
+    },
     openGraph: {
       title: data.name,
       description: data.content,
