@@ -46,7 +46,7 @@ export const generateMetadata = ({ params }) => {
   };
   const blogNumber = data.no; 
   const iconUrl = `/blogs-banner/blog-${blogNumber}.ico?v=4`;
-  const ogImageUrl = `/blogs-banner/blog-${blogNumber}.svg?v=4`;
+  const ogImageUrl = `/blogs-banner/blog-${blogNumber}.png?v=4`;
   return {
     title: `${data.name} | Blogs`,
     description: data.content,
