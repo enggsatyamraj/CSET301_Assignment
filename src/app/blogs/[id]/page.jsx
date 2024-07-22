@@ -46,6 +46,7 @@ export const generateMetadata = ({ params }) => {
   };
   const blogNumber = data.no; 
   const iconUrl = `/blogs-banner/blog-${blogNumber}.ico?v=4`;
+  const ogImageUrl = `/blogs-banner/blog-${blogNumber}.svg?v=4`;
   return {
     title: `${data.name} | Blogs`,
     description: data.content,
@@ -57,12 +58,7 @@ export const generateMetadata = ({ params }) => {
     openGraph: {
       title: data.name,
       description: data.content,
-      images: [
-        {
-          url: iconUrl,
-          alt: data.name,
-        },
-      ],
+      image: ogImageUrl,
       url: data.link,
       type: "website",
       siteName: "Your Website Name",
@@ -70,7 +66,7 @@ export const generateMetadata = ({ params }) => {
     twitter: {
       title: data.name,
       description: data.content,
-      images: iconUrl,
+      image: ogImageUrl,
       card: "summary_large_image",
     },
     other: {
