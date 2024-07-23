@@ -39,12 +39,12 @@ const generateSitemap = () => {
   // Function to add URLs with a specified priority
   const addUrls = (urls, priority) => {
     urls.forEach((url) => {
-      sitemap += `  <url>\n    <loc>${baseUrl}${url.url}</loc>\n    <changefreq>daily</changefreq>\n    <lastmod>${currentDate}</lastmod>\n    <priority>${priority}</priority>\n  </url>\n`;
+      sitemap += `  <url>\n    <loc>${baseUrl}${url.url}</loc>\n    <changefreq>daily</changefreq>\n    <lastmod>${currentDate}</lastmod>\n    <priority>${url.priority}</priority>\n  </url>\n`;
     });
   };
 
   // Add static URLs with their respective priorities
-  addUrls(staticUrls, 0.8);
+  addUrls(staticUrls);
 
   // Function to add dynamic URLs
   const addDynamicUrls = (data, pathPrefix, priority) => {
@@ -56,7 +56,7 @@ const generateSitemap = () => {
     });
   };
 
-  // Add dynamic URLs with priority 0.8
+  // Add dynamic URLs with priority 0.6
   addDynamicUrls(blogsData, "/blogs/", 0.6);
   addDynamicUrls(discordData, "/accounts/discord/", 0.6);
   addDynamicUrls(discordServerData, "/accounts/discordserver/", 0.6);
