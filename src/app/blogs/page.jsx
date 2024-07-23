@@ -12,6 +12,7 @@ const page = () => {
             return (
               <div key={index}>
                 <BlogsCard
+                  imgurl={`../blogs-banner/${item.image}`}
                   linkurl={`/blogs/${item?.name
                     .split(" ")
                     .join("-")

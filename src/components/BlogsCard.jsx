@@ -2,42 +2,43 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import Popup from "reactjs-popup";
+import {
+  FacebookShareButton,
+  TwitterShareButton,
+  WhatsappShareButton,
+  LinkedinShareButton,
+  RedditShareButton,
+  TelegramShareButton,
+  FacebookIcon,
+  TwitterIcon,
+  WhatsappIcon,
+  LinkedinIcon,
+  RedditIcon,
+  TelegramIcon,
+} from "react-share";
 import rightbutton from "../../public/RightButton.svg";
 import { useRouter } from "next/navigation";
 
-const BlogsCard = ({ heading, time, linkurl }) => {
+const BlogsCard = ({ heading, time, linkurl, imgurl, description }) => {
   const supremeurl = "https://discordarena.com/blogs/";
+  const shareUrl = `${supremeurl}${heading.split(" ").join("-").toLowerCase()}`;
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const closeModal = () => setOpen(false);
 
   const handleShare = () => {
-    navigator.clipboard
-      .writeText(`${supremeurl}${heading.split(" ").join("-").toLowerCase()}`)
-      .then(() => {
-        setOpen(true);
-        setTimeout(() => {
-          closeModal();
-        }, 2000); // Auto-close after 2 seconds
-      })
-      .catch((err) => {
-        console.error("Failed to copy text: ", err);
-      });
+    setOpen(true);
   };
 
   return (
     <div className="flex flex-col justify-between gap-4 h-full mx-auto max-w-[400px] w-[90%] border-[#A1AEBF] rounded-[20px] border-2 p-4">
-      <div>
-        <div className={`bg-[#8474C4] p-4 rounded-[20px]`}>
-          <div
-            onClick={() => {
-              router.push(linkurl);
-            }}
-            className={`border-l-[1.5px] cursor-pointer border-[#A1AEBF] px-3 text-[1.5rem] font-light`}
-          >
-            {heading}
-          </div>
-        </div>
+      <div
+        onClick={() => {
+          router.push(linkurl);
+        }}
+        className="cursor-pointer border-2 border-[#A1AEBF] rounded-xl overflow-hidden"
+      >
+        <img src={imgurl} alt={heading} />
       </div>
 
       <div>
@@ -68,9 +69,46 @@ const BlogsCard = ({ heading, time, linkurl }) => {
         </div>
       </div>
       <Popup open={open} closeOnDocumentClick onClose={closeModal}>
-        <div className=" text-white rounded p-4 h-[200px] flex items-center justify-center aspect-square backdrop-blur-lg shadow-lg">
-          <p>Link copied to clipboard!</p>
-          {/* <p>{(supremeurl, linkurl)}</p> */}
+        <div className=" text-white p-4 h-[200px] border-2 border-[#A1AEBF] rounded-lg flex flex-col items-center justify-center aspect-square backdrop-blur-lg shadow-lg">
+          <p>Share this post:</p>
+          <div className="flex gap-4 mt-4">
+            <FacebookShareButton
+              url={shareUrl}
+              quote={`Check out this blog on Discord Arena: ${heading}. Learn more about Discord accounts and how they can benefit you!`}
+              hashtag="#DiscordArena"
+            >
+              <FacebookIcon size={32} round />
+            </FacebookShareButton>
+            <TwitterShareButton
+              url={shareUrl}
+              title={`Check out this blog on Discord Arena: ${heading}`}
+              via="DiscordArena"
+              hashtags={["DiscordArena", "Discord"]}
+            >
+              <TwitterIcon size={32} round />
+            </TwitterShareButton>
+            <WhatsappShareButton
+              url={shareUrl}
+              title={`Check out this blog on Discord Arena: ${heading}`}
+              separator=":: "
+            >
+              <WhatsappIcon size={32} round />
+            </WhatsappShareButton>
+            <LinkedinShareButton
+              url={shareUrl}
+              title={heading}
+              summary={`Learn more about Discord accounts and their benefits at Discord Arena: ${description}`}
+              source="Discord Arena"
+            >
+              <LinkedinIcon size={32} round />
+            </LinkedinShareButton>
+            <RedditShareButton url={shareUrl} title={heading}>
+              <RedditIcon size={32} round />
+            </RedditShareButton>
+            <TelegramShareButton url={shareUrl} title={heading}>
+              <TelegramIcon size={32} round />
+            </TelegramShareButton>
+          </div>
         </div>
       </Popup>
     </div>

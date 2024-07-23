@@ -28,9 +28,8 @@ export const generateMetadata = ({ params }) => {
     "@context": "https://schema.org/",
     "@type": "Product",
     name: "Discord Aged Accounts",
-    image: `https://example.com/photos/${data.no}/photo.jpg`,
+    image: `https://example.com/photos/${data.image}/photo.jpg`,
     description: data.content,
-    sku: data.sku,
     mpn: data.mpn,
     brand: {
       "@type": "Brand",
@@ -46,7 +45,7 @@ export const generateMetadata = ({ params }) => {
     },
   };
 
-  const blogNumber = data.no; 
+  const blogNumber = data.no;
   const iconUrl = `/blogs-banner/blog-${blogNumber}.ico?v=4`;
   const ogImageUrl = `/blogs-banner/blog-${blogNumber}.png`;
 
@@ -90,35 +89,6 @@ const BlogPage = ({ params }) => {
 
   return (
     <div className="bg-normal text-white pt-[100px]">
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        
-        {/* Favicon */}
-        <link rel="icon" href={metadata.icons.icon[0]} />
-        <link rel="apple-touch-icon" href={metadata.icons.apple[0]} />
-        <link rel="shortcut icon" href={metadata.icons.shortcut[0]} />
-
-        {/* Open Graph */}
-        <meta property="og:title" content={metadata.openGraph.title} />
-        <meta property="og:description" content={metadata.openGraph.description} />
-        <meta property="og:image" content={metadata.openGraph.images} />
-        <meta property="og:url" content={metadata.openGraph.url} />
-        <meta property="og:type" content={metadata.openGraph.type} />
-        <meta property="og:site_name" content={metadata.openGraph.siteName} />
-
-        {/* Twitter Card */}
-        <meta name="twitter:title" content={metadata.twitter.title} />
-        <meta name="twitter:description" content={metadata.twitter.description} />
-        <meta name="twitter:image" content={metadata.twitter.images} />
-        <meta name="twitter:card" content={metadata.twitter.card} />
-
-        {/* JSON-LD */}
-        <script type="application/ld+json">
-          {metadata.other["application-ld+json"]}
-        </script>
-      </Head>
-      
       <div className="max-w-[1000px] relative min-h-[80vh] rounded-[5px] mx-auto border-2 border-[#A1AEBF] mb-[40px] md:p-5 p-3">
         <img
           src={`../blogs-banner/${data.image}`}
@@ -188,6 +158,7 @@ const BlogPage = ({ params }) => {
               >
                 <BlogsCard
                   headingBackgroundColor={"bg-[#FFC700]"}
+                  imgurl={`../blogs-banner/${item.image}`}
                   heading={item.name}
                   time={item.minutes_read}
                   linkurl={`/blogs/${item.name
