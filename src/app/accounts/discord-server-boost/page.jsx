@@ -109,10 +109,10 @@ const page = () => {
         <div className="max-w-[1000px] mx-auto">
           <div className="min-h-[400px] flex flex-col justify-center ">
             <h1 className="text-3xl md:text-4xl lg:max-w-[70%] font-semibold mb-5">
-              Buy Aged discord server boost Accounts – Starting from $10 Only
+              Buy discord server boost Accounts – Starting from $10 Only
             </h1>
             <p className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
-              High-Quality Aged discord server boost Accounts for Sale
+              High-Quality discord server boost Accounts for Sale
             </p>
             <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
               <p>
