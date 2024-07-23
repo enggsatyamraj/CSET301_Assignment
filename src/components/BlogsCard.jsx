@@ -30,20 +30,31 @@ const BlogsCard = ({ heading, time, linkurl, imgurl, description }) => {
     setOpen(true);
   };
 
+  const truncateHeading = (text, maxLength) => {
+    return text.length > maxLength
+      ? text.substring(0, maxLength) + "..."
+      : text;
+  };
+
+  const truncatedHeading = truncateHeading(heading, 100); // Adjust the max length as needed
+
   return (
     <div className="flex flex-col justify-between gap-4 h-full mx-auto max-w-[400px] w-[90%] border-[#A1AEBF] rounded-[20px] border-2 p-4">
-      <div
-        onClick={() => {
-          router.push(linkurl);
-        }}
-        className="cursor-pointer border-2 border-[#A1AEBF] rounded-xl overflow-hidden"
-      >
-        <img src={imgurl} alt={heading} />
+      <div>
+        <div
+          onClick={() => {
+            router.push(linkurl);
+          }}
+          className="cursor-pointer border-2 border-[#A1AEBF] rounded-xl overflow-hidden"
+        >
+          <img src={imgurl} alt={heading} />
+        </div>
+        <p className="mt-3 opacity-80 text-[18px]">{truncatedHeading}</p>
       </div>
 
       <div>
-        <p className="px-3 text-[15px] font-[450] opacity-75 mb-2">{time}</p>
-        <div className="flex items-center justify-between px-2 pb-3">
+        <p className="text-[15px] font-[450] mt-3 opacity-75 mb-2">{time}</p>
+        <div className="flex items-center justify-between pb-3">
           <div>
             <button
               type="button"
