@@ -8,7 +8,7 @@ const ContactUs = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <div className="bg-[#121212] p-4">
+    <div className="bg-[#A5A6F6] p-4">
       
       <div className="max-w-[1280px] rounded-lg bg-[#A5A6F6] mx-auto py-12 min-h-[60vh] flex flex-col justify-center px-4">
         <p className="text-center text-3xl md:text-4xl text-[#0D0E14]">
