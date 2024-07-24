@@ -36,14 +36,16 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                  Buy Aged Discord Accounts
+                  <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
+                    Buy Aged Discord Accounts
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Purchase aged Discord accounts with a history of engagement and activity. Connect with thriving communities instantly and boost your online presence.y, connecting you with thriving
-                    communities effortlessly.
+                    Purchase aged Discord accounts with a history of engagement
+                    and activity. Connect with thriving communities instantly
+                    and boost your online presence.y, connecting you with
+                    thriving communities effortlessly.
                   </p>
                 </div>
               </Link>
@@ -58,13 +60,15 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaInstagram size={30} />
                   </span>
-                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
                     Buy Aged Instagram Accounts
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Get aged Instagram accounts with established followers. Enhance your Instagram marketing and visibility with our premium aged accounts.
+                    Get aged Instagram accounts with established followers.
+                    Enhance your Instagram marketing and visibility with our
+                    premium aged accounts.
                   </p>
                 </div>
               </Link>
@@ -79,13 +83,15 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                   Boost Your Discord Server
+                  <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
+                    Boost Your Discord Server
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Discover our Discord server boosters, offering expert server management, community engagement, and advanced moderation tools to elevate your server&lsquo;s performance.
+                    Discover our Discord server boosters, offering expert server
+                    management, community engagement, and advanced moderation
+                    tools to elevate your server&lsquo;s performance.
                   </p>
                 </div>
               </Link>
@@ -100,13 +106,17 @@ const WeOffer = () => {
                   <span className="relative flex h-11 w-11 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <TbBrandMinecraft size={30} className="rounded-full" />
                   </span>
-                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Custom Reaction Services<br/>for Discord
+                  <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
+                    Custom Reaction Services
+                    <br />
+                    for Discord
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Increase user engagement on your Discord server with our custom reaction services. Add dynamic and fun elements to enhance interaction.
+                    Increase user engagement on your Discord server with our
+                    custom reaction services. Add dynamic and fun elements to
+                    enhance interaction.
                   </p>
                 </div>
               </Link>
@@ -121,14 +131,20 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <FaDiscord size={30} />
                   </span>
-                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Unlock Your Perfect<br/>Discord Server
+                  <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
+                    Unlock Your Perfect
+                    <br />
+                    Discord Server
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Discover and purchase top-tier Discord servers that fit your needs. Whether you&apos;re looking to boost community engagement or enhance server features, we have a range of high-quality options tailored for your success. Buy now and start building your ideal Discord community effortlessly!
-                    </p>
+                    Discover and purchase top-tier Discord servers that fit your
+                    needs. Whether you&apos;re looking to boost community
+                    engagement or enhance server features, we have a range of
+                    high-quality options tailored for your success. Buy now and
+                    start building your ideal Discord community effortlessly!
+                  </p>
                 </div>
               </Link>
 
@@ -148,7 +164,9 @@ const WeOffer = () => {
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Expand your Discord server’s community with our invite and referral services. Boost membership and activity for greater community growth.  
+                    Expand your Discord server’s community with our invite and
+                    referral services. Boost membership and activity for greater
+                    community growth.
                   </p>
                 </div>
               </Link>
@@ -163,13 +181,15 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <TbBrandMinecraft size={30} />
                   </span>
-                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
+                  <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
                     Zealy Invite and Referral Services
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Utilize our Zealy invite and referral services to enhance your platform presence and drive higher user engagement and interaction.
+                    Utilize our Zealy invite and referral services to enhance
+                    your platform presence and drive higher user engagement and
+                    interaction.
                   </p>
                 </div>
               </Link>
@@ -184,13 +204,17 @@ const WeOffer = () => {
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
                     <TbBrandMinecraft size={30} />
                   </span>
-                  <p className="text-2xl font-semibold whitespace-nowrap leading-none tracking-tight">
-                    Manage Online and<br/>Offline Members
+                  <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
+                    Manage Online and
+                    <br />
+                    Offline Members
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Efficiently manage your Discord server’s online and offline members with our advanced tools. Ensure smooth communication and coordination within your community.
+                    Efficiently manage your Discord server’s online and offline
+                    members with our advanced tools. Ensure smooth communication
+                    and coordination within your community.
                   </p>
                 </div>
               </Link>
