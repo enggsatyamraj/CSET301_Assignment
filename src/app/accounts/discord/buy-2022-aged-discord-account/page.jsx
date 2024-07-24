@@ -121,12 +121,14 @@ export const data = {
     {
       name: "Karan Singh",
       rating: 5,
-      review: "Super nice guy, quick delivery through telegram and the accounts work perfectly.",
+      review:
+        "Super nice guy, quick delivery through telegram and the accounts work perfectly.",
     },
     {
       name: "Olivia Anderson",
       rating: 5,
-      review: "Seller was very kind and responded quickly ❤️ did not have any problems recieving product",
+      review:
+        "Seller was very kind and responded quickly ❤️ did not have any problems recieving product",
     },
     {
       name: "simon Emma Harris",
@@ -360,7 +362,6 @@ const Page = () => {
             See more FAQs
           </Link>
         </div>
-        <Footer />
       </div>
     </div>
   );

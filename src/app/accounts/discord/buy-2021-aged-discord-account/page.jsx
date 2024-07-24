@@ -360,7 +360,6 @@ const Page = () => {
             See more FAQs
           </Link>
         </div>
-        <Footer />
       </div>
     </div>
   );

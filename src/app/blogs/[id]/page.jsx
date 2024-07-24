@@ -7,12 +7,14 @@ import BlogsCard from "@/components/BlogsCard";
 import rightbutton from "../../../../public/RightButton.svg";
 import Footer from "@/components/Footer";
 import blogsData from "../../../dataFolder/blogs.json";
+import ShareComponent from "@/components/ShareComponent";
+import { formatDistanceToNow, parseISO } from "date-fns";
 
 export const fetchData = (paramsData) => {
   const title = decodeURIComponent(paramsData);
   let id;
   for (let i = 0; i < blogsData.length; i++) {
-    if (blogsData[i].name.toLowerCase() == title.split("-").join(" ")) {
+    if (blogsData[i].name.toLowerCase() === title.split("-").join(" ")) {
       id = i;
       break;
     }
@@ -80,6 +82,18 @@ export const generateMetadata = ({ params }) => {
 const BlogPage = ({ params }) => {
   const data = fetchData(params.id);
   const metadata = generateMetadata({ params });
+  const supremeurl = "https://discordarena.com";
+
+  let formattedDate = "";
+  if (data.date) {
+    try {
+      const parsedDate = parseISO(data.date);
+      console.log(parsedDate); // Log the parsed date to ensure it's correct
+      formattedDate = formatDistanceToNow(parsedDate, { addSuffix: true });
+    } catch (error) {
+      console.error("Error parsing date: ", error);
+    }
+  }
 
   // Exclude the current blog from the blogsData array
   const otherBlogs = blogsData.filter((blog) => blog.name !== data.name);
@@ -87,8 +101,15 @@ const BlogPage = ({ params }) => {
   // Select a subset of blogs to display
   const sampleArray = otherBlogs.slice(0, 3); // Adjust the number as needed
 
+  // Share URL and title
+  const shareUrl = `${supremeurl}/blogs/${data.name
+    .split(" ")
+    .join("-")
+    .toLowerCase()}`;
+  const shareTitle = data.name;
+
   return (
-    <div className="bg-normal text-white pt-[100px]">
+    <div className="bg-normal text-white pt-[100px] overflow-x-hidden px-3 pb-[50px]">
       <div className="max-w-[1000px] relative min-h-[80vh] rounded-[5px] mx-auto border-2 border-[#A1AEBF] mb-[40px] md:p-5 p-3">
         <img
           src={`../blogs-banner/${data.image}`}
@@ -99,11 +120,13 @@ const BlogPage = ({ params }) => {
           {data.name}
         </h1>
         <div className="flex items-center flex-wrap mt-[20px] gap-3 justify-between">
-          <div className="text-[15px]">{data.minutes_read}</div>
+          <div className="text-[15px]">
+            {data.minutes_read} | {formattedDate}
+          </div>
           <div className="flex gap-3 items-center">
             <Link
               className="border-[1.5px] bg-[#F36969] text-white border-black rounded-lg px-2 py-1"
-              href={"/accounts/discord"}
+              href={data.link}
             >
               Buy Now
             </Link>
@@ -137,12 +160,14 @@ const BlogPage = ({ params }) => {
         </h3>
         <p className="text-[15px] mt-[5px] opacity-70">{data.conclusion}</p>
 
-        <Link
-          href={"#"}
-          className="text-[15px] opacity-70 md:text-[17px] underline underline-offset-[5px] mx-auto mt-[50px] mb-[30px] block text-center"
-        >
-          Share Now
-        </Link>
+        <p className="text-[20px] opacity-70 font-bold mx-auto mt-[50px] mb-[30px] block text-center">
+          Share this blog
+        </p>
+        <ShareComponent
+          shareUrl={shareUrl}
+          shareTitle={shareTitle}
+          content={data.content}
+        />
         <div className="radial_one"></div>
       </div>
       <div className="max-w-[1000px] mx-auto">
@@ -161,6 +186,7 @@ const BlogPage = ({ params }) => {
                   imgurl={`../blogs-banner/${item.image}`}
                   heading={item.name}
                   time={item.minutes_read}
+                  date={item.date}
                   linkurl={`/blogs/${item.name
                     .split(" ")
                     .join("-")
@@ -172,7 +198,6 @@ const BlogPage = ({ params }) => {
           })}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

@@ -591,8 +591,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

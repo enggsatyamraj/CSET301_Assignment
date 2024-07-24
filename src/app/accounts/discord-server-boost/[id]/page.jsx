@@ -228,7 +228,6 @@ const page = ({ params }) => {
             See more FAQs
           </Link>
         </div>
-        <Footer />
       </div>
     </div>
   );

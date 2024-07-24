@@ -82,7 +82,6 @@ const Page = () => {
           </h1>
           <ContactUsComponent />
         </div>
-        <Footer />
       </div>
     </div>
   );
