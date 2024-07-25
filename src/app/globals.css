@@ -89,6 +89,10 @@
   width: 15rem;
 }
 
+.anchorText{
+  color: #a5a6f6;
+}
+
 /* #mainSection{
   display: grid;
   grid-template-columns: repeat(2, 1fr);

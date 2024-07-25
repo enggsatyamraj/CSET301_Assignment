@@ -81,7 +81,7 @@ export default function Page() {
           style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
-      <div className="bg-normal w-[100%] pt-[80px]">
+      <div className="bg-normal w-[100%] pt-[100px]">
         <div className="relative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 text-white sm:px-12 ">
           <div className="z-4 relative flex min-h-[90vh] flex-col justify-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl mb-8">
@@ -98,14 +98,14 @@ export default function Page() {
                 presence. Whether you need{" "}
                 <Link
                   href="https://discordarena.com/accounts/discord"
-                  className="underline"
+                  className="anchorText"
                 >
                   Discord old accounts
                 </Link>{" "}
                 or established{" "}
                 <Link
                   href="https://discordarena.com/accounts/instagram"
-                  className="underline"
+                  className="anchorText"
                 >
                   Instagram accounts
                 </Link>
@@ -118,7 +118,7 @@ export default function Page() {
                 Check out our{" "}
                 <Link
                   href="https://discordarena.com/accounts/reddit"
-                  className="underline"
+                  className="anchorText"
                 >
                   Reddit accounts
                 </Link>{" "}

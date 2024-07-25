@@ -90,7 +90,7 @@ const page = () => {
               <p>
                 Our collection includes{" "}
                 <Link
-                  className="underline font-bold"
+                  className="anchorText"
                   href={
                     "https://discordarena.com/accounts/discord/buy-2015-aged-discord-account"
                   }
@@ -99,7 +99,7 @@ const page = () => {
                 </Link>{" "}
                 and options starting at just $2. With{" "}
                 <Link
-                  className="underline font-bold"
+                  className="anchorText"
                   href={
                     "https://discordarena.com/accounts/discord/buy-2023-aged-discord-account"
                   }

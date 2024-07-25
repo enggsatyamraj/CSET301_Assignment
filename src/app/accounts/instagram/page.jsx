@@ -126,7 +126,7 @@ const page = () => {
               <p>
                 We have a diverse selection, including{" "}
                 <Link
-                  className="underline font-bold"
+                  className="anchorText"
                   href={
                     "https://discordarena.com/instagram/buy-2013-instagram-accounts"
                   }

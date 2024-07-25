@@ -153,14 +153,14 @@ export default function Page() {
                     selection of{" "}
                     <Link
                       href={"accounts/discord"}
-                      className="underline font-bold"
+                      className="anchorText"
                     >
                       Discord accounts
                     </Link>{" "}
                     includes everything from{" "}
                     <Link
                       href={"accounts/discord/buy-2015-aged-discord-account"}
-                      className="underline font-bold"
+                      className="anchorText"
                     >
                       2015 Discord accounts
                     </Link>{" "}
@@ -176,7 +176,7 @@ export default function Page() {
                     Our{" "}
                     <Link
                       href={"accounts/discord/buy-2023-aged-discord-account"}
-                      className="underline font-bold"
+                      className="anchorText"
                     >
                       aged Discord accounts
                     </Link>{" "}
@@ -191,7 +191,7 @@ export default function Page() {
                     Explore our{" "}
                     <Link
                       href={"accounts/instagram"}
-                      className="underline"
+                      className="anchorText"
                     >
                       Instagram accounts
                     </Link>
@@ -214,7 +214,7 @@ export default function Page() {
               </p>
             </div>
             <div className="flex-[1.8] lg:block ">
-              <Link href={"accounts/discord"} className="underline font-bold">
+              <Link href={"accounts/discord"} className="anchorText">
                 <Image src={smartPeople} className="" alt="buy aged accounts" />
               </Link>
             </div>

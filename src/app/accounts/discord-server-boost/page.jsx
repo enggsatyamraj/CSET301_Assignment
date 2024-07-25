@@ -126,7 +126,7 @@ const page = () => {
               <p>
                 We have a diverse selection, including{" "}
                 <Link
-                  className="underline font-bold"
+                  className="anchorText"
                   href={
                     "discord-server-boost/ultimate-server-boost-(14-x-3-months)"
                   }
