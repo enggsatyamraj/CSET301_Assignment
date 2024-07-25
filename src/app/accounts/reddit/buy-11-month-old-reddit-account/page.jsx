@@ -125,20 +125,17 @@ export const reviews = [
   {
     name: "Charles",
     rating: 5,
-    comment:
-      "Top! <24h delivery",
+    comment: "Top! <24h delivery",
   },
   {
     name: "Sara",
     rating: 4,
-    comment:
-      "Nice service and very quick delivery 10/10",
+    comment: "Nice service and very quick delivery 10/10",
   },
   {
     name: "Zhānmǔsī",
     rating: 5,
-    comment:
-      "Very good and perfect Thnx",
+    comment: "Very good and perfect Thnx",
   },
 ];
 
@@ -394,7 +391,6 @@ const Page = () => {
             See more FAQs
           </Link>
         </div>
-        <Footer />
       </div>
     </div>
   );

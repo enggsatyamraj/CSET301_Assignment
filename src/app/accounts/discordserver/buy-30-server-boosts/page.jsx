@@ -123,20 +123,17 @@ export const data = {
     {
       name: "Raj",
       rating: 4,
-      review:
-        "Got help from the seller, perfectly legit. Good service."
+      review: "Got help from the seller, perfectly legit. Good service.",
     },
     {
       name: "Wáng Fāng",
       rating: 5,
-      review:
-        "+ RESOLVED ISSUE QUICKLY",
+      review: "+ RESOLVED ISSUE QUICKLY",
     },
     {
       name: "Zhào Lěi",
       rating: 3,
-      review:
-        "First it was not working but he fixed it for me",
+      review: "First it was not working but he fixed it for me",
     },
   ],
 };
@@ -413,7 +410,6 @@ const Page = () => {
             See more FAQs
           </Link>
         </div>
-        <Footer />
       </div>
     </div>
   );

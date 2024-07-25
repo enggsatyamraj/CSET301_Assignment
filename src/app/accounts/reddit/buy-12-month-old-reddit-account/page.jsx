@@ -137,8 +137,7 @@ export const reviews = [
   {
     name: "チャールズ",
     rating: 5,
-    comment:
-      "Good seller, replies fast 100% legit",
+    comment: "Good seller, replies fast 100% legit",
   },
 ];
 
@@ -394,7 +393,6 @@ const Page = () => {
             See more FAQs
           </Link>
         </div>
-        <Footer />
       </div>
     </div>
   );

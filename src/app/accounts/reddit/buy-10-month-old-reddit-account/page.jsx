@@ -125,20 +125,17 @@ export const reviews = [
   {
     name: "ステファニー",
     rating: 5,
-    comment:
-      "Actually legit no bots add ''evapol0'' discord if you want proof",
+    comment: "Actually legit no bots add ''evapol0'' discord if you want proof",
   },
   {
     name: "Andrew",
     rating: 4,
-    comment:
-      "Very fast support, anything worked very well",
+    comment: "Very fast support, anything worked very well",
   },
   {
     name: "Lauren",
     rating: 5,
-    comment:
-      "super fast, very friendly, bought another account straight away",
+    comment: "super fast, very friendly, bought another account straight away",
   },
 ];
 
@@ -286,8 +283,8 @@ const Page = () => {
           </p>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
-            Buy {data.months} months old Reddit Accounts at cheap prices here on Discord
-            Arena.
+            Buy {data.months} months old Reddit Accounts at cheap prices here on
+            Discord Arena.
           </p>
           <p className="mb-3 mt-5 text-2xl font-semibold">
             Buy {data.months} Reddit Accounts{" "}
@@ -394,7 +391,6 @@ const Page = () => {
             See more FAQs
           </Link>
         </div>
-        <Footer />
       </div>
     </div>
   );

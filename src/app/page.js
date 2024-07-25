@@ -202,6 +202,48 @@ export default function Page() {
                     buy account Discord, our
                     platform ensures you find exactly what you need.
                     {/* <br />
+              <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
+                Welcome to Discord Arena, your premier destination for aged
+                Discord accounts and social media accounts. We specialize in
+                providing high-quality aged Discord and Instagram accounts to
+                help you enhance your online presence instantly.
+                <br />
+                Looking to buy aged Discord? Our selection of{" "}
+                <Link href={"accounts/discord"} className="underline font-bold">
+                  Discord accounts
+                </Link>{" "}
+                includes everything from{" "}
+                <Link
+                  href={"accounts/discord/buy-2015-aged-discord-account"}
+                  className="underline font-bold"
+                >
+                  2015 Discord accounts
+                </Link>{" "}
+                to the latest options, all at competitive prices. Whether you
+                need a Discord account aged for immediate use or an instant
+                Discord aged account , we have you covered.
+                <br />
+                Our{" "}
+                <Link
+                  href={"accounts/discord/buy-2023-aged-discord-account"}
+                  className="underline font-bold"
+                >
+                  aged Discord accounts
+                </Link>{" "}
+                are perfect for those searching for a Discord old account buy or
+                an old Discord account for sale. With Discord Arena, you get
+                secure transactions, exceptional customer service, and
+                top-quality accounts that help you stand out.
+                <br />
+                Explore our{" "}
+                <Link href={"accounts/instagram"} className="underline">
+                  Instagram accounts
+                </Link>
+                , designed to give you a head start with pre-established
+                followers and engagement. Whether you’re looking for{" "}
+                discordarena, discord arena, or to buy account Discord, our
+                platform ensures you find exactly what you need.
+                {/* <br />
                     Choose Discord Arena for
                     all your social media needs and boost your influence
                     effortlessly. Discover why we are the trusted choice for{" "}
@@ -209,8 +251,6 @@ export default function Page() {
                       buying aged Discord accounts
                     {" "}
                     and more. */}
-                  
-                
               </p>
             </div>
             <div className="flex-[1.8] lg:block ">
@@ -289,7 +329,6 @@ export default function Page() {
 
       <CustomerReview />
       <ContactUs />
-      <Footer />
     </div>
   );
 }

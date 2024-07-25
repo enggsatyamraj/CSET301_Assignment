@@ -8,7 +8,8 @@ import Footer from "@/components/Footer";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const generateMetadata = () => {
-  const title = "Buy Premium Discord Servers | Verified & High Activity Servers";
+  const title =
+    "Buy Premium Discord Servers | Verified & High Activity Servers";
   const description =
     "Enhance your Discord server with premium features and verified accounts. Our servers come with high activity levels, custom emojis, and dedicated support channels, perfect for boosting engagement and community interaction.";
   const keywords =
@@ -158,7 +159,6 @@ const page = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

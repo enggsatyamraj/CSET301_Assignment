@@ -131,8 +131,7 @@ export const reviews = [
   {
     name: "Lěi Hin",
     rating: 4,
-    comment:
-      "SUPER FAST DELIVERY man i highly recommend",
+    comment: "SUPER FAST DELIVERY man i highly recommend",
   },
   {
     name: "William knepper",
@@ -394,7 +393,6 @@ const Page = () => {
             See more FAQs
           </Link>
         </div>
-        <Footer />
       </div>
     </div>
   );
