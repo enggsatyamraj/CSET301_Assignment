@@ -48,16 +48,25 @@ const generateSitemap = () => {
 
   // Function to add dynamic URLs
   const addDynamicUrls = (data, pathPrefix, priority) => {
-    data.forEach((item) => {
-      const url = `${baseUrl}${pathPrefix}${encodeURIComponent(
-        item.name.toLowerCase().split(" ").join("-")
-      )}`;
-      sitemap += `  <url>\n    <loc>${url}</loc>\n    <changefreq>daily</changefreq>\n    <lastmod>${currentDate}</lastmod>\n    <priority>${priority}</priority>\n  </url>\n`;
-    });
-  };
+  if (!Array.isArray(data)) {
+    console.error("Invalid data provided to addDynamicUrls. Expected an array.");
+    return;
+  }
+  
+  data.forEach((item) => {
+    if (!item.name) {
+      console.warn("Skipping item without a name:", item);
+      return;
+    }
+
+    const url = `${baseUrl}${pathPrefix}${encodeURIComponent(item.name.toLowerCase().split(" ").join("-"))}`;
+    sitemap += `  <url>\n    <loc>${url}</loc>\n    <changefreq>daily</changefreq>\n    <lastmod>${currentDate}</lastmod>\n    <priority>${priority}</priority>\n  </url>\n`;
+  });
+};
+
 
   // Add dynamic URLs with priority 0.8
-  // addDynamicUrls(blogsData, "/blogs/", 0.6);
+  addDynamicUrls(blogsData, "/blogs/", 0.6);
   addDynamicUrls(discordData, "/accounts/discord/", 0.6);
   addDynamicUrls(discordServerData, "/accounts/discordserver/", 0.6);
   addDynamicUrls(instagramData, "/accounts/instagram/", 0.6);
