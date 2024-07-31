@@ -57,7 +57,7 @@ const generateSitemap = () => {
   };
 
   // Add dynamic URLs with priority 0.8
-  addDynamicUrls(blogsData, "/blogs/", 0.6);
+  // addDynamicUrls(blogsData, "/blogs/", 0.6);
   addDynamicUrls(discordData, "/accounts/discord/", 0.6);
   addDynamicUrls(discordServerData, "/accounts/discordserver/", 0.6);
   addDynamicUrls(instagramData, "/accounts/instagram/", 0.6);
