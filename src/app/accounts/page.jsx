@@ -10,6 +10,8 @@ import { FaArrowRight } from "react-icons/fa6";
 import discordServerData from "../../dataFolder/discordserver.json";
 import redditAccountData from "../../dataFolder/reddit.json";
 import discordServerBoost from "../../dataFolder/discordServerBoost.json";
+import accountImage from "../../../public/discord-arena-creatives/accounts.svg";
+import Image from "next/image";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -83,54 +85,60 @@ export default function Page() {
       </noscript>
       <div className="bg-normal w-[100%] pt-[100px]">
         <div className="relative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 text-white sm:px-12 ">
-          <div className="z-4 relative flex min-h-[90vh] flex-col justify-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl mb-8">
-              Aged Discord Servers & Social Media Accounts for Sale
-            </h1>
-            <p className="lh:w-[60%] mb-6 text-3xl sm:w-[80%]  sm:text-4xl md:w-[70%] md:text-5xl">
-              Discover Premium Aged Discord & Social Media Accounts for Sale
-            </p>
-            <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[50%]">
-              <p>
-                Explore our selection of high-quality{" "}
-                <span className="font-bold">aged Discord accounts</span> and
-                other social media accounts designed to boost your online
-                presence. Whether you need{" "}
-                <Link
-                  href="https://discordarena.com/accounts/discord"
-                  className="anchorText"
-                >
-                  Discord old accounts
-                </Link>{" "}
-                or established{" "}
-                <Link
-                  href="https://discordarena.com/accounts/instagram"
-                  className="anchorText"
-                >
-                  Instagram accounts
-                </Link>
-                , we offer reliable options to meet your needs.
+          <div className="z-4 relative flex min-h-[90vh] flex-col-reverse lg:flex-row justify-center">
+            <div className="flex flex-col justify-center flex-3">
+              <p className="lg:w-[85%] text-2xl sm:w-[80%] mb-10  sm:text-3xl md:w-[70%] md:text-4xl">
+                Discover Premium Aged Discord & Social Media Accounts for Sale
               </p>
-              <br />
-              <p>
-                Our accounts come with built-in credibility, making it easy to
-                join exclusive communities and engage with wider audiences.
-                Check out our{" "}
-                <Link
-                  href="https://discordarena.com/accounts/reddit"
-                  className="anchorText"
-                >
-                  Reddit accounts
-                </Link>{" "}
-                for instant participation in discussions.
-              </p>
-              <br />
-              <p>
-                Choose Discord Arena for secure transactions, competitive
-                prices, and accounts that enhance your social media experience.
-                Start browsing now and find the perfect account to elevate your
-                online presence!
-              </p>
+              <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[80%]">
+                <p>
+                  Explore our selection of high-quality{" "}
+                  <span className="font-bold">aged Discord accounts</span> and
+                  other social media accounts designed to boost your online
+                  presence. Whether you need{" "}
+                  <Link
+                    href="https://discordarena.com/accounts/discord"
+                    className="anchorText"
+                  >
+                    Discord old accounts
+                  </Link>{" "}
+                  or established{" "}
+                  <Link
+                    href="https://discordarena.com/accounts/instagram"
+                    className="anchorText"
+                  >
+                    Instagram accounts
+                  </Link>
+                  , we offer reliable options to meet your needs.
+                </p>
+                <br />
+                <p>
+                  Our accounts come with built-in credibility, making it easy to
+                  join exclusive communities and engage with wider audiences.
+                  Check out our{" "}
+                  <Link
+                    href="https://discordarena.com/accounts/reddit"
+                    className="anchorText"
+                  >
+                    Reddit accounts
+                  </Link>{" "}
+                  for instant participation in discussions.
+                </p>
+                <br />
+                <p>
+                  Choose Discord Arena for secure transactions, competitive
+                  prices, and accounts that enhance your social media
+                  experience. Start browsing now and find the perfect account to
+                  elevate your online presence!
+                </p>
+              </div>
+            </div>
+            <div className="lg:w-[90%] mb-[20px] lg:mb-0 flex items-center justify-center ">
+              <Image
+                className="lg:w-[90%] object-fit w-[60%] max-w-[300px]"
+                src={accountImage}
+                alt="discord-arena-creatives accounts"
+              />
             </div>
 
             <div className="radial_one"></div>

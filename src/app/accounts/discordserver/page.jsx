@@ -4,6 +4,8 @@ import discordData from "../../../dataFolder/discordserver.json";
 import { FaDiscord } from "react-icons/fa";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+import server_image from "../../../../public/discord-arena-creatives/server-boost.svg";
+import Image from "next/image";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -74,27 +76,36 @@ const page = () => {
           style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
-      <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[100px]">
+      <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[150px]">
         <div className="max-w-[1000px] mx-auto">
-          <div className="min-h-[400px] flex flex-col justify-center ">
-            <h1 className="text-3xl md:text-4xl font-semibold mb-2">
-              Buy Discord Servers
-            </h1>
-            <p className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
-              Enhance Your Discord Server with Premium Features
-            </p>
-            <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
-              Step into the ultimate hub for transforming your Discord server
-              experience! Delve into a realm of premium Discord accounts,
-              expertly designed to elevate every aspect of your server&apos;s
-              communication, management, and overall journey. Unlock exclusive
-              features, bolster your server&apos;s credibility with verified
-              accounts, and distinguish yourself with custom handles. Our
-              Discord server page serves as your portal to a seamless, enriched,
-              and personalized Discord adventure. Embark on this journey,
-              explore the endless possibilities, and redefine your online
-              presence within the dynamic Discord Arena!
-            </p>
+          <div className="min-h-[400px] flex flex-col-reverse lg:flex-row justify-center ">
+            <div className="flex flex-col justify-center">
+              <h1 className="text-3xl md:text-4xl font-semibold mb-2">
+                Buy Discord Servers
+              </h1>
+              <p className="lg:text-2xl text-[22px] mb-4 lg:w-[70%] opacity-90 md:w-[60%] sm:w-[80%]">
+                Enhance Your Discord Server with Premium Features
+              </p>
+              <p className="text-[#dcdcdc] lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
+                Step into the ultimate hub for transforming your Discord server
+                experience! Delve into a realm of premium Discord accounts,
+                expertly designed to elevate every aspect of your server&apos;s
+                communication, management, and overall journey. Unlock exclusive
+                features, bolster your server&apos;s credibility with verified
+                accounts, and distinguish yourself with custom handles. Our
+                Discord server page serves as your portal to a seamless,
+                enriched, and personalized Discord adventure. Embark on this
+                journey, explore the endless possibilities, and redefine your
+                online presence within the dynamic Discord Arena!
+              </p>
+            </div>
+            <div className="lg:w-[90%] mb-[20px] lg:mb-0 flex items-center justify-center ">
+              <Image
+                className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
+                src={server_image}
+                alt="discord-arena-creatives accounts"
+              />
+            </div>
           </div>
           <div className="min-h-[500px] py-12">
             <p className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">

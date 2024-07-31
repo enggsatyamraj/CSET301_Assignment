@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { IoStarSharp } from "react-icons/io5";
+import about_us from "../../../public/discord-arena-creatives/about-us.svg";
 
 export const generateMetadata = () => {
   const title = "About Discord Arena | Buy Aged & Old Discord Accounts";
@@ -83,38 +84,48 @@ const AboutPage = () => {
 
       <div className="bg-normal w-[100%] pt-[100px]">
         <div className="max-w-[1280px] mx-auto px-7 sm:px-12 text-white relative min-h-[60vh] w-[100%]">
-          <div className="min-h-[90vh] py-10 relative flex flex-col justify-center z-4">
-            <h1 className="text-[#A5A6F6] font-bold md:text-2xl text-2xl my-3 tracking-widest">
-              About Discord Arena: Your Trusted Provider of Premium Discord
-              Accounts
-            </h1>
-            <p className="text-3xl sm:text-3xl mb-6 md:text-4xl sm:w-[80%] md:w-[70%] lh:w-[60%]">
-              Empowering Your Digital Presence with Premium Accounts
-            </p>
-            <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[50%] opacity-60">
-              Welcome to Discord Arena! We specialize in providing premium
-              Discord, Instagram, and accounts tailored to meet your unique
-              needs. Since our establishment in 2022, our mission has been to
-              empower your digital presence by offering exclusive and
-              high-quality accounts that elevate your online experience.
-            </p>
-            <p className="text-[15px] mt-4 md:w-[70%] sm:w-[80%] w-[90%] lg:w-[50%] opacity-60">
-              At Discord Arena, we understand that a vibrant online presence is
-              crucial in today&apos;s digital landscape. Our carefully curated
-              selection of accounts reflects our commitment to delivering
-              excellence. Whether you&apos;re seeking a Discord community that
-              aligns with your interests, an Instagram account with a unique
-              aesthetic, or a handle that stands out, Discord Arena is dedicated
-              to providing accounts that go beyond expectations. We believe in
-              the power of exclusivity, quality, and a seamless user experience,
-              and we&apos;re here to help you achieve your online aspirations.
-            </p>
-            <Link
-              href="/contactus"
-              className="bg-[#A5A6F6] w-fit text-black text-[14px] px-3 mt-5 font-semibold py-2 rounded-[15px]"
-            >
-              CONTACT US
-            </Link>
+          <div className="min-h-[90vh] py-10 relative flex flex-col-reverse lg:flex-row justify-center z-4">
+            <div className="flex flex-col justify-center">
+              <h1 className="text-[#A5A6F6] font-bold md:text-2xl text-2xl my-3 tracking-widest">
+                About Discord Arena: Your Trusted Provider of Premium Discord
+                Accounts
+              </h1>
+              <p className="text-3xl sm:text-3xl mb-6 md:text-4xl sm:w-[80%] md:w-[70%] lh:w-[60%]">
+                Empowering Your Digital Presence with Premium Accounts
+              </p>
+              <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60">
+                Welcome to Discord Arena! We specialize in providing premium
+                Discord, Instagram, and accounts tailored to meet your unique
+                needs. Since our establishment in 2022, our mission has been to
+                empower your digital presence by offering exclusive and
+                high-quality accounts that elevate your online experience.
+              </p>
+              <p className="text-[15px] mt-4 md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60">
+                At Discord Arena, we understand that a vibrant online presence
+                is crucial in today&apos;s digital landscape. Our carefully
+                curated selection of accounts reflects our commitment to
+                delivering excellence. Whether you&apos;re seeking a Discord
+                community that aligns with your interests, an Instagram account
+                with a unique aesthetic, or a handle that stands out, Discord
+                Arena is dedicated to providing accounts that go beyond
+                expectations. We believe in the power of exclusivity, quality,
+                and a seamless user experience, and we&apos;re here to help you
+                achieve your online aspirations.
+              </p>
+              <Link
+                href="/contactus"
+                className="bg-[#A5A6F6] w-fit text-black text-[14px] px-3 mt-5 font-semibold py-2 rounded-[15px]"
+              >
+                CONTACT US
+              </Link>
+            </div>
+            <div className="lg:w-[90%] mb-[20px] lg:mb-0 flex items-center justify-center ">
+              <Image
+                className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
+                src={about_us}
+                alt="discord-arena-creatives accounts"
+              />
+            </div>
             <div className="radial_one"></div>
           </div>
         </div>

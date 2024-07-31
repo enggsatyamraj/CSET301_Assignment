@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import order_completed from "../../public/order-completed.svg";
-import form_submit from "../../public/Group.svg";
+import form_submit from "../../public/discord-arena-creatives/contact-us.svg";
 import Link from "next/link";
 
 const ContactUsComponent = () => {
@@ -13,7 +13,7 @@ const ContactUsComponent = () => {
   useEffect(() => {
     const isFormSubmitted = localStorage.getItem("formSubmitted");
     if (isFormSubmitted) {
-      setFormSubmitted(true);
+      setFormSubmitted(false);
     }
   }, []);
 

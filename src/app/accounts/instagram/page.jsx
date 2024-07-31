@@ -5,6 +5,8 @@ import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import Head from "next/head";
 import Footer from "@/components/Footer";
+import instagram_image from "../../../../public/discord-arena-creatives/instagram.svg";
+import Image from "next/image";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 // console.log(instagramData);
@@ -105,45 +107,54 @@ const page = () => {
           style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
-      <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[100px]">
+      <div className="bg-[#121212] text-[#fff] min-h-[100vh] sm:px-12 px-7 pb-6 pt-[150px]">
         <div className="max-w-[1000px] mx-auto">
-          <div className="min-h-[400px] flex flex-col justify-center ">
-            <h1 className="text-3xl md:text-4xl font-semibold mb-2">
-              Buy Aged Instagram Accounts – Starting from $3 Only
-            </h1>
-            <p className="lg:text-2xl text-[22px] mb-4 lg:w-[50%] opacity-90 md:w-[60%] sm:w-[80%]">
-              High-Quality Aged Instagram Accounts for Sale
-            </p>
-            <p className="text-[#dcdcdc] lg:w-[60%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
-              <p>
-                Are you looking to quickly boost your Instagram presence? At
-                Discord Arena, we offer a variety of aged Instagram accounts to
-                help you achieve instant credibility and engagement. Our
-                accounts come with pre-established followers, making it easier
-                to grow your influence.
+          <div className="min-h-[400px] flex flex-col-reverse lg:flex-row justify-center ">
+            <div className="flex flex-col justify-center">
+              <h1 className="text-2xl md:text-3xl lg:text-[2.2rem] font-semibold mb-4">
+                Buy Aged Instagram Accounts – Starting from $3 Only
+              </h1>
+              <p className="lg:text-2xl text-[22px] mb-4 lg:w-[80%] opacity-90 md:w-[60%] sm:w-[80%]">
+                High-Quality Aged Instagram Accounts for Sale
               </p>
+              <p className="text-[#dcdcdc] lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
+                <p>
+                  Are you looking to quickly boost your Instagram presence? At
+                  Discord Arena, we offer a variety of aged Instagram accounts
+                  to help you achieve instant credibility and engagement. Our
+                  accounts come with pre-established followers, making it easier
+                  to grow your influence.
+                </p>
 
-              <p>
-                We have a diverse selection, including{" "}
-                <Link
-                  className="anchorText"
-                  href={
-                    "https://discordarena.com/instagram/buy-2013-instagram-accounts"
-                  }
-                >
-                  2013 Instagram accounts
-                </Link>{" "}
-                and affordable options starting at just $5. Whether you need an
-                account with a long history or simply an active follower base,
-                we have you covered. Check out our accounts starting at $5 for
-                the best deals.
-              </p>
+                <p>
+                  We have a diverse selection, including{" "}
+                  <Link
+                    className="anchorText"
+                    href={
+                      "https://discordarena.com/instagram/buy-2013-instagram-accounts"
+                    }
+                  >
+                    2013 Instagram accounts
+                  </Link>{" "}
+                  and affordable options starting at just $5. Whether you need
+                  an account with a long history or simply an active follower
+                  base, we have you covered. Check out our accounts starting at
+                  $5 for the best deals.
+                </p>
 
-              <p>
-                Instagram accounts today and take your social media game to the
-                next level!
+                <p>
+                  Instagram accounts today and take your social media game to
+                  the next level!
+                </p>
               </p>
-            </p>
+            </div>
+            <div className="lg:w-[90%] mb-[20px] lg:mb-0 flex items-center justify-center ">
+              <Image
+                className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
+                src={instagram_image}
+                alt="discord-arena-creatives accounts"
+              />
+            </div>
           </div>
           <div className="min-h-[500px] py-12">
             <p className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
