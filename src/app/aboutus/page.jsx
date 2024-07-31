@@ -1,7 +1,9 @@
 import Footer from "@/components/Footer";
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { IoStarSharp } from "react-icons/io5";
 
 export const generateMetadata = () => {
   const title = "About Discord Arena | Buy Aged & Old Discord Accounts";
@@ -70,44 +72,6 @@ export const generateMetadata = () => {
 const AboutPage = () => {
   return (
     <>
-      {/* <Head>
-        <title>About Us | Trusted Provider of Discord Accounts | Discord Arena</title>
-        <meta name="description" content="Learn about Discord Arena, your reliable source for aged and verified Discord accounts. Our commitment to quality and customer satisfaction sets us apart." />
-        <meta name="keywords" content="Trusted Discord account provider, Discord account supplier, about Discord Arena, premium accounts, Discord, Instagram, exclusive accounts, high-quality accounts, buy accounts" />
-        <meta name="author" content="Discord Arena" />
-        <meta property="og:url" content="https://www.discordarena.com/aboutus" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="About Us | Trusted Provider of Discord Accounts | Discord Arena" />
-        <meta property="og:description" content="Learn about Discord Arena, your reliable source for aged and verified Discord accounts. Our commitment to quality and customer satisfaction sets us apart." />
-        <meta property="og:image" content="URL_TO_YOUR_SOCIAL_SHARE_IMAGE" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@discordarena" />
-        <meta name="twitter:title" content="About Us | Trusted Provider of Discord Accounts | Discord Arena" />
-        <meta name="twitter:description" content="Learn about Discord Arena, your reliable source for aged and verified Discord accounts. Our commitment to quality and customer satisfaction sets us apart." />
-        <meta name="twitter:image" content="URL_TO_YOUR_SOCIAL_SHARE_IMAGE" />
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          name: "Discord Arena",
-          url: "https://www.discordarena.com/",
-          logo: "URL_TO_YOUR_LOGO_IMAGE",
-          description: "Empowering your digital presence with premium Discord, Instagram, and accounts. Join Discord Arena for exclusive and high-quality accounts tailored to your needs.",
-          foundingDate: "2022",
-          founders: [
-            {
-              "@type": "Person",
-              name: "Your Name",
-              url: "YOUR_PERSONAL_URL",
-            },
-          ],
-          contactPoint: {
-            "@type": "ContactPoint",
-            email: "YOUR_EMAIL",
-            contactType: "customer support",
-          },
-        })}</script>
-      </Head> */}
-
       <noscript>
         <iframe
           src="https://www.googletagmanager.com/ns.html?id=GTM-KM5VZD9Z"
@@ -185,9 +149,28 @@ const AboutPage = () => {
             transactions for a worry-free purchase.
           </p>
 
+          <div
+            className="flex-start mt-6 mb-7"
+            class="trustpilot-widget"
+            data-locale="en-US"
+            data-template-id="56278e9abfbbba0bdcd568bc"
+            data-businessunit-id="667868fbdf3459dd4652dd4e"
+            data-style-height="52px"
+            data-style-width="100%"
+          >
+            <Link
+              className="flex items-center gap-2"
+              href="https://www.trustpilot.com/review/discordarena.com"
+              target="_blank"
+              rel="noopener"
+            >
+              Check us at <IoStarSharp size={25} />{" "}
+              <span className="font-semibold text-xl">Trustpilot</span>
+            </Link>
+          </div>
           <Link
             href="/"
-            className="border-[#A5A6F6] border-[1px] text-[#A5A6F6] px-5 py-2 rounded-[20px] hover:bg-[#A5A6F6] hover:text-black hover:cursor-pointer transition-all duration-300 mt-10 font-semibold w-fit"
+            className="border-[#A5A6F6] border-[1px] text-[#A5A6F6] px-5 py-2 rounded-[20px] hover:bg-[#A5A6F6] hover:text-black hover:cursor-pointer transition-all duration-300 font-semibold w-fit"
           >
             GO TO HOME
           </Link>
