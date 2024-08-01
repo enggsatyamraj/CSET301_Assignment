@@ -13,7 +13,7 @@ export const data = {
   year: 2016,
   link: "https://yoyohoni.mysellix.io/product/640385f748c07",
   name: "Buy 2016 aged discord account",
-  price: 25,
+  price: 35,
   type: "Discord",
   discountPercentage: 15,
   smallShowFiveFeatures: {
@@ -29,7 +29,7 @@ export const data = {
     {
       question: "What is the price of Discord Account 2016 Plus?",
       answer:
-        "Get Discord Account 2016 Plus for just $1250 with an exclusive 15% discount. Elevate your Discord journey with enhanced verified status, supercharged servers, and exclusive Nitro perks.",
+        "Get Discord Account 2016 Plus for just $35 with an exclusive 15% discount. Elevate your Discord journey with enhanced verified status, supercharged servers, and exclusive Nitro perks.",
     },
     {
       question: "What are the features of Discord Account 2016 Plus?",

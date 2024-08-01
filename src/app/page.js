@@ -96,7 +96,7 @@ export default function Page() {
         "Active Users: Engage with users who are familiar with Discord.",
         "Customization Options: Enhance your server with unique features.",
       ],
-      price: "Starting from $25 per account",
+      price: "Starting from $35 per account",
       // callToAction:
       //   "Purchase your 2016 Discord Account today and watch your community grow!",
       link: "accounts/discord/buy-2016-aged-discord-account",
