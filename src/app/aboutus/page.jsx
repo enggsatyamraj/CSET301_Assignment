@@ -5,6 +5,8 @@ import Link from "next/link";
 import React from "react";
 import { IoStarSharp } from "react-icons/io5";
 import about_us from "../../../public/discord-arena-creatives/about-us.svg";
+import trustpilot_icon from "../../../public/icons/trustpilot-icon.png";
+
 
 export const generateMetadata = () => {
   const title = "About Discord Arena | Buy Aged & Old Discord Accounts";
@@ -175,9 +177,14 @@ const AboutPage = () => {
               target="_blank"
               rel="noopener"
             >
-              Check us at <IoStarSharp size={25} />{" "}
-              <span className="font-semibold text-xl">Trustpilot</span>
-            </Link>
+              Check us at
+            <Image
+              className="object-fit w-[10%] lg:w-[100px] h-auto lg:h-[25px] max-w-[300px]"
+              src={trustpilot_icon}
+              alt="trustpilot"
+            />
+
+              </Link>
           </div>
           <Link
             href="/"
