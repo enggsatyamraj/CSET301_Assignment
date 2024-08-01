@@ -118,7 +118,7 @@ export default function Page() {
         "Higher Engagement: Increased interaction from established users.",
         "Security Features: Enhanced security with older, more established accounts.",
       ],
-      price: "Starting from $10 per account",
+      price: "Starting from $15 per account",
       // callToAction:
       //   "Purchase your 2017 Discord Account now and elevate your server’s engagement!",
       link: "accounts/discord/buy-2017-aged-discord-account",

@@ -13,7 +13,7 @@ export const data = {
   year: 2017,
   link: "https://yoyohoni.mysellix.io/product/640578db1b33b",
   name: "Buy 2017 aged discord account",
-  price: 10,
+  price: 15,
   type: "Discord",
   discountPercentage: 20,
   smallShowFiveFeatures: {
