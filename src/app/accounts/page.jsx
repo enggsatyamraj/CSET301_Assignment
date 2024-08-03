@@ -306,9 +306,9 @@ export default function Page() {
 
       <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <p className="mb-4 text-2xl font-semibold">Discord Server</p>
+          <p className="mb-4 text-2xl font-semibold">Discord Server Boost</p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
-            {discordServerData.map((item, index) => {
+            {discordServerBoost.map((item, index) => {
               return (
                 <div
                   key={item.id}
@@ -324,17 +324,16 @@ export default function Page() {
                   </div>
 
                   <Link
-                    href={`accounts/discordserver/${item.name
+                    href={`accounts/discord-server-boost/${item.name
                       .split(" ")
                       .join("-")
                       .toLowerCase()}`}
                     className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
                   >
-                    Buy{" "}
+                    Buy {item.type}{" "}
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
-                      {item.year}
+                      {item.year} months
                     </span>{" "}
-                    Discord Server
                   </Link>
                   <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
                     <li>
@@ -349,7 +348,7 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
-                      href={`accounts/discordserver/${item.name
+                      href={`accounts/reddit/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}
@@ -371,11 +370,11 @@ export default function Page() {
           </div>
           <div className="mt-4 w-fit ml-auto">
             <Link
-              href={"/accounts/discordserver"}
+              href={"/accounts/discord-server-boost"}
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more servers
+              Show more Discord Server Boost
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
@@ -530,9 +529,9 @@ export default function Page() {
 
       <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
-          <p className="mb-4 text-2xl font-semibold">Discord Server Boost</p>
+          <p className="mb-4 text-2xl font-semibold">Discord Server</p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
-            {discordServerBoost.map((item, index) => {
+            {discordServerData.map((item, index) => {
               return (
                 <div
                   key={item.id}
@@ -548,16 +547,17 @@ export default function Page() {
                   </div>
 
                   <Link
-                    href={`accounts/discord-server-boost/${item.name
+                    href={`accounts/discordserver/${item.name
                       .split(" ")
                       .join("-")
                       .toLowerCase()}`}
                     className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
                   >
-                    Buy {item.type}{" "}
+                    Buy{" "}
                     <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
-                      {item.year} months
+                      {item.year}
                     </span>{" "}
+                    Discord Server
                   </Link>
                   <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
                     <li>
@@ -572,7 +572,7 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
-                      href={`accounts/reddit/${item.name
+                      href={`accounts/discordserver/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}
@@ -594,11 +594,11 @@ export default function Page() {
           </div>
           <div className="mt-4 w-fit ml-auto">
             <Link
-              href={"/accounts/discord-server-boost"}
+              href={"/accounts/discordserver"}
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more Discord Server Boost
+              Show more servers
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
