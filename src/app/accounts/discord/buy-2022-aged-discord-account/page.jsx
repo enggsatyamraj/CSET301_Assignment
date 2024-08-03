@@ -15,6 +15,7 @@ export const data = {
   name: "Buy 2022 aged discord account",
   price: 2.5,
   type: "Discord",
+  image: "2022-discord.svg",
   discountPercentage: 15,
   smallShowFiveFeatures: {
     feature1: "Cutting-Edge Features for Premium Discord Exploration",
@@ -261,9 +262,11 @@ const Page = () => {
             Buy {data.year} Discord Account{" "}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
-            <div className="flex h-[200px] w-[100%] items-center justify-center rounded-[10px] border-[1px] border-[#fff] text-3xl">
-              <FaDiscord size={100} className="dance text-[#A5A6F6]" />
-            </div>
+            <img
+              src={`../../discord-accounts/${data.image}`}
+              alt={data.name}
+              className="mb-4"
+            />
             <div>
               <p className="mb-5 text-2xl">
                 Buy cheap {data.year} Discord Account{" "}

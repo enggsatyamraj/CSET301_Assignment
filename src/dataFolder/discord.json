@@ -2,10 +2,11 @@
   {
     "id": 1,
     "year": 2015,
-    "link":"https://yoyohoni.mysellix.io/product/6404d6d693a97",
+    "link": "https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "type": "Discord",
     "name": "Buy 2015 aged discord account",
     "price": 100,
+    "image": "2015-discord.svg",
     "discountPercentage": 10,
     "smallShowFiveFeatures": {
       "feature1": "Verified credibility",
@@ -94,10 +95,11 @@
   {
     "id": 2,
     "year": 2016,
-    "link":"https://yoyohoni.mysellix.io/product/640385f748c07",
+    "link": "https://yoyohoni.mysellix.io/product/640385f748c07",
     "name": "Buy 2016 aged discord account",
     "price": 35,
     "type": "Discord",
+    "image": "2016-discord.svg",
     "discountPercentage": 15,
     "smallShowFiveFeatures": {
       "feature1": "Enhanced Verified Status for Ultimate Credibility",
@@ -186,10 +188,11 @@
   {
     "id": 3,
     "year": 2017,
-    "link":"https://yoyohoni.mysellix.io/product/640578db1b33b",
+    "link": "https://yoyohoni.mysellix.io/product/640578db1b33b",
     "name": "Buy 2017 aged discord account",
     "price": 15,
     "type": "Discord",
+    "image": "2017-discord.svg",
     "discountPercentage": 20,
     "smallShowFiveFeatures": {
       "feature1": "Elite Access to Exclusive Servers",
@@ -278,10 +281,11 @@
   {
     "id": 4,
     "year": 2018,
-    "link":"https://yoyohoni.mysellix.io/product/6404d34dc3489",
+    "link": "https://yoyohoni.mysellix.io/product/6404d34dc3489",
     "name": "Buy 2018 aged discord account",
     "price": 7,
     "type": "Discord",
+    "image": "2018-discord.svg",
     "discountPercentage": 15,
     "smallShowFiveFeatures": {
       "feature1": "Strategic Access to Premium Servers",
@@ -370,10 +374,11 @@
   {
     "id": 5,
     "year": 2019,
-    "link":"https://yoyohoni.mysellix.io/product/6404d0a8ed902",
+    "link": "https://yoyohoni.mysellix.io/product/6404d0a8ed902",
     "name": "Buy 2019 aged discord account",
     "price": 5,
     "type": "Discord",
+    "image": "2019-discord.svg",
     "discountPercentage": 20,
     "smallShowFiveFeatures": {
       "feature1": "Exclusivity with Premium Servers",
@@ -462,10 +467,11 @@
   {
     "id": 6,
     "year": 2020,
-    "link":"https://yoyohoni.mysellix.io/product/6404dead5497e",
+    "link": "https://yoyohoni.mysellix.io/product/6404dead5497e",
     "name": "Buy 2020 aged discord account",
     "price": 3.5,
     "type": "Discord",
+    "image": "2020-discord.svg",
     "discountPercentage": 15,
     "smallShowFiveFeatures": {
       "feature1": "Premium Access to Exclusive Servers",
@@ -554,10 +560,11 @@
   {
     "id": 7,
     "year": 2021,
-    "link":"https://yoyohoni.mysellix.io/product/6404dead5497e",
+    "link": "https://yoyohoni.mysellix.io/product/6404dead5497e",
     "name": "Buy 2021 aged discord account",
     "price": 3,
     "type": "Discord",
+    "image": "2021-discord.svg",
     "discountPercentage": 20,
     "smallShowFiveFeatures": {
       "feature1": "Elite Access to Premium Discord Realms",
@@ -646,10 +653,11 @@
   {
     "id": 8,
     "year": 2022,
-    "link":"https://yoyohoni.mysellix.io/product/6404d8ffe7127",
+    "link": "https://yoyohoni.mysellix.io/product/6404d8ffe7127",
     "name": "Buy 2022 aged discord account",
     "price": 2.5,
     "type": "Discord",
+    "image": "2022-discord.svg",
     "discountPercentage": 15,
     "smallShowFiveFeatures": {
       "feature1": "Cutting-Edge Features for Premium Discord Exploration",
@@ -738,10 +746,11 @@
   {
     "id": 9,
     "year": 2023,
-    "link":"https://yoyohoni.mysellix.io/product/6404d8ffe7127",
+    "link": "https://yoyohoni.mysellix.io/product/6404d8ffe7127",
     "name": "Buy 2023 aged discord account",
     "price": 2,
     "type": "Discord",
+    "image": "2023-discord.svg",
     "discountPercentage": 15,
     "smallShowFiveFeatures": {
       "feature1": "Immersive Access to Advanced Discord Realms",

@@ -159,12 +159,17 @@ export default function Page() {
                     index > 2 && "hidden"
                   }  h-fit overflow-hidden mt-3 rounded-md p-4`}
                 >
-                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
+                  {/* <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
                     <FaDiscord
                       size={50}
                       className="accountDance text-[#8474C4]"
                     />
-                  </div>
+                  </div> */}
+                  <img
+                    src={`../discord-accounts/${item.image}`}
+                    alt={item.name}
+                    className="mb-4"
+                  />
 
                   <Link
                     href={`accounts/discord/${item.name
