@@ -151,6 +151,7 @@ const Page = () => {
               </ul>
             </div>
           </div>
+
           <div className="mt-4 flex gap-5 mb-7">
             <span className="flex flex-1 items-center justify-center rounded-md bg-[#00C89D] px-3 py-[10px]  text-xl font-bold  text-black ">
               ${data.price}
