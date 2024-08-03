@@ -10,10 +10,10 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const data = {
   id: 4,
-  months: 9,
+  months: "9 - 13",
   link: "https://yoyohoni.mysellix.io/product/6404d6d693e01",
   type: "Reddit",
-  name: "Buy 9-Month Old Reddit Account",
+  name: "Buy 9-13 months Old Reddit Account",
   price: 75,
   discountPercentage: 12,
   smallShowFiveFeatures: {
@@ -24,38 +24,38 @@ export const data = {
     feature5: "Enhanced Content Visibility",
   },
   introduction:
-    "Welcome to Reddit Prestige – your premier destination for top-tier Reddit accounts. Our 9-month old Reddit accounts offer an established presence, reputable standing, and consistent activity, perfect for elevating your Reddit engagement.",
+    "Welcome to Reddit Prestige – your premier destination for top-tier Reddit accounts. Our 9-13 months old Reddit accounts offer an established presence, reputable standing, and consistent activity, perfect for elevating your Reddit engagement.",
   questionAnswerArray: [
     {
-      question: "What is the price of 9-Month Old Reddit Accounts?",
+      question: "What is the price of 9-13 months Old Reddit Accounts?",
       answer:
-        "Acquire 9-Month Old Reddit Accounts for $75 with a 12% discount. Enhance your Reddit presence with an established account, reputable standing, and consistent activity.",
+        "Acquire 9-13 months Old Reddit Accounts for $75 with a 12% discount. Enhance your Reddit presence with an established account, reputable standing, and consistent activity.",
     },
     {
-      question: "What are the features of 9-Month Old Reddit Accounts?",
+      question: "What are the features of 9-13 months Old Reddit Accounts?",
       answer:
-        "9-Month Old Reddit Accounts feature an established presence, reputable standing, and consistent activity. Enjoy membership in exclusive subreddits and enhanced content visibility.",
+        "9-13 months Old Reddit Accounts feature an established presence, reputable standing, and consistent activity. Enjoy membership in exclusive subreddits and enhanced content visibility.",
     },
     {
-      question: "What are the benefits of 9-Month Old Reddit Accounts?",
+      question: "What are the benefits of 9-13 months Old Reddit Accounts?",
       answer:
-        "Benefit from an established presence, reputable standing, and consistent activity with 9-Month Old Reddit Accounts. Gain membership in exclusive subreddits and enjoy enhanced content visibility.",
+        "Benefit from an established presence, reputable standing, and consistent activity with 9-13 months Old Reddit Accounts. Gain membership in exclusive subreddits and enjoy enhanced content visibility.",
     },
     {
       question:
-        "What is the discount percentage for 9-Month Old Reddit Accounts?",
+        "What is the discount percentage for 9-13 months Old Reddit Accounts?",
       answer:
-        "Get 9-Month Old Reddit Accounts at a 12% discount – a valuable opportunity to boost your Reddit experience with an established presence and reputable standing.",
+        "Get 9-13 months Old Reddit Accounts at a 12% discount – a valuable opportunity to boost your Reddit experience with an established presence and reputable standing.",
     },
     {
-      question: "What is the introduction of 9-Month Old Reddit Accounts?",
+      question: "What is the introduction of 9-13 months Old Reddit Accounts?",
       answer:
-        "Introducing 9-Month Old Reddit Accounts – your premium choice for an established presence, reputable standing, and consistent activity. Join Reddit Prestige and elevate your digital presence.",
+        "Introducing 9-13 months Old Reddit Accounts – your premium choice for an established presence, reputable standing, and consistent activity. Join Reddit Prestige and elevate your digital presence.",
     },
     {
-      question: "Why purchase 9-Month Old Reddit Accounts?",
+      question: "Why purchase 9-13 months Old Reddit Accounts?",
       answer:
-        "Unlock advanced features, reputable standing, and consistent activity with 9-Month Old Reddit Accounts. Gain membership in exclusive subreddits for comprehensive community engagement.",
+        "Unlock advanced features, reputable standing, and consistent activity with 9-13 months Old Reddit Accounts. Gain membership in exclusive subreddits for comprehensive community engagement.",
     },
     {
       question: "Are there any Risks Associated with Buying Reddit Accounts?",
@@ -92,29 +92,30 @@ export const data = {
   ],
   faq: [
     {
-      question: "How do I purchase 9-Month Old Reddit Accounts?",
+      question: "How do I purchase 9-13 months Old Reddit Accounts?",
       answer:
         "Visit our official website or contact our customer support for secure transactions. Reddit Prestige ensures a smooth purchasing experience.",
     },
     {
       question:
-        "What payment methods are accepted for buying 9-Month Old Reddit Accounts?",
+        "What payment methods are accepted for buying 9-13 months Old Reddit Accounts?",
       answer:
         "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
     },
     {
-      question: "Is it safe to buy 9-Month Old Reddit Accounts?",
+      question: "Is it safe to buy 9-13 months Old Reddit Accounts?",
       answer:
-        "Yes, it is safe to buy 9-Month Old Reddit Accounts from us. Prioritize security, and follow best practices for a secure and positive purchasing experience.",
+        "Yes, it is safe to buy 9-13 months Old Reddit Accounts from us. Prioritize security, and follow best practices for a secure and positive purchasing experience.",
     },
     {
-      question: "Can I customize the features of 9-Month Old Reddit Accounts?",
+      question:
+        "Can I customize the features of 9-13 months Old Reddit Accounts?",
       answer:
         "While features are predefined, Reddit Prestige continually enhances offerings. Contact our customer support for specific customization requests, and we'll strive to accommodate your needs.",
     },
     {
       question:
-        "What support is available after purchasing 9-Month Old Reddit Accounts?",
+        "What support is available after purchasing 9-13 months Old Reddit Accounts?",
       answer:
         "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help.",
     },
@@ -223,58 +224,6 @@ const Page = () => {
           style={{ display: "none", visibility: "hidden" }}
         ></iframe>
       </noscript>
-      {/* <Head>
-        <title>Buy {data.months} old Reddit Accounts | Discord Arena</title>
-        <meta name="description" content={data.introduction} />
-        <meta property="og:title" content={data.name} />
-        <meta property="og:description" content={data.introduction} />
-        <meta
-          property="og:image"
-          content="https://example.com/photos/1x1/photo.jpg"
-        />
-        <meta property="og:url" content={data.link} />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Your Website Name" />
-        <meta name="twitter:title" content={data.name} />
-        <meta name="twitter:description" content={data.introduction} />
-        <meta
-          name="twitter:image"
-          content="https://example.com/photos/1x1/photo.jpg"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "Product",
-              "name": "${data.name}",
-              "image": "https://example.com/photos/1x1/photo.jpg",
-              "description": "${data.introduction}",
-              "brand": {
-                "@type": "Thing",
-                "name": "Discord"
-              },
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "${calculateAverageRating(reviews)}",
-                "reviewCount": "${reviews.length}"
-              },
-              "offers": {
-                "@type": "Offer",
-                "url": "${data.link}",
-                "priceCurrency": "USD",
-                "price": "${data.price}",
-                "priceValidUntil": "2025-12-31",
-                "availability": "https://schema.org/InStock",
-                "seller": {
-                  "@type": "Organization",
-                  "name": "YoYoHoni"
-                }
-              }
-            }
-          `}
-        </script>
-      </Head> */}
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
           <p className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
