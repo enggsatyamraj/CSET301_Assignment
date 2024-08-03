@@ -7,7 +7,6 @@ import { IoStarSharp } from "react-icons/io5";
 import about_us from "../../../public/discord-arena-creatives/about-us.svg";
 import trustpilot_icon from "../../../public/icons/trustpilot-icon.png";
 
-
 export const generateMetadata = () => {
   const title = "About Discord Arena | Buy Aged & Old Discord Accounts";
   const description =
@@ -163,7 +162,7 @@ const AboutPage = () => {
           </p>
 
           <div
-            className="flex-start mt-6 mb-7"
+            className="flex-start items-center mt-6 mb-7"
             class="trustpilot-widget"
             data-locale="en-US"
             data-template-id="56278e9abfbbba0bdcd568bc"
@@ -178,13 +177,12 @@ const AboutPage = () => {
               rel="noopener"
             >
               Check us at
-            <Image
-              className="object-fit w-[10%] lg:w-[100px] h-auto lg:h-[25px] max-w-[300px]"
-              src={trustpilot_icon}
-              alt="trustpilot"
-            />
-
-              </Link>
+              <Image
+                className="w-[100px]"
+                src={trustpilot_icon}
+                alt="trustpilot"
+              />
+            </Link>
           </div>
           <Link
             href="/"
