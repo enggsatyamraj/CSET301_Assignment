@@ -210,7 +210,7 @@ export default function Page() {
           </div>
           <div className="mt-4 w-fit ml-auto">
             <Link
-              href={"/accounts/discord"}
+              href={"/accounts/buy-discord-accounts"}
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >

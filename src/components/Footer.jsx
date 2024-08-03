@@ -12,13 +12,19 @@ const Footer = () => {
             About us
           </Link>
           <br />
-          <Link href={"/"} area-label='go Homepage' className="opacity-70 text-[14px] my-2">
+          <Link
+            href={"/"}
+            area-label="go Homepage"
+            className="opacity-70 text-[14px] my-2"
+          >
             Home
           </Link>
           <br />
-          <Link href={"/accounts"} 
-          area-label="See Accounts Tab"
-          className="opacity-70 text-[14px] my-2">
+          <Link
+            href={"/accounts"}
+            area-label="See Accounts Tab"
+            className="opacity-70 text-[14px] my-2"
+          >
             Accounts
           </Link>
           <br />
@@ -31,7 +37,7 @@ const Footer = () => {
           <p className="font-bold text-xl mb-4">Services</p>
           <br />
           <Link
-            href={"/accounts/discord"}
+            href={"/accounts/buy-discord-accounts"}
             area-label="See Discord Accounts"
             className="opacity-70 text-[14px] my-2"
           >
@@ -44,12 +50,11 @@ const Footer = () => {
 
             className="opacity-70 text-[14px] my-2"
           >
-             Instagram Accounts
+            Instagram Accounts
           </Link>
           <br />
           <Link
             href={"/accounts/discordserver"}
-
             // area-label="See Instagram Accounts"
 
             className="opacity-70 text-[14px] my-2"
@@ -97,7 +102,9 @@ const Footer = () => {
           </Link>
           <br />
           <Link
-            href={"https://www.facebook.com/profile.php?id=61561779807507&mibextid=LQQJ4d"}
+            href={
+              "https://www.facebook.com/profile.php?id=61561779807507&mibextid=LQQJ4d"
+            }
             target="_blank"
             className="opacity-70 text-[14px] my-2"
           >
