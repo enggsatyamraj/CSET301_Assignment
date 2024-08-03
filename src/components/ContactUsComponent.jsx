@@ -1,21 +1,16 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import order_completed from "../../public/order-completed.svg";
-import form_submit from "../../public/discord-arena-creatives/contact-us.svg";
+import order_completed from "../../public/discord-arena-creatives/contact-us.svg";
+// import form_submit from "../../public/discord-arena-creatives/contact-us.svg";
+import form_submit from "../../public/Group.svg";
 import Link from "next/link";
 
 const ContactUsComponent = () => {
   const [result, setResult] = useState("");
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    const isFormSubmitted = localStorage.getItem("formSubmitted");
-    if (isFormSubmitted) {
-      setFormSubmitted(false);
-    }
-  }, []);
+  const [countdown, setCountdown] = useState(0);
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -37,9 +32,21 @@ const ContactUsComponent = () => {
         setResult("Form Submitted Successfully");
         event.target.reset();
         setFormSubmitted(true);
-        localStorage.setItem("formSubmitted", true);
+        setCountdown(5); // Start countdown from 5 seconds
+
+        // Reset form submission state after 5 seconds
+        const countdownInterval = setInterval(() => {
+          setCountdown((prevCountdown) => {
+            if (prevCountdown === 1) {
+              clearInterval(countdownInterval);
+              setFormSubmitted(false);
+              setResult("");
+              return 0;
+            }
+            return prevCountdown - 1;
+          });
+        }, 1000);
       } else {
-        //console.log("Error", data);
         setResult(data.message);
       }
     } catch (error) {
@@ -49,6 +56,7 @@ const ContactUsComponent = () => {
       setLoading(false);
     }
   };
+
   return (
     <div>
       {formSubmitted ? (
@@ -57,26 +65,29 @@ const ContactUsComponent = () => {
             Thank you for contacting us! We appreciate you taking the time to
             reach out.
           </p>
-
           <p className="text-center mb-2 md:w-[70%] sm:w-[85%] w-[98%] opacity-80">
             One of our representatives will review your inquiry and respond as
             soon as possible. Our typical response time is within 24-48 hours,
             Monday through Friday.
           </p>
-
-          <p className="text-center mb-2 md:w-[70%] sm:w-[85%] w-[98%] opacity-80">
+          {/* <p className="text-center mb-2 md:w-[70%] sm:w-[85%] w-[98%] opacity-80">
             If your inquiry is regarding an order, you can also check the status
             by visiting the link below
           </p>
-
           <Link
             target="_blank"
             className="mb-6 bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
             href={"https://yoyohoni.mysellix.io/contact"}
           >
             Order inquiry
-          </Link>
-
+          </Link> */}
+          <p className="text-center mt-4 mb-5 font-semibold opacity-80">
+            You can submit another form in{" "}
+            <span className="font-bold text-[20px] text-[#a5a6f6]">
+              {countdown}
+            </span>{" "}
+            seconds.
+          </p>
           <Image
             src={form_submit}
             alt="form submitted"
@@ -90,38 +101,37 @@ const ContactUsComponent = () => {
             have. Our knowledgeable team is ready to provide you with the
             information and support you need.
           </p>
-
           <p className="md:text-[1.05rem] opacity-90 text-[0.9rem] mt-3">
             To ensure we can provide you with the best possible service, please
             have the following details ready:
           </p>
-
           <ul className="opacity-70 text-[0.85rem]">
             <li> - Your name, email and phone number</li>
             <li> - A clear and concise description of your inquiry</li>
           </ul>
-
           <p className="mt-3 mb-5 opacity-80 md:w-[60%]">
             By providing us with these details upfront, we can streamline the
             process and address your query more efficiently.
           </p>
-          <p className="mb-2  opacity-80">
+          <p className="mb-5 opacity-80">
             If your inquiry is regarding an order, you can also check the status
             by visiting the link below
           </p>
           <Link
             target="_blank"
-            className="mb-3 bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
+            className="mb-3 mt-[10px] bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
             href={"https://yoyohoni.mysellix.io/contact"}
           >
             Order inquiry
           </Link>
-          <div className="flex flex-col lg:flex-row items-center mt-4 gap-4 px-5">
-            <Image
-              className="flex-[1]"
-              src={order_completed}
-              alt="buying discord account."
-            />
+          <div className="flex flex-col lg:flex-row items-center mt-12 gap-4 px-5">
+            <div className="flex-[1] w-full flex items-center justify-center">
+              <Image
+                className="lg:w-[60%] w-[80%] max-w-[300px]"
+                src={order_completed}
+                alt="buying discord account."
+              />
+            </div>
             <div className="w-full flex-[1]">
               <form onSubmit={onSubmit}>
                 <div className="flex items-center mb-4 gap-5">
@@ -174,22 +184,6 @@ const ContactUsComponent = () => {
                     required
                   />
                 </div>
-                {/* <div className="mb-4">
-                  <label
-                    htmlFor="phone_number"
-                    className="block mb-[2px] text-md font-medium text-white dark:text-white"
-                  >
-                    Phone number
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone_number"
-                    name="phone_number"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                    placeholder="+916202632130"
-                    required
-                  />
-                </div> */}
                 <div>
                   <label
                     htmlFor="message"
@@ -205,9 +199,10 @@ const ContactUsComponent = () => {
                     required
                   />
                 </div>
-                <button className="bg-[#8b7bcf]  text-white font-bold py-2 px-2 w-full mt-6 rounded-lg">
+                <button className="bg-[#8b7bcf] text-white font-bold py-2 px-2 w-full mt-6 rounded-lg">
                   {loading ? "Sending..." : "Send Message"}
                 </button>
+                <p className="mt-2 text-white">{result}</p>
               </form>
             </div>
           </div>
