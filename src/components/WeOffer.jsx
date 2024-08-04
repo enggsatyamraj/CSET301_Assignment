@@ -107,9 +107,7 @@ const WeOffer = () => {
                     <TbBrandMinecraft size={30} className="rounded-full" />
                   </span>
                   <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
-                    Custom Reaction Services
-                    <br />
-                    for Discord
+                  Custom Reaction Services for Discord
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
