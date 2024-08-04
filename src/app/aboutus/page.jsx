@@ -161,29 +161,29 @@ const AboutPage = () => {
             transactions for a worry-free purchase.
           </p>
 
-          <div
+          {/* <div
             className="flex-start items-center mt-6 mb-7"
-            class="trustpilot-widget"
+            className="trustpilot-widget"
             data-locale="en-US"
             data-template-id="56278e9abfbbba0bdcd568bc"
             data-businessunit-id="667868fbdf3459dd4652dd4e"
             data-style-height="52px"
             data-style-width="100%"
+          > */}
+          <Link
+            className="flex items-center gap-2 mb-5"
+            href="https://www.trustpilot.com/review/discordarena.com"
+            target="_blank"
+            rel="noopener"
           >
-            <Link
-              className="flex items-center gap-2"
-              href="https://www.trustpilot.com/review/discordarena.com"
-              target="_blank"
-              rel="noopener"
-            >
-              Check us at
-              <Image
-                className="w-[100px]"
-                src={trustpilot_icon}
-                alt="trustpilot"
-              />
-            </Link>
-          </div>
+            Check us at
+            <Image
+              className="w-[100px]"
+              src={trustpilot_icon}
+              alt="trustpilot"
+            />
+          </Link>
+          {/* </div> */}
           <Link
             href="/"
             className="border-[#A5A6F6] border-[1px] text-[#A5A6F6] px-5 py-2 rounded-[20px] hover:bg-[#A5A6F6] hover:text-black hover:cursor-pointer transition-all duration-300 font-semibold w-fit"
