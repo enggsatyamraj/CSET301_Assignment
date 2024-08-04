@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const baseUrl = "http://discordarena.com";
+const baseUrl = "https://discordarena.com";
 
 // Get current date in YYYY-MM-DD format
 const getCurrentDate = () => {
@@ -66,7 +66,7 @@ const generateSitemap = () => {
   sitemap += "</urlset>";
 
   try {
-    fs.writeFileSync(path.join(__dirname, "src/app", "sitemap.xml"), sitemap);
+    fs.writeFileSync(path.join(__dirname, "public/", "sitemap.xml"), sitemap);
     console.log("Sitemap generated successfully.");
   } catch (error) {
     console.error("Error generating sitemap:", error);
