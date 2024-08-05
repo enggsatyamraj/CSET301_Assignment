@@ -12,7 +12,7 @@ const getCurrentDate = () => {
   return `${year}-${month}-${day}`;
 };
 
-const generateSitemap = () => {
+const generateSitemapContent = () => {
   const staticUrls = [
     { url: "/", priority: 1.0 },
     { url: "/accounts", priority: 0.9 },
@@ -65,12 +65,23 @@ const generateSitemap = () => {
 
   sitemap += "</urlset>";
 
+  return sitemap;
+};
+
+const writeSitemapToFile = (sitemap, filename) => {
+  const filePath = path.join(__dirname, "public", filename);
   try {
-    fs.writeFileSync(path.join(__dirname, "public/", "sitemap.xml"), sitemap);
-    console.log("Sitemap generated successfully.");
+    fs.writeFileSync(filePath, sitemap);
+    console.log(`${filename} generated successfully.`);
   } catch (error) {
-    console.error("Error generating sitemap:", error);
+    console.error(`Error generating ${filename}:`, error);
   }
+};
+
+const generateSitemap = () => {
+  const sitemapContent = generateSitemapContent();
+  writeSitemapToFile(sitemapContent, "sitemap.xml");
+  writeSitemapToFile(sitemapContent, "sitemap-0.xml");
 };
 
 generateSitemap();
