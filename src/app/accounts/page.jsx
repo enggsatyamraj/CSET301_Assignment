@@ -157,7 +157,7 @@ export default function Page() {
                   key={item.id}
                   className={`border-[1px] ${
                     index > 2 && "hidden"
-                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
+                  }  h-full overflow-hidden mt-3 rounded-md p-4`}
                 >
                   {/* <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
                     <FaDiscord
@@ -236,14 +236,13 @@ export default function Page() {
                   key={item.id}
                   className={`border-[1px] ${
                     index > 2 && "hidden"
-                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
+                  }  h-full overflow-hidden mt-3 rounded-md p-4`}
                 >
-                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
-                    <FaInstagram
-                      size={50}
-                      className="accountDance text-[#8474C4]"
-                    />
-                  </div>
+                  <img
+                    src={`../discord-accounts/${item.image}`}
+                    alt={item.name}
+                    className="mb-4"
+                  />
 
                   <Link
                     href={`accounts/instagram/${item.name
@@ -307,21 +306,20 @@ export default function Page() {
       <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
           <p className="mb-4 text-2xl font-semibold">Discord Server Boost</p>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
+          <div className="grid grid-cols-1 h-full gap-4 sm:grid-cols-2 mb-4 lg:grid-cols-3 ">
             {discordServerBoost.map((item, index) => {
               return (
                 <div
                   key={item.id}
                   className={`border-[1px] ${
                     index > 2 && "hidden"
-                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
+                  } overflow-hidden mt-3 h-full rounded-md p-4`}
                 >
-                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
-                    <FaDiscord
-                      size={50}
-                      className="accountDance text-[#8474C4]"
-                    />
-                  </div>
+                  <img
+                    src={`../discord-accounts/${item.image}`}
+                    alt={item.name}
+                    className="mb-4"
+                  />
 
                   <Link
                     href={`accounts/discord-server-boost/${item.name
@@ -384,21 +382,20 @@ export default function Page() {
       <div className="bg-normal w-[100%]">
         <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
           <p className="mb-4 text-2xl font-semibold">Reddit Accounts</p>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mb-4 lg:grid-cols-3 ">
             {redditAccountData.map((item, index) => {
               return (
                 <div
                   key={item.id}
                   className={`border-[1px] ${
                     index > 2 && "hidden"
-                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
+                  }  h-full overflow-hidden mt-3 rounded-md p-4`}
                 >
-                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
-                    <FaDiscord
-                      size={50}
-                      className="accountDance text-[#8474C4]"
-                    />
-                  </div>
+                  <img
+                    src={`../discord-accounts/${item.image}`}
+                    alt={item.name}
+                    className="mb-4"
+                  />
 
                   <Link
                     href={`accounts/reddit/${item.name
@@ -469,14 +466,13 @@ export default function Page() {
                   key={item.id}
                   className={`border-[1px] ${
                     index > 2 && "hidden"
-                  }  h-fit overflow-hidden mt-3 rounded-md p-4`}
+                  }  h-full overflow-hidden mt-3 rounded-md p-4`}
                 >
-                  <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
-                    <FaDiscord
-                      size={50}
-                      className="accountDance text-[#8474C4]"
-                    />
-                  </div>
+                  <img
+                    src={`../discord-accounts/${item.image}`}
+                    alt={item.name}
+                    className="mb-4"
+                  />
 
                   <Link
                     href={`accounts/discordserver/${item.name

@@ -6,6 +6,7 @@
     "type": "Discord Server",
     "name": "Buy 30 Server Boosts",
     "price": 30,
+    "image": "2015-discord-server.svg",
     "discountPercentage": 10,
     "smallShowFiveFeatures": {
       "feature1": "Verified Membership",
@@ -96,6 +97,7 @@
     "link": "https://yoyohoni.mysellix.io/product/6404d6d693a97",
     "type": "Discord Server",
     "name": "Buy 10 Server Boosts",
+    "image": "2016-discord-server.svg",
     "price": 30,
     "discountPercentage": 10,
     "smallShowFiveFeatures": {

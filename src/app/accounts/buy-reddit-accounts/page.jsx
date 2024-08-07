@@ -117,12 +117,11 @@ const page = () => {
                     key={item.id}
                     className={`border-[1px] overflow-hidden rounded-md p-4`}
                   >
-                    <div className="flex h-[150px] w-[100%] mb-3 items-center justify-center rounded-sm bg-[#BBA8FD]">
-                      <FaDiscord
-                        size={50}
-                        className="accountDance text-[#8474C4]"
-                      />
-                    </div>
+                    <img
+                      src={`../discord-accounts/${item.image}`}
+                      alt={item.name}
+                      className="mb-4"
+                    />
 
                     <Link
                       href={`/accounts/reddit/${item.name

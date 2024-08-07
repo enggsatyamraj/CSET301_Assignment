@@ -14,6 +14,7 @@ export const data = {
   link: "https://yoyohoni.mysellix.io/product/6404d6d693d00",
   type: "Reddit",
   name: "Buy 11-Month Old Reddit Account",
+  image: "11-months-reddit-acounts.svg",
   price: 85,
   discountPercentage: 18,
   smallShowFiveFeatures: {
@@ -290,9 +291,11 @@ const Page = () => {
             Buy {data.months} Reddit Accounts{" "}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
-            <div className="flex h-[200px] w-[100%] items-center justify-center rounded-[10px] border-[1px] border-[#fff] text-3xl">
-              <FaDiscord size={100} className="dance text-[#A5A6F6]" />
-            </div>
+            <img
+              src={`../../discord-accounts/${data.image}`}
+              alt={data.name}
+              className="mb-4"
+            />
             <div>
               <p className="mb-5 text-2xl">
                 Buy cheap {data.months} months old Reddit Accounts{" "}

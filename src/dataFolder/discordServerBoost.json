@@ -4,10 +4,11 @@
     "year": "14x3",
     "type": "Ultimate Server Boost",
     "name": "Ultimate Server Boost (14 x 3 Months)",
-    "price": 20.00,
+    "price": 20.0,
+    "image": "14x3-months-server-boost.svg",
     "link": "https://yoyohoni.mysellix.io/product/discord-server-boost-14x-3-months",
     "discountPercentage": 15,
-   
+
     "smallShowFiveFeatures": {
       "feature1": "Verified Account: Enhance your server’s credibility.",
       "feature2": "Advanced Capabilities: Access exclusive features with boosted servers.",
@@ -16,72 +17,72 @@
       "feature5": "Useful Bots Integration: Improve functionality with essential bots."
     },
     "introduction": "Elevate your Discord experience with our premium Discord Server Boost packages. Choose from our exclusive plans to unlock advanced features and perks.",
-  "questionAnswerArray": [
-    {
-      "question": "What is the price of Discord Arena's server boosters?",
-      "answer": "Discord Arena offers two types of server boosters: Server Boost 14x3 months for $20 and Server Boost 14x1 month for $10. These boosters provide exceptional value and features, enhancing your Discord server experience with boosted capabilities, advanced functionalities, and exclusive perks."
-    },
-    {
-      "question": "What are the features of Discord Arena's server boosters?",
-      "answer": "Discord Arena's server boosters come packed with features that elevate your Discord experience. With the Server Boost 14x3 months, you get three months of enhanced server capabilities for just $20. The Server Boost 14x1 month offers the same high-quality boost for one month at $10. Both options include advanced server functionalities, custom emojis, animated avatars, and more, ensuring your server stands out and operates smoothly."
-    },
-    {
-      "question": "What are the benefits of using Discord Arena's server boosters?",
-      "answer": "Using Discord Arena's server boosters provides numerous benefits, including enhanced server capabilities, improved user experience, exclusive perks, and better server management. Whether you choose the 14x3 months or 14x1 month option, you’ll enjoy custom emojis, animated avatars, and boosted server performance, making it a valuable investment for any Discord community."
-    },
-    {
-      "question": "What discount offers are available for Discord Arena's server boosters?",
-      "answer": "Currently, Discord Arena offers its Server Boost 14x3 months for just $20 and Server Boost 14x1 month for $10. These competitive prices provide a significant value for the premium features and benefits included, such as advanced server capabilities, custom emojis, and animated avatars, making it an attractive opportunity to enhance your Discord experience."
-    },
-    {
-      "question": "Why should someone purchase Discord Arena's server boosters?",
-      "answer": "Purchasing Discord Arena's server boosters is a strategic decision to enhance your Discord server’s performance and appeal. These boosters provide advanced server capabilities, exclusive perks, and a seamless user experience. With affordable pricing options for both 3-month and 1-month boosts, you can ensure your server remains competitive and engaging for your community."
-    },
-    {
-      "question": "Are there any risks associated with buying server boosters from Discord Arena?",
-      "answer": "Buying server boosters from Discord Arena is safe and reliable. We prioritize the security and privacy of our customers, ensuring all transactions are conducted through reputable and secure channels. However, it’s important to follow best practices and purchase through official and trusted sources to avoid any potential issues."
-    }
-  ],
-  "features": [
-    {
-      "title": "Enhanced Server Capabilities",
-      "description": "Our server boosters offer advanced features that enhance your server's performance, making management and growth more efficient and effective."
-    },
-    {
-      "title": "Custom Emojis and Animated Avatars",
-      "description": "Enjoy exclusive perks such as custom emojis and animated avatars, adding a unique and personalized touch to your Discord server."
-    },
-    {
-      "title": "Affordable Pricing",
-      "description": "Choose between our 14x3 months booster for $20 or the 14x1 month booster for $10, both offering exceptional value for premium features."
-    },
-    {
-      "title": "Seamless Integration",
-      "description": "Our boosters integrate seamlessly with your existing server setup, ensuring a smooth and enjoyable user experience without any disruptions."
-    }
-  ],
-  "faq": [
-    {
-      "question": "How do I purchase a server booster from Discord Arena?",
-      "answer": "To purchase a server booster, visit our official website or contact our customer support. We ensure secure and reliable transactions for a hassle-free purchasing experience."
-    },
-    {
-      "question": "What payment methods are accepted for buying a server booster?",
-      "answer": "We accept various payment methods, including credit cards, PayPal, and other secure online payment options. Please check our website for the complete list of accepted payment methods."
-    },
-    {
-      "question": "Is it safe to buy a server booster from Discord Arena?",
-      "answer": "Yes, it is safe to buy a server booster from Discord Arena. We prioritize the security and privacy of our customers, conducting all transactions through reputable and secure channels."
-    },
-    {
-      "question": "Can I customize the features of my server booster?",
-      "answer": "While the features of our server boosters are predefined, we are constantly working to enhance our offerings. If you have specific customization requests, feel free to reach out to our customer support, and we’ll do our best to accommodate your needs."
-    },
-    {
-      "question": "What support is available after purchasing a server booster?",
-      "answer": "We provide ongoing support to our customers after they purchase a server booster. If you have any questions, issues, or need assistance, you can contact our customer support, and our team will be happy to help you."
-    }
-  ],
+    "questionAnswerArray": [
+      {
+        "question": "What is the price of Discord Arena's server boosters?",
+        "answer": "Discord Arena offers two types of server boosters: Server Boost 14x3 months for $20 and Server Boost 14x1 month for $10. These boosters provide exceptional value and features, enhancing your Discord server experience with boosted capabilities, advanced functionalities, and exclusive perks."
+      },
+      {
+        "question": "What are the features of Discord Arena's server boosters?",
+        "answer": "Discord Arena's server boosters come packed with features that elevate your Discord experience. With the Server Boost 14x3 months, you get three months of enhanced server capabilities for just $20. The Server Boost 14x1 month offers the same high-quality boost for one month at $10. Both options include advanced server functionalities, custom emojis, animated avatars, and more, ensuring your server stands out and operates smoothly."
+      },
+      {
+        "question": "What are the benefits of using Discord Arena's server boosters?",
+        "answer": "Using Discord Arena's server boosters provides numerous benefits, including enhanced server capabilities, improved user experience, exclusive perks, and better server management. Whether you choose the 14x3 months or 14x1 month option, you’ll enjoy custom emojis, animated avatars, and boosted server performance, making it a valuable investment for any Discord community."
+      },
+      {
+        "question": "What discount offers are available for Discord Arena's server boosters?",
+        "answer": "Currently, Discord Arena offers its Server Boost 14x3 months for just $20 and Server Boost 14x1 month for $10. These competitive prices provide a significant value for the premium features and benefits included, such as advanced server capabilities, custom emojis, and animated avatars, making it an attractive opportunity to enhance your Discord experience."
+      },
+      {
+        "question": "Why should someone purchase Discord Arena's server boosters?",
+        "answer": "Purchasing Discord Arena's server boosters is a strategic decision to enhance your Discord server’s performance and appeal. These boosters provide advanced server capabilities, exclusive perks, and a seamless user experience. With affordable pricing options for both 3-month and 1-month boosts, you can ensure your server remains competitive and engaging for your community."
+      },
+      {
+        "question": "Are there any risks associated with buying server boosters from Discord Arena?",
+        "answer": "Buying server boosters from Discord Arena is safe and reliable. We prioritize the security and privacy of our customers, ensuring all transactions are conducted through reputable and secure channels. However, it’s important to follow best practices and purchase through official and trusted sources to avoid any potential issues."
+      }
+    ],
+    "features": [
+      {
+        "title": "Enhanced Server Capabilities",
+        "description": "Our server boosters offer advanced features that enhance your server's performance, making management and growth more efficient and effective."
+      },
+      {
+        "title": "Custom Emojis and Animated Avatars",
+        "description": "Enjoy exclusive perks such as custom emojis and animated avatars, adding a unique and personalized touch to your Discord server."
+      },
+      {
+        "title": "Affordable Pricing",
+        "description": "Choose between our 14x3 months booster for $20 or the 14x1 month booster for $10, both offering exceptional value for premium features."
+      },
+      {
+        "title": "Seamless Integration",
+        "description": "Our boosters integrate seamlessly with your existing server setup, ensuring a smooth and enjoyable user experience without any disruptions."
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I purchase a server booster from Discord Arena?",
+        "answer": "To purchase a server booster, visit our official website or contact our customer support. We ensure secure and reliable transactions for a hassle-free purchasing experience."
+      },
+      {
+        "question": "What payment methods are accepted for buying a server booster?",
+        "answer": "We accept various payment methods, including credit cards, PayPal, and other secure online payment options. Please check our website for the complete list of accepted payment methods."
+      },
+      {
+        "question": "Is it safe to buy a server booster from Discord Arena?",
+        "answer": "Yes, it is safe to buy a server booster from Discord Arena. We prioritize the security and privacy of our customers, conducting all transactions through reputable and secure channels."
+      },
+      {
+        "question": "Can I customize the features of my server booster?",
+        "answer": "While the features of our server boosters are predefined, we are constantly working to enhance our offerings. If you have specific customization requests, feel free to reach out to our customer support, and we’ll do our best to accommodate your needs."
+      },
+      {
+        "question": "What support is available after purchasing a server booster?",
+        "answer": "We provide ongoing support to our customers after they purchase a server booster. If you have any questions, issues, or need assistance, you can contact our customer support, and our team will be happy to help you."
+      }
+    ],
     "testimonials": [
       {
         "name": "Monika Patel",
@@ -105,7 +106,8 @@
     "year": "14x1",
     "type": "Essential Server Boost",
     "name": "Essential Server Boost (14 x 1 Months)",
-    "price": 10.00,
+    "image": "14x1-months-server-boost.svg",
+    "price": 10.0,
     "link": "https://yoyohoni.mysellix.io/product/discord-server-boost-14x-1-months",
     "discountPercentage": 25,
 
@@ -148,27 +150,27 @@
       }
     ],
     "features": [
-  {
-    "title": "Verified Discord Account",
-    "description": "Our verified Discord account offers enhanced credibility and trust, elevating your presence within the Discord community and boosting your reputation."
-  },
-  {
-    "title": "Boosted Server Access",
-    "description": "Gain exclusive access to boosted servers, designed to enhance server management and growth with advanced features and capabilities."
-  },
-  {
-    "title": "Active Nitro Subscription Benefits",
-    "description": "Enjoy the full range of Nitro subscription perks, including custom emojis, animated avatars, and additional server boosts, for a premium Discord experience."
-  },
-  {
-    "title": "Ownership of High-Traffic Servers",
-    "description": "Acquire and manage popular Discord servers with high engagement, connecting you with a dynamic and active community."
-  },
-  {
-    "title": "Integration of Essential Bots",
-    "description": "Benefit from the integration of essential bots, optimizing server functionality and providing a seamless, enhanced experience for all users."
-  }
-],
+      {
+        "title": "Verified Discord Account",
+        "description": "Our verified Discord account offers enhanced credibility and trust, elevating your presence within the Discord community and boosting your reputation."
+      },
+      {
+        "title": "Boosted Server Access",
+        "description": "Gain exclusive access to boosted servers, designed to enhance server management and growth with advanced features and capabilities."
+      },
+      {
+        "title": "Active Nitro Subscription Benefits",
+        "description": "Enjoy the full range of Nitro subscription perks, including custom emojis, animated avatars, and additional server boosts, for a premium Discord experience."
+      },
+      {
+        "title": "Ownership of High-Traffic Servers",
+        "description": "Acquire and manage popular Discord servers with high engagement, connecting you with a dynamic and active community."
+      },
+      {
+        "title": "Integration of Essential Bots",
+        "description": "Benefit from the integration of essential bots, optimizing server functionality and providing a seamless, enhanced experience for all users."
+      }
+    ],
     "faq": [
       {
         "question": "How do I purchase an discord server boost Account?",
