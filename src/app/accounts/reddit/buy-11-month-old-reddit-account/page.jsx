@@ -310,16 +310,9 @@ const Page = () => {
             </div>
           </div>
           <div className="mt-4 flex gap-5 mb-7">
-            <span className="flex flex-1 items-center justify-center rounded-md bg-[#00C89D] px-3 py-[10px]  text-xl font-bold  text-black ">
-              ${data.price}
+            <span className="text-center w-full justify-center items-center rounded-md bg-[#F6EBFF] px-3  py-[10px] text-xl  font-bold text-black">
+              Out of Stock
             </span>
-            <Link
-              href={data.link}
-              target="_blank"
-              className="flex-[3] text-center justify-center items-center rounded-md bg-[#F6EBFF] px-3  py-[10px] text-xl  font-bold text-black"
-            >
-              Purchase
-            </Link>
           </div>
           {/* <p className="mb-3 mt-7 text-2xl">
             Cheap {data.months} {data.type} accounts

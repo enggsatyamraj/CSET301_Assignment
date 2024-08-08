@@ -153,13 +153,23 @@ const page = () => {
                       >
                         Info
                       </Link> */}
-                      <Link
-                        target="_blank"
-                        href={item.link}
-                        className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
-                      >
-                        Buy for ${item.price}
-                      </Link>
+                      {item.price !== "Out of stock" ? (
+                        <Link
+                          target="_blank"
+                          href={item.link}
+                          className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
+                        >
+                          Buy for ${item.price}
+                        </Link>
+                      ) : (
+                        <span
+                          target="_blank"
+                          // href={item.link}
+                          className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
+                        >
+                          Out of stock
+                        </span>
+                      )}
                     </div>
                   </div>
                 );

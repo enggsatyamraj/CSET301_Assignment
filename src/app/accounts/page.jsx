@@ -88,16 +88,22 @@ export default function Page() {
           <div className="z-4 relative flex min-h-[90vh] flex-col-reverse lg:flex-row justify-center">
             <div className="flex flex-col justify-center flex-3">
               <p className="lg:w-[85%] text-2xl sm:w-[80%] mb-10  sm:text-3xl md:w-[70%] md:text-4xl">
-                Get Premium Aged Discord Accounts, Discord Server Boosts & many more
+                Get Premium Aged Discord Accounts, Discord Server Boosts & many
+                more
               </p>
               <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[80%]">
                 <p>
                   Explore our selection of high-quality{" "}
-                  <span className="font-bold">aged Discord accounts, <Link
-                    href="accounts/buy-discord-server-boost"
-                    className="anchorText"
-                  >Discord server boosts</Link></span> and
-                  other social media accounts designed to boost your online
+                  <span className="font-bold">
+                    aged Discord accounts,{" "}
+                    <Link
+                      href="accounts/buy-discord-server-boost"
+                      className="anchorText"
+                    >
+                      Discord server boosts
+                    </Link>
+                  </span>{" "}
+                  and other social media accounts designed to boost your online
                   presence. Whether you need{" "}
                   <Link
                     href="accounts/buy-discord-accounts"
@@ -105,8 +111,7 @@ export default function Page() {
                   >
                     Discord old accounts
                   </Link>
-                  , server boosts to enhance your community, 
-                  or established{" "}
+                  , server boosts to enhance your community, or established{" "}
                   <Link
                     href="accounts/buy-instagram-accounts"
                     className="anchorText"
@@ -435,13 +440,23 @@ export default function Page() {
                     >
                       Info
                     </Link> */}
-                    <Link
-                      target="_blank"
-                      href={item.link}
-                      className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
-                    >
-                      Buy for ${item.price}
-                    </Link>
+                    {item.price !== "Out of stock" ? (
+                      <Link
+                        target="_blank"
+                        href={item.link}
+                        className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
+                      >
+                        Buy for ${item.price}
+                      </Link>
+                    ) : (
+                      <span
+                        target="_blank"
+                        // href={item.link}
+                        className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
+                      >
+                        Out of stock
+                      </span>
+                    )}
                   </div>
                 </div>
               );
@@ -512,13 +527,13 @@ export default function Page() {
                     >
                       Info
                     </Link> */}
-                    <Link
+                    <span
                       target="_blank"
                       href={item.link}
                       className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
                     >
-                      Buy for ${item.price}
-                    </Link>
+                      {item.price}
+                    </span>
                   </div>
                 </div>
               );
