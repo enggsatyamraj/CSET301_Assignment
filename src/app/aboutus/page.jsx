@@ -92,17 +92,23 @@ const AboutPage = () => {
                 Accounts
               </h1>
               <p className="text-3xl sm:text-3xl mb-6 md:text-4xl sm:w-[80%] md:w-[70%] lh:w-[60%]">
-                Empowering Your Digital Presence with Premium Accounts
+                Enhance Your Online Presence with Top-Tier Aged Accounts
               </p>
               <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60">
-                Welcome to Discord Arena! We specialize in providing premium
-                Discord, Instagram, and accounts tailored to meet your unique
-                needs. Since our establishment in 2022, our mission has been to
-                empower your digital presence by offering exclusive and
-                high-quality accounts that elevate your online experience.
+               Welcome to <Link href={"/"} className="anchorText">Discord Arena</Link>! We offer premium <Link href={"accounts/buy-discord-accounts"} className="anchorText">aged Discord accounts</Link> and <Link href={"accounts/buy-discord-server-boost"} className="anchorText">Discord server boosts</Link>, 
+               and high-quality <Link href={"accounts/buy-instagram-accounts"} className="anchorText">Instagram</Link> and <Link href={"accounts/buy-reddit-accounts"} className="anchorText">Reddit accounts</Link> to elevate your digital presence. Since 2022, 
+               our mission has been to provide exclusive, reliable accounts that help you stand out online.
               </p>
               <p className="text-[15px] mt-4 md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60">
-                At Discord Arena, we understand that a vibrant online presence
+              At Discord Arena, we know the importance of a strong online presence. Our selection includes:
+                <ul className="list-disc pl-4 mt-2 text-[13px] opacity-85">
+                    <li>Premium Discord Accounts: Aged and verified for credibility.</li>
+                    <li>Discord Server Boosts: Boost server performance and engagement.</li>
+                    <li>Instagram Accounts: Established profiles with real followers.</li>
+                    <li>Reddit Accounts: Active, aged accounts for instant participation.</li>
+                    
+                  </ul>
+                {/* At Discord Arena, we understand that a vibrant online presence
                 is crucial in today&apos;s digital landscape. Our carefully
                 curated selection of accounts reflects our commitment to
                 delivering excellence. Whether you&apos;re seeking a Discord
@@ -111,7 +117,9 @@ const AboutPage = () => {
                 Arena is dedicated to providing accounts that go beyond
                 expectations. We believe in the power of exclusivity, quality,
                 and a seamless user experience, and we&apos;re here to help you
-                achieve your online aspirations.
+                achieve your online aspirations. */}
+                <br/>
+                Choose Discord Arena for secure transactions, competitive prices, and accounts that enhance your social media experience. Start browsing now to find the perfect account for your needs!
               </p>
               <Link
                 href="/contactus"

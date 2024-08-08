@@ -88,23 +88,27 @@ export default function Page() {
           <div className="z-4 relative flex min-h-[90vh] flex-col-reverse lg:flex-row justify-center">
             <div className="flex flex-col justify-center flex-3">
               <p className="lg:w-[85%] text-2xl sm:w-[80%] mb-10  sm:text-3xl md:w-[70%] md:text-4xl">
-                Discover Premium Aged Discord & Social Media Accounts for Sale
+                Get Premium Aged Discord Accounts, Discord Server Boosts & many more
               </p>
               <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[80%]">
                 <p>
                   Explore our selection of high-quality{" "}
-                  <span className="font-bold">aged Discord accounts</span> and
+                  <span className="font-bold">aged Discord accounts, <Link
+                    href="accounts/buy-discord-server-boost"
+                    className="anchorText"
+                  >Discord server boosts</Link></span> and
                   other social media accounts designed to boost your online
                   presence. Whether you need{" "}
                   <Link
-                    href="https://discordarena.com/accounts/discord"
+                    href="accounts/buy-discord-accounts"
                     className="anchorText"
                   >
                     Discord old accounts
-                  </Link>{" "}
+                  </Link>
+                  , server boosts to enhance your community, 
                   or established{" "}
                   <Link
-                    href="https://discordarena.com/accounts/instagram"
+                    href="accounts/buy-instagram-accounts"
                     className="anchorText"
                   >
                     Instagram accounts
@@ -117,7 +121,7 @@ export default function Page() {
                   join exclusive communities and engage with wider audiences.
                   Check out our{" "}
                   <Link
-                    href="https://discordarena.com/accounts/reddit"
+                    href="accounts/buy-reddit-accounts"
                     className="anchorText"
                   >
                     Reddit accounts
