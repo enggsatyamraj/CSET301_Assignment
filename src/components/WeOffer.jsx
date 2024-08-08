@@ -1,13 +1,14 @@
 import React from "react";
 import FrameImage from "@/components/assets/Frame.png";
 import { TbBrandMinecraft } from "react-icons/tb";
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaRedditAlien } from "react-icons/fa";
 import { TbBrandValorant } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
 import { Actor } from "next/font/google";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
+import { RedditShareButton } from "react-share";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
@@ -97,24 +98,22 @@ const WeOffer = () => {
               </Link>
 
               <Link
-                href={"/accounts/buy-discord-accounts"}
-                area-label="Pricing Discord Accounts"
+                href={"/accounts/buy-reddit-accounts"}
+                area-label="Aged Reddit Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
                 <div className="flex flex-col space-y-1.5 p-6">
                   <span className="relative flex h-11 w-11 items-center justify-center shrink-0 overflow-hidden rounded-full">
-                    <TbBrandMinecraft size={30} className="rounded-full" />
+                    <FaRedditAlien size={30} className="rounded-full" />
                   </span>
                   <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
-                  Custom Reaction Services for Discord
+                  Buy Aged Reddit Accounts
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Increase user engagement on your Discord server with our
-                    custom reaction services. Add dynamic and fun elements to
-                    enhance interaction.
+                    Boost your Reddit presence with our aged Reddit accounts. Engage with established communities and increase your online visibility effortlessly. Purchase now to enhance your marketing strategy and connect with active Reddit users.
                   </p>
                 </div>
               </Link>
@@ -130,9 +129,7 @@ const WeOffer = () => {
                     <FaDiscord size={30} />
                   </span>
                   <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
-                    Unlock Your Perfect
-                    <br />
-                    Discord Server
+                    Unlock Your Perfect Discord Server
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
@@ -203,9 +200,7 @@ const WeOffer = () => {
                     <TbBrandMinecraft size={30} />
                   </span>
                   <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
-                    Manage Online and
-                    <br />
-                    Offline Members
+                    Manage Online and Offline Members
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
