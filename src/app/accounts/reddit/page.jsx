@@ -165,7 +165,7 @@ const page = () => {
                         <span
                           target="_blank"
                           // href={item.link}
-                          className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
+                          className="rounded-md bg-[#F6EAFE] px-4 py-1 font-semibold text-[#000000]"
                         >
                           Out of stock
                         </span>
