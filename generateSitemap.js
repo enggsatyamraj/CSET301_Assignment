@@ -24,6 +24,7 @@ const generateSitemapContent = () => {
     { url: "/accounts/discordserver", priority: 0.9 },
     { url: "/accounts/instagram", priority: 0.9 },
     { url: "/accounts/reddit", priority: 0.9 },
+    { url: "/accounts/buy-discord-server-boost", priority: 0.9 },
   ];
 
   const blogsData = require("./src/dataFolder/blogs.json");
@@ -31,6 +32,7 @@ const generateSitemapContent = () => {
   const discordServerData = require("./src/dataFolder/discordserver.json");
   const instagramData = require("./src/dataFolder/instagram.json");
   const redditData = require("./src/dataFolder/reddit.json");
+  const discordServerBoost = require("./src/dataFolder/discordServerBoost.json");
 
   const currentDate = getCurrentDate();
 
@@ -59,6 +61,7 @@ const generateSitemapContent = () => {
   // Add dynamic URLs with priority 0.8
   addDynamicUrls(blogsData, "/blogs/", 0.6);
   addDynamicUrls(discordData, "/accounts/discord/", 0.6);
+  addDynamicUrls(discordServerBoost, "/accounts/buy-discord-server-boost/", 0.6);
   addDynamicUrls(discordServerData, "/accounts/discordserver/", 0.6);
   addDynamicUrls(instagramData, "/accounts/instagram/", 0.6);
   addDynamicUrls(redditData, "/accounts/reddit/", 0.6);
