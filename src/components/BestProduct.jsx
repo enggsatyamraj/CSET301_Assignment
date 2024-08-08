@@ -2,6 +2,9 @@ import Head from "next/head";
 import Link from "next/link";
 import React from "react";
 import { FaArrowCircleRight, FaDiscord } from "react-icons/fa";
+import discordImage from "../../public/accounts-cards/discord-accounts.svg";
+import discordServerImage from "../../public/accounts-cards/discord-server-boosts.svg";
+import Image from "next/image";
 
 const BestProduct = () => {
   return (
@@ -58,11 +61,43 @@ const BestProduct = () => {
       <div className="max-w-[1280px] pt-[70px] px-4 min-h-[100vh] grid grid-cols-1 md:grid-cols-3 mx-auto gap-4">
         <div>
           <p className="text-3xl w-[80%] font-semibold mb-4">
-            Elevate Your Online Presence with Premium Aged Social Media Solutions
+            Elevate Your Online Presence with Premium Aged Social Media
+            Solutions
           </p>
           <p className="text-[15px] mb-4 opacity-90">
-          Our selection includes <Link href={"accounts/buy-discord-accounts"} className="anchorText">aged Discord accounts</Link>, <Link href={"accounts/buy-instagram-accounts"} className="anchorText">Instagram accounts</Link> with real engagement, and <Link href={"accounts/buy-reddit-accounts"} className="anchorText">aged Reddit accounts</Link> for credible participation. Additionally, we offer <Link href={"accounts/buy-discord-server-boost"} className="anchorText">Discord server boosts</Link> to elevate your community interactions. At Discord Arena, we are dedicated to providing top-quality solutions that help you stand out in the crowded digital space. <p><Link href={"contactus"} className="anchorText">Contact us</Link> now and take advantage of our premium services to achieve your social media goals effortlessly.</p>
-</p>
+            Our selection includes{" "}
+            <Link href={"accounts/buy-discord-accounts"} className="anchorText">
+              aged Discord accounts
+            </Link>
+            ,{" "}
+            <Link
+              href={"accounts/buy-instagram-accounts"}
+              className="anchorText"
+            >
+              Instagram accounts
+            </Link>{" "}
+            with real engagement, and{" "}
+            <Link href={"accounts/buy-reddit-accounts"} className="anchorText">
+              aged Reddit accounts
+            </Link>{" "}
+            for credible participation. Additionally, we offer{" "}
+            <Link
+              href={"accounts/buy-discord-server-boost"}
+              className="anchorText"
+            >
+              Discord server boosts
+            </Link>{" "}
+            to elevate your community interactions. At Discord Arena, we are
+            dedicated to providing top-quality solutions that help you stand out
+            in the crowded digital space.{" "}
+            <p>
+              <Link href={"contactus"} className="anchorText">
+                Contact us
+              </Link>{" "}
+              now and take advantage of our premium services to achieve your
+              social media goals effortlessly.
+            </p>
+          </p>
           <Link
             href={"/accounts"}
             anchor="Explore all accounts"
@@ -72,17 +107,24 @@ const BestProduct = () => {
           </Link>
         </div>
 
-        <div>
+        <div className="h-full">
           <div className="border-2 p-4 rounded-lg">
-            <div className="h-[150px] bg-[#A5A6F6] mb-3 rounded-lg flex items-center justify-center">
-              <FaDiscord size={50} />
-            </div>
+            {/* <div className="h-[150px] bg-[#A5A6F6] mb-3 rounded-lg flex items-center justify-center">
+              <Image
+                src={discordImage}
+                className="w-auto h-full"
+                alt="discord image"
+              />
+            </div> */}
+            <Image src={discordImage} className=" mb-4" alt="discord image" />
+
             <p className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Discord Old Accounts
             </p>
             {/* <br /> */}
             <p className="text-[19px] mt-3 font-semibold">
-             Discover our selection of aged Discord accounts. Perfect for those seeking aged accounts with history and credibility.
+              Discover our selection of aged Discord accounts. Perfect for those
+              seeking aged accounts with history and credibility.
             </p>
             <Link
               href={"/accounts/buy-discord-accounts"}
@@ -100,67 +142,59 @@ const BestProduct = () => {
             </p>
             {/* <br /> */}
             <p className="text-[19px] mt-3 font-semibold">
-             <p className="text-[19px] mt-3 font-semibold">
-             Engage with the Reddit community using our aged Reddit accounts. Gain instant credibility and participate in high-value discussions.
-             </p>
-             </p>
+              <p className="text-[19px] mt-3 font-semibold">
+                Engage with the Reddit community using our aged Reddit accounts.
+                Gain instant credibility and participate in high-value
+                discussions.
+              </p>
+            </p>
             <p className="text-[19px] mt-3 font-semibold"> </p>
             <Link
               href={"/accounts/"}
               className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer"
             >
-              <Link href={"/accounts/buy-reddit-accounts"}>Explore reddit accounts</Link>
-              <FaArrowCircleRight size={15} />
-            </Link>
-          </div>
-          {/* <div className="border-2 p-4 rounded-lg mt-4">
-            <p className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
-              Instagram Referral
-            </p>
-            <br />
-            <p className="text-[19px] mt-3 font-semibold">
-              Instagram social media accounts
-            </p>
-            <Link
-              href={"/accounts/instagram"}
-              className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer"
-            >
-              <Link href={"/accounts/instagram"}>
-                Uncover Instagram accounts
+              <Link href={"/accounts/buy-reddit-accounts"}>
+                Explore reddit accounts
               </Link>
               <FaArrowCircleRight size={15} />
             </Link>
-          </div> */}
+          </div>
         </div>
 
-        <div>
+        <div className="h-full">
           <div className="border-2 p-4 rounded-lg">
             <p className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Aged Instaram Accounts
             </p>
             {/* <br /> */}
-            <p className="text-[19px] mt-3 font-semibold">Boost your social media presence with our curated Instagram accounts. Ideal for instant followers and engagement.
+            <p className="text-[19px] mt-3 font-semibold">
+              Boost your social media presence with our curated Instagram
+              accounts. Ideal for instant followers and engagement.
             </p>
             <Link
               href={"/accounts/buy-instagram-accounts"}
               className="flex gap-2 items-center text-[#FFA800] cursor-pointer"
             >
-              <Link href={"/accounts/instagram"}>
-                Buy Instaram Accounts
-              </Link>
+              <Link href={"/accounts/instagram"}>Buy Instaram Accounts</Link>
               <FaArrowCircleRight size={15} />
             </Link>
           </div>
           <div className="border-2 p-4 rounded-lg mt-4">
-            <div className="h-[150px] bg-[#FFA800] flex items-center justify-center mb-3 rounded-lg">
-              <FaDiscord size={50} />
-            </div>
+            {/* <div className="h-[150px] bg-[#FFA800] flex items-center justify-center mb-3 rounded-lg"> */}
+            <Image
+              src={discordServerImage}
+              className=" mb-4"
+              alt="discord image"
+            />
+            {/* </div> */}
             <p className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Discord Server Boosts
             </p>
             {/* <br /> */}
             <p className="text-[19px] mt-3 font-semibold">
-              Take Discord server to the next level with our Discord server boosts. Improve audio quality, increase upload limits, and access exclusive perks to keep your community engaged.
+              Take Discord server to the next level with our Discord server
+              boosts. Improve audio quality, increase upload limits, and access
+              exclusive perks to keep your community engaged.
             </p>
             <Link
               href={"/accounts/buy-discord-accounts"}

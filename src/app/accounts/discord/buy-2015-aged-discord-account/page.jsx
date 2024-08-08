@@ -274,7 +274,7 @@ const Page = () => {
             </div> */}
             <img
               src={`../../discord-accounts/${data.image}`}
-              alt={data.name}
+              alt={"Buy 2015 aged discord account"}
               className="mb-4"
             />
             <div>

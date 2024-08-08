@@ -262,7 +262,7 @@ const Page = () => {
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <img
               src={`../../discord-accounts/${data.image}`}
-              alt={data.name}
+              alt={"Buy 2021 aged discord account"}
               className="mb-4"
             />
             <div>

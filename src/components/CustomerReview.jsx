@@ -71,13 +71,13 @@ const CustomerReview = () => {
         "Discord Arena's comprehensive understanding of digital landscapes made a noticeable difference in our growth. Their commitment to delivering value and understanding our business needs was commendable.",
       icons: <FaRegUser />,
     },
-    {
-      name: "Meera Kapoor",
-      company: "Social Stars",
-      review:
-        "Discord Arena elevated our social media presence to new levels. Their unique strategies and hands-on approach were exactly what we needed. I appreciate their dedication to continuous improvement and client success.",
-      icons: <FaRegUser />,
-    },
+    // {
+    //   name: "Meera Kapoor",
+    //   company: "Social Stars",
+    //   review:
+    //     "Discord Arena elevated our social media presence to new levels. Their unique strategies and hands-on approach were exactly what we needed. I appreciate their dedication to continuous improvement and client success.",
+    //   icons: <FaRegUser />,
+    // },
   ];
 
   const [index, setIndex] = useState(0);
