@@ -69,7 +69,7 @@ const BestProduct = () => {
             <Link href={"accounts/buy-discord-accounts"} className="anchorText">
               aged Discord accounts
             </Link>
-            ,{" "}
+            {" and "}
             <Link
               href={"accounts/buy-instagram-accounts"}
               className="anchorText"
@@ -163,7 +163,7 @@ const BestProduct = () => {
 
         <div className="h-full">
           <div className="border-2 p-4 rounded-lg">
-            <p className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
+            <p className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Aged Instaram Accounts
             </p>
             {/* <br /> */}
@@ -173,7 +173,7 @@ const BestProduct = () => {
             </p>
             <Link
               href={"/accounts/buy-instagram-accounts"}
-              className="flex gap-2 items-center text-[#FFA800] cursor-pointer"
+              className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer"
             >
               <Link href={"/accounts/instagram"}>Buy Instaram Accounts</Link>
               <FaArrowCircleRight size={15} />
@@ -187,7 +187,7 @@ const BestProduct = () => {
               alt="discord image"
             />
             {/* </div> */}
-            <p className="bg-[#FFA800] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
+            <p className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Discord Server Boosts
             </p>
             {/* <br /> */}
@@ -197,8 +197,8 @@ const BestProduct = () => {
               exclusive perks to keep your community engaged.
             </p>
             <Link
-              href={"/accounts/buy-discord-accounts"}
-              className="flex gap-2 items-center text-[#FFA800] cursor-pointer"
+              href={"/accounts/buy-discord-server-boost"}
+              className="flex gap-2 items-center text-[#A5A6F6] cursor-pointer"
             >
               <div>Boost your Server</div>
               <FaArrowCircleRight size={15} />

@@ -62,6 +62,7 @@ export default function Page() {
       // title: "Elevate Your Community with 2015 Discord Accounts",
       // heading: "Unlock the Potential with 2015 Discord Accounts",
       image: "2015-discord.svg",
+
       description:
         "Gain access to premium 2015 Discord accounts that offer a rich history of engagement and activity. Elevate your community with accounts that have established reputations and connect effortlessly with thriving Discord communities.",
       features: [
