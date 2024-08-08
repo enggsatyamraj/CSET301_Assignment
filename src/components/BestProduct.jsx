@@ -55,7 +55,7 @@ const BestProduct = () => {
         </script>
       </Head> */}
 
-      <div className="max-w-[1280px] px-4 min-h-[100vh] grid grid-cols-1 md:grid-cols-3 mx-auto gap-4">
+      <div className="max-w-[1280px] pt-[70px] px-4 min-h-[100vh] grid grid-cols-1 md:grid-cols-3 mx-auto gap-4">
         <div>
           <p className="text-3xl w-[80%] font-semibold mb-4">
             Elevate Your Online Presence with Premium Aged Social Media Solutions

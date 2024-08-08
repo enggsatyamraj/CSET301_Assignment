@@ -72,27 +72,28 @@ const WhyChoose = () => {
           }}
         />
       </Head> */}
-      <div className="max-w-[1080px] min-h-[60vh] mx-auto flex flex-col justify-center px-4 pb-12">
-        <div className=" ">
-          <p className="md:text-4xl text-3xl font-semibold mb-6 w-[98%] sm:w-[80%] md:w-[70%] lg:w-[60%]">
-            Elevate Your Strategy with Our Trusted Solutions
-          </p>
+      <div className="max-w-[1280px] min-h-[60vh] mx-auto px-4 pb-12">
+  <div>
+    <p className="md:text-4xl text-3xl font-semibold mb-6 w-[98%] sm:w-[80%] md:w-[70%] lg:w-[100%] text-center">
+      Elevate Your Strategy with Our Trusted Solutions
+    </p>
 
-          <ul className="mt-5">
-            {pointsArray.map((item, index) => (
-              <li
-                key={index}
-                className="mb-8 relative max-w-[900px] border-[1px] p-4 rounded-lg"
-              >
-                <p className="sm:text-[17px] text-[15px] font-semibold absolute bg-[#dcdcdc] px-2 text-[#121212] rounded-md -top-[15px]">
-                  {item.title}
-                </p>
-                <p>{item.description}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+    <ul className="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 pt-[20px]">
+      {pointsArray.map((item, index) => (
+        <li
+          key={index}
+          className="mb-8 relative border-[1px] p-4 rounded-lg"
+        >
+          <p className="sm:text-[17px] text-[15px] font-semibold absolute bg-[#dcdcdc] px-2 text-[#121212] rounded-md -top-[15px]">
+            {item.title}
+          </p>
+          <p>{item.description}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
+
     </div>
   );
 };
