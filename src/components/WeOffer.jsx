@@ -166,7 +166,7 @@ const WeOffer = () => {
                 </div>
               </Link>
 
-              <Link
+              {/* <Link
                 href={"/accounts/buy-discord-accounts"}
                 area-label="see More pricing of Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
@@ -210,7 +210,7 @@ const WeOffer = () => {
                     and coordination within your community.
                   </p>
                 </div>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
