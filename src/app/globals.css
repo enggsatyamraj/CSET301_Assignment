@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  user-select: none;
+}
+
 * {
   scroll-behavior: smooth;
 }
@@ -29,7 +33,7 @@
 }
 
 .radial_three {
-  background-color: #EF9364;
+  background-color: #ef9364;
   position: absolute;
   bottom: 20px;
   left: 0px;
@@ -40,12 +44,7 @@
 }
 
 .span_text {
-  background-image: linear-gradient(
-    23deg,
-    #9de8ee 0%,
-    #3f2182 56%,
-    #5e3aef 100%
-  );
+  background-image: linear-gradient(23deg, #9de8ee 0%, #3f2182 56%, #5e3aef 100%);
   background-clip: text;
   color: transparent;
 }
@@ -83,13 +82,12 @@
   backdrop-filter: blur(40px); /* Adjust the pixel value to control the amount of blur */
 }
 
-
-.smartPeople{
+.smartPeople {
   height: 15rem;
   width: 15rem;
 }
 
-.anchorText{
+.anchorText {
   color: #a5a6f6;
 }
 
