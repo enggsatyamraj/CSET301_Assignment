@@ -56,6 +56,33 @@ export const generateMetaData = () => {
 };
 
 export default function Page() {
+  useEffect(() => {
+    // Disable right-click
+    document.addEventListener("contextmenu", (event) => {
+      event.preventDefault();
+    });
+
+    // Disable keyboard shortcuts
+    document.addEventListener("keydown", (event) => {
+      // Disable F12
+      if (event.keyCode === 123) {
+        event.preventDefault();
+      }
+
+      // Disable Ctrl+Shift+I, Ctrl+Shift+C, Ctrl+Shift+J, and Ctrl+U
+      if (
+        event.ctrlKey &&
+        event.shiftKey &&
+        (event.keyCode === 73 || event.keyCode === 74 || event.keyCode === 67)
+      ) {
+        event.preventDefault();
+      }
+
+      if (event.ctrlKey && event.keyCode === 85) {
+        event.preventDefault();
+      }
+    });
+  }, []);
   const specialDiscordServiceArray = [
     {
       section: "2015 Old Discord Accounts",
@@ -144,18 +171,76 @@ export default function Page() {
                 More
               </p>
               <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
-              <p>Welcome to  <Link href={"/"} className="anchorText">Discord Arena</Link>, your go-to destination for high-quality <Link href={"accounts/buy-discord-accounts"} className="anchorText">aged Discord accounts</Link> and social media services. We offer premium Discord accounts, including <Link href={"accounts/discord/buy-2015-aged-discord-account"} className="anchorText">those from 2015</Link>, perfect for instant use and boosting your online presence.</p>
+                <p>
+                  Welcome to{" "}
+                  <Link href={"/"} className="anchorText">
+                    Discord Arena
+                  </Link>
+                  , your go-to destination for high-quality{" "}
+                  <Link
+                    href={"accounts/buy-discord-accounts"}
+                    className="anchorText"
+                  >
+                    aged Discord accounts
+                  </Link>{" "}
+                  and social media services. We offer premium Discord accounts,
+                  including{" "}
+                  <Link
+                    href={"accounts/discord/buy-2015-aged-discord-account"}
+                    className="anchorText"
+                  >
+                    those from 2015
+                  </Link>
+                  , perfect for instant use and boosting your online presence.
+                </p>
 
-<p>Boost your Discord server with our reliable <Link href={"/accounts/buy-discord-server-boost"} className="anchorText">Discord server boosts</Link>, enhancing audio quality, upload limits, and exclusive perks to keep your community engaged. Our platform ensures secure transactions, top-notch customer service, and premium accounts that stand out.</p>
+                <p>
+                  Boost your Discord server with our reliable{" "}
+                  <Link
+                    href={"/accounts/buy-discord-server-boost"}
+                    className="anchorText"
+                  >
+                    Discord server boosts
+                  </Link>
+                  , enhancing audio quality, upload limits, and exclusive perks
+                  to keep your community engaged. Our platform ensures secure
+                  transactions, top-notch customer service, and premium accounts
+                  that stand out.
+                </p>
 
-<p>Explore our pre-established <Link href={"/accounts/buy-instagram-accounts"} className="anchorText">Instagram</Link> accounts and <Link href={"/accounts/buy-reddit-accounts"} className="anchorText">Reddit accounts</Link> to give your social media presence a head start with real followers and engagement.</p>
+                <p>
+                  Explore our pre-established{" "}
+                  <Link
+                    href={"/accounts/buy-instagram-accounts"}
+                    className="anchorText"
+                  >
+                    Instagram
+                  </Link>{" "}
+                  accounts and{" "}
+                  <Link
+                    href={"/accounts/buy-reddit-accounts"}
+                    className="anchorText"
+                  >
+                    Reddit accounts
+                  </Link>{" "}
+                  to give your social media presence a head start with real
+                  followers and engagement.
+                </p>
 
-<p>Join the Discord Arena community today and elevate your online experience with our trusted services! Connect with us on our <Link target="_blank" href={"https://t.me/halfmoonisgod"} className="anchorText">Telegram community</Link> for the latest updates and support.</p>
+                <p>
+                  Join the Discord Arena community today and elevate your online
+                  experience with our trusted services! Connect with us on our{" "}
+                  <Link
+                    target="_blank"
+                    href={"https://t.me/halfmoonisgod"}
+                    className="anchorText"
+                  >
+                    Telegram community
+                  </Link>{" "}
+                  for the latest updates and support.
+                </p>
 
-
-              
-
-              {/* Welcome to Discord Arena, your premier destination for aged
+                {/* Welcome to Discord Arena, your premier destination for aged
                 Discord accounts and social media accounts. We specialize in
                 providing high-quality aged Discord and Instagram accounts to
                 help you enhance your online presence instantly.
@@ -195,8 +280,7 @@ export default function Page() {
                 followers and engagement. Whether you’re looking for{" "}
                 discordarena, discord arena, or to buy account Discord, our
                 platform ensures you find exactly what you need. */}
-                
-                </p>
+              </p>
             </div>
             <div className="flex-[1.8] lg:block ">
               <Link href={"accounts/discord"} className="anchorText">
