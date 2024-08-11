@@ -3,11 +3,11 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/blogs-banner/:image*", // Match all images under the blogs-banner folder
+        source: "/:all*(jpg|jpeg|png|svg|gif)",
         headers: [
           {
             key: "Cache-Control",
-            value: "public, max-age=31536000, immutable", // Cache for one year
+            value: "public, max-age=31536000, immutable",
           },
         ],
       },
