@@ -56,33 +56,6 @@ export const generateMetaData = () => {
 };
 
 export default function Page() {
-  useEffect(() => {
-    // Disable right-click
-    document.addEventListener("contextmenu", (event) => {
-      event.preventDefault();
-    });
-
-    // Disable keyboard shortcuts
-    document.addEventListener("keydown", (event) => {
-      // Disable F12
-      if (event.keyCode === 123) {
-        event.preventDefault();
-      }
-
-      // Disable Ctrl+Shift+I, Ctrl+Shift+C, Ctrl+Shift+J, and Ctrl+U
-      if (
-        event.ctrlKey &&
-        event.shiftKey &&
-        (event.keyCode === 73 || event.keyCode === 74 || event.keyCode === 67)
-      ) {
-        event.preventDefault();
-      }
-
-      if (event.ctrlKey && event.keyCode === 85) {
-        event.preventDefault();
-      }
-    });
-  }, []);
   const specialDiscordServiceArray = [
     {
       section: "2015 Old Discord Accounts",

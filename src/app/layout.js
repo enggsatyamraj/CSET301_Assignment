@@ -2,7 +2,6 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import ShopNow from "@/components/ShopNow";
 import { Actor } from "next/font/google";
-import PageWrapper from "./PageWrapper";
 import Script from "next/script";
 import Footer from "@/components/Footer";
 
@@ -38,6 +37,27 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-S9PV0VDRVG', {
               page_path: window.location.pathname,
             });
+
+            // Disable right-click
+            document.addEventListener('contextmenu', function(e) {
+              e.preventDefault();
+            });
+
+            // Disable F12, Ctrl+Shift+I, Ctrl+Shift+C, Ctrl+U
+            document.onkeydown = function(e) {
+              if (e.keyCode == 123) {
+                return false;
+              }
+              if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+              }
+              if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+              }
+              if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+              }
+            };
           `,
         }}
       />
@@ -48,12 +68,10 @@ export default function RootLayout({ children }) {
       ></script>
 
       <body className={actor.className}>
-        {/* <PageWrapper> */}
         <Navbar />
         <ShopNow />
         {children}
         <Footer />
-        {/* </PageWrapper> */}
       </body>
     </html>
   );
