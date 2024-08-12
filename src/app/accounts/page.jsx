@@ -176,7 +176,7 @@ export default function Page() {
                   </div> */}
                   <img
                     src={`../discord-accounts/${item.image}`}
-                    alt={item.name}
+                    alt={item.name || "different discord accounts icons"}
                     className="mb-4"
                   />
 
@@ -249,7 +249,7 @@ export default function Page() {
                 >
                   <img
                     src={`../discord-accounts/${item.image}`}
-                    alt={item.name}
+                    alt={item.name || "different instagram accounts images"}
                     className="mb-4"
                   />
 
@@ -326,7 +326,7 @@ export default function Page() {
                 >
                   <img
                     src={`../discord-accounts/${item.image}`}
-                    alt={item.name}
+                    alt={item.name || "different discord server boost accounts"}
                     className="mb-4"
                   />
 
@@ -402,7 +402,7 @@ export default function Page() {
                 >
                   <img
                     src={`../discord-accounts/${item.image}`}
-                    alt={item.name}
+                    alt={item.name || "different reddit accounts images"}
                     className="mb-4"
                   />
 
@@ -489,7 +489,9 @@ export default function Page() {
                 >
                   <img
                     src={`../discord-accounts/${item.image}`}
-                    alt={item.name}
+                    alt={
+                      item.name || "different discord server accounts images"
+                    }
                     className="mb-4"
                   />
 
