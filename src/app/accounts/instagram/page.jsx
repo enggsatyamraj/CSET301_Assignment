@@ -131,7 +131,7 @@ const page = () => {
                   <Link
                     className="anchorText"
                     href={
-                      "https://discordarena.com/instagram/buy-2013-instagram-accounts"
+                      "instagram/buy-2013-instagram-accounts"
                     }
                   >
                     2013 Instagram accounts
