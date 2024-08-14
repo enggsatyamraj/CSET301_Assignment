@@ -10,6 +10,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import discordServerData from "../../dataFolder/discordserver.json";
 import redditAccountData from "../../dataFolder/reddit.json";
 import discordServerBoost from "../../dataFolder/discordServerBoost.json";
+import youtubeData from "../../dataFolder/youtube.json";
 import accountImage from "../../../public/discord-arena-creatives/accounts.svg";
 import Image from "next/image";
 
@@ -469,6 +470,83 @@ export default function Page() {
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
               Show more reddit
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-normal w-[100%]">
+        <div className="relative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
+          <p className="mb-4 text-2xl font-semibold">Aged YouTube Accounts</p>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {youtubeData.map((item, index) => {
+              return (
+                <div
+                  key={item.id}
+                  className={`border-[1px] ${
+                    index > 2 && "hidden"
+                  } h-full overflow-hidden mt-3 rounded-md p-4`}
+                >
+                  <img
+                    src={`../discord-accounts/${item.image}`}
+                    alt={item.name || "different aged YouTube accounts images"}
+                    className="mb-4"
+                  />
+
+                  <Link
+                    href={`accounts/youtube/${item.name
+                      .split(" ")
+                      .join("-")
+                      .toLowerCase()}`}
+                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                  >
+                    Buy{" "}
+                    <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
+                      {item.year}
+                    </span>{" "}
+                    Aged YouTube Account
+                  </Link>
+                  <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
+                    <li>
+                      {item.smallShowFiveFeatures.feature1
+                        ? item.smallShowFiveFeatures.feature1
+                        : "Established and secure account"}
+                    </li>
+                    <li>{item.smallShowFiveFeatures.feature2}</li>
+                    <li>{item.smallShowFiveFeatures.feature3}</li>
+                    <li>{item.smallShowFiveFeatures.feature4}</li>
+                    <li>{item.smallShowFiveFeatures.feature5}</li>
+                  </ul>
+                  <div className="mt-5 flex items-center gap-3">
+                    {item.price !== "Out of stock" ? (
+                      <Link
+                        target="_blank"
+                        href={item.link}
+                        className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
+                      >
+                        Buy for ${item.price}
+                      </Link>
+                    ) : (
+                      <span
+                        target="_blank"
+                        // href={item.link}
+                        className="rounded-md bg-[#F6EAFE] px-4 py-1 font-semibold text-[#000000]"
+                      >
+                        Out of stock
+                      </span>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/buy-youtube-accounts"}
+              className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
+            >
+              Show more accounts
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
