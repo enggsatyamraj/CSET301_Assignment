@@ -153,7 +153,7 @@ const page = () => {
                       >
                         Info
                       </Link> */}
-                      {item.price !== "Out of stock" ? (
+                      {item.price !== "Out of Stock" ? (
                         <Link
                           target="_blank"
                           href={item.link}
@@ -167,7 +167,7 @@ const page = () => {
                           // href={item.link}
                           className="rounded-md bg-[#F6EAFE] px-4 py-1 font-semibold text-[#000000]"
                         >
-                          Out of stock
+                          Out of Stock
                         </span>
                       )}
                     </div>

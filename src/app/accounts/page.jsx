@@ -441,7 +441,7 @@ export default function Page() {
                     >
                       Info
                     </Link> */}
-                    {item.price !== "Out of stock" ? (
+                    {item.price !== "Out of Stock" ? (
                       <Link
                         target="_blank"
                         href={item.link}
@@ -455,7 +455,7 @@ export default function Page() {
                         // href={item.link}
                         className="rounded-md bg-[#F6EAFE] px-4 py-1 font-semibold text-[#000000]"
                       >
-                        Out of stock
+                        Out of Stock
                       </span>
                     )}
                   </div>
@@ -519,7 +519,7 @@ export default function Page() {
                     <li>{item.smallShowFiveFeatures.feature5}</li>
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
-                    {item.price !== "Out of stock" ? (
+                    {item.price !== "Out of Stock" ? (
                       <Link
                         target="_blank"
                         href={item.link}
@@ -533,7 +533,7 @@ export default function Page() {
                         // href={item.link}
                         className="rounded-md bg-[#F6EAFE] px-4 py-1 font-semibold text-[#000000]"
                       >
-                        Out of stock
+                        Out of Stock
                       </span>
                     )}
                   </div>
