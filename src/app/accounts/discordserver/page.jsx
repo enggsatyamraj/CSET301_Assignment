@@ -154,13 +154,13 @@ const page = () => {
                       >
                         Info
                       </Link> */}
-                      <span
+                      <Link
                         target="_blank"
                         href={item.link}
-                        className="rounded-md bg-[#F6EAFE] text-black px-4 py-1 font-semibold "
+                        className="rounded-md bg-[#00C89D] text-white px-4 py-1 font-semibold "
                       >
                         {item.price}
-                      </span>
+                      </Link>
                     </div>
                   </div>
                 );

@@ -11,11 +11,11 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export const data = {
   id: 1,
   year: 2015,
-  link: "https://yoyohoni.mysellix.io/product/6404d6d693a97",
+  link: "https://discord.gg/halfmoon",
   type: "Discord Server",
   name: "Buy 30 Server Boosts",
   image: "2015-discord-server.svg",
-  price: 30,
+  price: "Contact Now",
   discountPercentage: 10,
   smallShowFiveFeatures: {
     feature1: "Verified Membership",
@@ -329,9 +329,13 @@ const Page = () => {
             </div>
           </div>
           <div className="mt-4 flex gap-5 mb-7">
-            <span className="text-center w-full justify-center items-center rounded-md bg-[#F6EBFF] px-3  py-[10px] text-xl  font-bold text-black">
-              Out of Stock
-            </span>
+            <Link
+              target="_blank"
+              href={data.link}
+              className="rounded-md bg-[#00C89D] text-white w-[100%] text-center px-4 py-[10px] text-xl font-semibold "
+            >
+              {data.price}
+            </Link>
           </div>
           {/* <p className="mb-3 mt-7 text-2xl">
             Cheap {data.year} {data.type} accounts

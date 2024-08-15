@@ -99,7 +99,7 @@ export default function Page() {
         "Active Users: Engage with users who are familiar with Discord.",
         "Customization Options: Enhance your server with unique features.",
       ],
-      price: "Starting from $35 per account",
+      price: "Starting from $25 per account",
       // callToAction:
       //   "Purchase your 2016 Discord Account today and watch your community grow!",
       link: "accounts/discord/buy-2016-aged-discord-account",
@@ -122,7 +122,7 @@ export default function Page() {
         "Higher Engagement: Increased interaction from established users.",
         "Security Features: Enhanced security with older, more established accounts.",
       ],
-      price: "Starting from $15 per account",
+      price: "Starting from $10 per account",
       // callToAction:
       //   "Purchase your 2017 Discord Account now and elevate your server’s engagement!",
       link: "accounts/discord/buy-2017-aged-discord-account",
@@ -275,52 +275,54 @@ export default function Page() {
             Buy Premium Best Selling Aged Discord Accounts
           </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 mt-[40px] gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-[40px] gap-5">
             {specialDiscordServiceArray.map((item, index) => {
               return (
                 <div
                   key={index}
-                  className="border-2 border-[#A5A6F6] p-5 rounded-lg"
+                  className="border-2 flex flex-col justify-between border-[#A5A6F6] p-5 rounded-lg"
                 >
-                  {/* <div className="h-[200px] flex items-center justify-center ">
-                    <FaDiscord size={100} className="text-[#A5A6F6] dance" />
-                  </div> */}
-                  <img
-                    src={`../discord-accounts/${item.image}`}
-                    alt={item.name}
-                    className="mb-4"
-                  />
-                  <p className="text-[23px] mb-3 font-bold">{item.section}</p>
-                  <p className="text-[19px] mt-3 mb-2 opacity-90">
-                    {item.title}
-                  </p>
-                  <p className="text-[17px] mt-3 mb-2 opacity-80">
-                    {item.heading}
-                  </p>
-                  <p className="mb-5 opacity-55 text-[15px]">
-                    {item.description}
-                  </p>
-                  <p className="text-[17px] mt-3 mb-2 opacity-80">Features</p>
-                  <p className="mb-5 opacity-55 text-[14px]">
-                    {item.features.map((item, index) => {
-                      return <li key={index}>{item}</li>;
-                    })}
-                  </p>
-                  <p className="text-[17px] mt-3 mb-2 opacity-80">Advantages</p>
-                  <p className="mb-5 opacity-55 text-[14px]">
-                    {item.advantages.map((item, index) => {
-                      return <li key={index}>{item}</li>;
-                    })}
-                  </p>
-                  <p className="mb-5 font-bold opacity-80 text-[20px] ">
-                    {item.price}
-                  </p>
-                  <p className="mb-5 opacity-55 text-[14px] ">
-                    {item.callToAction}
-                  </p>
+                  <div>
+                    <img
+                      src={`../discord-accounts/${item.image}`}
+                      alt={item.name}
+                      className="mb-4"
+                    />
+                    <p className="text-[23px] mb-3 font-bold">{item.section}</p>
+                    <p className="text-[19px] mt-3 mb-2 opacity-90">
+                      {item.title}
+                    </p>
+                    <p className="text-[17px] mt-3 mb-2 opacity-80">
+                      {item.heading}
+                    </p>
+                    <p className="mb-5 opacity-55 text-[15px]">
+                      {item.description}
+                    </p>
+                    <p className="text-[17px] mt-3 mb-2 opacity-80">Features</p>
+                    <p className="mb-5 opacity-55 text-[14px]">
+                      {item.features.map((item, index) => {
+                        return <li key={index}>{item}</li>;
+                      })}
+                    </p>
+                    <p className="text-[17px] mt-3 mb-2 opacity-80">
+                      Advantages
+                    </p>
+                    <p className="mb-5 opacity-55 text-[14px]">
+                      {item.advantages.map((item, index) => {
+                        return <li key={index}>{item}</li>;
+                      })}
+                    </p>
+                    <p className="mb-5 font-bold opacity-80 text-[20px] ">
+                      {item.price}
+                    </p>
+                    <p className="mb-5 opacity-55 text-[14px] ">
+                      {item.callToAction}
+                    </p>
+                  </div>
+
                   <Link
                     href={item.link}
-                    className="border-[#A5A6F6] border-2 px-4 py-1 text-[#A5A6F6] rounded-lg"
+                    className="border-[#A5A6F6] w-fit border-2 mx-auto px-5 py-1 text-[#A5A6F6] rounded-lg"
                   >
                     Purchase
                   </Link>

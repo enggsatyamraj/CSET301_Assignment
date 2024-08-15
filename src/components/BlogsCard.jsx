@@ -18,8 +18,7 @@ import {
 } from "react-share";
 import rightbutton from "../../public/RightButton.svg";
 import { useRouter } from "next/navigation";
-import { formatDistanceToNow, parseISO } from "date-fns"; // Importing parseISO
-
+import { formatDistanceToNow, parseISO } from "date-fns"; // Importing parseISOn;
 const BlogsCard = ({ heading, time, date, linkurl, imgurl, description }) => {
   const supremeurl = "https://discordarena.com/blogs/";
   const shareUrl = `${supremeurl}${heading.split(" ").join("-").toLowerCase()}`;
