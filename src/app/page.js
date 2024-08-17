@@ -257,7 +257,11 @@ export default function Page() {
             </div>
             <div className="flex-[1.8] lg:block ">
               <Link href={"accounts/discord"} className="anchorText">
-                <Image src={smartPeople} className="" alt="image showcasing a person dancing along with social media accounts" />
+                <Image
+                  src={smartPeople}
+                  className=""
+                  alt="image showcasing a person dancing along with social media accounts"
+                />
               </Link>
             </div>
             <div className="radial_one"></div>
@@ -285,7 +289,7 @@ export default function Page() {
                   <div>
                     <img
                       src={`../discord-accounts/${item.image}`}
-                      alt={item.name}
+                      alt={item.section}
                       className="mb-4"
                     />
                     <p className="text-[23px] mb-3 font-bold">{item.section}</p>
