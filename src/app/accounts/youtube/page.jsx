@@ -80,7 +80,7 @@ const page = () => {
           <div className="min-h-[400px] flex flex-col-reverse lg:flex-row justify-center ">
             <div className="flex flex-col justify-center">
               <h1 className="text-3xl md:text-[2.1rem] font-semibold mb-2">
-                Buy Aged YouTube Accounts – Starting from $2 Only
+                Buy Aged YouTube Accounts – Starting from $10 Only
               </h1>
               <p className="lg:text-2xl text-[22px] mb-4 lg:w-[80%] opacity-90 md:w-[60%] sm:w-[80%]">
                 Discover the Best Aged YouTube Accounts for Sale
@@ -107,7 +107,7 @@ const page = () => {
                       "https://discordarena.com/accounts/youtube/buy-2023-aged-youtube-account"
                     }
                   >
-                    accounts starting at $2
+                    accounts starting at $10
                   </Link>
                   , finding the right account is easy and affordable.
                 </p>

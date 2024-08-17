@@ -287,11 +287,15 @@ export default function Page() {
                   className="border-2 flex flex-col justify-between border-[#A5A6F6] p-5 rounded-lg"
                 >
                   <div>
-                    <img
-                      src={`../discord-accounts/${item.image}`}
-                      alt={item.section}
-                      className="mb-4"
-                    />
+                    <Link
+                     href={item.link}>
+                      <img
+                        src={`../discord-accounts/${item.image}`}
+                        alt={item.section}
+                        className="mb-4"
+                      />
+                      
+                    </Link>
                     <p className="text-[23px] mb-3 font-bold">{item.section}</p>
                     <p className="text-[19px] mt-3 mb-2 opacity-90">
                       {item.title}
@@ -328,7 +332,7 @@ export default function Page() {
                     href={item.link}
                     className="border-[#A5A6F6] w-fit border-2 mx-auto px-5 py-1 text-[#A5A6F6] rounded-lg"
                   >
-                    Purchase
+                    Purchase {item.section}
                   </Link>
                 </div>
               );
