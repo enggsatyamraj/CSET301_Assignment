@@ -45,6 +45,14 @@ const Footer = () => {
           </Link>
           <br />
           <Link
+            href={"/accounts/buy-discord-server-boost"}
+            area-label="See Discord server Boosts"
+            className="opacity-70 text-[14px] my-2"
+          >
+            Discord Server Boosts
+          </Link>
+          <br />
+          <Link
             href={"/accounts/instagram"}
             // area-label="See more Accounts"
 
@@ -73,7 +81,7 @@ const Footer = () => {
           <p className="font-bold text-xl mb-4">Resources</p>
           <br />
           <Link href={"/blogs"} className="opacity-70 text-[14px] my-2">
-            Blog
+            Blogs
           </Link>
           <br />
           <Link href={"/faq"} className="opacity-70 text-[14px] my-2">

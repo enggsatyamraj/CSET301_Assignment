@@ -65,7 +65,7 @@ const BestProduct = () => {
             Solutions
           </p>
           <p className="text-[15px] mb-4 opacity-90">
-            Our selection includes{" "}
+            Our selection of premium aged Social Media Solutions includes{" "}
             <Link href={"accounts/buy-discord-accounts"} className="anchorText">
               aged Discord accounts
             </Link>
@@ -124,7 +124,7 @@ const BestProduct = () => {
             {/* <br /> */}
             <p className="text-[19px] mt-3 font-semibold">
               Discover our selection of aged Discord accounts. Perfect for those
-              seeking aged accounts with history and credibility.
+              seeking Discord old accounts with history and credibility.
             </p>
             <Link
               href={"/accounts/buy-discord-accounts"}
@@ -168,7 +168,7 @@ const BestProduct = () => {
             </p>
             {/* <br /> */}
             <p className="text-[19px] mt-3 font-semibold">
-              Boost your social media presence with our curated Instagram
+              Boost your social media presence with our curated aged Instagram
               accounts. Ideal for instant followers and engagement.
             </p>
             <Link

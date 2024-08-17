@@ -23,7 +23,7 @@ const WeOffer = () => {
             </p>
             <p className="text-center text-[15px] md:text-[16px] opacity-75 w-[99%] md:w-[65%] mx-auto mb-12">
               At Discord Arena, we&apos;re committed to empowering your digital
-              presence with our wide range of premium services. Explore our
+              presence & maximize your potential with our wide range of premium & comprehensive services. Explore our
               offerings below:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -43,7 +43,7 @@ const WeOffer = () => {
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Purchase aged Discord accounts with a history of engagement
+                    Buy aged Discord accounts with a history of engagement
                     and activity. Connect with thriving communities instantly
                     and boost your online presence.y, connecting you with
                     thriving communities effortlessly.
@@ -67,7 +67,7 @@ const WeOffer = () => {
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Get aged Instagram accounts with established followers.
+                    Buy aged Instagram accounts with established followers.
                     Enhance your Instagram marketing and visibility with our
                     premium aged accounts.
                   </p>
@@ -90,7 +90,7 @@ const WeOffer = () => {
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Discover our Discord server boosters, offering expert server
+                    Discover our Discord server boosters to boost your Discord Server, offering expert server
                     management, community engagement, and advanced moderation
                     tools to elevate your server&lsquo;s performance.
                   </p>
