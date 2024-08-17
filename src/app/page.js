@@ -287,14 +287,12 @@ export default function Page() {
                   className="border-2 flex flex-col justify-between border-[#A5A6F6] p-5 rounded-lg"
                 >
                   <div>
-                    <Link
-                     href={item.link}>
+                    <Link href={item.link}>
                       <img
                         src={`../discord-accounts/${item.image}`}
                         alt={item.section}
                         className="mb-4"
                       />
-                      
                     </Link>
                     <p className="text-[23px] mb-3 font-bold">{item.section}</p>
                     <p className="text-[19px] mt-3 mb-2 opacity-90">
@@ -320,20 +318,19 @@ export default function Page() {
                         return <li key={index}>{item}</li>;
                       })}
                     </p>
-                    <p className="mb-5 font-bold opacity-80 text-[20px] ">
-                      {item.price}
-                    </p>
-                    <p className="mb-5 opacity-55 text-[14px] ">
-                      {item.callToAction}
-                    </p>
                   </div>
 
-                  <Link
-                    href={item.link}
-                    className="border-[#A5A6F6] w-fit border-2 mx-auto px-5 py-1 text-[#A5A6F6] rounded-lg"
-                  >
-                    Purchase {item.section}
-                  </Link>
+                  <div className="flex flex-col gap-2 items-center justify-center">
+                    <p className="text-center font-bold opacity-80 text-[20px] ">
+                      {item.price}
+                    </p>
+                    <Link
+                      href={item.link}
+                      className="border-[#A5A6F6] text-center w-fit border-2 mx-auto px-5 py-1 text-[#A5A6F6] rounded-lg"
+                    >
+                      Purchase {item.section}
+                    </Link>
+                  </div>
                 </div>
               );
             })}
