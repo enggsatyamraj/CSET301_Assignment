@@ -106,7 +106,7 @@ const BlogsCard = ({ heading, time, date, linkurl, imgurl, description }) => {
               <Image
                 className="w-[15px]"
                 src={rightbutton}
-                alt="right button"
+                alt="image showing explore more icon"
               />
             </button>
           </div>

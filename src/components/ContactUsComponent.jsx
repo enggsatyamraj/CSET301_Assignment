@@ -90,7 +90,7 @@ const ContactUsComponent = () => {
           </p>
           <Image
             src={form_submit}
-            alt="form submitted"
+            alt="image showing a thumbs up with 5 stars"
             className="max-w-[300px] md:w-[60%] w-[80%] h-auto"
           />
         </div>
@@ -129,7 +129,7 @@ const ContactUsComponent = () => {
               <Image
                 className="lg:w-[60%] w-[80%] max-w-[300px]"
                 src={order_completed}
-                alt="buying discord account."
+                alt="image showing a person with multiple social media accounts icons."
               />
             </div>
             <div className="w-full flex-[1]">

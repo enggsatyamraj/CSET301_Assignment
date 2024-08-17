@@ -204,7 +204,7 @@ const AboutPage = () => {
               <Image
                 className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
                 src={about_us}
-                alt="discord-arena-creatives accounts"
+                alt="image showcasing a person with social media accounts"
               />
             </div>
             <div className="radial_one"></div>
@@ -260,7 +260,7 @@ const AboutPage = () => {
             <Image
               className="w-[100px]"
               src={trustpilot_icon}
-              alt="trustpilot"
+              alt="image showcasing trustpilot icon"
             />
           </Link>
           {/* </div> */}

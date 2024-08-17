@@ -4,7 +4,7 @@ import youtubeData from "../../../dataFolder/youtube.json";
 import { FaDiscord } from "react-icons/fa";
 import Link from "next/link";
 import Footer from "@/components/Footer";
-import youtube_image from "../../../../public/discord-arena-creatives/discord.svg";
+import youtube_image from "../../../../public/discord-arena-creatives/youtube.svg";
 import Image from "next/image";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
@@ -122,7 +122,7 @@ const page = () => {
               <Image
                 className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
                 src={youtube_image}
-                alt="youtube-arena-creatives accounts"
+                alt="image showcasing a person with youtube icon"
               />
             </div>
           </div>

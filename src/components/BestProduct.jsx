@@ -116,7 +116,7 @@ const BestProduct = () => {
                 alt="discord image"
               />
             </div> */}
-            <Image src={discordImage} className=" mb-4" alt="discord image" />
+            <Image src={discordImage} className=" mb-4" alt="image showcasing discord icon for old Discord Accounts" />
 
             <p className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">
               Discord Old Accounts
@@ -184,7 +184,7 @@ const BestProduct = () => {
             <Image
               src={discordServerImage}
               className=" mb-4"
-              alt="discord image"
+              alt="image showcasing discord server boost icon"
             />
             {/* </div> */}
             <p className="bg-[#A5A6F6] w-fit px-3 text-[15px] text-[#1A365D] rounded-[4px]">

@@ -146,7 +146,7 @@ export default function Page() {
               <Image
                 className="lg:w-[90%] object-fit w-[60%] max-w-[300px]"
                 src={accountImage}
-                alt="discord-arena-creatives accounts"
+                alt="image showcasing a person highlighting social media accounts"
               />
             </div>
 

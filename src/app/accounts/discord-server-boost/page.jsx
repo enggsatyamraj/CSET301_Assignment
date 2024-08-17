@@ -152,7 +152,7 @@ const page = () => {
               <Image
                 className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
                 src={discord_server_boost}
-                alt="discord-arena-creatives accounts"
+                alt="image showcasing a person with discord server boost icon"
               />
             </div>
           </div>
