@@ -254,7 +254,7 @@ export default function Page() {
                   />
 
                   <Link
-                    href={`accounts/instagram/${item.name
+                    href={`accounts/buy-instagram-accounts/${item.name
                       .split(" ")
                       .join("-")
                       .toLowerCase()}`}
@@ -279,7 +279,7 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
-                      href={`accounts/instagram/${item.name
+                      href={`accounts/buy-instagram-accounts/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}
@@ -331,7 +331,7 @@ export default function Page() {
                   />
 
                   <Link
-                    href={`accounts/discord-server-boost/${item.name
+                    href={`accounts/buy-discord-server-boost/${item.name
                       .split(" ")
                       .join("-")
                       .toLowerCase()}`}
@@ -355,7 +355,7 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
-                      href={`accounts/reddit/${item.name
+                      href={`accounts/buy-reddit-accounts/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}
@@ -407,7 +407,7 @@ export default function Page() {
                   />
 
                   <Link
-                    href={`accounts/reddit/${item.name
+                    href={`accounts/buy-reddit-accounts/${item.name
                       .split(" ")
                       .join("-")
                       .toLowerCase()}`}
@@ -432,7 +432,7 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
-                      href={`accounts/reddit/${item.name
+                      href={`accounts/buy-reddit-accounts/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}
@@ -494,7 +494,7 @@ export default function Page() {
                   />
 
                   <Link
-                    href={`accounts/youtube/${item.name
+                    href={`accounts/buy-youtube-accounts/${item.name
                       .split(" ")
                       .join("-")
                       .toLowerCase()}`}
@@ -573,7 +573,7 @@ export default function Page() {
                   />
 
                   <Link
-                    href={`accounts/discordserver/${item.name
+                    href={`accounts/buy-discord-server/${item.name
                       .split(" ")
                       .join("-")
                       .toLowerCase()}`}
@@ -598,7 +598,7 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
-                      href={`accounts/discordserver/${item.name
+                      href={`accounts/buy-discord-server/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}

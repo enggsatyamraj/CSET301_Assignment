@@ -95,7 +95,7 @@ const page = () => {
                   <Link
                     className="anchorText"
                     href={
-                      "https://discordarena.com/accounts/youtube/buy-2015-aged-youtube-account"
+                      "https://discordarena.com/accounts/buy-youtube-accounts/buy-2015-aged-youtube-account"
                     }
                   >
                     2015 YouTube accounts
@@ -104,7 +104,7 @@ const page = () => {
                   <Link
                     className="anchorText"
                     href={
-                      "https://discordarena.com/accounts/youtube/buy-2023-aged-youtube-account"
+                      "https://discordarena.com/accounts/buy-youtube-accounts/buy-2023-aged-youtube-account"
                     }
                   >
                     accounts starting at $10
@@ -150,7 +150,7 @@ const page = () => {
                     />
 
                     <Link
-                      href={`/accounts/youtube/${item.name
+                      href={`/accounts/buy-youtube-accounts/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}
@@ -171,7 +171,7 @@ const page = () => {
                     </ul>
                     <div className="mt-5 flex items-center gap-3">
                       {/* <Link
-                          href={`/accounts/youtube/${item.name
+                          href={`/accounts/buy-youtube-accounts/${item.name
                             .split(" ")
                             .join("-")
                             .toLowerCase()}`}

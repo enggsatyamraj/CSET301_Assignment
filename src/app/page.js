@@ -79,7 +79,7 @@ export default function Page() {
       price: "Starting from $100 per account",
       // callToAction:
       //   "Purchase your 2015 Discord Account now and give your server the boost it needs!",
-      link: "accounts/discord/buy-2015-aged-discord-account",
+      link: "accounts/buy-discord-accounts/buy-2015-aged-discord-account",
     },
     {
       section: "2016 Old Discord Accounts",
@@ -102,7 +102,7 @@ export default function Page() {
       price: "Starting from $25 per account",
       // callToAction:
       //   "Purchase your 2016 Discord Account today and watch your community grow!",
-      link: "accounts/discord/buy-2016-aged-discord-account",
+      link: "accounts/buy-discord-accounts/buy-2016-aged-discord-account",
     },
     {
       section: "2017 Old Discord Accounts",
@@ -125,7 +125,7 @@ export default function Page() {
       price: "Starting from $10 per account",
       // callToAction:
       //   "Purchase your 2017 Discord Account now and elevate your server’s engagement!",
-      link: "accounts/discord/buy-2017-aged-discord-account",
+      link: "accounts/buy-discord-accounts/buy-2017-aged-discord-account",
     },
   ];
 
@@ -159,7 +159,7 @@ export default function Page() {
                   and social media services. We offer premium Discord accounts,
                   including{" "}
                   <Link
-                    href={"accounts/discord/buy-2015-aged-discord-account"}
+                    href={"accounts/buy-discord-accounts/buy-2015-aged-discord-account"}
                     className="anchorText"
                   >
                     those from 2015
@@ -224,7 +224,7 @@ export default function Page() {
                 </Link>{" "}
                 includes everything from{" "}
                 <Link
-                  href={"accounts/discord/buy-2015-aged-discord-account"}
+                  href={"accounts/buy-discord-accounts/buy-2015-aged-discord-account"}
                   className="anchorText"
                 >
                   2015 Discord accounts
@@ -235,7 +235,7 @@ export default function Page() {
                 <br />
                 Our{" "}
                 <Link
-                  href={"accounts/discord/buy-2023-aged-discord-account"}
+                  href={"accounts/buy-discord-accounts/buy-2023-aged-discord-account"}
                   className="anchorText"
                 >
                   aged Discord accounts

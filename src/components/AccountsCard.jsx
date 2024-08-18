@@ -12,7 +12,7 @@ const AccountsCard = ({ id, imgScr, atlMessage, item, index }) => {
       <img src={imgScr} alt={atlMessage} className="mb-4" />
 
       <Link
-        href={`accounts/discordserver/${item.name
+        href={`accounts/buy-discord-server/${item.name
           .split(" ")
           .join("-")
           .toLowerCase()}`}
@@ -37,7 +37,7 @@ const AccountsCard = ({ id, imgScr, atlMessage, item, index }) => {
       </ul>
       <div className="mt-5 flex items-center gap-3">
         {/* <Link
-                      href={`accounts/discordserver/${item.name
+                      href={`accounts/buy-discord-server/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}

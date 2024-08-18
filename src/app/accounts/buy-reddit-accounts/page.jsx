@@ -124,7 +124,7 @@ const page = () => {
                     />
 
                     <Link
-                      href={`/accounts/reddit/${item.name
+                      href={`/accounts/buy-reddit-accounts/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}
@@ -145,7 +145,7 @@ const page = () => {
                     </ul>
                     <div className="mt-5 flex items-center gap-3">
                       {/* <Link
-                        href={`/accounts/reddit/${item.name
+                        href={`/accounts/buy-reddit-accounts/${item.name
                           .split(" ")
                           .join("-")
                           .toLowerCase()}`}
