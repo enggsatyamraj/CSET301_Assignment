@@ -18,9 +18,9 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export function generateMetadata() {
   return {
-    title: "Buy Discord Accounts & Servers at Ease | Discord Arena",
+    title: "Buy Aged Discord Accounts & Discord Server Boosts now | Discord Arena",
     description:
-      "Discover a variety of aged and premium social media accounts, including Discord, Instagram, and Reddit. Enhance your online presence with verified profiles and exclusive features, perfect for marketers, influencers, and community builders. Explore our selection and elevate your digital footprint today!",
+      "Discover a variety of aged and premium social media accounts, including old Discord, Instagram, and Reddit. Enhance your online presence with verified profiles and exclusive features, perfect for marketers, influencers, and community builders. Explore our selection and elevate your digital footprint today!",
     keywords:
       "aged accounts, buy Discord accounts, buy social media accounts, premium accounts, verified Discord accounts, aged Instagram accounts, Reddit accounts",
     author: "Discord Arena",

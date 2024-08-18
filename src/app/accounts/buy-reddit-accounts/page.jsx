@@ -10,7 +10,7 @@ import Image from "next/image";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const generateMetadata = () => {
-  const title = "Buy Aged Reddit Accounts | Premium Karma Accounts";
+  const title = "Buy Aged Reddit Accounts | Old & Premium Karma Accounts";
   const description =
     "Buy premium Reddit accounts with high karma and established credibility. Enhance your Reddit presence with aged accounts, access exclusive subreddits, and boost your engagement. Perfect for content creators and marketers.";
   const keywords =
@@ -80,7 +80,7 @@ const page = () => {
           <div className="min-h-[400px] flex flex-col-reverse lg:flex-row justify-center ">
             <div className="flex flex-col justify-center">
               <h1 className="text-3xl md:text-4xl font-semibold mb-2">
-                Buy Reddit Accounts
+                Buy Aged Reddit Accounts - Starting from $2.5
               </h1>
               <p className="lg:text-2xl text-[22px] mb-4 lg:w-[70%] opacity-90 md:w-[60%] sm:w-[80%]">
                 Enhance Your Reddit Accounts with Premium Features

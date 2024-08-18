@@ -42,7 +42,7 @@ const jsonLdScript = {
 };
 
 export const generateMetadata = () => {
-  const title = "Buy Aged Instagram Accounts | Premium Verified Profiles";
+  const title = "Buy Aged Instagram Accounts | Premium, Old & Verified Profiles";
   const description =
     "Enhance your Instagram presence with premium aged accounts. Our verified profiles come with custom handles and exclusive features to boost your social media credibility. Perfect for influencers, brands, and marketers. ";
   const keywords =

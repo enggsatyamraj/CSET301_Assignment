@@ -8,9 +8,9 @@ import about_us from "../../../public/discord-arena-creatives/about-us.svg";
 import trustpilot_icon from "../../../public/icons/trustpilot-icon.png";
 
 export const generateMetadata = () => {
-  const title = "About Discord Arena | Buy Aged & Old Discord Accounts";
+  const title = "About Discord Arena | Buy Aged Discord Accounts & Discord Server Boosts";
   const description =
-    "Learn about Discord Arena, your trusted source for premium aged and verified social media accounts. Our mission is to provide high-quality accounts for enhanced online presence. Discover our story and commitment to excellence.";
+    "Learn about Discord Arena, your trusted source for premium aged and verified social media accounts. Get your aged and old Discord Accounts & Discord Server Boosts now.";
   const keywords =
     "about Discord Arena, premium social media accounts, trusted account provider, aged Discord accounts, verified profiles, company information, Discord account supplier, about Discord Arena, premium accounts, Discord, Instagram, exclusive accounts, high-quality accounts, buy accounts";
   const author = "Discord Arena";

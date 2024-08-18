@@ -10,7 +10,7 @@ import Image from "next/image";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const generateMetadata = () => {
-  const title = "Buy Aged Discord Accounts | Premium Discord Accounts";
+  const title = "Buy Aged Discord Accounts | Premium & Old Discord Accounts";
   const description =
     "Buy aged and premium Discord accounts to boost your server's credibility. Our accounts come with verified status, custom handles, and exclusive features to enhance your Discord experience. Perfect for server management, community building, and personal use. ";
   const keywords =

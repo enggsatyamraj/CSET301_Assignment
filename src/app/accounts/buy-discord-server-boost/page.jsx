@@ -42,7 +42,7 @@ const jsonLdScript = {
 };
 
 export const generateMetadata = () => {
-  const title = "Buy Discord ServerBoost | Premium Verified Profiles";
+  const title = "Buy Discord Server Boosts at affordable prices | Premium Verified Profiles";
   const description =
     "Enhance your discord server boost presence with premium aged accounts. Our verified profiles come with custom handles and exclusive features to boost your social media credibility. Perfect for influencers, brands, and marketers. ";
   const keywords =

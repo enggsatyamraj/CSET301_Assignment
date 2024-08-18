@@ -80,7 +80,7 @@ const page = () => {
           <div className="min-h-[400px] flex flex-col-reverse lg:flex-row justify-center ">
             <div className="flex flex-col justify-center">
               <h1 className="text-3xl md:text-4xl font-semibold mb-2">
-                Buy Reddit Accounts
+                Buy Aged Reddit Accounts - Starting from $2.5
               </h1>
               <p className="lg:text-2xl text-[22px] mb-4 lg:w-[70%] opacity-90 md:w-[60%] sm:w-[80%]">
                 Enhance Your Reddit Accounts with Premium Features
