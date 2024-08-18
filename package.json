@@ -24,7 +24,8 @@
     "react-icons": "^5.2.1",
     "react-responsive-carousel": "^3.2.23",
     "react-share": "^5.1.0",
-    "reactjs-popup": "^2.0.6"
+    "reactjs-popup": "^2.0.6",
+    "sellingwebsite": "file:"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
