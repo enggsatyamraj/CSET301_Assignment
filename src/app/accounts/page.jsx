@@ -181,7 +181,7 @@ export default function Page() {
                   />
 
                   <Link
-                    href={`accounts/discord/${item.name
+                    href={`accounts/buy-discord-accounts/${item.name
                       .split(" ")
                       .join("-")
                       .toLowerCase()}`}
@@ -202,7 +202,7 @@ export default function Page() {
                   </ul>
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
-                      href={`accounts/discord/${item.name
+                      href={`accounts/buy-discord-accounts/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}

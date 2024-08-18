@@ -95,7 +95,7 @@ const page = () => {
                   <Link
                     className="anchorText"
                     href={
-                      "https://discordarena.com/accounts/discord/buy-2015-aged-discord-account"
+                      "https://discordarena.com/accounts/buy-discord-accounts/buy-2015-aged-discord-account"
                     }
                   >
                     2015 Discord accounts
@@ -104,7 +104,7 @@ const page = () => {
                   <Link
                     className="anchorText"
                     href={
-                      "https://discordarena.com/accounts/discord/buy-2023-aged-discord-account"
+                      "https://discordarena.com/accounts/buy-discord-accounts/buy-2023-aged-discord-account"
                     }
                   >
                     accounts starting at $2
@@ -150,7 +150,7 @@ const page = () => {
                     />
 
                     <Link
-                      href={`/accounts/discord/${item.name
+                      href={`/accounts/buy-discord-accounts/${item.name
                         .split(" ")
                         .join("-")
                         .toLowerCase()}`}
@@ -171,7 +171,7 @@ const page = () => {
                     </ul>
                     <div className="mt-5 flex items-center gap-3">
                       {/* <Link
-                        href={`/accounts/discord/${item.name
+                        href={`/accounts/buy-discord-accounts/${item.name
                           .split(" ")
                           .join("-")
                           .toLowerCase()}`}
