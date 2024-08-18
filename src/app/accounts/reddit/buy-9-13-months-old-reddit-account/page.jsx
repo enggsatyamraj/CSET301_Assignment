@@ -232,10 +232,10 @@ const Page = () => {
             {data.discountPercentage}% Discount Buy Now
           </p>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
-          <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
+          <h1 className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
             Buy {data.months} months old Reddit Accounts at cheap prices here on
             Discord Arena.
-          </p>
+          </h1>
           <p className="mb-3 mt-5 text-2xl font-semibold">
             Buy {data.months} Reddit Accounts{" "}
           </p>

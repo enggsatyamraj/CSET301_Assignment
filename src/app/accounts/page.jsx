@@ -88,9 +88,9 @@ export default function Page() {
         <div className="relative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 text-white sm:px-12 ">
           <div className="z-4 relative flex min-h-[90vh] flex-col-reverse lg:flex-row justify-center">
             <div className="flex flex-col justify-center flex-3">
-              <p className="lg:w-[85%] text-2xl sm:w-[80%] mb-10  sm:text-3xl md:w-[70%] md:text-4xl">
+              <h1 className="lg:w-[85%] text-2xl sm:w-[80%] mb-10  sm:text-3xl md:w-[70%] md:text-4xl">
                 Get Premium Aged Discord Accounts, Discord Server Boosts & Social Media Accounts
-              </p>
+              </h1>
               <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[80%]">
                 <p>
                   Explore our selection of premium & high-quality{" "}
