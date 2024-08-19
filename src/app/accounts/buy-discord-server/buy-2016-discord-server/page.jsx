@@ -13,113 +13,110 @@ export const data = {
   year: 2016,
   link: "https://discord.gg/halfmoon",
   type: "Discord Server",
-  name: "Buy 2016 Aged Discord Servers",
+  name: "Buy 2016 Discord Server",
   image: "2016-discord-server.svg",
   price: "Contact Now",
   discountPercentage: 10,
   smallShowFiveFeatures: {
-    feature1: "Verified Membership",
-    feature2: "High Activity Levels",
-    feature3: "Engaged Community",
-    feature4: "Custom Emojis",
-    feature5: "Dedicated Support Channels",
+    feature1: "Verified Members",
+    feature2: "Active Discussions",
+    feature3: "Vibrant Community",
+    feature4: "Unique Emojis",
+    feature5: "24/7 Support",
   },
   introduction:
-    
-
-"Welcome to Discord Arena – the perfect place to revitalize your seasoned Discord server. Boost your server's performance and engagement with ease. Our 2016 aged Discord Servers package provides the opportunity to breathe new life into your community. Unlock the benefits of verified membership, increased activity, and a re-energized community. Enjoy custom emojis, exclusive support channels, and much more. Join Discord Arena today and give your server the boost it deserves!",
+    "Explore Discord Arena’s 2016 Discord Servers – ideal for communities seeking a powerful boost. Refresh and upgrade your server with verified members, active discussions, and a strong community presence. Enjoy unique emojis and access to round-the-clock support channels. Unlock the full potential of your server and watch it thrive with our 2016 package!",
   questionAnswerArray: [
     {
-      question: "What is the price of the Discord server?",
+      question: "What is the price of the 2016 Discord server?",
       answer:
-        "Secure your Discord server with a 10% discount. Elevate your community with verified credibility, enhanced capabilities, and exclusive perks.",
+        "Our 2016 Discord server is available for $1200, with an additional 10% discount. Upgrade your community effortlessly with verified members, vibrant interactions, and enhanced server features.",
     },
     {
-      question: "What features does the Discord server offer?",
+      question: "What features are included in the 2016 Discord server?",
       answer:
-        "Experience verified credibility, enhanced server capabilities, and exclusive perks with our Discord server. Engage with a community, and enjoy the benefits of integrated automation bots.",
+        "The 2016 Discord server offers verified members, active discussions, custom emojis, and robust support channels, along with advanced server features to enhance your community.",
     },
     {
-      question: "What are the benefits of using this Discord server?",
+      question: "How does the 2016 Discord server benefit my community?",
       answer:
-        "Our Discord server offers added credibility, advanced capabilities, and exclusive perks. Connect with engaged communities and leverage integrated automation for enhanced functionality.",
+        "By acquiring the 2016 Discord server, you boost your server’s credibility with verified members, foster active participation, and gain access to unique features that enrich your community experience.",
     },
     {
-      question: "What discount can I get for the Discord server?",
+      question: "Is there a discount available for the 2016 Discord server?",
       answer:
-        "Avail our Discord server at a 10% discount – a valuable opportunity to enhance your experience with verified credibility, advanced capabilities, and exclusive perks.",
+        "Yes, enjoy a 10% discount on our 2016 Discord server package. This offer is designed to help you maximize your investment while upgrading your server’s performance.",
     },
     {
-      question: "What is the introduction of this Discord server?",
+      question: "How would you describe this 2016 Discord server?",
       answer:
-        "Introducing our Discord server – your premium choice for verified credibility, advanced capabilities, and exclusive perks. Join our community and elevate your digital presence today.",
+        "The 2016 Discord server is a comprehensive solution for boosting community engagement, credibility, and server functionality. It's the ideal package for taking your server to new heights.",
     },
     {
-      question: "Why should I purchase this Discord server?",
+      question: "Why should I consider buying this 2016 Discord server?",
       answer:
-        "Unlock exclusive features, advanced capabilities, and tools for managing and growing your community with our Discord server. Join engaged communities for comprehensive engagement and functionality.",
+        "Investing in our 2016 Discord server allows you to instantly elevate your community with verified credibility, unique features, and a dedicated support system that ensures smooth server operations.",
     },
     {
-      question:
-        "Are there any risks associated with using this Discord server?",
+      question: "Are there any risks in purchasing the 2016 Discord server?",
       answer:
-        "While risks exist, we ensure secure transactions. Prioritize security and trust us for reliable social media services, including Discord.",
+        "We prioritize secure transactions and guarantee customer satisfaction, making the purchase of our 2016 Discord server safe and reliable for your community.",
     },
   ],
   features: [
     {
-      title: "Verified Membership",
+      title: "Verified Members",
       description:
-        "Enjoy the benefits of a server with verified membership, ensuring a trusted and secure community.",
+        "Add credibility to your server with a roster of verified members, ensuring a trusted and high-quality community.",
     },
     {
-      title: "High Activity Levels",
+      title: "Active Discussions",
       description:
-        "Experience high activity levels with members who are regularly online and engaged.",
+        "Engage in lively and ongoing discussions with active community members, keeping your server vibrant and thriving.",
     },
     {
-      title: "Engaged Community",
+      title: "Vibrant Community",
       description:
-        "Join a server with an engaged community that actively participates in discussions and events.",
+        "Be part of a vibrant community that shares interests and participates in events, driving continuous interaction.",
     },
     {
-      title: "Custom Emojis",
+      title: "Unique Emojis",
       description:
-        "Access a wide variety of custom emojis that are unique to the server.",
+        "Express yourself with a variety of custom-made emojis exclusive to your server, offering a personalized touch.",
     },
     {
-      title: "Dedicated Support Channels",
+      title: "24/7 Support",
       description:
-        "Benefit from dedicated support channels to assist with any questions or issues.",
+        "Receive round-the-clock support to ensure your server runs smoothly and any issues are resolved promptly.",
     },
   ],
   faq: [
     {
-      question: "How do I purchase the Discord server?",
+      question: "How can I purchase the 2016 Discord server?",
       answer:
-        "You can purchase the Discord server by visiting our official website or contacting our customer support for secure and reliable transactions. We ensure a smooth purchasing experience.",
+        "Purchasing is simple – visit our official website or contact customer support to finalize your secure transaction. We're here to assist every step of the way.",
     },
     {
       question:
-        "What payment methods are accepted for buying the Discord server?",
+        "What payment options do you offer for the 2016 Discord server?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Please check our website for the complete list of accepted payment methods.",
+        "We accept a wide range of payment methods, including credit cards, PayPal, and secure online payment options. For a full list, please refer to our website.",
     },
     {
-      question: "Is it safe to buy the Discord server?",
+      question: "Is it safe to buy the 2016 Discord server?",
       answer:
-        "Yes, it is safe to buy our Discord server. We prioritize security and follow best practices to ensure a positive and secure purchasing experience for our customers.",
+        "Yes, purchasing from us is secure. We follow industry best practices to ensure your transaction is safe and your server purchase is protected.",
     },
     {
-      question: "Can I customize the features of the Discord server?",
+      question: "Can I customize the 2016 Discord server to fit my needs?",
       answer:
-        "While features are predefined, we continually strive to enhance our offerings. Feel free to contact our customer support for specific customization requests, and we'll do our best to accommodate your needs.",
+        "While the server comes with predefined features, we're always open to hearing your customization requests. Contact our support team, and we'll do our best to tailor the experience to your needs.",
     },
     {
       question:
-        "What support is available after purchasing the Discord server?",
+        "What support will I receive after purchasing the 2016 Discord server?",
       answer:
-        "We provide ongoing support after purchase. If you have any questions, issues, or need assistance, please don't hesitate to contact our customer support team, and we'll be delighted to help.",
+        "We offer continuous support post-purchase. If you encounter any issues or need assistance, our dedicated team is available 24/7 to help you.",
     },
   ],
 };

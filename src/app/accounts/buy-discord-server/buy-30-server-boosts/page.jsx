@@ -11,130 +11,114 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export const data = {
   id: 1,
   year: 2015,
-  link: "https://discord.gg/halfmoon",
+  link: "https://discord.gg/fullmoon",
   type: "Discord Server",
-  name: "Buy 2015 Aged Discord Servers",
+  name: "Buy 2015 Discord Server",
   image: "2015-discord-server.svg",
   price: "Contact Now",
-  discountPercentage: 10,
+  discountPercentage: 15,
   smallShowFiveFeatures: {
-    feature1: "Verified Membership",
-    feature2: "High Activity Levels",
-    feature3: "Engaged Community",
-    feature4: "Custom Emojis",
-    feature5: "Dedicated Support Channels",
+    feature1: "Large User Base",
+    feature2: "Well-Moderated Community",
+    feature3: "Exclusive Roles",
+    feature4: "Custom Bots",
+    feature5: "High Engagement",
   },
   introduction:
-    "Welcome to Boostly – your ultimate destination for Discord server boosting. With Boostly, you can supercharge your server's performance and engagement with ease. Our 'Buy 30 Server Boosts' package offers you the opportunity to elevate your community to new heights. Experience the benefits of verified membership, high activity levels, and a truly engaged community. Access custom emojis, dedicated support channels, and much more. Join Boostly today and take your Discord server to the next level!",
+    "Unlock the potential of your community with our 2015 Discord Server offering. Designed for growth and success, this package comes equipped with a large user base, well-moderated community, and high engagement. Featuring custom bots and exclusive roles, this server provides the ideal platform for enhancing your community’s experience and ensuring smooth, vibrant interactions.",
   questionAnswerArray: [
     {
-      question: "What is the price of the Discord server?",
+      question: "What is the cost of the 2015 Discord server?",
       answer:
-        "Secure your Discord server for just $1200 with a 10% discount. Elevate your community with verified credibility, enhanced capabilities, and exclusive perks.",
+        "The 2015 Discord server is priced at $1500 with a special 15% discount. Elevate your server experience with a well-moderated community, large user base, and tailored features.",
     },
     {
-      question: "What features does the Discord server offer?",
+      question: "What makes the 2015 Discord server stand out?",
       answer:
-        "Experience verified credibility, enhanced server capabilities, and exclusive perks with our Discord server. Engage with a community, and enjoy the benefits of integrated automation bots.",
+        "The 2015 Discord server offers a well-moderated, large user base, custom bots, and exclusive roles. It’s perfect for anyone looking to create a dynamic and engaged community.",
     },
     {
-      question: "What are the benefits of using this Discord server?",
+      question: "How does the 2015 Discord server enhance user engagement?",
       answer:
-        "Our Discord server offers added credibility, advanced capabilities, and exclusive perks. Connect with engaged communities and leverage integrated automation for enhanced functionality.",
+        "With high engagement, exclusive roles, and custom bots, the 2015 Discord server fosters a lively and interactive community, ensuring that users remain active and invested.",
     },
     {
-      question: "What discount can I get for the Discord server?",
+      question: "Is there any discount available for the 2015 Discord server?",
       answer:
-        "Avail our Discord server at a 10% discount – a valuable opportunity to enhance your experience with verified credibility, advanced capabilities, and exclusive perks.",
+        "Yes, you can enjoy a 15% discount on the 2015 Discord server package, making it an excellent value for upgrading your server’s performance and user engagement.",
     },
     {
-      question: "What is the introduction of this Discord server?",
+      question: "How would you describe the 2015 Discord server?",
       answer:
-        "Introducing our Discord server – your premium choice for verified credibility, advanced capabilities, and exclusive perks. Join our community and elevate your digital presence today.",
+        "The 2015 Discord server is a robust platform featuring a large user base, exclusive roles, and custom bots, providing a seamless experience for growing communities.",
     },
     {
-      question: "Why should I purchase this Discord server?",
+      question: "Why should I choose the 2015 Discord server?",
       answer:
-        "Unlock exclusive features, advanced capabilities, and tools for managing and growing your community with our Discord server. Join engaged communities for comprehensive engagement and functionality.",
+        "Choosing the 2015 Discord server gives you access to a large, well-moderated community with unique features such as custom bots and high engagement. It’s a top-tier solution for expanding your server.",
     },
     {
       question:
-        "Are there any risks associated with using this Discord server?",
+        "What security measures are in place when purchasing the 2015 Discord server?",
       answer:
-        "While risks exist, we ensure secure transactions. Prioritize security and trust us for reliable social media services, including Discord.",
+        "Our secure purchasing process ensures your transaction is safe, and we provide reliable support to guarantee your server’s success after purchase.",
     },
   ],
   features: [
     {
-      title: "Verified Membership",
+      title: "Large User Base",
       description:
-        "Enjoy the benefits of a server with verified membership, ensuring a trusted and secure community.",
+        "Kickstart your server with a substantial user base, ensuring a bustling and dynamic community from the outset.",
     },
     {
-      title: "High Activity Levels",
+      title: "Well-Moderated Community",
       description:
-        "Experience high activity levels with members who are regularly online and engaged.",
+        "Enjoy peace of mind with a well-moderated server, creating a safe and respectful environment for all members.",
     },
     {
-      title: "Engaged Community",
+      title: "Exclusive Roles",
       description:
-        "Join a server with an engaged community that actively participates in discussions and events.",
+        "Offer your members exclusive roles that enhance their experience and give them a sense of belonging within the community.",
     },
     {
-      title: "Custom Emojis",
+      title: "Custom Bots",
       description:
-        "Access a wide variety of custom emojis that are unique to the server.",
+        "Automate your server’s operations with custom bots designed to streamline tasks and enhance member interactions.",
     },
     {
-      title: "Dedicated Support Channels",
+      title: "High Engagement",
       description:
-        "Benefit from dedicated support channels to assist with any questions or issues.",
+        "Encourage participation and activity with high engagement, ensuring your server remains lively and attractive to new users.",
     },
   ],
   faq: [
     {
-      question: "How do I purchase the Discord server?",
+      question: "How can I purchase the 2015 Discord server?",
       answer:
-        "You can purchase the Discord server by visiting our official website or contacting our customer support for secure and reliable transactions. We ensure a smooth purchasing experience.",
+        "You can easily purchase the 2015 Discord server by contacting us through our website. Our team will guide you through a secure and hassle-free process.",
     },
     {
       question:
-        "What payment methods are accepted for buying the Discord server?",
+        "What payment methods are accepted for the 2015 Discord server?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Please check our website for the complete list of accepted payment methods.",
+        "We accept multiple payment methods, including bank transfers, credit cards, and popular digital payment platforms. Visit our site for more details.",
     },
     {
-      question: "Is it safe to buy the Discord server?",
+      question: "Is it safe to buy the 2015 Discord server?",
       answer:
-        "Yes, it is safe to buy our Discord server. We prioritize security and follow best practices to ensure a positive and secure purchasing experience for our customers.",
-    },
-    {
-      question: "Can I customize the features of the Discord server?",
-      answer:
-        "While features are predefined, we continually strive to enhance our offerings. Feel free to contact our customer support for specific customization requests, and we'll do our best to accommodate your needs.",
+        "Yes, purchasing from us is secure. We prioritize safe transactions and provide full customer support to ensure your satisfaction.",
     },
     {
       question:
-        "What support is available after purchasing the Discord server?",
+        "Can I personalize the 2015 Discord server to suit my community?",
       answer:
-        "We provide ongoing support after purchase. If you have any questions, issues, or need assistance, please don't hesitate to contact our customer support team, and we'll be delighted to help.",
-    },
-  ],
-  reviews: [
-    {
-      name: "Raj",
-      rating: 4,
-      review: "Got help from the seller, perfectly legit. Good service.",
+        "The server comes with powerful features, but we're open to custom requests. Let us know your needs, and we'll do our best to accommodate them.",
     },
     {
-      name: "Wáng Fāng",
-      rating: 5,
-      review: "+ RESOLVED ISSUE QUICKLY",
-    },
-    {
-      name: "Zhào Lěi",
-      rating: 3,
-      review: "First it was not working but he fixed it for me",
+      question:
+        "What kind of support is available after purchasing the 2015 Discord server?",
+      answer:
+        "Our dedicated support team is available to assist you after your purchase. Whether you need help setting up or troubleshooting, we're here 24/7.",
     },
   ],
 };
