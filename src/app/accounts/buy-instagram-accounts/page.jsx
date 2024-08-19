@@ -44,9 +44,9 @@ const jsonLdScript = {
 export const generateMetadata = () => {
   const title = "Buy Aged Instagram Accounts | Premium, Old & Verified Profiles";
   const description =
-    "Enhance your Instagram presence with premium aged accounts. Our verified profiles come with custom handles and exclusive features to boost your social media credibility. Perfect for influencers, brands, and marketers. ";
+    "Enhance your Instagram presence with preimium & aged accounts. Our verified profiles come with custom handles and exclusive features to boost your social media credibility. Perfect for influencers, old brands, and marketers. ";
   const keywords =
-    "aged Instagram accounts, buy Instagram accounts, premium Instagram accounts, verified Instagram accounts, custom handle Instagram accounts, Instagram marketing";
+    "aged Instagram accounts, buy Instagram accounts, premium Instagram accounts, verified Instagram accounts, custom handle Instagram accounts, Instagram marketing, old instagram accounts";
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/instagram";
   const ogImage = "URL_TO_YOUR_LOGO_IMAGE";
@@ -112,22 +112,22 @@ const page = () => {
           <div className="min-h-[400px] flex flex-col-reverse lg:flex-row justify-center ">
             <div className="flex flex-col justify-center">
               <h1 className="text-2xl md:text-3xl lg:text-[2.2rem] font-semibold mb-4">
-                Buy Aged Instagram Accounts – Starting from $3 Only
+                Buy Premium & Aged Instagram Accounts – Starting from $3 Only
               </h1>
               <p className="lg:text-2xl text-[22px] mb-4 lg:w-[80%] opacity-90 md:w-[60%] sm:w-[80%]">
-                High-Quality Aged Instagram Accounts for Sale
+                High-Quality & Verified Profiles Aged Instagram Accounts for Sale
               </p>
               <p className="text-[#dcdcdc] lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
                 <p>
                   Are you looking to quickly boost your Instagram presence? At
-                  Discord Arena, we offer a variety of aged Instagram accounts
+                  Discord Arena, we offer a variety of old Instagram accounts
                   to help you achieve instant credibility and engagement. Our
                   accounts come with pre-established followers, making it easier
                   to grow your influence.
                 </p>
 
                 <p>
-                  We have a diverse selection, including{" "}
+                  We have a diverse selection, including aged{" "}
                   <Link
                     className="anchorText"
                     href={
@@ -143,7 +143,7 @@ const page = () => {
                 </p>
 
                 <p>
-                  Instagram accounts today and take your social media game to
+                  Buy old Instagram accounts today and take your social media game to
                   the next level!
                 </p>
               </p>
@@ -158,7 +158,7 @@ const page = () => {
           </div>
           <div className="min-h-[500px] py-12">
             <p className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
-              Shop Instagram Accounts
+              Shop Aged Instagram Accounts
             </p>
             <div className="grid grid-cols-1 mt-3 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {instagramData.map((item, index) => {

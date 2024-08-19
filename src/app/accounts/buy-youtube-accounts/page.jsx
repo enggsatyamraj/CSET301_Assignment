@@ -12,9 +12,9 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export const generateMetadata = () => {
   const title = "Buy Aged YouTube Accounts | Old Monetized Accounts";
   const description =
-    "Buy aged and premium YouTube accounts to boost your channel's credibility. Our accounts come with verified status, custom handles, and exclusive features to enhance your YouTube experience. Perfect for content creation, community building, and personal use.";
+    "Buy aged and premium & monetized YouTube accounts to boost your channel's credibility. Our accounts come with verified status, custom handles, and exclusive features to enhance your YouTube experience. Perfect for content creation, community building, and personal use.";
   const keywords =
-    "aged YouTube accounts, buy YouTube accounts, premium YouTube accounts, verified YouTube accounts, custom handle YouTube accounts, YouTube channel management";
+    "aged YouTube accounts, buy YouTube accounts, premium YouTube accounts, verified YouTube accounts, custom handle YouTube accounts, YouTube channel management, monetized youtube accounts";
   const author = "YouTube Arena";
   const ogUrl = "https://www.youtubearena.com/";
   const ogImage = "https://example.com/og-image.jpg";
@@ -83,11 +83,11 @@ const page = () => {
                 Buy Aged YouTube Accounts – Starting from $10 Only
               </h1>
               <p className="lg:text-2xl text-[22px] mb-4 lg:w-[80%] opacity-90 md:w-[60%] sm:w-[80%]">
-                Discover the Best Aged YouTube Accounts for Sale
+                Discover the Best Monetized & Aged YouTube Accounts for Sale
               </p>
               <p className="text-[#dcdcdc] lg:w-[100%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
                 Looking for reliable aged YouTube accounts? At YouTube Arena, we
-                offer a wide range of YouTube old accounts to meet your needs.
+                offer a wide range of Monetized YouTube old accounts to meet your needs.
                 Our accounts provide instant access to exclusive communities and
                 enhanced security.
                 <p>

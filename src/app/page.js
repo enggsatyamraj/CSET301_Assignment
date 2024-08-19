@@ -138,25 +138,23 @@ export default function Page() {
             className="min-h-[100vh]  relative flex items-center flex-col lg:flex-row pl-[10px] py-[100px] sm:pl-[30px] gap-5 justify-center z-4"
           >
             <div className=" flex-[3]">
-              <p className="pt-[60px]  text-4xl sm:text-5xl mb-10 md:text-5xl lg:text-[55px]  ">
+              <h1 className="pt-[60px]  text-4xl sm:text-5xl mb-10 md:text-5xl lg:text-[55px]  ">
                 Welcome to Discord Arena: Your Source for{" "}
                 <span className="span_text">Aged Discord Accounts</span> and
                 More
-              </p>
+              </h1>
               <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
                 <p>
                   Welcome to{" "}
-                  <Link href={"/"} className="anchorText">
-                    Discord Arena
-                  </Link>
+                  <span className="anchorText">Discord Arena</span>
                   , your go-to destination and source for high-quality{" "}
                   <Link
                     href={"accounts/buy-discord-accounts"}
                     className="anchorText"
                   >
-                    aged Discord accounts
+                    aged Discord
                   </Link>{" "}
-                  and social media services. We offer premium Discord accounts,
+                  accounts and social media services. We offer premium Discord accounts,
                   including{" "}
                   <Link
                     href={"accounts/buy-discord-accounts/buy-2015-aged-discord-account"}
@@ -194,9 +192,9 @@ export default function Page() {
                     href={"/accounts/buy-reddit-accounts"}
                     className="anchorText"
                   >
-                    Reddit accounts
+                    Reddit
                   </Link>{" "}
-                  to give your social media presence a head start with real
+                  accounts to give your social media presence a head start with real
                   followers and engagement.
                 </p>
 
@@ -275,9 +273,9 @@ export default function Page() {
       <WeOffer />
       <div className="bg-black text-white pt-8 pb-12">
         <div className="min-h-[90vh] px-4 flex flex-col justify-center max-w-[1280px] mx-auto">
-          <h1 className="text-3xl md:text-4xl text-center">
+          <p className="text-3xl md:text-4xl text-center">
             Buy Premium Best Selling Aged or Old Discord Accounts
-          </h1>
+          </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-[40px] gap-5">
             {specialDiscordServiceArray.map((item, index) => {

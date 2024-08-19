@@ -89,7 +89,7 @@ export default function Page() {
           <div className="z-4 relative flex min-h-[90vh] flex-col-reverse lg:flex-row justify-center">
             <div className="flex flex-col justify-center flex-3">
               <h1 className="lg:w-[85%] text-2xl sm:w-[80%] mb-10  sm:text-3xl md:w-[70%] md:text-4xl">
-                Get Premium Aged Discord Accounts, Discord Server Boosts & Social Media Accounts
+                Buy Premium Aged Discord Accounts, Discord Server Boosts & Social Media Accounts
               </h1>
               <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[80%]">
                 <p>
@@ -138,7 +138,7 @@ export default function Page() {
                   Choose Discord Arena for secure transactions, competitive
                   prices, and accounts that enhance your social media
                   experience. Start browsing now and find the perfect account to
-                  elevate your online presence!
+                  elevate your online presence! Buy your desired aged accounts now.
                 </p>
               </div>
             </div>

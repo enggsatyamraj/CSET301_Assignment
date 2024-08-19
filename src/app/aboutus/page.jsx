@@ -25,7 +25,7 @@ export const generateMetadata = () => {
     url: "https://www.discordarena.com/",
     logo: "URL_TO_YOUR_LOGO_IMAGE",
     description:
-      "Empowering your digital presence with premium Discord, Instagram, and accounts. Join Discord Arena for exclusive and high-quality accounts tailored to your needs.",
+      "Empowering your digital presence with premium Discord, Instagram, and accounts. Join Discord Arena to buy exclusive and high-quality accounts tailored to your needs.",
     foundingDate: "2022",
     founders: [
       {
@@ -114,13 +114,13 @@ const AboutPage = () => {
         <div className="max-w-[1280px] mx-auto px-7 sm:px-12 text-white relative min-h-[60vh] w-[100%]">
           <div className="min-h-[90vh] py-10 relative flex flex-col-reverse lg:flex-row justify-center z-4">
             <div className="flex flex-col justify-center">
-              <h1 className="text-[#A5A6F6] font-bold md:text-2xl text-2xl my-3 tracking-widest">
-                About Discord Arena: Your Trusted Provider of Premium Discord
+              <p className="text-[#A5A6F6] font-bold md:text-2xl text-2xl my-3 tracking-widest">
+                About Discord Arena: Your Trusted Provider to buy Premium Discord
                 Accounts
-              </h1>
-              <p className="text-3xl sm:text-3xl mb-6 md:text-4xl sm:w-[80%] md:w-[70%] lh:w-[60%]">
-                Enhance Your Online Presence with Top-Tier Aged Accounts
               </p>
+              <h1 className="text-3xl sm:text-3xl mb-6 md:text-4xl sm:w-[80%] md:w-[70%] lh:w-[60%]">
+                Enhance Your Online Presence with Premium & Aged Accounts
+              </h1>
               <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60">
                 Welcome to{" "}
                 <Link href={"/"} className="anchorText">
@@ -191,7 +191,7 @@ const AboutPage = () => {
                 <br />
                 Choose Discord Arena for secure transactions, competitive
                 prices, and accounts that enhance your social media experience.
-                Start browsing now to find the perfect account for your needs!
+                Start browsing now to buy the perfect account for your needs!
               </p>
               <Link
                 href="/contactus"

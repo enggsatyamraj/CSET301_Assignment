@@ -44,7 +44,7 @@ const jsonLdScript = {
 export const generateMetadata = () => {
   const title = "Buy Discord Server Boosts | Cheap Discord Boosts";
   const description =
-    "Enhance your discord server boost presence with premium aged accounts. Our verified profiles come with custom handles and exclusive features to boost your social media credibility. Perfect for influencers, brands, and marketers. ";
+    "Enhance your discord server boost presence with premium aged accounts and cheap server boosts. Our verified profiles come with custom handles and exclusive features to boost your social media credibility. Perfect for influencers, brands, and marketers. ";
   const keywords =
     "aged discord server boost accounts, buy discord server boost accounts, premium discord server boost accounts, verified discord server boost accounts, custom handle discord server boost accounts, discord server boost marketing";
   const author = "Discord Arena";
@@ -112,7 +112,7 @@ const page = () => {
           <div className="min-h-[400px] flex flex-col-reverse lg:flex-row justify-center ">
             <div className="flex flex-col justify-center">
               <h1 className="text-3xl md:text-4xl lg:max-w-[80%] font-semibold mb-5">
-                Buy discord server boost Accounts – Starting from $10 Only
+                Buy cheap discord server boost Accounts – Starting from $10 Only
               </h1>
               <p className="lg:text-2xl text-[22px] mb-4 lg:w-[80%] opacity-90 md:w-[60%] sm:w-[80%]">
                 High-Quality discord server boost Accounts for Sale
@@ -120,7 +120,7 @@ const page = () => {
               <p className="text-[#dcdcdc] lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
                 <p>
                   Are you looking to quickly boost your discord server boost
-                  presence? At Discord Arena, we offer a variety of aged discord
+                  presence? At Discord Arena, we offer a variety of cheap discord
                   server boost accounts to help you achieve instant credibility
                   and engagement. Our accounts come with pre-established
                   followers, making it easier to grow your influence.
