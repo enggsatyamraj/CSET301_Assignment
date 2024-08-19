@@ -191,7 +191,7 @@ export const generateMetadata = () => {
   };
 
   return {
-    title: `Buy ${data.year} Instagram Accounts (Aged) | Discord Arena`,
+    title: `Buy ${data.year} Aged Instagram Accounts | Discord Arena`,
     description: data.introduction,
     openGraph: {
       title: data.name,
