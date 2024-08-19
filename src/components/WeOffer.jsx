@@ -75,7 +75,7 @@ const WeOffer = () => {
               </Link>
 
               <Link
-                href={"/accounts/discord-server-boost"}
+                href={"/accounts/buy-discord-server-boost"}
                 area-label="see More Discord Servers"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"

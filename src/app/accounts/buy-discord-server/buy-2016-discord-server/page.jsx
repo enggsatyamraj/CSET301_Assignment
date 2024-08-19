@@ -9,12 +9,12 @@ import Footer from "@/components/Footer";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const data = {
-  id: 1,
-  year: 2015,
+  id: 2,
+  year: 2016,
   link: "https://discord.gg/halfmoon",
   type: "Discord Server",
-  name: "Buy 2015 Aged Discord Servers",
-  image: "2015-discord-server.svg",
+  name: "Buy 2016 Aged Discord Servers",
+  image: "2016-discord-server.svg",
   price: "Contact Now",
   discountPercentage: 10,
   smallShowFiveFeatures: {
@@ -26,7 +26,8 @@ export const data = {
   },
   introduction:
     
-"Welcome to Discord Arena – your ultimate destination for enhancing your Discord server. Supercharge your server's performance and engagement effortlessly. Our Aged Discord Server package offers a chance to elevate your community to new heights. Enjoy the perks of verified membership, high activity levels, and an actively engaged community. Access custom emojis, dedicated support channels, and much more. Join Discord Arena today and take your server to the next level!",
+
+"Welcome to Discord Arena – the perfect place to revitalize your seasoned Discord server. Boost your server's performance and engagement with ease. Our 2016 aged Discord Servers package provides the opportunity to breathe new life into your community. Unlock the benefits of verified membership, increased activity, and a re-energized community. Enjoy custom emojis, exclusive support channels, and much more. Join Discord Arena today and give your server the boost it deserves!",
   questionAnswerArray: [
     {
       question: "What is the price of the Discord server?",
@@ -121,44 +122,27 @@ export const data = {
         "We provide ongoing support after purchase. If you have any questions, issues, or need assistance, please don't hesitate to contact our customer support team, and we'll be delighted to help.",
     },
   ],
-  reviews: [
-    {
-      name: "Raj",
-      rating: 4,
-      review: "Got help from the seller, perfectly legit. Good service.",
-    },
-    {
-      name: "Wáng Fāng",
-      rating: 5,
-      review: "+ RESOLVED ISSUE QUICKLY",
-    },
-    {
-      name: "Zhào Lěi",
-      rating: 3,
-      review: "First it was not working but he fixed it for me",
-    },
-  ],
 };
 
-// export const reviews = [
-//   {
-//     name: "Ajay Verma",
-//     rating: 5,
-//     comment:
-//       "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
-//   },
-//   {
-//     name: "Sarah Davis",
-//     rating: 4,
-//     comment: "SUPER FAST DELIVERY man i highly recommend",
-//   },
-//   {
-//     name: "William Moore",
-//     rating: 5,
-//     comment:
-//       "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
-//   },
-// ];
+export const reviews = [
+  {
+    name: "Naman Singh",
+    rating: 5,
+    comment:
+      "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+  },
+  {
+    name: "Lěi Hin",
+    rating: 4,
+    comment: "SUPER FAST DELIVERY man i highly recommend",
+  },
+  {
+    name: "William knepper",
+    rating: 5,
+    comment:
+      "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
+  },
+];
 
 export const generateMetadata = () => {
   const calculateAverageRating = (reviews) => {
@@ -182,8 +166,8 @@ export const generateMetadata = () => {
     },
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: calculateAverageRating(data.reviews).toString(),
-      reviewCount: data.reviews.length.toString(),
+      ratingValue: calculateAverageRating(reviews).toString(),
+      reviewCount: reviews.length.toString(),
     },
     offers: {
       "@type": "Offer",
@@ -330,6 +314,16 @@ const Page = () => {
             </div>
           </div>
           <div className="mt-4 flex gap-5 mb-7">
+            {/* <span className="flex flex-1 items-center justify-center rounded-md bg-[#00C89D] px-3 py-[10px]  text-xl font-bold  text-black ">
+              ${data.price}
+            </span>
+            <Link
+              href={data.link}
+              target="_blank"
+              className="flex-[3] text-center justify-center items-center rounded-md bg-[#F6EBFF] px-3  py-[10px] text-xl  font-bold text-black"
+            >
+              Purchase
+            </Link> */}
             <Link
               target="_blank"
               href={data.link}
@@ -367,7 +361,7 @@ const Page = () => {
             Customer Testimonials
           </h2>
           <div className="mt-7 grid grid-cols-1 gap-8 md:grid-cols-2 mb-4">
-            {data.reviews.map((item, index) => {
+            {reviews.map((item, index) => {
               return (
                 <div
                   key={index}
@@ -382,7 +376,7 @@ const Page = () => {
                     </span>{" "}
                     : <span>{item.rating}</span>
                   </p>
-                  <p className="text-[14px] opacity-80">{item.review}</p>
+                  <p className="text-[14px] opacity-80">{item.comment}</p>
                 </div>
               );
             })}

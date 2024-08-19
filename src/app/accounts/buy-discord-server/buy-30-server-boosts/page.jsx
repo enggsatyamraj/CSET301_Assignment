@@ -13,7 +13,7 @@ export const data = {
   year: 2015,
   link: "https://discord.gg/halfmoon",
   type: "Discord Server",
-  name: "Buy 30 Server Boosts",
+  name: "Buy 2015 Aged Discord Servers",
   image: "2015-discord-server.svg",
   price: "Contact Now",
   discountPercentage: 10,

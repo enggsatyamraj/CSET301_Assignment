@@ -131,7 +131,7 @@ const page = () => {
                   <Link
                     className="anchorText"
                     href={
-                      "discord-server-boost/ultimate-server-boost-(14-x-3-months)"
+                      "buy-discord-server-boost/ultimate-server-boost-(14-x-3-months)"
                     }
                   >
                     14x3 discord server boost accounts

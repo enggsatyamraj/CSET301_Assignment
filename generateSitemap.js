@@ -20,10 +20,10 @@ const generateSitemapContent = () => {
     { url: "/blogs", priority: 0.9 },
     { url: "/faq", priority: 0.9 },
     { url: "/contactus", priority: 0.9 },
-    { url: "/accounts/discord", priority: 0.9 },
-    { url: "/accounts/discordserver", priority: 0.9 },
-    { url: "/accounts/instagram", priority: 0.9 },
-    { url: "/accounts/reddit", priority: 0.9 },
+    { url: "/accounts/buy-discord-accounts", priority: 0.9 },
+    { url: "/accounts/buy-discord-server", priority: 0.9 },
+    { url: "/accounts/buy-instagram-accounts", priority: 0.9 },
+    { url: "/accounts/buy-reddit-accounts", priority: 0.9 },
     { url: "/accounts/buy-discord-server-boost", priority: 0.9 },
   ];
 
@@ -60,11 +60,11 @@ const generateSitemapContent = () => {
 
   // Add dynamic URLs with priority 0.8
   addDynamicUrls(blogsData, "/blogs/", 0.6);
-  addDynamicUrls(discordData, "/accounts/discord/", 0.6);
+  addDynamicUrls(discordData, "/accounts/buy-discord-accounts/", 0.6);
   addDynamicUrls(discordServerBoost, "/accounts/buy-discord-server-boost/", 0.6);
-  addDynamicUrls(discordServerData, "/accounts/discordserver/", 0.6);
-  addDynamicUrls(instagramData, "/accounts/instagram/", 0.6);
-  addDynamicUrls(redditData, "/accounts/reddit/", 0.6);
+  addDynamicUrls(discordServerData, "/accounts/buy-discord-server/", 0.6);
+  addDynamicUrls(instagramData, "/accounts/buy-instagram-accounts/", 0.6);
+  addDynamicUrls(redditData, "/accounts/buy-reddit-accounts/", 0.6);
 
   sitemap += "</urlset>";
 

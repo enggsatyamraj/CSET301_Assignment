@@ -190,7 +190,7 @@ const Page = () => {
             Arena.
           </p>
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Buy {data.year} Discord Server{" "}
+            Buy {data.year} Aged Discord Servers{" "}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <div className="flex h-[200px] w-[100%] items-center justify-center rounded-[10px] border-[1px] border-[#fff] text-3xl">
