@@ -64,7 +64,7 @@ export default function Page() {
       image: "2015-discord.svg",
 
       description:
-        "Gain access to premium 2015 old Discord accounts that offer a rich history of engagement and activity. Elevate your community with accounts that have established reputations and connect effortlessly with thriving Discord communities.",
+        "Gain access to premium & bestselling 2015 old Discord accounts that offer a rich history of engagement and activity. Elevate your community with accounts that have established reputations and connect effortlessly with thriving Discord communities.",
       features: [
         "Established Accounts: Benefit from the credibility and history of 2015 accounts.",
         "Enhanced Security: Enjoy added security features with older accounts.",
@@ -87,9 +87,9 @@ export default function Page() {
       // title: "Boost Your Server with 2016 Discord Accounts",
       // heading: "Experience Growth with 2016 Discord Accounts",
       description:
-        "Invest in 2016 old Discord accounts to take advantage of established profiles with a proven track record. These accounts offer the perfect blend of history and activity, ensuring your server thrives with active participation.",
+        "Invest in 2016 aged & old Discord accounts to take advantage of established profiles with a proven track record. These accounts offer the perfect blend of history and activity, ensuring your server thrives with active participation.",
       features: [
-        "Established Profiles: Accounts with a solid history from 2016.",
+        "Established Profiles: Aged Accounts with a solid history from 2016.",
         "Enhanced Engagement: Boost interactions with active and experienced users.",
         "Custom Emojis and Roles: Personalize your server with custom features.",
         // "Seamless Integration: Easy integration into existing communities.",
@@ -110,9 +110,9 @@ export default function Page() {
       // title: "Enhance Your Discord Server with 2017 Discord Accounts",
       // heading: "Unlock New Opportunities with 2017 Discord Accounts",
       description:
-        "Acquire 2017 old Discord accounts to enhance your server with established users. These accounts bring a blend of activity and credibility, perfect for boosting your community’s engagement and interaction.",
+        "Acquire our bestselling 2017 old Discord accounts to enhance your server with established users. These accounts bring a blend of activity and credibility, perfect for boosting your community’s engagement and interaction.",
       features: [
-        "Well-Established Accounts: 2017 accounts with a history of activity.",
+        "Well-Established Accounts: Aged 2017 accounts with a history of activity.",
         "Engaged Users: Increase server activity with experienced members.",
         "Advanced Security: Benefit from added security features in older accounts.",
         // "Customizable Options: Tailor accounts to fit your server’s needs.",
@@ -138,11 +138,11 @@ export default function Page() {
             className="min-h-[100vh]  relative flex items-center flex-col lg:flex-row pl-[10px] py-[100px] sm:pl-[30px] gap-5 justify-center z-4"
           >
             <div className=" flex-[3]">
-              <h1 className="pt-[60px]  text-4xl sm:text-5xl mb-10 md:text-5xl lg:text-[55px]  ">
+              <p className="pt-[60px]  text-4xl sm:text-5xl mb-10 md:text-5xl lg:text-[55px]  ">
                 Welcome to Discord Arena: Your Source for{" "}
                 <span className="span_text">Aged Discord Accounts</span> and
                 More
-              </h1>
+              </p>
               <p className=" md:text-[16px] text-[15px] w-[99%] opacity-60">
                 <p>
                   Welcome to{" "}
@@ -273,9 +273,9 @@ export default function Page() {
       <WeOffer />
       <div className="bg-black text-white pt-8 pb-12">
         <div className="min-h-[90vh] px-4 flex flex-col justify-center max-w-[1280px] mx-auto">
-          <p className="text-3xl md:text-4xl text-center">
+          <h1 className="text-3xl md:text-4xl text-center">
             Buy Premium Best Selling Aged or Old Discord Accounts
-          </p>
+          </h1>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-[40px] gap-5">
             {specialDiscordServiceArray.map((item, index) => {
