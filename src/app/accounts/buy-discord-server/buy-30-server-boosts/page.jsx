@@ -199,7 +199,7 @@ export const generateMetadata = () => {
   };
 
   return {
-    title: `Buy ${data.year} Discord Server | Discord Arena`,
+    title: `Buy ${data.year} Aged Discord Server | Old & Premium Servers`,
     description: data.introduction,
     openGraph: {
       title: data.name,

@@ -10,7 +10,7 @@ import Image from "next/image";
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 export const generateMetadata = () => {
-  const title = "Buy Aged YouTube Accounts | Old & Premium Monetized YouTube Accounts";
+  const title = "Buy Aged YouTube Accounts | Old Monetized Accounts";
   const description =
     "Buy aged and premium YouTube accounts to boost your channel's credibility. Our accounts come with verified status, custom handles, and exclusive features to enhance your YouTube experience. Perfect for content creation, community building, and personal use.";
   const keywords =

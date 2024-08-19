@@ -5,7 +5,7 @@ import blogsContent from "../../dataFolder/blogs.json";
 
 const Page = () => {
   // SEO metadata
-  const seoTitle = "Buy Aged & Old Discord Accounts | Blogs";
+  const seoTitle = "Disocrd Blogs | Buy Aged Discord Accounts";
   const seoDescription = "Discover expert insights on buying Discord accounts, including old and aged accounts. Stay informed with our latest blogs on account purchasing, management, and tips.";
   const seoKeywords = "buy Discord account, old Discord account, aged Discord account, Discord blogs, purchase Discord account, Discord account management";
 

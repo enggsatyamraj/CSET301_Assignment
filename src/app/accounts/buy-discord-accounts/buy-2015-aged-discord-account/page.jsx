@@ -208,7 +208,7 @@ export const generateMetadata = () => {
   };
 
   return {
-    title: `Buy ${data.year} Discord Accounts | Old & Aged Discord Accounts`,
+    title: `Buy ${data.year} Discord Accounts | Old & Aged Accounts`,
     description: data.introduction,
     openGraph: {
       title: data.name,
