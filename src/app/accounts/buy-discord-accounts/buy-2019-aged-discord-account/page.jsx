@@ -256,7 +256,7 @@ const Page = () => {
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
           <h1 className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
-            Buy {data.year} {data.type} Aged Accounts
+            Buy {data.year} {data.type} Aged & Old Accounts
           </h1>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">

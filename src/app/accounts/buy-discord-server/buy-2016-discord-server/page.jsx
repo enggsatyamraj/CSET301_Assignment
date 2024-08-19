@@ -280,15 +280,15 @@ const Page = () => {
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
           <h1 className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
-           Buy {data.year} Aged {data.type} Servers
+           Buy {data.year} Aged & Old {data.type} Servers
           </h1>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
-            Buy {data.year} Discord Server at cheap prices here on Discord
+            Buy Premium {data.year} Discord Server at cheap prices here on Discord
             Arena.
           </p>
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Buy {data.year} Discord Server{" "}
+            Buy Premium{data.year} Discord Server{" "}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <img

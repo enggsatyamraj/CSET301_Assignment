@@ -109,7 +109,7 @@ const page = () => {
           </div>
           <div className="min-h-[500px] py-12">
             <p className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
-              Shop Discord Servers
+              Buy Old Discord Servers
             </p>
             <div className="grid grid-cols-1 mt-5 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {discordData.map((item, index) => {
@@ -135,7 +135,7 @@ const page = () => {
                       <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                         {item.year}
                       </span>{" "}
-                      Discord Servers
+                      Premium Old Discord Servers
                     </Link>
                     <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
                       <li>{item.smallShowFiveFeatures.feature1}</li>
