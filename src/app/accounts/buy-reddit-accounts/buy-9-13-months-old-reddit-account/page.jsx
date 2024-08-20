@@ -68,7 +68,7 @@ export const data = {
     {
       title: "Established Presence",
       description:
-        "Our Reddit accounts have an established presence, enhancing your credibility and visibility on the platform.",
+        "Our Reddit accounts boast a solid reputation, boosting your credibility and increasing your visibility on the platform.",
     },
     {
       title: "Reputable Account",
@@ -78,7 +78,7 @@ export const data = {
     {
       title: "Consistent Activity",
       description:
-        "Benefit from consistent activity, ensuring your posts and comments are regularly seen and engaged with.",
+        "Enjoy steady engagement, ensuring your posts and comments are frequently viewed and interacted with.",
     },
     {
       title: "Membership in Exclusive Subreddits",
@@ -88,7 +88,7 @@ export const data = {
     {
       title: "Enhanced Content Visibility",
       description:
-        "Experience enhanced content visibility, ensuring your contributions receive the attention they deserve.",
+        "Enjoy improved content exposure, guaranteeing your posts get the recognition they deserve.",
     },
   ],
   faq: [
@@ -112,7 +112,7 @@ export const data = {
       question:
         "Can I customize the features of 9-13 months Old Reddit Accounts?",
       answer:
-        "While features are predefined, Reddit Prestige continually enhances offerings. Contact our customer support for specific customization requests, and we'll strive to accommodate your needs.",
+        "Although features are set, Reddit Prestige is always improving its services. If you have specific customization needs, reach out to our support team, and we’ll do our best to meet your requests.",
     },
     {
       question:

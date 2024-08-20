@@ -139,7 +139,7 @@ export const reviews = [
     name: "William knepper",
     rating: 5,
     comment:
-      "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
+      "Superb support! They were lightning-fast and assisted me within minutes. My product arrived almost instantly. You won't be disappointed.",
   },
 ];
 

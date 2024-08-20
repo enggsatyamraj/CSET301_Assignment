@@ -135,7 +135,7 @@ export const data = {
       name: "Sarah Davis",
       rating: 4,
       review:
-        "Amazing , Helpful in all ways fast as it gets u wont regret it dont be nervous I was helped within minutes and got my product under seconds",
+        "Fantastic service, truly helpful and speedy. I received help in just minutes, and my product was delivered in seconds. No need to be anxious!",
     },
   ],
 };

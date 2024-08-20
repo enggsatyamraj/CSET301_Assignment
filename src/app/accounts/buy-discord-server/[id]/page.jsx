@@ -26,7 +26,7 @@ export const reviews = [
     name: "William Moore",
     rating: 5,
     comment:
-      "Amazing , Helpful in all ways fast as it gets u won’t regret it don’t be nervous I was helped within minutes and got my product under seconds",
+      "Outstanding experience—quick and efficient in every way. I was guided within minutes, and my order was delivered in no time. No regrets!",
   },
 ];
 

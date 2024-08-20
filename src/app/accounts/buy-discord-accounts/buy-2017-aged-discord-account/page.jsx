@@ -77,7 +77,7 @@ export const data = {
     {
       title: "Vibrant Community with Regular Extravaganzas",
       description:
-        "The account includes a vibrant community with regular events, fostering a sense of belonging and connection among users.",
+        "The account offers access to an active community with frequent events, creating a strong sense of connection and engagement among members.",
     },
     {
       title: "State-of-the-Art Moderation Tools",
