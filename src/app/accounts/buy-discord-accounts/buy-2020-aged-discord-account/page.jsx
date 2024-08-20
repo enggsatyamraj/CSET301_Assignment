@@ -107,11 +107,11 @@ export const data = {
       answer:
         "Yes, it is safe to buy Discord Prestige 2020 from us. Prioritize security and follow best practices for a positive and secure purchasing experience.",
     },
-    {
-      question: "Can I customize the features of Discord Prestige 2020?",
-      answer:
-        "While features are predefined, Discord Arena continually enhances offerings. Contact our customer support for specific customization requests, and we'll strive to accommodate your needs.",
-    },
+    // {
+    //   question: "Can I customize the features of Discord Prestige 2020?",
+    //   answer:
+    //     "While features are predefined, Discord Arena continually enhances offerings. Contact our customer support for specific customization requests, and we'll strive to accommodate your needs.",
+    // },
     {
       question:
         "What support is available after purchasing Discord Prestige 2020?",

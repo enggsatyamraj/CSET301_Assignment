@@ -107,11 +107,11 @@ export const data = {
       answer:
         "Yes, it is safe to buy Discord 2018 Mastermind from us. Prioritize security, and follow best practices for a positive and secure purchasing experience.",
     },
-    {
-      question: "Can I customize the features of Discord 2018 Mastermind?",
-      answer:
-        "While features are predefined, Discord Arena continually enhances offerings. Contact our customer support for specific customization requests, and we'll strive to accommodate your needs.",
-    },
+    // {
+    //   question: "Can I customize the features of Discord 2018 Mastermind?",
+    //   answer:
+    //     "While features are predefined, Discord Arena continually enhances offerings. Contact our customer support for specific customization requests, and we'll strive to accommodate your needs.",
+    // },
     {
       question:
         "What support is available after purchasing Discord 2018 Mastermind?",
