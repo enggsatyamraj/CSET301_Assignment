@@ -98,10 +98,9 @@ export const data = {
         "Visit our official website or contact our customer support for secure transactions. Reddit Prestige ensures a smooth purchasing experience.",
     },
     {
-      question:
-        "What payment methods are accepted for buying 9-Month Old Reddit Accounts?",
+      question: "How do I make a payment for Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "Payments can be made using various methods such as credit cards, PayPal, and other online platforms. Visit our payment options page for more details.",
     },
     {
       question: "Is it safe to buy 9-Month Old Reddit Accounts?",

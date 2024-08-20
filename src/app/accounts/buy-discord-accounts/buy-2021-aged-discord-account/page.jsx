@@ -98,9 +98,9 @@ export const data = {
     },
     {
       question:
-        "What payment methods are accepted for buying Discord Elysium 2021?",
+        "What forms of payment do you accept for Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "We accept payments via credit cards, PayPal, and other trusted online payment platforms. Please see our website for more details.",
     },
     {
       question: "Is it safe to buy Discord Elysium 2021?",

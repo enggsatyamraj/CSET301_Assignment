@@ -99,9 +99,9 @@ export const data = {
     },
     {
       question:
-        "What payment methods are accepted for buying 9-13 months Old Reddit Accounts?",
+        "What payment methods can I use for purchasing Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "We offer a range of payment options, including credit cards, PayPal, and other secure online methods. Check our website for all available choices.",
     },
     {
       question: "Is it safe to buy 9-13 months Old Reddit Accounts?",

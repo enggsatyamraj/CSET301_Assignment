@@ -98,10 +98,9 @@ export const data = {
         "Visit our official website or contact our customer support for secure and reliable transactions. Discord Arena ensures a smooth purchasing experience.",
     },
     {
-      question:
-        "What payment methods are accepted for buying Elite Discord Accounts?",
+      question: "What payment options do you offer for Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "We provide multiple payment options, such as credit cards, PayPal, and various online payment platforms. Please visit our payment page for the full list.",
     },
     {
       question: "Is it safe to buy Elite Discord Accounts?",

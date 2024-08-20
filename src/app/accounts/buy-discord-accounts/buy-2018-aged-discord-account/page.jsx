@@ -98,9 +98,9 @@ export const data = {
     },
     {
       question:
-        "What payment methods are accepted for buying Discord 2018 Mastermind?",
+        "What are the accepted payment methods for Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "We accept payments through credit cards, PayPal, and other secure online payment services. Please refer to our payment page for all available options.",
     },
     {
       question: "Is it safe to buy Discord 2018 Mastermind?",

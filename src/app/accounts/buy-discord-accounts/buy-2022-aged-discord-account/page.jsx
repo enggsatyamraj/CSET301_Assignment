@@ -98,9 +98,9 @@ export const data = {
     },
     {
       question:
-        "What payment methods are accepted for buying Discord Apex 2022?",
+        "Which payment options are accepted for Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "We support payments through credit cards, PayPal, and additional online methods. Visit our payment page for the full list.",
     },
     {
       question: "Is it safe to buy Discord Apex 2022?",

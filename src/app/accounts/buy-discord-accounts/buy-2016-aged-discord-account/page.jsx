@@ -98,10 +98,9 @@ export const data = {
         "Visit our official website or contact our customer support for secure and reliable transactions. Discord Arena ensures a smooth purchasing experience for Discord Account 2016 Plus.",
     },
     {
-      question:
-        "What payment methods are accepted for buying Discord Account 2016 Plus?",
+      question: "How can I pay for Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "You can pay using major credit cards, PayPal, or other digital payment methods. For more details, visit our payment section.",
     },
     {
       question: "Is it safe to buy Discord Account 2016 Plus?",

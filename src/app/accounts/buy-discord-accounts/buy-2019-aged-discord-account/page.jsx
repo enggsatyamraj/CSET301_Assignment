@@ -97,10 +97,9 @@ export const data = {
         "Visit our official website or contact our customer support for secure and reliable transactions. Discord Arena ensures a smooth purchasing experience for Discord Elite 2019.",
     },
     {
-      question:
-        "What payment methods are accepted for buying Discord Elite 2019?",
+      question: "How do I pay for Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "We accept a variety of payment methods including major credit cards and PayPal. Check our website for all payment options.",
     },
     {
       question: "Is it safe to buy Discord Elite 2019?",

@@ -97,10 +97,9 @@ export const data = {
         "Visit our official website or contact our customer support for secure and reliable transactions. Discord Arena ensures a smooth purchasing experience for Discord Prestige 2020.",
     },
     {
-      question:
-        "What payment methods are accepted for buying Discord Prestige 2020?",
+      question: "What payment methods can I use to buy Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "You can use credit cards, PayPal, and other secure online payment methods. For a full list, visit our payment information page.",
     },
     {
       question: "Is it safe to buy Discord Prestige 2020?",

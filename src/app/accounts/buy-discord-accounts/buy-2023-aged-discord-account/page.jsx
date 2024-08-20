@@ -97,10 +97,9 @@ export const data = {
         "Visit our official website or contact our customer support for secure and reliable transactions. Discord Arena ensures a smooth purchasing experience for Discord Nexus 2023.",
     },
     {
-      question:
-        "What payment methods are accepted for buying Discord Nexus 2023?",
+      question: "How can I complete a purchase for Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "Payments can be made using credit cards, PayPal, and other secure online payment options. More details are available on our website.",
     },
     {
       question: "Is it safe to buy Discord Nexus 2023?",

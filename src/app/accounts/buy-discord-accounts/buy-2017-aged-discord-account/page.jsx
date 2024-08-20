@@ -98,9 +98,9 @@ export const data = {
     },
     {
       question:
-        "What payment methods are accepted for buying Discord Account 2017 Pro?",
+        "Which payment methods are available for purchasing Elite Discord Accounts?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online options. Check our website for the complete list of accepted payment methods.",
+        "We accept several payment methods including credit/debit cards and PayPal. Additional options are available on our website.",
     },
     {
       question: "Is it safe to buy Discord Account 2017 Pro?",
