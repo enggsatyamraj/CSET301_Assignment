@@ -128,7 +128,7 @@ export const reviews = [
     name: "Naman Singh",
     rating: 5,
     comment:
-      "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+      "Customer service is outstanding, with quick replies in just a few hours. The login process is incredibly easy and seamless. I'm really happy with it!",
   },
   {
     name: "Lěi Hin",
@@ -286,8 +286,8 @@ const Page = () => {
           </h1>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
-            Buy Premium & old {data.year} Discord Server at cheap prices here on Discord
-            Arena.
+            Buy Premium & old {data.year} Discord Server at cheap prices here on
+            Discord Arena.
           </p>
           <p className="mb-3 mt-5 text-2xl font-semibold">
             Buy Premium & old {data.year} Discord Server{" "}

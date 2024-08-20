@@ -15,7 +15,7 @@ export const reviews = [
     name: "Ajay Verma",
     rating: 5,
     comment:
-      "great customer service, fast responses, like a few hours and reallllllllly easy like super easy to log in . love it.",
+      "The customer service is top-notch, with impressively quick response times—often within a few hours. Logging in is incredibly straightforward and hassle-free. I'm really impressed!",
   },
   {
     name: "Sarah Davis",
