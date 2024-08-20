@@ -286,11 +286,11 @@ const Page = () => {
           </h1>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
-            Buy Premium {data.year} Discord Server at cheap prices here on Discord
+            Buy Premium & old {data.year} Discord Server at cheap prices here on Discord
             Arena.
           </p>
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Buy Premium {data.year} Discord Server{" "}
+            Buy Premium & old {data.year} Discord Server{" "}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <img
@@ -300,7 +300,7 @@ const Page = () => {
             />
             <div>
               <p className="mb-5 text-2xl">
-                Buy cheap {data.year} Discord Server{" "}
+                Buy {data.year} old Discord Server at cheap prices{" "}
               </p>
               <ul className="list-disc pl-4 text-[15px] opacity-85">
                 <li>{data.smallShowFiveFeatures.feature1}</li>
@@ -336,7 +336,7 @@ const Page = () => {
           <p className="text-[16px] opacity-85 mb-4">{data.introduction}</p> */}
 
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Features and benefits of discord servers - {data.year}
+            Features and benefits of aged discord servers - {data.year}
           </p>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-3 mb-4">

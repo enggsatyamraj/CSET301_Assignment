@@ -120,7 +120,7 @@ const page = () => {
               <p className="text-[#dcdcdc] lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
                 <p>
                   Are you looking to quickly boost your Instagram presence? At
-                  Discord Arena, we offer a variety of old Instagram accounts
+                  Discord Arena, we offer a variety of premium & old Instagram accounts
                   to help you achieve instant credibility and engagement. Our
                   accounts come with pre-established followers, making it easier
                   to grow your influence.
@@ -143,7 +143,7 @@ const page = () => {
                 </p>
 
                 <p>
-                  Buy old Instagram accounts today and take your social media game to
+                  Buy premium & old Instagram accounts today and take your social media game to
                   the next level!
                 </p>
               </p>
@@ -158,7 +158,7 @@ const page = () => {
           </div>
           <div className="min-h-[500px] py-12">
             <p className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
-              Shop Aged Instagram Accounts
+              Buy Aged Instagram Accounts
             </p>
             <div className="grid grid-cols-1 mt-3 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {instagramData.map((item, index) => {

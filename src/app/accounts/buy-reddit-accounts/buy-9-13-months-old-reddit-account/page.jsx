@@ -236,7 +236,7 @@ const Page = () => {
             Discord Arena.
           </h1>
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Buy {data.months} Reddit Accounts{" "}
+            Buy {data.months} Reddit Accounts at cheap prices{" "}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <img
@@ -246,7 +246,7 @@ const Page = () => {
             />
             <div>
               <p className="mb-5 text-2xl">
-                Buy cheap {data.months} months old Reddit Accounts{" "}
+                Buy {data.months} months old Reddit Accounts at cheap prices{" "}
               </p>
               <ul className="list-disc pl-4 text-[15px] opacity-85">
                 <li>{data.smallShowFiveFeatures.feature1}</li>

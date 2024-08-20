@@ -129,7 +129,7 @@ export const data = {
       name: "Olivia Anderson",
       rating: 5,
       review:
-        "Seller was very kind and responded quickly ❤️ did not have any problems recieving product",
+        "Seller was very kind and responded quickly ❤️ did not have any problems receiving product",
     },
     {
       name: "simon Emma Harris",
@@ -254,11 +254,11 @@ const Page = () => {
           </h1>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
-            Buy {data.year} Discord accounts at cheap prices here on Discord
+            Buy {data.year} old Discord accounts at cheap prices here on Discord
             Arena.
           </p>
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Buy {data.year} Discord Account{" "}
+            Buy {data.year} Aged Discord Account{" "}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <img
@@ -268,7 +268,7 @@ const Page = () => {
             />
             <div>
               <p className="mb-5 text-2xl">
-                Buy cheap {data.year} Discord Account{" "}
+                Buy cheap & old {data.year} Discord Account{" "}
               </p>
               <ul className="list-disc pl-4 text-[15px] opacity-85">
                 <li>{data.smallShowFiveFeatures.feature1}</li>
@@ -297,7 +297,7 @@ const Page = () => {
           <p className="text-[16px] opacity-85 mb-4">{data.introduction}</p> */}
 
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Features and benefits of used discord accounts - {data.year}
+            Features and benefits of used & old discord accounts - {data.year}
           </p>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-3 mb-4">

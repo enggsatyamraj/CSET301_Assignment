@@ -307,7 +307,7 @@ const Page = () => {
           <p className="text-[16px] opacity-85 mb-4">{data.introduction}</p> */}
 
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Features and benefits of used discord accounts - {data.year}
+            Features and benefits of used or old discord accounts - {data.year}
           </p>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-3 mb-4">
@@ -352,7 +352,7 @@ const Page = () => {
           </div>
 
           <h2 className="mb-3 mt-5 text-2xl font-semibold">
-            FAQs related to aged Discord Accounts - {data.year}
+            FAQs related to aged or old Discord Accounts - {data.year}
           </h2>
           <div>
             {data.faq.map((item, index) => {

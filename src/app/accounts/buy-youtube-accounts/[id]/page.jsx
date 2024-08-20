@@ -115,7 +115,7 @@ const page = ({ params }) => {
               className="mb-4"
             />
             <div>
-              <p className="mb-5 text-2xl">Buy cheap aged youtube account </p>
+              <p className="mb-5 text-2xl">Buy aged youtube account at cheap prices</p>
               <ul className="list-disc pl-4 text-[15px] opacity-85">
                 <li>{data.smallShowFiveFeatures.feature1}</li>
                 <li>{data.smallShowFiveFeatures.feature2}</li>

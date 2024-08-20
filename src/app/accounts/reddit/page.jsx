@@ -87,9 +87,9 @@ const page = () => {
               </p>
               <p className="text-[#dcdcdc] lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
                 Step into the ultimate hub for transforming your Reddit
-                experience! Delve into a realm of premium Reddit accounts,
+                experience! Delve into a realm of premium & aged Reddit accounts,
                 expertly designed to elevate every aspect of your community
-                engagement, content sharing, and overall journey. Unlock
+                engagement, content sharing, and overall journey just starting from $2.5. Unlock
                 exclusive features, bolster your presence with high-karma
                 accounts, and distinguish yourself with reputable profiles. Our
                 Reddit account page serves as your portal to a seamless,
@@ -108,7 +108,7 @@ const page = () => {
           </div>
           <div className="min-h-[500px] py-12">
             <p className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
-              Shop Reddit Accounts
+              Buy Aged Reddit Accounts
             </p>
             <div className="grid grid-cols-1 mt-5 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {discordData.map((item, index) => {

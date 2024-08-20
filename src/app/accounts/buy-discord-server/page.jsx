@@ -88,7 +88,7 @@ const page = () => {
               </p>
               <p className="text-[#dcdcdc] lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
                 Step into the ultimate hub for transforming your Discord server
-                experience! Delve into a realm of premium Discord accounts,
+                experience! Delve into a realm of premium & aged Discord accounts,
                 expertly designed to elevate every aspect of your server&apos;s
                 communication, management, and overall journey. Unlock exclusive
                 features, bolster your server&apos;s credibility with verified
@@ -109,7 +109,7 @@ const page = () => {
           </div>
           <div className="min-h-[500px] py-12">
             <p className="text-[1.5rem] md:text-[1.75rem] font-semibold mb-2">
-              Buy Old Discord Servers
+              Buy Old or Aged Discord Servers
             </p>
             <div className="grid grid-cols-1 mt-5 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {discordData.map((item, index) => {
@@ -135,7 +135,7 @@ const page = () => {
                       <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
                         {item.year}
                       </span>{" "}
-                      Premium Old Discord Servers
+                      Premium Old & Aged Discord Servers
                     </Link>
                     <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
                       <li>{item.smallShowFiveFeatures.feature1}</li>
