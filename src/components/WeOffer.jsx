@@ -9,10 +9,12 @@ import { Actor } from "next/font/google";
 import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import { RedditShareButton } from "react-share";
+import { useRouter } from "next/navigation";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });
 
 const WeOffer = () => {
+  const router = useRouter();
   return (
     <div className={actor.className}>
       <div className="bg-[#121212]">
@@ -23,13 +25,15 @@ const WeOffer = () => {
             </p>
             <p className="text-center text-[15px] md:text-[16px] opacity-75 w-[99%] md:w-[65%] mx-auto mb-12">
               At Discord Arena, we&apos;re committed to empowering your digital
-              presence & maximize your potential with our wide range of premium & comprehensive services. Explore our
-              offerings below:
+              presence & maximize your potential with our wide range of premium
+              & comprehensive services. Explore our offerings below:
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Link
-                href={"/accounts/buy-discord-accounts"}
-                area-label="see More Discord Accounts"
+              <div
+                onClick={() => {
+                  router.push("/accounts/buy-discord-accounts");
+                }}
+                // area-label="see More Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -43,17 +47,20 @@ const WeOffer = () => {
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Buy aged Discord accounts with a history of engagement
-                    and activity. Connect with thriving communities instantly
-                    and boost your online presence.y, connecting you with
-                    thriving communities effortlessly.
+                    Buy aged Discord accounts with a history of engagement and
+                    activity. Connect with thriving communities instantly and
+                    boost your online presence.y, connecting you with thriving
+                    communities effortlessly.
                   </p>
                 </div>
-              </Link>
+              </div>
 
-              <Link
-                href={"/accounts/instagram"}
-                area-label="see More about Instagram Accounts"
+              <div
+                onClick={() => {
+                  router.push("/accounts/instagram");
+                }}
+                // href={"/accounts/instagram"}
+                // area-label="see More about Instagram Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -72,11 +79,14 @@ const WeOffer = () => {
                     premium aged accounts.
                   </p>
                 </div>
-              </Link>
+              </div>
 
-              <Link
-                href={"/accounts/buy-discord-server-boost"}
-                area-label="see More Discord Servers"
+              <div
+                onClick={() => {
+                  router.push("/accounts/buy-discord-server-boost");
+                }}
+                // href={"/accounts/buy-discord-server-boost"}
+                // area-label="see More Discord Servers"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -90,16 +100,20 @@ const WeOffer = () => {
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Discover our Discord server boosters to boost your Discord Server, offering expert server
-                    management, community engagement, and advanced moderation
-                    tools to elevate your server&lsquo;s performance.
+                    Discover our Discord server boosters to boost your Discord
+                    Server, offering expert server management, community
+                    engagement, and advanced moderation tools to elevate your
+                    server&lsquo;s performance.
                   </p>
                 </div>
-              </Link>
+              </div>
 
-              <Link
-                href={"/accounts/buy-reddit-accounts"}
-                area-label="Aged Reddit Accounts"
+              <div
+                onClick={() => {
+                  router.push("/accounts/buy-reddit-accounts");
+                }}
+                // href={"/accounts/buy-reddit-accounts"}
+                // area-label="Aged Reddit Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -108,19 +122,25 @@ const WeOffer = () => {
                     <FaRedditAlien size={30} className="rounded-full" />
                   </span>
                   <p className="text-2xl font-semibold whitespace-wrap leading-none tracking-tight">
-                  Buy Aged Reddit Accounts
+                    Buy Aged Reddit Accounts
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Boost your Reddit presence with our aged Reddit accounts. Engage with established communities and increase your online visibility effortlessly. Purchase now to enhance your marketing strategy and connect with active Reddit users.
+                    Boost your Reddit presence with our aged Reddit accounts.
+                    Engage with established communities and increase your online
+                    visibility effortlessly. Purchase now to enhance your
+                    marketing strategy and connect with active Reddit users.
                   </p>
                 </div>
-              </Link>
+              </div>
 
-              <Link
-                href={"/accounts/discordserver"}
-                area-label="see Pricing Discord Accounts"
+              <div
+                onClick={() => {
+                  router.push("/accounts/discordserver");
+                }}
+                // href={"/accounts/discordserver"}
+                // area-label="see Pricing Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -141,11 +161,14 @@ const WeOffer = () => {
                     start building your ideal Discord community effortlessly!
                   </p>
                 </div>
-              </Link>
+              </div>
 
-              <Link
-                href={"/accounts/buy-discord-accounts"}
-                area-label="see more Pricing Discord Accounts"
+              <div
+                onClick={() => {
+                  router.push("/accounts/buy-discord-accounts");
+                }}
+                // href={"/accounts/buy-discord-accounts"}
+                // area-label="see more Pricing Discord Accounts"
                 className="rounded-lg border-[0.5px] text-card-foreground shadow-sm bg-[#1F1F1F]"
                 data-v0-t="card"
               >
@@ -164,7 +187,7 @@ const WeOffer = () => {
                     community growth.
                   </p>
                 </div>
-              </Link>
+              </div>
 
               {/* <Link
                 href={"/accounts/buy-discord-accounts"}
