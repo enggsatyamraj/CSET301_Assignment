@@ -116,7 +116,7 @@ export const data = {
       question:
         "What support is available after purchasing Discord 2018 Mastermind?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help with Discord 2018 Mastermind.",
+        "Our support doesn’t end with your purchase. If you have any issues or questions, contact our customer support, and our team will be glad to assist you.",
     },
   ],
   reviews: [

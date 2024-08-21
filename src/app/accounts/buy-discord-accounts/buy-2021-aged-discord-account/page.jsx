@@ -116,7 +116,7 @@ export const data = {
       question:
         "What support is available after purchasing Discord Elysium 2021?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help with Discord Elysium 2021.",
+        "We offer ongoing support after your purchase. If you encounter any issues or have questions, our customer support team is here to help with whatever you need.",
     },
   ],
   reviews: [

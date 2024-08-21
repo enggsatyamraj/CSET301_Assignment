@@ -115,7 +115,7 @@ export const data = {
       question:
         "What support is available after purchasing Discord Nexus 2023?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help with Discord Nexus 2023.",
+        "Even after your purchase, we provide full support. If you have any questions or need assistance, don’t hesitate to contact our customer support team, and we’ll be happy to help.",
     },
   ],
   reviews: [

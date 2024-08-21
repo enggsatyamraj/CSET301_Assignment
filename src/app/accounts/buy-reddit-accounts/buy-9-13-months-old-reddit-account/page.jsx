@@ -95,7 +95,7 @@ export const data = {
     {
       question: "How do I purchase 9-13 months Old Reddit Accounts?",
       answer:
-        "Visit our official website or contact our customer support for secure transactions. Reddit Prestige ensures a smooth purchasing experience.",
+        "Head to our official website or contact our customer support for safe transactions. With Reddit Success, your purchasing experience is smooth and secure.",
     },
     {
       question:
@@ -118,7 +118,7 @@ export const data = {
       question:
         "What support is available after purchasing 9-13 months Old Reddit Accounts?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help.",
+        "Your support doesn’t stop at purchase. If you have questions or need help, our customer support team is always available to assist you..",
     },
   ],
 };

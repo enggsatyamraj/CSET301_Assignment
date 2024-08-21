@@ -95,7 +95,7 @@ export const data = {
     {
       question: "How do I purchase 9-Month Old Reddit Accounts?",
       answer:
-        "Visit our official website or contact our customer support for secure transactions. Reddit Prestige ensures a smooth purchasing experience.",
+        "For a secure purchase, visit our official website or get in touch with our customer support. Reddit Success is committed to ensuring a smooth transaction.",
     },
     {
       question: "How do I make a payment for Elite Discord Accounts?",
@@ -116,7 +116,7 @@ export const data = {
       question:
         "What support is available after purchasing 9-Month Old Reddit Accounts?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help.",
+        "We ensure you’re covered after your purchase. For any questions or assistance, reach out to our customer support team, and we'll be happy to help.",
     },
   ],
 };

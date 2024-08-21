@@ -116,7 +116,7 @@ export const data = {
       question:
         "What support is available after purchasing Elite Discord Accounts?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help.",
+        "After your purchase, we offer continuous support. If you have any questions or need help, reach out to our customer support team, and we'll be happy to assist.",
     },
   ],
   reviews: [

@@ -116,7 +116,7 @@ export const data = {
       question:
         "What support is available after purchasing Discord Account 2017 Pro?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help with Discord Account 2017 Pro.",
+        "We’re here for you even after your purchase. Should you have any questions or need assistance, our customer support team is ready and willing to help..",
     },
   ],
   reviews: [

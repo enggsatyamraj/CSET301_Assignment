@@ -116,7 +116,7 @@ export const data = {
       question:
         "What support is available after purchasing 11-Month Old Reddit Accounts?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help.",
+        "We continue to support you after your purchase. For any issues, questions, or assistance, contact our customer support team, and we’ll be glad to offer our help.",
     },
   ],
 };

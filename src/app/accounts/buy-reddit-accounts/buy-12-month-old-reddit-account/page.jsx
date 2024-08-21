@@ -95,7 +95,7 @@ export const data = {
     {
       question: "How do I purchase 12-Month Old Reddit Accounts?",
       answer:
-        "Visit our official website or contact our customer support for secure transactions. Reddit Success ensures a smooth purchasing experience.",
+        "For secure transactions, visit our official website or reach out to our customer support. Reddit Success guarantees a seamless purchasing experience.",
     },
     {
       question:

@@ -115,7 +115,7 @@ export const data = {
       question:
         "What support is available after purchasing Discord Prestige 2020?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help with Discord Prestige 2020.",
+        "After your purchase, we’re committed to supporting you. If you need help or have questions, our customer support team is here to assist you with a smile.",
     },
   ],
   reviews: [

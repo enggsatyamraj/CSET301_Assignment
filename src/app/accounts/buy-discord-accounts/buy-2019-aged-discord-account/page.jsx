@@ -115,7 +115,7 @@ export const data = {
       question:
         "What support is available after purchasing Discord Elite 2019?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help with Discord Elite 2019.",
+        "We provide continuous assistance after your purchase. For any concerns or help, contact our customer support, and our team will be pleased to assist you.",
     },
   ],
   reviews: [

@@ -115,7 +115,7 @@ export const data = {
     {
       question: "What support is available after purchasing Discord Apex 2022?",
       answer:
-        "We provide ongoing support after purchase. For questions, issues, or assistance, contact our customer support, and our team will be delighted to help with Discord Apex 2022.",
+        "Our commitment to you continues after your purchase. For any help or questions, our customer support team is ready to assist you with dedication.",
     },
   ],
   reviews: [
