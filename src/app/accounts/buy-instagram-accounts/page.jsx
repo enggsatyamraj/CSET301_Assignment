@@ -44,7 +44,7 @@ const jsonLdScript = {
 export const generateMetadata = () => {
   const title = "Buy Aged Instagram Accounts | Premium, Old & Verified Profiles";
   const description =
-    "Enhance your Instagram presence with preimium & aged accounts. Our verified profiles come with custom handles and exclusive features to boost your social media credibility. Perfect for influencers, old brands, and marketers. ";
+    "Enhance your Instagram presence with aged, verified accounts. Ideal for influencers and brands looking to boost credibility and engagement.";
   const keywords =
     "aged Instagram accounts, buy Instagram accounts, premium Instagram accounts, verified Instagram accounts, custom handle Instagram accounts, Instagram marketing, old instagram accounts";
   const author = "Discord Arena";

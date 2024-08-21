@@ -538,7 +538,7 @@ export const generateMetadata = () => {
   return {
     title: "Frequently Asked Questions | Buying Aged Discord Accounts",
     description:
-      "Find answers to frequently asked questions about purchasing aged and premium social media accounts from Discord Arena. Find answers to common questions about buying and using aged Discord accounts, server boosts, and other services offered by Discord Arena.",
+      "Find answers to common questions about purchasing aged social media accounts from Discord Arena. Learn about aged Discord accounts, server boosts, and more.",
     keywords:
       "Discord Arena FAQs, aged accounts questions, premium social media profiles, buying guide, customer support",
     openGraph: {

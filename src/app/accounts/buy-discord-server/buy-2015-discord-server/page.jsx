@@ -25,7 +25,7 @@ export const data = {
     feature5: "High Engagement",
   },
   introduction:
-    "Unlock the potential of your community with our 2015 Discord Server offering. Designed for growth and success, this package comes equipped with a large user base, well-moderated community, and high engagement. Featuring custom bots and exclusive roles, this server provides the ideal platform for enhancing your community’s experience and ensuring smooth, vibrant interactions.",
+    "Buy 2015 Discord Server with a large user base and custom bots. Ideal for community builders looking to boost server engagement and activity.",
   questionAnswerArray: [
     {
       question: "What is the cost of the 2015 Discord server?",

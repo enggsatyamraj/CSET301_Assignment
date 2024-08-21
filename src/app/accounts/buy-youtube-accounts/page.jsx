@@ -12,7 +12,7 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export const generateMetadata = () => {
   const title = "Buy Aged YouTube Accounts | Old Monetized Accounts";
   const description =
-    "Buy aged and premium & monetized YouTube accounts to boost your channel's credibility. Our accounts come with verified status, custom handles, and exclusive features to enhance your YouTube experience. Perfect for content creation, community building, and personal use.";
+    "Buy aged and monetized YouTube accounts for enhanced channel credibility. Perfect for content creators and community builders looking to grow their audience.";
   const keywords =
     "aged YouTube accounts, buy YouTube accounts, premium YouTube accounts, verified YouTube accounts, custom handle YouTube accounts, YouTube channel management, monetized youtube accounts";
   const author = "YouTube Arena";

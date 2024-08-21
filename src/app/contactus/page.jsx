@@ -9,7 +9,7 @@ import ContactUsComponent from "@/components/ContactUsComponent";
 export const generateMetadata = () => {
   const title = "Customer Care & Support | Know more about Aged Accounts";
   const description =
-    "Get in touch with Discord Arena for inquiries about our premium aged and verified social media accounts through Customer Care support. Have questions or need assistance? Contact Discord Arena for prompt support and expert advice on all our services and products.";
+    "Contact Discord Arena for inquiries about premium aged and verified social media accounts. Get support for Discord accounts, server boosts, and other services.";
   const keywords =
     "contact Discord Arena, customer support, premium accounts inquiry, aged Discord accounts, verified social media profiles, support team, Contact Discord Arena, support for Discord accounts, get in touch, customer service, contact us, Discord Arena, premium accounts, Discord, Instagram, customer support, inquiries";
   const author = "Discord Arena";
