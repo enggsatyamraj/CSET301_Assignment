@@ -57,7 +57,7 @@ export const generateMetadata = ({ params }) => {
   };
 
   return {
-    title: `${data.name} | Blogs`,
+    title: `${data.name} | Discord Arena`,
     description: data.content,
     openGraph: {
       title: data.name,
