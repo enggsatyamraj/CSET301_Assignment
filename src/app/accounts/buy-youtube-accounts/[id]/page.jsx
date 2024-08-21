@@ -57,7 +57,7 @@ export const generateMetadata = ({ params }) => {
   };
 
   return {
-    title: `${data.name} | Blogs`,
+    title: `${data.name} | Discord Arena`,
     description: data.content,
     openGraph: {
       title: data.name,
@@ -98,9 +98,9 @@ const page = ({ params }) => {
       </noscript>
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
-          <p className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
-            Buy Aged {data.type} Accounts
-          </p>
+          <h1 className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
+            Buy {data.type} Accounts
+          </h1>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
             Buy aged youtube account at cheap prices here on Discord Arena.

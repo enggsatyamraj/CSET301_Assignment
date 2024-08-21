@@ -50,7 +50,7 @@ export const generateMetadata = ({ params }) => {
   const ogImageUrl = `/blogs-banner/blog-${blogNumber}.png`;
 
   return {
-    title: `${data.name} | Blogs`,
+    title: `${data.name}Discord Arena`,
     description: data.content,
     icons: {
       icon: [iconUrl],

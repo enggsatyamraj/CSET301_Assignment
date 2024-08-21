@@ -30,7 +30,7 @@ export const data = {
     {
       question: "What is the price of 9-Month Old Reddit Accounts?",
       answer:
-        "Acquire 9-Month Old Reddit Accounts for $75 with a 12% discount. Enhance your Reddit presence with an established account, reputable standing, and consistent activity.",
+        "Acquire 9-Month Old Reddit Accounts for $2.5 with a 12% discount. Enhance your Reddit presence with an established account, reputable standing, and consistent activity.",
     },
     {
       question: "What are the features of 9-Month Old Reddit Accounts?",
@@ -278,7 +278,7 @@ const Page = () => {
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
           <h1 className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
-            Buy {data.months} old or aged {data.type} Accounts
+            Buy {data.months} months old or aged {data.type} Accounts
           </h1>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">

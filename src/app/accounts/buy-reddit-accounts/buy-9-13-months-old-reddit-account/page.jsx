@@ -15,7 +15,7 @@ export const data = {
   type: "Reddit",
   name: "Buy 9-13 months Old Reddit Account",
   image: "9-13-reddit-acounts.svg",
-  price: 75,
+  price: 2.5,
   discountPercentage: 12,
   smallShowFiveFeatures: {
     feature1: "Established Presence",
@@ -30,7 +30,7 @@ export const data = {
     {
       question: "What is the price of 9-13 months Old Reddit Accounts?",
       answer:
-        "Acquire 9-13 months Old Reddit Accounts for $75 with a 12% discount. Enhance your Reddit presence with an established account, reputable standing, and consistent activity.",
+        "Acquire 9-13 months Old Reddit Accounts for $2.5 with a 12% discount. Enhance your Reddit presence with an established account, reputable standing, and consistent activity.",
     },
     {
       question: "What are the features of 9-13 months Old Reddit Accounts?",
@@ -228,7 +228,7 @@ const Page = () => {
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
           <p className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
-            Buy {data.months} old or aged {data.type} Accounts
+            Buy {data.months} months old or aged {data.type} Accounts
           </p>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <h1 className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
@@ -236,7 +236,7 @@ const Page = () => {
             Discord Arena.
           </h1>
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Buy {data.months} Reddit Accounts at cheap prices{" "}
+            Buy {data.months} months Reddit Accounts at cheap prices{" "}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <img
