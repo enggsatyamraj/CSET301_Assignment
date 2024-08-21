@@ -97,40 +97,33 @@ const Footer = () => {
             <p className="font-bold text-xl mb-4">Extra</p>
             <br />
             <Link
-              href={"https://discord.gg/Z2eXvbkufU"}
-              area-label="Discord"
-              target="_blank"
+              href={"/termsandconditions"}
+              area-label="terms and conditions"
+              // target="_blank"
               className="opacity-70 text-[15px] my-2"
             >
               Terms & Conditions
             </Link>
             <br />
             <Link
-              href={"https://t.me/halfmoonisgod"}
-              area-label="Telegram"
-              target="_blank"
+              href={"/privacypolicy"}
+              area-label="privacy policy"
               className="opacity-70 text-[15px] my-2"
             >
               Privacy Policy
             </Link>
             <br />
-            <Link
-              href={
-                "https://www.facebook.com/profile.php?id=61561779807507&mibextid=LQQJ4d"
-              }
-              target="_blank"
-              className="opacity-70 text-[15px] my-2"
-            >
+            <Link href={"/disclaimer"} className="opacity-70 text-[15px] my-2">
               Disclaimer
             </Link>
             <br />
-            <Link
+            {/* <Link
               href={"https://www.instagram.com/discord_arena/"}
               target="_blank"
               className="opacity-70 text-[15px] my-2"
             >
               Instagram
-            </Link>
+            </Link> */}
             <br />
             {/* <Link href={"https://t.me/halfmoonisgod"} target="_blank" className="opacity-70 text-[15px] my-2"></Link> */}
             {/* <p className="opacity-70 text-[15px] my-2">Behance</p> */}
