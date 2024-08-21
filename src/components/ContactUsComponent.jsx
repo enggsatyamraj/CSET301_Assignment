@@ -96,43 +96,47 @@ const ContactUsComponent = () => {
         </div>
       ) : (
         <>
-          <p className="md:text-[1.15rem] opacity-90 md:w-[70%] text-[0.9rem] mt-5">
-            We are here to assist you with any questions or concerns you may
-            have. Our knowledgeable team is ready to provide you with the
-            information and support you need.
-          </p>
-          <p className="md:text-[1.05rem] opacity-90 text-[0.9rem] mt-3">
-            To ensure we can provide you with the best possible service, please
-            have the following details ready:
-          </p>
-          <ul className="opacity-70 text-[0.85rem]">
-            <li> - Your name, email and phone number</li>
-            <li> - A clear and concise description of your inquiry</li>
-          </ul>
-          <p className="mt-3 mb-5 opacity-80 md:w-[60%]">
-            By providing us with these details upfront, we can streamline the
-            process and address your query more efficiently.
-          </p>
-          <p className="mb-5 opacity-80">
-            If your inquiry is regarding an order, you can also check the status
-            by visiting the link below
-          </p>
-          <Link
-            target="_blank"
-            className="mb-3 mt-[10px] bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
-            href={"https://yoyohoni.mysellix.io/contact"}
-          >
-            Order inquiry
-          </Link>
-          <div className="flex flex-col lg:flex-row items-center mt-12 gap-4 px-5">
-            <div className="flex-[1] w-full flex items-center justify-center">
+          <div className="flex flex-col lg:flex-row items-center mt-12 gap-4">
+            <div className="w-full flex-[1]">
+              <p className="md:text-[1.15rem] opacity-90 md:w-[70%] text-[0.9rem] mt-5">
+                We are here to assist you with any questions or concerns you may
+                have. Our knowledgeable team is ready to provide you with the
+                information and support you need.
+              </p>
+              <p className="md:text-[1.05rem] opacity-90 text-[0.9rem] mt-3">
+                To ensure we can provide you with the best possible service,
+                please have the following details ready:
+              </p>
+              <ul className="opacity-70 text-[0.85rem]">
+                <li> - Your name, email and phone number</li>
+                <li> - A clear and concise description of your inquiry</li>
+              </ul>
+              <p className="mt-3 mb-5 opacity-80 md:w-[60%]">
+                By providing us with these details upfront, we can streamline
+                the process and address your query more efficiently.
+              </p>
+              <p className="mb-5 opacity-80">
+                If your inquiry is regarding an order, you can also check the
+                status by visiting the link below
+              </p>
+              <Link
+                target="_blank"
+                className="mb-3 mt-[10px] bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
+                href={"https://yoyohoni.mysellix.io/contact"}
+              >
+                Order inquiry
+              </Link>
+            </div>
+            <div className="flex-[1] w-full flex items-center justify-center ">
               <Image
                 className="lg:w-[60%] w-[80%] max-w-[300px]"
                 src={order_completed}
                 alt="image showing a person with multiple social media accounts icons."
               />
             </div>
-            <div className="w-full flex-[1]">
+          </div>
+          <div className="px-5 mt-10">
+            <div className="w-full">
               <form onSubmit={onSubmit}>
                 <div className="flex items-center mb-4 gap-5">
                   <div className="w-[100%]">
