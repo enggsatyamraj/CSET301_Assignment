@@ -1,41 +1,60 @@
-"use client";
 import BlogsCard from "@/components/BlogsCard";
-import React, { useEffect } from "react";
+import React from "react";
 import blogsContent from "../../dataFolder/blogs.json";
 
+export function generateMetadata() {
+  return {
+    title:
+      "Expert Insights on Discord Accounts & Social Media | Discord Arena Blogs",
+    description:
+      "Stay informed with our latest blog posts on buying, managing, and maximizing the value of Discord and other social media accounts. Explore expert advice, tips, and trends tailored for influencers, marketers, and community builders.",
+    keywords:
+      "Discord blogs, buy Discord accounts, social media management, aged Discord accounts, account purchasing tips, social media trends",
+    author: "Discord Arena",
+    viewport: "width=device-width, initial-scale=1.0",
+    openGraph: {
+      title: "Expert Insights on Discord & Social Media | Discord Arena Blogs",
+      description:
+        "Dive into the latest trends and expert advice on Discord and social media account management. Discover valuable insights that can elevate your online presence.",
+      type: "article",
+      url: "https://www.discordarena.com/blogs",
+      images: [
+        {
+          url: "URL_TO_YOUR_BLOGS_SOCIAL_SHARE_IMAGE",
+          width: 800,
+          height: 600,
+          alt: "Expert Insights on Discord & Social Media | Discord Arena Blogs",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@yourhandle",
+      title: "Expert Insights on Discord & Social Media | Discord Arena Blogs",
+      description:
+        "Read our latest blog posts to stay ahead in the world of social media and Discord account management.",
+      image: "URL_TO_YOUR_BLOGS_SOCIAL_SHARE_IMAGE",
+    },
+    structuredData: {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      name: "Discord Arena Blogs",
+      url: "https://www.discordarena.com/blogs",
+      description:
+        "Explore our collection of blog posts offering insights and tips on buying and managing social media accounts, with a focus on Discord.",
+      publisher: {
+        "@type": "Organization",
+        name: "Discord Arena",
+        logo: {
+          "@type": "ImageObject",
+          url: "URL_TO_YOUR_LOGO_IMAGE",
+        },
+      },
+    },
+  };
+}
+
 const Page = () => {
-  // SEO metadata
-  const seoTitle = "Disocrd Blogs | Buy Aged Discord Accounts";
-  const seoDescription = "Discover expert insights on buying Discord accounts, including old and aged accounts. Stay informed with our latest blogs on account purchasing, management, and tips.";
-  const seoKeywords = "buy Discord account, old Discord account, aged Discord account, Discord blogs, purchase Discord account, Discord account management";
-
-  useEffect(() => {
-    // Set the document title
-    document.title = seoTitle;
-
-    // Set the meta description
-    const metaDescription = document.querySelector('meta[name="description"]');
-    if (metaDescription) {
-      metaDescription.setAttribute("content", seoDescription);
-    } else {
-      const meta = document.createElement('meta');
-      meta.name = "description";
-      meta.content = seoDescription;
-      document.head.appendChild(meta);
-    }
-
-    // Set the meta keywords
-    const metaKeywords = document.querySelector('meta[name="keywords"]');
-    if (metaKeywords) {
-      metaKeywords.setAttribute("content", seoKeywords);
-    } else {
-      const meta = document.createElement('meta');
-      meta.name = "keywords";
-      meta.content = seoKeywords;
-      document.head.appendChild(meta);
-    }
-  }, []); // Empty dependency array means this runs once after initial render
-
   return (
     <div className="bg-normal overflow-x-hidden text-white">
       <div className="max-w-[1280px] pt-[150px] relative mx-auto py-[50px] md:px-[50px] px-[10px]">
@@ -48,7 +67,10 @@ const Page = () => {
             <div key={index}>
               <BlogsCard
                 imgurl={`../blogs-banner/${item.image}`}
-                linkurl={`/blogs/${item?.name.split(" ").join("-").toLowerCase()}`}
+                linkurl={`/blogs/${item?.name
+                  .split(" ")
+                  .join("-")
+                  .toLowerCase()}`}
                 heading={item.name}
                 time={item.minutes_read}
                 date={item.date}
