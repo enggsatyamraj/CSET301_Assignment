@@ -5,7 +5,7 @@ import blogsContent from "../../dataFolder/blogs.json";
 export function generateMetadata() {
   return {
     title:
-      "Expert Insights on Discord Accounts & Social Media | Discord Arena Blogs",
+      "Discord Blogs | Guide to buy Discord Accounts & Server Boosts",
     description:
       "Stay informed with our latest blog posts on buying, managing, and maximizing the value of Discord and other social media accounts. Explore expert advice, tips, and trends tailored for influencers, marketers, and community builders.",
     keywords:
