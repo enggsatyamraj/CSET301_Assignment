@@ -124,7 +124,7 @@ const ContactUsComponent = () => {
                 className="mb-3 mt-[10px] bg-[#a5a6f6] text-black px-3 text-[17px] py-2 rounded-sm"
                 href={"https://yoyohoni.mysellix.io/contact"}
               >
-                Order inquiry
+                Raise Ticket
               </Link>
             </div>
             <div className="flex-[1] w-full flex items-center justify-center ">
