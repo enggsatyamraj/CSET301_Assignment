@@ -83,7 +83,7 @@ export const data = {
     {
       title: "Membership in Exclusive Subreddits",
       description:
-        "Gain membership in exclusive subreddits, allowing you to participate in high-quality discussions and influential communities.",
+        "Join exclusive subreddits where you can engage in top-tier discussions and become part of influential communities.",
     },
     {
       title: "Enhanced Content Visibility",

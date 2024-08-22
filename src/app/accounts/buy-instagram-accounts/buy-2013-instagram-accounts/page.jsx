@@ -130,7 +130,7 @@ export const data = {
       question:
         "What payment methods are accepted for buying an Instagram Account?",
       answer:
-        "We accept various payment methods, including credit cards, PayPal, and other secure online payment options. Please check our website for the complete list of accepted payment methods.",
+        "You can pay using credit cards, PayPal, or other secure online payment methods. Visit our website to see all the payment options available.",
     },
     {
       question: "Is it safe to buy an Instagram Account?",
