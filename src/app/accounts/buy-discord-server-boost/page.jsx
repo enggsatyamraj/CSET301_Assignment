@@ -44,7 +44,7 @@ const jsonLdScript = {
 export const generateMetadata = () => {
   const title = "Buy Discord Server Boosts | Cheap Discord Boosts";
   const description =
-    "Enhance your discord server boost presence with premium aged accounts and cheap server boosts. Our verified profiles come with custom handles and exclusive features to boost your social media credibility. Perfect for influencers, brands, and marketers. ";
+    "Get the best server boost packages for Discord. Verified, aged accounts with custom features, perfect for influencers, brands, and marketers.";
   const keywords =
     "aged discord server boost accounts, buy discord server boost accounts, premium discord server boost accounts, verified discord server boost accounts, custom handle discord server boost accounts, discord server boost marketing";
   const author = "Discord Arena";

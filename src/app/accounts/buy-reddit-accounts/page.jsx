@@ -12,7 +12,7 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export const generateMetadata = () => {
   const title = "Buy Aged Reddit Accounts | Old & Premium Karma Accounts";
   const description =
-    "Buy premium Reddit accounts with high karma and established credibility. Enhance your Reddit presence with aged accounts, access exclusive subreddits, and boost your engagement. Perfect for content creators and marketers.";
+    "Buy premium Reddit accounts with high karma and credibility. Aged accounts for access to exclusive subreddits, ideal for content creators and marketers.";
   const keywords =
     "aged Reddit accounts, buy Reddit accounts, premium Reddit accounts, high karma Reddit accounts, established Reddit accounts, Reddit marketing, Reddit content creators";
   const author = "Discord Arena";

@@ -13,7 +13,7 @@ export const generateMetadata = () => {
   const title =
     "Buy Aged Discord Servers | Old & Premium Servers";
   const description =
-    "Enhance your Discord server with premium features and verified accounts. Our servers come with high activity levels, custom emojis, and dedicated support channels, perfect for boosting engagement and community interaction.";
+    "E server with premium features and verified accounts. Our servers come with high activity levels, custom emojis, and dedicated support channels, perfect for boosting engagement and community interaction.";
   const keywords =
     "premium Discord servers, buy Discord servers, verified Discord servers, high activity Discord servers, custom emoji Discord servers, dedicated support channels, engaged community Discord servers";
   const author = "Discord Arena";

@@ -25,7 +25,7 @@ export const data = {
     feature5: "24/7 Support",
   },
   introduction:
-    "Explore Discord Arena’s 2016 Discord Servers – ideal for communities seeking a powerful boost. Refresh and upgrade your server with verified members, active discussions, and a strong community presence. Enjoy unique emojis and access to round-the-clock support channels. Unlock the full potential of your server and watch it thrive with our 2016 package!",
+    "Buy 2016 Discord Server with verified members and custom emojis. Perfect for enhancing community engagement and server activity with unique features.",
   questionAnswerArray: [
     {
       question: "What is the price of the 2016 Discord server?",
