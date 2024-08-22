@@ -103,9 +103,9 @@ export const data = {
         "We offer various payment methods including credit cards, PayPal, and other secure options. Visit our site for the complete list.",
     },
     {
-      question: "Is it safe to buy 11-Month Old Reddit Accounts?",
+      question: "Is it safe to buy 11 Month Old Reddit Accounts?",
       answer:
-        "Yes, it is safe to buy 11-Month Old Reddit Accounts from us. Prioritize security, and follow best practices for a secure and positive purchasing experience.",
+        "Yes, it's 100% safe to buy 11 months Old or aged Reddit Accounts from us. Prioritize security, and follow best practices for a secure and positive purchasing experience.",
     },
     {
       question: "Can I customize the features of 11-Month Old Reddit Accounts?",

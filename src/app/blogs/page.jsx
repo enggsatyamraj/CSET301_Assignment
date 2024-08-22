@@ -62,6 +62,11 @@ const Page = () => {
           Explore Our Latest Blog Posts
           <br /> Stay Updated with the Newest Insights and Trends
         </h1>
+
+        <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60 mb-[20px] ml-[10px]">
+          Welcome to Discord Arena Blogs, where we invite you to explore our latest blog posts. Stay updated with the newest insights and trends across various topics. Whether you&apos;re seeking fresh perspectives or the latest industry updates, our blog is your go-to source for valuable information.
+        </p>
+        
         <div className="grid grid-cols-1 gap-y-14 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {blogsContent.map((item, index) => (
             <div key={index}>

@@ -80,6 +80,9 @@ const Page = () => {
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold text-center ">
             Connect with Discord Arena Customer Support: Trusted Aged Discord Accounts & Server boosts
           </h1>
+            <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-70 mb-6 mx-auto text-center">
+         Looking to connect with Discord Arena&apos;s customer support? Our team is here to assist with all your needs, whether it&apos;s about trusted aged Discord accounts or server boosts. Reach out to us for reliable support and get the most out of your Discord experience.
+        </p>
           <ContactUsComponent />
         </div>
       </div>
