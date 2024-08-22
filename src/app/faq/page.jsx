@@ -616,7 +616,7 @@ export default function page() {
               Frequently Asked Questions About Our Services : Buy Discord Now
             </h1>
             <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60 mb-6 mx-auto text-center">
-         Explore our FAQ page to get detailed answers to all your questions about our services at Buy Discord Now. Whether you&apos;re curious about our offerings, processes, or customer support, we&apos;ve got you covered with the information you need.
+         Explore our Frequently Asked Questions page to get detailed answers to all your questions about our services at Buy Discord Now. Whether you&apos;re curious about our offerings, processes, or customer support, we&apos;ve got you covered with the information you need.
         </p>
             <div className="">
               {allData.map((item, index) => {
