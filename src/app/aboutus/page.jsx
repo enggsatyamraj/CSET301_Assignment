@@ -10,9 +10,9 @@ import trustpilot_icon from "../../../public/icons/trustpilot-icon.png";
 export const generateMetadata = () => {
   const title = "About Discord Arena | Buy Discord Accounts & Server Boosts";
   const description =
-    "Learn about Discord Arena, your go-to source for aged and verified social media accounts. Buy aged Discord accounts and server boosts to elevate your online presence.";
+    "Discover Discord Arena, your trusted source for aged Discord accounts, verified profiles, and high-quality social media accounts.";
   const keywords =
-    "about Discord Arena, premium social media accounts, trusted account provider, aged Discord accounts, verified profiles, company information, Discord account supplier, about Discord Arena, premium accounts, Discord, Instagram, exclusive accounts, high-quality accounts, buy accounts";
+    "Discord Arena, aged Discord accounts, trusted account provider, verified profiles, premium social media accounts, Discord supplier";
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/aboutus";
   const ogImage = "URL_TO_YOUR_SOCIAL_SHARE_IMAGE";
