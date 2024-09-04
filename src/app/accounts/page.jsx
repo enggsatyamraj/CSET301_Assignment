@@ -20,9 +20,9 @@ export function generateMetadata() {
   return {
     title: "Buy Aged Discord Accounts & Server Boosts | Discord Arena",
     description:
-      "Discover premium aged social media accounts including Discord, Instagram, and Reddit. Ideal for marketers, influencers, and community builders seeking verified profiles.",
+      "Buy aged Discord and Instagram accounts. Get verified profiles, Discord Nitro tokens, and server boosts at Discord Arena. Secure transactions and competitive prices.",
     keywords:
-      "aged accounts, buy Discord accounts, buy social media accounts, premium accounts, verified Discord accounts, aged Instagram accounts, Reddit accounts",
+      "Aged accounts, buy Discord accounts, verified Discord accounts, social media accounts for sale, Discord Nitro tokens, Discord server boosts",
     author: "Discord Arena",
     viewport: "width=device-width, initial-scale=1.0",
     openGraph: {

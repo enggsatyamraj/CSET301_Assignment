@@ -7,9 +7,9 @@ export function generateMetadata() {
     title:
       "Discord Blogs | Guide to buy Discord Accounts & Server Boosts",
     description:
-      "Stay informed with our latest blog posts on buying, managing, and maximizing the value of Discord and other social media accounts. Explore expert advice, tips, and trends tailored for influencers, marketers, and community builders.",
+      "Read Discord blogs for tips on buying Discord accounts, managing social media, and the latest trends in aged accounts and Nitro sales",
     keywords:
-      "Discord blogs, buy Discord accounts, social media management, aged Discord accounts, account purchasing tips, social media trends",
+      "Discord blogs, aged Discord accounts, buy Discord accounts, social media management, account purchasing tips, Discord Nitro sales",
     author: "Discord Arena",
     viewport: "width=device-width, initial-scale=1.0",
     openGraph: {

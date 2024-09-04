@@ -10,9 +10,9 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export const metadata = {
   title: "Premium Aged Discord Accounts for Sale | Discord Arena",
   description:
-    "Discover a variety of aged and premium social media accounts, including old Discord, Instagram, Reddit & Discord Server Boosts.",
+    "Buy aged Discord accounts, verified profiles, and get Discord server boosts. Your trusted marketplace for premium social media accounts.",
   keywords:
-    "Aged Discord accounts, aged discord accounts free, verified Discord accounts, buy Discord accounts, Discord server boosts, social media accounts for sale, Buy Instagram accounts, aged accounts, buy Discord accounts, buy social media accounts, premium accounts, verified Discord accounts, aged Instagram accounts, Reddit accounts",
+    "Aged Discord accounts, verified Discord accounts, buy Discord accounts, Discord server boosts, social media accounts for sale, Discord Nitro sale",
   icons: {
     icon: ["/favicon.ico?v=4"],
     apple: ["/apple-touch-icon.png?v=4"],
