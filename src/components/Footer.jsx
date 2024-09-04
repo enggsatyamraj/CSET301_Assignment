@@ -131,8 +131,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex items-center flex-col md:flex-row md:justify-between px-7">
-          <Link href={"/"} className="opacity-60 hover:opacity-80">
-            © Copyright 2024 Discord Arena · All rights reserved.
+          <Link href={"https://techfusionstudio.vercel.app"} target="_blank" className="opacity-60 hover:opacity-80">
+            © Copyright 2024 Discord Arena · All rights reserved to Tech Fusion Studio.
           </Link>
           <div className="flex gap-4">
             <Link
