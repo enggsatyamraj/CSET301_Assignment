@@ -98,12 +98,14 @@ const page = () => {
                 journey, explore the endless possibilities, and redefine your
                 online presence within the dynamic Discord Arena!
               </p>
+              <p className="text-[#dcdcdc] mt-3 lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
+                Our Discord server page serves as your portal to a seamless, enriched, and personalized Discord adventure. From managing roles and permissions with ease to creating unique server experiences tailored to your community’s needs, the possibilities are endless. Embark on this journey, explore the endless possibilities, and redefine your online presence within the dynamic Discord Arena!              </p>
             </div>
             <div className="lg:w-[90%] mb-[20px] lg:mb-0 flex items-center justify-center ">
               <Image
-                className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
-                src={server_image}
-                alt="image showcasing a person with discord server icon"
+                  className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
+                  src={server_image}
+                  alt="image showcasing a person with discord server icon"
               />
             </div>
           </div>
@@ -114,10 +116,10 @@ const page = () => {
             <div className="grid grid-cols-1 mt-5 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
               {discordData.map((item, index) => {
                 return (
-                  <div
-                    key={item.id}
-                    className={`border-[1px] overflow-hidden rounded-md p-4`}
-                  >
+                    <div
+                        key={item.id}
+                        className={`border-[1px] overflow-hidden rounded-md p-4`}
+                    >
                     <img
                       src={`../discord-accounts/${item.image}`}
                       alt={item.name}

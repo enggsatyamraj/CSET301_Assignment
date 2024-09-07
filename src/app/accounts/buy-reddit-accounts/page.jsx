@@ -97,12 +97,23 @@ const page = () => {
                 journey, explore the endless possibilities, and redefine your
                 online presence within the vibrant Reddit community!
               </p>
+
+              <p className="text-[#dcdcdc] mt-3 lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
+                <span>Why settle for slow growth when you can achieve instant impact?</span> By choosing our premium
+                and aged Reddit accounts, you're not just investing in profiles—you're gaining access to established
+                accounts that offer immediate credibility and engagement.
+                <span>Our high-karma accounts can enhance your ability to share content, interact with others, and
+                  gain recognition more quickly than starting from scratch.</span>
+                Imagine the advantage of entering discussions and sharing content with an account that already commands
+                respect and visibility in the Reddit community.
+              </p>
+
             </div>
             <div className="lg:w-[90%] mb-[20px] lg:mb-0 flex items-center justify-center ">
               <Image
-                className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
-                src={reddit_image}
-                alt="image showcasing a person with reddit icon"
+                  className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
+                  src={reddit_image}
+                  alt="image showcasing a person with reddit icon"
               />
             </div>
           </div>

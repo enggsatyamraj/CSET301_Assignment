@@ -85,44 +85,54 @@ const page = () => {
               <p className="lg:text-2xl text-[22px] mb-4 lg:w-[80%] opacity-90 md:w-[60%] sm:w-[80%]">
                 Discover the Best Monetized & Aged YouTube Accounts for Sale
               </p>
-              <p className="text-[#dcdcdc] lg:w-[100%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
+              <p className="text-[#dcdcdc] mt-3 lg:w-[100%] md:w-[70%] text-[17px] sm:w-[80%] opacity-90">
                 Looking for reliable aged YouTube accounts? At YouTube Arena, we
                 offer a wide range of Monetized YouTube old accounts to meet your needs.
                 Our accounts provide instant access to exclusive communities and
                 enhanced security.
-                <p>
+                <p className={'mt-3'}>
                   Our collection includes{" "}
                   <Link
-                    className="anchorText"
-                    href={
-                      "/accounts/buy-youtube-accounts/buy-youtube-aged-account"
-                    }
+                      className="anchorText"
+                      href={
+                        "/accounts/buy-youtube-accounts/buy-youtube-aged-account"
+                      }
                   >
                     YouTube accounts
                   </Link>{" "}
                   and options starting at just $2. With{" "}
                   <Link
-                    className="anchorText"
-                    href={
-                      "/accounts/buy-youtube-accounts/buy-youtube-aged-account"
-                    }
+                      className="anchorText"
+                      href={
+                        "/accounts/buy-youtube-accounts/buy-youtube-aged-account"
+                      }
                   >
                     accounts starting at $10
                   </Link>
                   , finding the right account is easy and affordable.
                 </p>
-                <p>
+                <p className={'mt-3'}>
                   Choose YouTube Arena for quality accounts, secure
                   transactions, and the best prices. Browse our selection of
                   YouTube accounts today!
+                </p>
+
+                <p className="text-[#dcdcdc] mt-3 lg:w-[100%] md:w-[70%] text-[17px] sm:w-[80%] opacity-90">
+                  <span>Don't waste time building from scratch when you can start with an account that already has a
+                    strong foundation.</span>
+                  By purchasing an aged, monetized YouTube account from YouTube Arena, you're not just buying an
+                  account—you're investing in a ready-made platform to share your content, grow your audience, and start
+                  earning revenue faster.
+                  <span>With our wide range of options, you can find the perfect account that fits your budget and
+                    goals.</span>
                 </p>
               </p>
             </div>
             <div className="lg:w-[90%] mb-[20px] lg:mb-0 flex items-center justify-center ">
               <Image
-                className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
-                src={youtube_image}
-                alt="image showcasing a person with youtube icon"
+                  className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
+                  src={youtube_image}
+                  alt="image showcasing a person with youtube icon"
               />
             </div>
           </div>
@@ -179,13 +189,20 @@ const page = () => {
                         >
                           Info
                         </Link> */}
-                      <Link
-                        target="_blank"
-                        href={item.link}
-                        className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold "
-                      >
-                        Buy for ${item.price}
-                      </Link>
+                      {
+                        item.price === "Out of Stock" ? (
+                            <div className="rounded-md bg-[#F6EAFE] text-black px-4 py-1 font-semibold">
+                              Out of Stock
+                            </div>
+                        ) : (
+                            <Link target="_blank" href={item.link}>
+                              <div className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold">
+                                Buy for ${item.price}
+                              </div>
+                            </Link>
+                        )
+                      }
+
                     </div>
                   </div>
                 );

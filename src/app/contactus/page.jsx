@@ -80,9 +80,19 @@ const Page = () => {
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-semibold text-center ">
             Connect with Discord Arena Customer Support: Trusted Aged Discord Accounts & Server boosts
           </h1>
-            <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-70 mb-6 mx-auto text-center">
-         Looking to connect with Discord Arena&apos;s customer support? Our team is here to assist with all your needs, whether it&apos;s about trusted aged Discord accounts or server boosts. Reach out to us for reliable support and get the most out of your Discord experience.
-        </p>
+          <p className="text-[15px] md:w-[70%] sm:w-[80%] mt-5 w-[90%] lg:w-[80%] opacity-70 mb-6 mx-auto text-center">
+            Looking to connect with Discord Arena's customer support? <span>Our dedicated team is here to assist you with all your needs, ensuring a seamless experience whether you're inquiring about our trusted aged Discord accounts or exploring server boosts.</span>
+            <span>We pride ourselves on providing reliable and responsive support to help you maximize your Discord experience and achieve your goals.</span>
+            <span>From answering your questions to resolving any issues you might face, our customer support is committed to delivering the assistance you need to enhance your server management and engagement.</span>
+            Reach out to us today and experience the exceptional service that sets Discord Arena apart.
+            <span>Your satisfaction is our priority, and we're here to help you get the most out of every feature we offer.</span>
+          </p>
+
+          <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-70 mb-6 mx-auto text-center">
+            <span>Have questions or need support? Don’t hesitate to contact us for expert assistance.</span>
+            Our team is available to guide you through our offerings and ensure that you fully benefit from our services, whether it’s selecting the right account or understanding how our server boosts can enhance your Discord community.
+            <span>Experience prompt, professional, and personalized support with Discord Arena and take your Discord experience to the next level.</span>
+          </p>
           <ContactUsComponent />
         </div>
       </div>

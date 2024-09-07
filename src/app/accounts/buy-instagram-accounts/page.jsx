@@ -126,13 +126,13 @@ const page = () => {
                   to grow your influence.
                 </p>
 
-                <p>
+                <p className={'mt-3'}>
                   We have a diverse selection, including aged{" "}
                   <Link
-                    className="anchorText"
-                    href={
-                      "buy-instagram-accounts/buy-2013-instagram-accounts"
-                    }
+                      className="anchorText"
+                      href={
+                        "buy-instagram-accounts/buy-2013-instagram-accounts"
+                      }
                   >
                     2013 Instagram accounts
                   </Link>{" "}
@@ -142,17 +142,28 @@ const page = () => {
                   $5 for the best deals.
                 </p>
 
-                <p>
-                  Buy premium & old Instagram accounts today and take your social media game to
-                  the next level!
+                <p className={'mt-3'}>
+                  Buy premium & old Instagram accounts today and take your social media game to the next level!
+                  <span>Don't miss out on the opportunity to enhance your digital footprint and grow your audience
+                    with our high-quality accounts.</span>
+                  <span>Start your journey towards greater influence and engagement on Instagram with Discord Arena.</span>
                 </p>
+
+                {/*<p className={'mt-3'}>*/}
+                {/*  Buy premium & old Instagram accounts today and take your social media game to the next level!*/}
+                {/*  <strong>Don't miss out on the opportunity to enhance your digital footprint and grow your audience*/}
+                {/*    with our high-quality accounts.</strong>*/}
+                {/*  <em>Start your journey towards greater influence and engagement on Instagram with Discord Arena.</em>*/}
+                {/*</p>*/}
+
+
               </p>
             </div>
             <div className="lg:w-[90%] mb-[20px] lg:mb-0 flex items-center justify-center ">
               <Image
-                className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
-                src={instagram_image}
-                alt="image showcasing a person with instagram icon"
+                  className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
+                  src={instagram_image}
+                  alt="image showcasing a person with instagram icon"
               />
             </div>
           </div>
