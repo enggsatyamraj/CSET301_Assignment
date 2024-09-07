@@ -87,33 +87,42 @@ const page = () => {
               </p>
               <p className="text-[#dcdcdc] lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
                 Step into the ultimate hub for transforming your Reddit
-                experience! Delve into a realm of premium & aged Reddit accounts,
-                expertly designed to elevate every aspect of your community
-                engagement, content sharing, and overall journey just starting from $2.5. Unlock
-                exclusive features, bolster your presence with high-karma
-                accounts, and distinguish yourself with reputable profiles. Our
-                Reddit account page serves as your portal to a seamless,
-                enriched, and personalized Reddit adventure. Embark on this
-                journey, explore the endless possibilities, and redefine your
-                online presence within the vibrant Reddit community!
+                experience! Delve into a realm of premium & aged Reddit
+                accounts, expertly designed to elevate every aspect of your
+                community engagement, content sharing, and overall journey just
+                starting from $2.5. Unlock exclusive features, bolster your
+                presence with high-karma accounts, and distinguish yourself with
+                reputable profiles. Our Reddit account page serves as your
+                portal to a seamless, enriched, and personalized Reddit
+                adventure. Embark on this journey, explore the endless
+                possibilities, and redefine your online presence within the
+                vibrant Reddit community!
               </p>
 
               <p className="text-[#dcdcdc] mt-3 lg:w-[90%] md:w-[70%] text-[17px] sm:w-[80%] opacity-80">
-                <span>Why settle for slow growth when you can achieve instant impact?</span> By choosing our premium
-                and aged Reddit accounts, you're not just investing in profiles—you're gaining access to established
-                accounts that offer immediate credibility and engagement.
-                <span>Our high-karma accounts can enhance your ability to share content, interact with others, and
-                  gain recognition more quickly than starting from scratch.</span>
-                Imagine the advantage of entering discussions and sharing content with an account that already commands
-                respect and visibility in the Reddit community.
+                <span>
+                  Why settle for slow growth when you can achieve instant
+                  impact?
+                </span>{" "}
+                By choosing our premium and aged Reddit accounts, you&apos;re
+                not just investing in profiles—you&apos;re gaining access to
+                established accounts that offer immediate credibility and
+                engagement.
+                <span>
+                  Our high-karma accounts can enhance your ability to share
+                  content, interact with others, and gain recognition more
+                  quickly than starting from scratch.
+                </span>
+                Imagine the advantage of entering discussions and sharing
+                content with an account that already commands respect and
+                visibility in the Reddit community.
               </p>
-
             </div>
             <div className="lg:w-[90%] mb-[20px] lg:mb-0 flex items-center justify-center ">
               <Image
-                  className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
-                  src={reddit_image}
-                  alt="image showcasing a person with reddit icon"
+                className="object-fit w-[60%] lg:w-[300px] max-w-[300px]"
+                src={reddit_image}
+                alt="image showcasing a person with reddit icon"
               />
             </div>
           </div>
@@ -176,7 +185,7 @@ const page = () => {
                         <span
                           target="_blank"
                           // href={item.link}
-                         className="rounded-md bg-[#F6EAFE] px-4 py-1 font-semibold text-[#000000]"
+                          className="rounded-md bg-[#F6EAFE] px-4 py-1 font-semibold text-[#000000]"
                         >
                           Out of Stock
                         </span>
