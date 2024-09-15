@@ -171,6 +171,9 @@ const Footer = () => {
             </Link>
           </div>
         </div>
+        <p className="opacity-70 px-4 text-[16px] text-center mt-10">
+          <span className="font-extrabold text-[17px]">Disclaimer : </span>This website is in no way affiliated with , authorized, maintained, sponsored or endorsed by Discord, Inc or any of its affiliates or subsidiaries.
+        </p>
       </div>
     </div>
   );
