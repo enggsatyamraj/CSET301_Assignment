@@ -130,6 +130,7 @@ export default function Page() {
   ];
 
   return (
+    
     <div className={actor.className}>
       <div className="bg-normal w-[100%]">
         <div className="max-w-[1280px] mx-auto px-4 text-white relative min-h-[100vh] w-[100%] ">
