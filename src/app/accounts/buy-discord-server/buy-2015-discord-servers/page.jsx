@@ -11,7 +11,7 @@ const actor = Actor({ weight: "400", subsets: ["latin"] });
 export const data = {
   id: 1,
   year: 2015,
-  link: "https://discord.gg/fullmoon",
+  link: "https://discord.gg/halfmoun",
   type: "Discord Server",
   name: "Buy 2015 Discord Server",
   image: "2015-discord-server.svg",
