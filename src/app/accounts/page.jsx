@@ -89,7 +89,8 @@ export default function Page() {
           <div className="z-4 relative flex min-h-[90vh] flex-col-reverse lg:flex-row justify-center">
             <div className="flex flex-col justify-center flex-3">
               <h1 className="lg:w-[85%] text-2xl sm:w-[80%] mb-10  sm:text-3xl md:w-[70%] md:text-4xl">
-                Buy Premium Aged Discord Accounts, Discord Server Boosts & Social Media Accounts
+                Buy Premium Aged Discord Accounts, Discord Server Boosts &
+                Social Media Accounts
               </h1>
               <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[80%]">
                 <p>
@@ -138,7 +139,8 @@ export default function Page() {
                   Choose Discord Arena for secure transactions, competitive
                   prices, and accounts that enhance your social media
                   experience. Start browsing now and find the perfect account to
-                  elevate your online presence! Buy your desired aged accounts now.
+                  elevate your online presence! Buy your desired aged accounts
+                  now.
                 </p>
               </div>
             </div>
@@ -164,9 +166,7 @@ export default function Page() {
               return (
                 <div
                   key={item.id}
-                  className={`border-[1px] ${
-                    index > 2 && "hidden"
-                  }  h-full overflow-hidden mt-3 rounded-md p-4`}
+                  className={`border-[1px] flex flex-col justify-between h-full overflow-hidden mt-3 rounded-md p-4`}
                 >
                   {/* <div className="flex h-[150px] w-[100%] items-center justify-center rounded-sm bg-[#BBA8FD] mb-3">
                     <FaDiscord
@@ -174,32 +174,35 @@ export default function Page() {
                       className="accountDance text-[#8474C4]"
                     />
                   </div> */}
-                  <img
-                    src={`../discord-accounts/${item.image}`}
-                    alt={item.name || "different discord accounts icons"}
-                    className="mb-4"
-                  />
+                  <div>
+                    <img
+                      src={`../discord-accounts/${item.image}`}
+                      alt={item.name || "different discord accounts icons"}
+                      className="mb-4"
+                    />
 
-                  <Link
-                    href={`accounts/buy-discord-accounts/${item.name
-                      .split(" ")
-                      .join("-")
-                      .toLowerCase()}`}
-                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
-                  >
-                    Buy{" "}
-                    <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
-                      {item.year}
-                    </span>{" "}
-                    Discord Account
-                  </Link>
-                  <ul className="list-disc pl-4 mt-2 text-[13px] opacity-85">
-                    <li>{item.smallShowFiveFeatures.feature1}</li>
-                    <li>{item.smallShowFiveFeatures.feature2}</li>
-                    <li>{item.smallShowFiveFeatures.feature3}</li>
-                    <li>{item.smallShowFiveFeatures.feature4}</li>
-                    <li>{item.smallShowFiveFeatures.feature5}</li>
-                  </ul>
+                    <Link
+                      href={`accounts/buy-discord-accounts/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
+                      className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                    >
+                      Buy{" "}
+                      <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
+                        {item.year}
+                      </span>{" "}
+                      Discord Account
+                    </Link>
+                    <ul className="list-disc pl-4 mt-2 text-[13px] opacity-85">
+                      <li>{item.smallShowFiveFeatures.feature1}</li>
+                      <li>{item.smallShowFiveFeatures.feature2}</li>
+                      <li>{item.smallShowFiveFeatures.feature3}</li>
+                      <li>{item.smallShowFiveFeatures.feature4}</li>
+                      <li>{item.smallShowFiveFeatures.feature5}</li>
+                    </ul>
+                  </div>
+
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
                       href={`accounts/buy-discord-accounts/${item.name
@@ -243,9 +246,7 @@ export default function Page() {
               return (
                 <div
                   key={item.id}
-                  className={`border-[1px] ${
-                    index > 2 && "hidden"
-                  }  h-full overflow-hidden mt-3 rounded-md p-4`}
+                  className={`border-[1px] h-full overflow-hidden mt-3 rounded-md p-4`}
                 >
                   <img
                     src={`../discord-accounts/${item.image}`}
@@ -320,39 +321,41 @@ export default function Page() {
               return (
                 <div
                   key={item.id}
-                  className={`border-[1px] ${
-                    index > 2 && "hidden"
-                  } overflow-hidden mt-3 h-full rounded-md p-4`}
+                  className={`border-[1px] flex flex-col justify-between overflow-hidden mt-3 h-full rounded-md p-4`}
                 >
-                  <img
-                    src={`../discord-accounts/${item.image}`}
-                    alt={item.name || "different discord server boost accounts"}
-                    className="mb-4"
-                  />
+                  <div>
+                    <img
+                      src={`../discord-accounts/${item.image}`}
+                      alt={
+                        item.name || "different discord server boost accounts"
+                      }
+                      className="mb-4"
+                    />
 
-                  <Link
-                    href={`accounts/buy-discord-server-boost/${item.name
-                      .split(" ")
-                      .join("-")
-                      .toLowerCase()}`}
-                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
-                  >
-                    Buy {item.type}{" "}
-                    <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
-                      {item.year} months
-                    </span>{" "}
-                  </Link>
-                  <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
-                    <li>
-                      {item.smallShowFiveFeatures.feature1
-                        ? item.smallShowFiveFeatures.feature1
-                        : "Authentic and secure account"}
-                    </li>
-                    <li>{item.smallShowFiveFeatures.feature2}</li>
-                    <li>{item.smallShowFiveFeatures.feature3}</li>
-                    <li>{item.smallShowFiveFeatures.feature4}</li>
-                    <li>{item.smallShowFiveFeatures.feature5}</li>
-                  </ul>
+                    <Link
+                      href={`accounts/buy-discord-server-boost/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
+                      className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                    >
+                      Buy {item.type}{" "}
+                      <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
+                        {item.year} months
+                      </span>{" "}
+                    </Link>
+                    <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
+                      <li>
+                        {item.smallShowFiveFeatures.feature1
+                          ? item.smallShowFiveFeatures.feature1
+                          : "Authentic and secure account"}
+                      </li>
+                      <li>{item.smallShowFiveFeatures.feature2}</li>
+                      <li>{item.smallShowFiveFeatures.feature3}</li>
+                      <li>{item.smallShowFiveFeatures.feature4}</li>
+                      <li>{item.smallShowFiveFeatures.feature5}</li>
+                    </ul>
+                  </div>
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
                       href={`accounts/buy-reddit-accounts/${item.name
@@ -396,40 +399,40 @@ export default function Page() {
               return (
                 <div
                   key={item.id}
-                  className={`border-[1px] ${
-                    index > 2 && "hidden"
-                  }  h-full overflow-hidden mt-3 rounded-md p-4`}
+                  className={`border-[1px] flex flex-col justify-between h-full overflow-hidden mt-3 rounded-md p-4`}
                 >
-                  <img
-                    src={`../discord-accounts/${item.image}`}
-                    alt={item.name || "different reddit accounts images"}
-                    className="mb-4"
-                  />
+                  <div>
+                    <img
+                      src={`../discord-accounts/${item.image}`}
+                      alt={item.name || "different reddit accounts images"}
+                      className="mb-4"
+                    />
 
-                  <Link
-                    href={`accounts/buy-reddit-accounts/${item.name
-                      .split(" ")
-                      .join("-")
-                      .toLowerCase()}`}
-                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
-                  >
-                    Buy{" "}
-                    <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
-                      {item.months} months
-                    </span>{" "}
-                    old Reddit accounts
-                  </Link>
-                  <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
-                    <li>
-                      {item.smallShowFiveFeatures.feature1
-                        ? item.smallShowFiveFeatures.feature1
-                        : "Authentic and secure account"}
-                    </li>
-                    <li>{item.smallShowFiveFeatures.feature2}</li>
-                    <li>{item.smallShowFiveFeatures.feature3}</li>
-                    <li>{item.smallShowFiveFeatures.feature4}</li>
-                    <li>{item.smallShowFiveFeatures.feature5}</li>
-                  </ul>
+                    <Link
+                      href={`accounts/buy-reddit-accounts/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
+                      className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                    >
+                      Buy{" "}
+                      <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
+                        {item.months} months
+                      </span>{" "}
+                      old Reddit accounts
+                    </Link>
+                    <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
+                      <li>
+                        {item.smallShowFiveFeatures.feature1
+                          ? item.smallShowFiveFeatures.feature1
+                          : "Authentic and secure account"}
+                      </li>
+                      <li>{item.smallShowFiveFeatures.feature2}</li>
+                      <li>{item.smallShowFiveFeatures.feature3}</li>
+                      <li>{item.smallShowFiveFeatures.feature4}</li>
+                      <li>{item.smallShowFiveFeatures.feature5}</li>
+                    </ul>
+                  </div>
                   <div className="mt-5 flex items-center gap-3">
                     {/* <Link
                       href={`accounts/buy-reddit-accounts/${item.name
@@ -483,9 +486,7 @@ export default function Page() {
               return (
                 <div
                   key={item.id}
-                  className={`border-[1px] ${
-                    index > 2 && "hidden"
-                  } h-full overflow-hidden mt-3 rounded-md p-4`}
+                  className={`border-[1px] h-full overflow-hidden mt-3 rounded-md p-4`}
                 >
                   <img
                     src={`../discord-accounts/${item.image}`}
@@ -560,9 +561,7 @@ export default function Page() {
               return (
                 <div
                   key={item.id}
-                  className={`border-[1px] ${
-                    index > 2 && "hidden"
-                  }  h-full overflow-hidden mt-3 rounded-md p-4`}
+                  className={`border-[1px] h-full overflow-hidden mt-3 rounded-md p-4`}
                 >
                   <img
                     src={`../discord-accounts/${item.image}`}
