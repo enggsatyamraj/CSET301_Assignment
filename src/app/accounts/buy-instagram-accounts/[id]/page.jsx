@@ -79,7 +79,7 @@ const Page = () => {
         />
         <meta property="og:url" content={data.link} />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Your Website Name" />
+        <meta property="og:site_name" content="https://discordarena.com/" />
         <meta name=":title" content={data.name} />
         <meta name=":description" content={data.introduction} />
         <meta

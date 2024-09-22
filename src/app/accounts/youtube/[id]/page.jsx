@@ -70,7 +70,7 @@ export const generateMetadata = ({ params }) => {
       ],
       url: data.link,
       type: "website",
-      siteName: "Your Website Name",
+      siteName: "https://discordarena.com/",
     },
     twitter: {
       title: data.name,

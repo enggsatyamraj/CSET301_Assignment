@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import discordData from "../../dataFolder/discord.json";
 import instagramData from "../../dataFolder/instagram.json";
+import telegramData from '../../dataFolder/telegram.json';
 import { FaDiscord } from "react-icons/fa";
 import { Actor } from "next/font/google";
 import { FaInstagram } from "react-icons/fa";
@@ -620,6 +621,84 @@ export default function Page() {
           <div className="mt-4 w-fit ml-auto">
             <Link
               href={"/accounts/buy-discord-server"}
+              // onClick={() => setShowMore(!showMore)}
+              className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
+            >
+              Show more servers
+              <FaArrowRight size={18} className="ml-2 inline-block" />
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-normal w-[100%]">
+        <div className="reative mx-auto min-h-[60vh] w-[100%] max-w-[1280px] px-7 py-5 text-white sm:px-12">
+          <p className="mb-4 text-2xl font-semibold">Telegram Accounts</p>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ">
+            {telegramData.map((item, index) => {
+              return (
+                <div
+                  key={item.id}
+                  className={`border-[1px] h-full overflow-hidden mt-3 rounded-md p-4`}
+                >
+                  <img
+                  // yaha par changes karna hai
+                    src={`../discord-accounts/${item.image}`}
+                    alt={
+                      item.name || "different discord server accounts images"
+                    }
+                    className="mb-4"
+                  />
+
+                  <Link
+                    href={`accounts/buy-telegram-accounts/${item.name
+                      .split(" ")
+                      .join("-")
+                      .toLowerCase()}`}
+                    className="my-3 text-[14px] font-semibold tracking-widest sm:text-[15px]"
+                  >
+                    Buy{" "}
+                    <span className="rounded-sm bg-[#F6EBFF] px-3 py-1 text-black">
+                      {item.year}
+                    </span>{" "}
+                    Telegram Accounts
+                  </Link>
+                  <ul className="list-disc mt-2 pl-4 text-[13px] opacity-85">
+                    <li>
+                      {item.smallShowFiveFeatures.feature1
+                        ? item.smallShowFiveFeatures.feature1
+                        : "Authentic and secure account"}
+                    </li>
+                    <li>{item.smallShowFiveFeatures.feature2}</li>
+                    <li>{item.smallShowFiveFeatures.feature3}</li>
+                    <li>{item.smallShowFiveFeatures.feature4}</li>
+                    <li>{item.smallShowFiveFeatures.feature5}</li>
+                  </ul>
+                  <div className="mt-5 flex items-center gap-3">
+                    {/* <Link
+                      href={`accounts/buy-discord-server/${item.name
+                        .split(" ")
+                        .join("-")
+                        .toLowerCase()}`}
+                      className="rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
+                    >
+                      Info
+                    </Link> */}
+                    <Link
+                      target="_blank"
+                      href={item.link}
+                      className="rounded-md bg-[#00C89D] text-white px-4 py-1 font-semibold "
+                    >
+                      Buy now for ${item.price}
+                    </Link>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <div className="mt-4 w-fit ml-auto">
+            <Link
+              href={"/accounts/buy-telegram-accounts"}
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >

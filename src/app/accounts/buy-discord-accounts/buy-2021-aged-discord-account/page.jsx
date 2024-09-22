@@ -193,7 +193,7 @@ export const generateMetadata = () => {
       availability: "https://schema.org/InStock",
       seller: {
         "@type": "Organization",
-        name: "Your Website Name",
+        name: "https://discordarena.com/",
       },
     },
   };
@@ -212,7 +212,7 @@ export const generateMetadata = () => {
       ],
       url: data.link,
       type: "website",
-      siteName: "Your Website Name",
+      siteName: "https://discordarena.com/",
     },
     twitter: {
       title: data.name,

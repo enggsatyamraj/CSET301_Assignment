@@ -63,7 +63,7 @@ export const generateMetadata = ({ params }) => {
       images: ogImageUrl,
       url: data.link,
       type: "website",
-      siteName: "Your Website Name",
+      siteName: "https://discordarena.com/",
     },
     twitter: {
       title: data.name,

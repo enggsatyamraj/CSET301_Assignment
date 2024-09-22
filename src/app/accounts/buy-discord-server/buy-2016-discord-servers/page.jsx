@@ -175,7 +175,7 @@ export const generateMetadata = () => {
       availability: "https://schema.org/InStock",
       seller: {
         "@type": "Organization",
-        name: "Your Website Name",
+        name: "https://discordarena.com/",
       },
     },
   };
@@ -194,7 +194,7 @@ export const generateMetadata = () => {
       ],
       url: data.link,
       type: "website",
-      siteName: "Your Website Name",
+      siteName: "https://discordarena.com/",
     },
     twitter: {
       title: data.name,
@@ -236,7 +236,7 @@ const Page = () => {
         />
         <meta property="og:url" content={data.link} />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Your Website Name" />
+        <meta property="og:site_name" content="https://discordarena.com/" />
         <meta name="twitter:title" content={data.name} />
         <meta name="twitter:description" content={data.introduction} />
         <meta

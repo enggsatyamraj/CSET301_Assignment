@@ -1,5 +1,5 @@
 import React from "react";
-import discordServerBoostData from "../../../../dataFolder/discordServerBoost.json";
+import discordServerBoostData from "../../../../dataFolder/telegram.json";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import { FaDiscord } from "react-icons/fa";
@@ -57,7 +57,7 @@ export const generateMetadata = ({ params }) => {
   const jsonLdScript = {
     "@context": "https://schema.org/",
     "@type": "Product",
-    name: "Discord Aged Accounts",
+    name: "Telegram Premium Accounts",
     image: "https://example.com/photos/1x1/photo.jpg",
     description: data.content,
     sku: data.sku,
@@ -119,15 +119,15 @@ const page = ({ params }) => {
       <div className="min-h-[100vh] w-[100%] bg-[#121212] text-white">
         <div className="mx-auto max-w-[800px] px-7 pb-12 pt-[100px]">
           <h1 className="mx-auto  text-2xl sm:text-3xl md:text-4xl">
-            Buy cheap {data.year} months {data.type}
+            Buy cheap {data.year} Telegram Premium Accounts
           </h1>
           <div className="my-7 h-[1px] bg-[#fff]"></div>
           <p className="text-[15px] opacity-80 md:text-[1.15rem] mb-3">
-            Buy {data.year} months discord server boosts at cheap prices here on
+            Buy {data.year} telegram premium accounts at cheap prices here on
             Discord Arena.
           </p>
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Buy {data.year} months discord server boost{" "}
+            Buy {data.year} telegram premium accounts{" "}
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <img
@@ -137,7 +137,7 @@ const page = ({ params }) => {
             />
             <div>
               <p className="mb-5 text-2xl">
-                Buy cheap {data.year} months discord server boost{" "}
+                Buy cheap {data.year} telegram accounts{" "}
               </p>
               <ul className="list-disc pl-4 text-[15px] opacity-85">
                 <li>{data.smallShowFiveFeatures.feature1}</li>
@@ -162,7 +162,8 @@ const page = ({ params }) => {
           </div>
 
           <p className="mb-3 mt-5 text-2xl font-semibold">
-            Features and benefits of used discord server boosts - {data.year}
+            Features and benefits of telegram premium accounts -{" "}
+            {data.year}
           </p>
 
           <div className="grid grid-cols-1 gap-4 md:grid-cols-3 mt-3 mb-4">
@@ -207,7 +208,7 @@ const page = ({ params }) => {
           </div>
 
           <h2 className="mb-3 mt-5 text-2xl font-semibold">
-            FAQs related to aged discord server boosts - {data.year}
+            FAQs related to telegram premium accounts - {data.year}
           </h2>
           <div>
             {data.faq.map((item, index) => {
