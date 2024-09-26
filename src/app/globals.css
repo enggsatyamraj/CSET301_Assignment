@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  -webkit-user-select: none; /* Safari */
+  -webkit-user-select: none;/* Safari */
   user-select: none;
 }
 

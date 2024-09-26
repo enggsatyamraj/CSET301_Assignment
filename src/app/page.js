@@ -161,7 +161,7 @@ export default function Page() {
                     href={"accounts/buy-discord-accounts/buy-2015-aged-discord-account"}
                     className="anchorText"
                   >
-                    those from 2015
+                   2015 Discord accounts
                   </Link>
                   , perfect for instant use and boosting your online presence.
                 </p>
@@ -175,9 +175,15 @@ export default function Page() {
                     Discord server boosts
                   </Link>
                   , enhancing audio quality, upload limits, and exclusive perks
-                  to keep your community engaged. Our platform ensures secure
-                  transactions, top-notch customer service, and premium accounts
-                  that stand out.
+                  to keep your community engaged.Our platform also offers 
+                  <Link
+                    href={"/accounts/buy-instagram-accounts"}
+                    className="anchorText"
+                    >
+                      aged YouTube accounts,
+                    </Link>                   
+                  allowing you to leverage established channels with 
+                  real subscribers for quick growth.
                 </p>
 
                 <p>
@@ -186,16 +192,16 @@ export default function Page() {
                     href={"/accounts/buy-instagram-accounts"}
                     className="anchorText"
                   >
-                    Instagram
+                    Instagram accounts
                   </Link>{" "}
-                  accounts and{" "}
+                    and{" "}
                   <Link
                     href={"/accounts/buy-reddit-accounts"}
                     className="anchorText"
                   >
-                    Reddit
+                    Reddit accounts 
                   </Link>{" "}
-                  accounts to give your social media presence a head start with real
+                   to give your social media presence a head start with real
                   followers and engagement.
                 </p>
 

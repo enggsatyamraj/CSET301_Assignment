@@ -95,7 +95,7 @@ export default function Page() {
               </h1>
               <div className="w-[90%] text-[15px] opacity-60 sm:w-[80%] md:w-[70%] lg:w-[80%]">
                 <p>
-                  Explore our selection of premium & high-quality{" "}
+                Explore our selection of premium{" "}
                   <span className="font-bold">
                     aged Discord accounts,{" "}
                     <Link
@@ -111,9 +111,16 @@ export default function Page() {
                     href="accounts/buy-discord-accounts"
                     className="anchorText"
                   >
-                    Discord old accounts
+                    old Discord accounts
                   </Link>
-                  , server boosts to enhance your community, or established{" "}
+                  , 
+                  <Link
+                    href="accounts/buy-discord-server-boost"
+                    className="anchorText"
+                    >
+                    server boosts
+                  </Link> 
+                    to enhance your community, or established{" "}
                   <Link
                     href="accounts/buy-instagram-accounts"
                     className="anchorText"
@@ -125,20 +132,29 @@ export default function Page() {
                 <br />
                 <p>
                   Our accounts come with built-in credibility, making it easy to
-                  join exclusive communities and engage with wider audiences.
+                  join exclusive Discord communities and engage with wider audiences.
                   Check out our{" "}
                   <Link
                     href="accounts/buy-reddit-accounts"
                     className="anchorText"
                   >
-                    Reddit accounts
+                    hihg karma Reddit accounts
                   </Link>{" "}
-                  for instant participation in discussions.
+                  for instant participation in discussions. or explore monitized aged{" "}
+                  <Link
+                    href="accounts/buy-youtube-accounts"
+                    className="anchorText"
+                  >
+                    YouTube accounts
+                  </Link>{" "}
+
+                  to Established your Digital Presence.
+
                 </p>
                 <br />
                 <p>
                   Choose Discord Arena for secure transactions, competitive
-                  prices, and accounts that enhance your social media
+                  prices, and verified social media accounts that enhance
                   experience. Start browsing now and find the perfect account to
                   elevate your online presence! Buy your desired aged accounts
                   now.

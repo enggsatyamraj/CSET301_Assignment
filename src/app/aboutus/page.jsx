@@ -115,11 +115,10 @@ const AboutPage = () => {
           <div className="min-h-[90vh] py-10 relative flex flex-col-reverse lg:flex-row justify-center z-4">
             <div className="flex flex-col justify-center">
               <p className="text-[#A5A6F6] font-bold md:text-2xl text-2xl my-3 tracking-widest">
-                About Discord Arena: Your Trusted Provider to buy Premium Discord
-                Accounts
+                About Discord Arena: Trusted Provider to Buy Premium Accounts, Discord | Instagram | Server Boosts | Telegram 
               </p>
               <h1 className="text-3xl sm:text-3xl mb-6 md:text-4xl sm:w-[80%] md:w-[70%] lh:w-[60%]">
-                Enhance Your Online Presence with Premium & Aged Accounts
+                Enhance Your Online Presence with Premium, Featurefull & Aged Accounts
               </h1>
               <p className="text-[15px] md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60">
                 Welcome to{" "}
@@ -140,6 +139,12 @@ const AboutPage = () => {
                 >
                   Discord server boosts
                 </Link>
+                <Link
+                  href={"accounts/buy-telegram-accounts"}
+                  className="anchorText"
+                >
+                  Telegram accounts
+                </Link>
                 , and high-quality{" "}
                 <Link
                   href={"accounts/buy-instagram-accounts"}
@@ -159,8 +164,7 @@ const AboutPage = () => {
                 out online.
               </p>
               <p className="text-[15px] mt-4 md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60">
-                At Discord Arena, we know the importance of a strong online
-                presence. Our selection includes:
+              At Discord Arena, we understand the importance of a strong online presence. Our selection includes:
                 <ul className="list-disc pl-4 mt-2 text-[13px] opacity-85">
                   <li>
                     Premium Discord Accounts: Aged and verified for credibility.
@@ -170,12 +174,14 @@ const AboutPage = () => {
                     engagement.
                   </li>
                   <li>
+                    Telegram Accounts: Active, aged accounts for instant participation in groups and channels.
+                  </li>
+                  <li>
                     Instagram Accounts: Established profiles with real
                     followers.
                   </li>
                   <li>
-                    Reddit Accounts: Active, aged accounts for instant
-                    participation.
+                    Reddit Accounts: Aged, active accounts for engagement in the Reddit community.
                   </li>
                 </ul>
                 {/* At Discord Arena, we understand that a vibrant online presence
