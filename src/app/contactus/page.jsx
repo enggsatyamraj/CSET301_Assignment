@@ -11,7 +11,7 @@ export const generateMetadata = () => {
   const description =
     "Contact Discord Arena for inquiries about aged Discord accounts, premium profiles, and customer support. We're here to help.";
   const keywords =
-    "Contact Discord Arena, customer support, aged Discord accounts inquiry, verified profiles, premium accounts support, Discord Nitro support";
+  ["Contact Discord Arena", "customer support", "aged Discord accounts inquiry", "verified profiles support", "Discord Nitro assistance", "premium accounts support", "general inquiries", "Discord Arena contact", "account service help", "social media support"];
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/contact-us";
   const ogImage = "URL_TO_YOUR_SOCIAL_SHARE_IMAGE";

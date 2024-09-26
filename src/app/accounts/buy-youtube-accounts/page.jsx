@@ -14,7 +14,7 @@ export const generateMetadata = () => {
   const description =
     "Buy aged and monetized YouTube accounts for enhanced channel credibility. Perfect for content creators and community builders looking to grow their audience.";
   const keywords =
-    "aged YouTube accounts, buy YouTube accounts, premium YouTube accounts, verified YouTube accounts, custom handle YouTube accounts, YouTube channel management, monetized youtube accounts";
+  ["Aged YouTube accounts", "buy YouTube accounts", "premium YouTube accounts", "verified YouTube accounts", "custom handle YouTube accounts", "YouTube channel management", "monetized YouTube accounts", "YouTube account growth", "YouTube marketing", "verified social media accounts"];
   const author = "YouTube Arena";
   const ogUrl = "https://www.youtubearena.com/";
   const ogImage = "https://example.com/og-image.jpg";

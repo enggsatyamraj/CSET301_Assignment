@@ -47,7 +47,7 @@ export const generateMetadata = () => {
   const description =
     "Enhance your Instagram presence with aged, verified accounts. Ideal for influencers and brands looking to boost credibility and engagement.";
   const keywords =
-    "aged Instagram accounts, buy Instagram accounts, premium Instagram accounts, verified Instagram accounts, custom handle Instagram accounts, Instagram marketing, old instagram accounts";
+  ["Aged Instagram accounts", "buy Instagram accounts", "premium Instagram accounts", "verified Instagram accounts", "custom handle Instagram accounts", "Instagram marketing", "old Instagram accounts", "Instagram account growth", "Instagram business accounts", "verified social media profiles"];
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/instagram";
   const ogImage = "URL_TO_YOUR_LOGO_IMAGE";

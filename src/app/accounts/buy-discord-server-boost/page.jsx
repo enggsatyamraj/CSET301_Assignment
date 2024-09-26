@@ -46,7 +46,7 @@ export const generateMetadata = () => {
   const description =
     "Get the best server boost packages for Discord. Verified, aged accounts with custom features, perfect for influencers, brands, and marketers.";
   const keywords =
-    "aged discord server boost accounts, buy discord server boost accounts, premium discord server boost accounts, verified discord server boost accounts, custom handle discord server boost accounts, discord server boost marketing";
+  ["Aged Discord server boost accounts", "buy Discord server boost accounts", "premium Discord server boost accounts", "verified Discord server boost accounts", "custom handle Discord server boost accounts", "Discord server boost marketing", "enhanced Discord server performance", "buy Discord boosts", "premium server upgrades", "boost Discord server engagement"];
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/instagram";
   const ogImage = "URL_TO_YOUR_LOGO_IMAGE";

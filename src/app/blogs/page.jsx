@@ -9,7 +9,7 @@ export function generateMetadata() {
     description:
       "Read Discord blogs for tips on buying Discord accounts, managing social media, and the latest trends in aged accounts and Nitro sales",
     keywords:
-      "Discord blogs, aged Discord accounts, buy Discord accounts, social media management, account purchasing tips, Discord Nitro sales",
+    ["Discord blogs", "aged Discord accounts", "buy Discord accounts", "social media management", "account purchasing tips", "Discord Nitro sales", "Discord marketing tips", "verified Discord accounts", "Discord account security", "Discord community growth"],
     author: "Discord Arena",
     viewport: "width=device-width, initial-scale=1.0",
     openGraph: {

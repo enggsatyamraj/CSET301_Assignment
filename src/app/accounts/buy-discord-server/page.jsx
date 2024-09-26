@@ -15,7 +15,7 @@ export const generateMetadata = () => {
   const description =
     "E server with premium features and verified accounts. Our servers come with high activity levels, custom emojis, and dedicated support channels, perfect for boosting engagement and community interaction.";
   const keywords =
-    "premium Discord servers, buy Discord servers, verified Discord servers, high activity Discord servers, custom emoji Discord servers, dedicated support channels, engaged community Discord servers";
+  ["Premium Discord servers", "buy Discord servers", "verified Discord servers", "high activity Discord servers", "custom emoji Discord servers", "dedicated support channels", "engaged community Discord servers", "Discord community management", "custom Discord features", "buy Discord community"];
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/";
   const ogImage = "https://example.com/og-image.jpg";

@@ -12,7 +12,7 @@ export const metadata = {
   description:
     "Buy aged Discord accounts, verified profiles, and get Discord server boosts. Your trusted marketplace for premium social media accounts.",
   keywords:
-    "Aged Discord accounts, verified Discord accounts, buy Discord accounts, Discord server boosts, social media accounts for sale, Discord Nitro sale",
+    ["Aged Discord accounts", "verified Discord accounts", "buy Discord accounts", "Discord server boosts", "social media accounts for sale", "Discord Nitro sale", "premium Discord services", "custom Discord servers", "Discord community building", "Discord marketing services"],
   icons: {
     icon: ["/favicon.ico?v=4"],
     apple: ["/apple-touch-icon.png?v=4"],

@@ -14,7 +14,7 @@ export const generateMetadata = () => {
   const description =
     "Buy aged and premium Discord accounts to boost your server's credibility. Our accounts come with verified status, custom handles, and exclusive features to enhance your Discord experience. Perfect for server management, community building, and personal use. ";
   const keywords =
-    "aged Discord accounts, buy Discord accounts, premium Discord accounts, verified Discord accounts, custom handle Discord accounts, Discord server management";
+  ["Aged Discord accounts", "buy Discord accounts", "premium Discord accounts", "verified Discord accounts", "custom handle Discord accounts", "Discord server management", "Discord community building", "buy social media accounts", "Discord account sale", "secure Discord accounts"];
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/";
   const ogImage = "https://example.com/og-image.jpg";

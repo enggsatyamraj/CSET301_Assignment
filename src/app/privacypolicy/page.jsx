@@ -5,12 +5,7 @@ export function generateMetadata() {
     title: "Privacy Policy | Discord Arena",
     description:
       "Read the privacy policy of Discord Arena to understand how we collect, use, and protect your personal information.",
-    keywords: [
-      "Privacy Policy",
-      "Discord Arena",
-      "Data Protection",
-      "Personal Information",
-    ],
+    keywords: ["Privacy Policy", "Discord Arena", "data protection", "personal information", "data security", "user privacy", "account confidentiality", "information collection", "user consent", "data handling"],
     robots: {
       index: true,
       follow: true,

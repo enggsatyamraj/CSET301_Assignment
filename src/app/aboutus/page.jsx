@@ -12,7 +12,7 @@ export const generateMetadata = () => {
   const description =
     "Discover Discord Arena, your trusted source for aged Discord accounts, verified profiles, and high-quality social media accounts.";
   const keywords =
-    "Discord Arena, aged Discord accounts, trusted account provider, verified profiles, premium social media accounts, Discord supplier";
+  ["Discord Arena", "aged Discord accounts", "trusted account provider", "verified profiles", "premium social media accounts", "Discord supplier", "customer satisfaction", "reliable Discord services", "social media account sales", "expert Discord management"];
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/aboutus";
   const ogImage = "URL_TO_YOUR_SOCIAL_SHARE_IMAGE";

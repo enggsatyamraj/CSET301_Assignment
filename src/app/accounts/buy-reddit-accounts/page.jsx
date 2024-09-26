@@ -14,7 +14,7 @@ export const generateMetadata = () => {
   const description =
     "Buy premium Reddit accounts with high karma and credibility. Aged accounts for access to exclusive subreddits, ideal for content creators and marketers.";
   const keywords =
-    "aged Reddit accounts, buy Reddit accounts, premium Reddit accounts, high karma Reddit accounts, established Reddit accounts, Reddit marketing, Reddit content creators";
+  ["Aged Reddit accounts", "buy Reddit accounts", "premium Reddit accounts", "high karma Reddit accounts", "established Reddit accounts", "Reddit marketing", "Reddit content creators", "Reddit account sales", "verified Reddit profiles", "Reddit growth services"];
   const author = "Discord Arena";
   const ogUrl = "https://www.discordarena.com/";
   const ogImage = "https://example.com/og-image.jpg";

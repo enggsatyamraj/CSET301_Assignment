@@ -6,7 +6,7 @@ export const generateMetadata = () => {
     description:
       "Read the disclaimer for Discord Arena, which outlines the limitations of liability and the nature of the information provided on the site.",
     keywords:
-      "disclaimer, terms, conditions, liability, information, legal, Discord Arena",
+    ["Disclaimer", "terms of service", "conditions of use", "liability", "legal information", "content responsibility", "user rights", "disclaimer of warranties", "intellectual property", "legal liability"],
     robots: {
       index: true,
       follow: true,
