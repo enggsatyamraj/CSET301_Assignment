@@ -1,7 +1,7 @@
 import React from "react";
 import FrameImage from "@/components/assets/Frame.png";
 import { TbBrandMinecraft } from "react-icons/tb";
-import { FaDiscord, FaRedditAlien } from "react-icons/fa";
+import { FaDiscord, FaRedditAlien, FaTelegram } from "react-icons/fa";
 import { TbBrandValorant } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -174,17 +174,15 @@ const WeOffer = () => {
               >
                 <div className="flex flex-col space-y-1.5 p-6">
                   <span className="relative flex h-10 w-10 items-center justify-center shrink-0 overflow-hidden rounded-full">
-                    <FaDiscord size={30} />
+                    <FaTelegram size={30} />
                   </span>
                   <p className="text-2xl font-semibold leading-none tracking-tight">
-                    Discord Invites and Referral Services
+                  Buy Premium Telegram Accounts
                   </p>
                 </div>
                 <div className="px-6 pb-4 opacity-75">
                   <p>
-                    Expand your Discord server’s community with our invite and
-                    referral services. Boost membership and activity for greater
-                    community growth.
+                  Boost your presence with our aged Telegram accounts. Get cheap Telegram accounts, grow your audience, and enhance your marketing with real Telegram followers. Our verified Telegram accounts are perfect for businesses and influencers looking for Telegram marketing services. Increase your Telegram group members and buy active Telegram users today!
                   </p>
                 </div>
               </div>
