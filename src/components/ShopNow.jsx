@@ -16,7 +16,7 @@ const ShopNow = () => {
       </Link>
       <Link
         target="_blank"
-        href={"https://discord.gg/Z2eXvbkufU"}
+        href={"https://discord.gg/halfmoun"}
         className=" md:h-[50px] md:w-[50px] h-[38px] w-[38px] shadow-md shadow-white bg-black cursor-pointer text-white border-2 rounded-full flex items-center justify-center"
       >
         <FaDiscord size={25} />
