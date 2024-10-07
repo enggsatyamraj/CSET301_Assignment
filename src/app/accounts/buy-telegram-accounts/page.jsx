@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import Head from "next/head";
 import Footer from "@/components/Footer";
-import discord_server_boost from "../../../../public/discord-arena-creatives/server-boost.svg";
+import discord_server_boost from "../../../../public/telegram.svg";
 import Image from "next/image";
 
 const actor = Actor({ weight: "400", subsets: ["latin"] });

@@ -718,7 +718,7 @@ export default function Page() {
               // onClick={() => setShowMore(!showMore)}
               className="ml-auto mt-4 w-fit cursor-pointer rounded-md bg-[#00C89D] px-4 py-1 font-semibold"
             >
-              Show more servers
+              Show more accounts
               <FaArrowRight size={18} className="ml-2 inline-block" />
             </Link>
           </div>
