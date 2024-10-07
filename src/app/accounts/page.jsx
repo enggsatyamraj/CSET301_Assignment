@@ -659,7 +659,7 @@ export default function Page() {
                 >
                   <img
                   // yaha par changes karna hai
-                    src={`../discord-accounts/${item.image}`}
+                    src={`../telegram-accounts/${item.image}`}
                     alt={
                       item.name || "different discord server accounts images"
                     }

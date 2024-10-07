@@ -237,7 +237,7 @@ const page = () => {
                     className={`border-[1px] overflow-hidden rounded-md p-4`}
                   >
                     <img
-                      src={`../discord-accounts/${item.image}`}
+                      src={`../telegram-accounts/${item.image}`}
                       alt={item.name}
                       className="mb-4"
                     />

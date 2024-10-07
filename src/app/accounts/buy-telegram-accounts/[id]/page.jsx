@@ -131,7 +131,7 @@ const page = ({ params }) => {
           </p>
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 mt-3">
             <img
-              src={`../../discord-accounts/${data.image}`}
+              src={`../../telegram-accounts/${data.image}`}
               alt={data.name}
               className="mb-4"
             />
