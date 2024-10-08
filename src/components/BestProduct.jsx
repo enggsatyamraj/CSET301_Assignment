@@ -65,7 +65,7 @@ const BestProduct = () => {
             Solutions
           </p>
           <p className="text-[15px] mb-4 opacity-90">
-            Our selection of premium aged Social Media Solutions includes{" "}
+            Our selection of premium & aged Social Media Solutions includes{" "}
             <Link href={"accounts/buy-discord-accounts"} className="anchorText">
               aged Discord accounts
             </Link>
