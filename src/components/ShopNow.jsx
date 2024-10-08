@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
+// import { FaDiscord } from "react-icons/fa";
 
 const ShopNow = () => {
   return (
