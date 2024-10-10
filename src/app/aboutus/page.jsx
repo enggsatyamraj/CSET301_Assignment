@@ -177,7 +177,7 @@ const AboutPage = () => {
                     Telegram Accounts: Active, aged accounts for instant participation in groups and channels.
                   </li>
                   <li>
-                    Instagram Accounts: Established profiles with real
+                    Viral & Aged Instagram Accounts: Established profiles with real
                     followers.
                   </li>
                   <li>
