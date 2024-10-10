@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
+body {
   -webkit-user-select: none;
   user-select: none;
-} */
+}
 
 * {
   scroll-behavior: smooth;
