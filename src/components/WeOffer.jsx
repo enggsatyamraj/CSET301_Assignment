@@ -165,7 +165,7 @@ const WeOffer = () => {
 
               <div
                 onClick={() => {
-                  router.push("/accounts/buy-discord-accounts");
+                  router.push("/accounts/buy-telegram-accounts");
                 }}
                 // href={"/accounts/buy-discord-accounts"}
                 // area-label="see more Pricing Discord Accounts"
