@@ -165,25 +165,24 @@ const AboutPage = () => {
               </p>
               <p className="text-[15px] mt-4 md:w-[70%] sm:w-[80%] w-[90%] lg:w-[80%] opacity-60">
               At Discord Arena, we understand the importance of a strong online presence. Our selection includes:
-                <ul className="list-disc pl-4 mt-2 text-[13px] opacity-85">
-                  <li>
-                    Premium Discord Accounts: Aged and verified for credibility.
-                  </li>
-                  <li>
-                    Discord Server Boosts: Boost server performance and
-                    engagement.
-                  </li>
-                  <li>
-                    Telegram Accounts: Active, aged accounts for instant participation in groups and channels.
-                  </li>
-                  <li>
-                    Viral & Aged Instagram Accounts: Established profiles with real
-                    followers.
-                  </li>
-                  <li>
-                    Reddit Accounts: Aged, active accounts for engagement in the Reddit community.
-                  </li>
-                </ul>
+
+              <ul className="list-disc pl-4 mt-2 text-[13px] opacity-85">
+              <li>
+              <strong>Premium Discord Accounts:</strong> Our <em>aged and verified Discord accounts</em> provide credibility and enhance your online interactions. Perfect for those looking to <em>buy Discord accounts</em> that stand out in any community.
+              </li>
+              <li>
+              <strong>Discord Server Boosts:</strong> Boost your server's performance and engagement with our <em>Discord server boosts</em>. Enjoy improved audio quality, increased emoji slots, and better visibility in the server list, making it easier for new members to find you.
+              </li>
+              <li>
+              <strong>Telegram Accounts:</strong> Our <em>aged Telegram accounts</em> are active and ready for instant participation in groups and channels, allowing you to engage with communities seamlessly.
+              </li>
+              <li>
+              <strong>Viral & Aged Instagram Accounts:</strong> Explore our selection of <em>viral Instagram accounts</em> with real followers. These established profiles are perfect for effective brand promotion and enhancing your social media presence.
+              </li>
+              <li>
+              <strong>Reddit Accounts:</strong> Engage in the Reddit community with our <em>aged, active Reddit accounts</em>. Connect with like-minded individuals and promote your content effectively.
+              </li>
+              </ul>
                 {/* At Discord Arena, we understand that a vibrant online presence
                 is crucial in today&apos;s digital landscape. Our carefully
                 curated selection of accounts reflects our commitment to
