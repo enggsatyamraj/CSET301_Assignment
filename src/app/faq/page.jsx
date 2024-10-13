@@ -96,11 +96,6 @@ export const faqItems = [
       "Our dedicated customer support team can be contacted via email at https://www.discordarena.com/ . Feel free to reach out with any Discord-related queries or concerns.",
   },
   {
-    question: "Is there a refund policy for purchased Discord accounts?",
-    answer:
-      "Yes, we have a 30-day refund policy for Discord accounts. Please refer to our refund policy page for detailed information on the process and conditions.",
-  },
-  {
     question: "How do I reset the password for my Discord account?",
     answer:
       'To reset your Discord account password, go to the login page and click on the "Forgot Password" link. Follow the provided instructions to reset your password securely.',

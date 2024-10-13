@@ -9,6 +9,7 @@ const ShopNow = () => {
   return (
     <div className="fixed z-10 right-5 bottom-10 flex flex-col gap-4">
       <Link
+      
         target="_blank"
         href={"https://t.me/halfmoonisgod"}
         className=" md:h-[50px] md:w-[50px] h-[38px] w-[38px] shadow-md shadow-white bg-black cursor-pointer text-white border-2 rounded-full flex items-center justify-center"
