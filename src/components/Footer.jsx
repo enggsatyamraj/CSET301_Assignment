@@ -5,7 +5,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
-// this is the comment i added
+// this is the comment i added and also the code is working fine
 
 const Footer = () => {
   return (
