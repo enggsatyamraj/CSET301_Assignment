@@ -5,6 +5,8 @@ import { FaInstagramSquare } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
+// this is the comment i added
+
 const Footer = () => {
   return (
     <div className="bg-[#121212] border-t-[0.5px] text-white py-[70px]">
@@ -131,8 +133,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex items-center flex-col md:flex-row md:justify-between px-7">
-          <Link href={"https://techfusionstudio.vercel.app"} target="_blank" className="opacity-60 hover:opacity-80">
-            © Copyright 2024 Discord Arena · All rights reserved to Tech Fusion Studio.
+          <Link
+            href={"https://techfusionstudio.vercel.app"}
+            target="_blank"
+            className="opacity-60 hover:opacity-80"
+          >
+            © Copyright 2024 Discord Arena · All rights reserved to Tech Fusion
+            Studio.
           </Link>
           <div className="flex gap-4">
             <Link
@@ -172,7 +179,10 @@ const Footer = () => {
           </div>
         </div>
         <p className="opacity-70 px-4 text-[16px] text-center mt-10">
-          <span className="font-extrabold text-[17px]">Disclaimer : </span>This website is in no way affiliated with , authorized, maintained, sponsored or endorsed by Discord, Inc or any of its affiliates or subsidiaries.
+          <span className="font-extrabold text-[17px]">Disclaimer : </span>This
+          website is in no way affiliated with , authorized, maintained,
+          sponsored or endorsed by Discord, Inc or any of its affiliates or
+          subsidiaries.
         </p>
       </div>
     </div>
